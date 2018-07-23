@@ -1,8 +1,13 @@
 {{ define "main" }}
 {{ partial "sidebar.html" . }}
-
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background col-main-fixedpos">
   {{ partial "mobileNavToggle.html" . }}
-         <h1>{{ .Title }}</h1>
-         {{ .Content }}
-
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         {{ partial "mobileNavToggle.html" . }}
+      </div>
+    </div>
+  </div>
+</div>
 {{ end }}

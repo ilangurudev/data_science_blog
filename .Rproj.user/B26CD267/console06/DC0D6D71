@@ -61,3 +61,60 @@ N: See apt-secure(8) manpage for repository creation and user configuration deta
 guru: command not found
 git push origin mastercommit -a -m "favicon and resume"add -A[K
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "favicon and resume"
+[master 766f3d3] favicon and resume
+ 54 files changed, 582 insertions(+), 628 deletions(-)
+ rewrite .Rproj.user/B26CD267/console06/INDEX001 (86%)
+ delete mode 100644 .Rproj.user/B26CD267/sources/per/t/7C3FC923
+ delete mode 100644 .Rproj.user/B26CD267/sources/per/t/7C3FC923-contents
+ rewrite content/resume/index.Rmd (98%)
+ rewrite content/resume/index.html (98%)
+ rewrite docs/img/favicon.png (99%)
+ rewrite docs/resume/index.Rmd (98%)
+ delete mode 100644 static/img/about.jpg
+ rewrite static/img/favicon.png (99%)
+ delete mode 100644 static/img/portfolio/a4-paper.jpg
+ delete mode 100644 static/img/portfolio/business-card-26.jpg
+ delete mode 100644 static/img/portfolio/business-card.jpg
+ delete mode 100644 static/img/portfolio/envelope-brand.jpg
+ delete mode 100644 static/img/portfolio/gravity-paper.jpg
+ delete mode 100644 static/img/portfolio/ipad-air-2.jpg
+ delete mode 100644 static/img/portfolio/label-clothes.jpg
+ delete mode 100644 static/img/portfolio/paper-presentation.jpg
+ delete mode 100644 static/img/portfolio/trifold.jpg
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/config.toml
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/about/index.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/contact/index.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work1.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work10.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work11.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work2.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work3.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work4.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work5.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work6.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work7.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work8.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work9.md
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/about.jpg
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/favicon.png
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/a4-paper.jpg
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/business-card-26.jpg
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/business-card.jpg
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/envelope-brand.jpg
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/gravity-paper.jpg
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/ipad-air-2.jpg
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/label-clothes.jpg
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/paper-presentation.jpg
+ delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/trifold.jpg
+ create mode 100644 themes/hugo-creative-portfolio-theme/layouts/resume/list.html
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "favicon and resume"add -A[Kpush origin master
+Counting objects: 33, done.
+Delta compression using up to 8 threads.
+Compressing objects:   3% (1/30)   Compressing objects:   6% (2/30)   Compressing objects:  10% (3/30)   Compressing objects:  13% (4/30)   Compressing objects:  16% (5/30)   Compressing objects:  20% (6/30)   Compressing objects:  23% (7/30)   Compressing objects:  26% (8/30)   Compressing objects:  30% (9/30)   Compressing objects:  33% (10/30)   Compressing objects:  36% (11/30)   Compressing objects:  40% (12/30)   Compressing objects:  43% (13/30)   Compressing objects:  46% (14/30)   Compressing objects:  50% (15/30)   Compressing objects:  53% (16/30)   Compressing objects:  56% (17/30)   Compressing objects:  60% (18/30)   Compressing objects:  63% (19/30)   Compressing objects:  66% (20/30)   Compressing objects:  70% (21/30)   Compressing objects:  73% (22/30)   Compressing objects:  76% (23/30)   Compressing objects:  80% (24/30)   Compressing objects:  83% (25/30)   Compressing objects:  86% (26/30)   Compressing objects:  90% (27/30)   Compressing objects:  93% (28/30)   Compressing objects:  96% (29/30)   Compressing objects: 100% (30/30)   Compressing objects: 100% (30/30), done.
+Writing objects:   3% (1/33)   Writing objects:   6% (2/33)   Writing objects:   9% (3/33)   Writing objects:  12% (4/33)   Writing objects:  15% (5/33)   Writing objects:  18% (6/33)   Writing objects:  21% (7/33)   Writing objects:  24% (8/33)   Writing objects:  27% (9/33)   Writing objects:  30% (10/33)   Writing objects:  33% (11/33)   Writing objects:  36% (12/33)   Writing objects:  39% (13/33)   Writing objects:  42% (14/33)   Writing objects:  45% (15/33)   Writing objects:  48% (16/33)   Writing objects:  51% (17/33)   Writing objects:  54% (18/33)   Writing objects:  57% (19/33)   Writing objects:  66% (22/33)   Writing objects:  69% (23/33)   Writing objects:  72% (24/33)   Writing objects:  75% (25/33)   Writing objects:  78% (26/33)   Writing objects:  81% (27/33)   Writing objects:  84% (28/33)   Writing objects:  87% (29/33)   Writing objects:  90% (30/33)   Writing objects:  93% (31/33)   Writing objects:  96% (32/33)   Writing objects: 100% (33/33)   Writing objects: 100% (33/33), 8.50 KiB | 1.42 MiB/s, done.
+Total 33 (delta 20), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/20)   [Kremote: Resolving deltas:   5% (1/20)   [Kremote: Resolving deltas:  15% (3/20)   [Kremote: Resolving deltas:  20% (4/20)   [Kremote: Resolving deltas:  25% (5/20)   [Kremote: Resolving deltas:  30% (6/20)   [Kremote: Resolving deltas:  35% (7/20)   [Kremote: Resolving deltas:  40% (8/20)   [Kremote: Resolving deltas:  45% (9/20)   [Kremote: Resolving deltas:  50% (10/20)   [Kremote: Resolving deltas:  55% (11/20)   [Kremote: Resolving deltas:  60% (12/20)   [Kremote: Resolving deltas:  65% (13/20)   [Kremote: Resolving deltas:  70% (14/20)   [Kremote: Resolving deltas:  75% (15/20)   [Kremote: Resolving deltas:  80% (16/20)   [Kremote: Resolving deltas:  85% (17/20)   [Kremote: Resolving deltas:  90% (18/20)   [Kremote: Resolving deltas:  95% (19/20)   [Kremote: Resolving deltas: 100% (20/20)   [Kremote: Resolving deltas: 100% (20/20), completed with 17 local objects.[K
+To github.com:ilangurudev/data_science_blog.git
+   33a206f..766f3d3  master -> master
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "favicon and resume"add -A[K
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "favicon and resume"[C[C[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume""resume"
