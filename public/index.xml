@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gurudev Ilangovan</title>
+    <link>/</link>
+    <description>Recent content on Gurudev Ilangovan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unweaving Happiness</title>
+      <link>/analyses/unweaving_happiness/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/analyses/unweaving_happiness/</guid>
+      <description>Introduction Setup Data Munging Missing Adding Continents  Exploration Happiness levels Standard Deviation of happiness Correlation Analysis GDP’s relationship Healthy Life Expectancy Social Support  Prediction Setup Modeling Model Selection Testing our model/Diagnostics Best and Worst Predictions  Conclusion   Introduction The World Happiness Report 2018 by United Nations Sustainable Development Solutions Network (SDSN) based on data from the Gallup World Poll surveys was out a few days ago.</description>
+    </item>
+    
+    <item>
+      <title>Approxmap - An R package to explore macro trends in sequential data</title>
+      <link>/projects/approxmap/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/approxmap/</guid>
+      <description>Setting Up Motivation Workflow General Instructions 1. Aggregate the data 2. Cluster the data 3. Extract the patterns 4. Formatted output  Using tidyverse to fully exploit approxmapR   ApproxmapR is an R package for the approxmap algorithm, used for exploratory data analysis of sequential data. When we have longitudinal data and we want to find out the underlying patterns, we use approxmap. approxmapR aims to provide a consistent and tidy api for using the algorithm in R.</description>
+    </item>
+    
+    <item>
+      <title>Tidy Carrots</title>
+      <link>/blog/tidy_carrots/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/tidy_carrots/</guid>
+      <description>Thoughts on R and Machine Learning… I started coding in R in 2015. I was pretty new to coding and especially, data science. I had heard of packages like ggplot2 and dplyr but I assumed they were packages that you learned once you learned the basics of R. ggplot2 seemed tough with words like geoms and aes and dplyr with the dangeroud looking %&amp;gt;%. For a year and half, I never made an effort to learn new tools no matter how much I strugglled with base R (and to be honest, never really learnt that properly either).</description>
+    </item>
+    
+    <item>
+      <title>The Statistically Significant Four</title>
+      <link>/analyses/tennis_big4/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/analyses/tennis_big4/</guid>
+      <description>Why the big 4 deserve all the praise they get… We all know tennis is a competitive sport. Winning one slam is hard so much so that it is probably enough. In the chart below, you might recognize a few of those small bars in the far right - Roger Federer with 19 grand slam titles, Rafa with 16 and so on. But try to recollect five people who constitute the single big bar on the left hand side - people who have won just one slam!</description>
+    </item>
+    
+    <item>
+      <title>Get in touch</title>
+      <link>/contact/</link>
+      <pubDate>Sun, 06 Nov 2016 13:00:25 +0530</pubDate>
+      
+      <guid>/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Gurudev Ilangovan is a graduate research assistant in the department of computer science and engineering at Texas A&amp;amp;M University. As part of his research and coursework, Gurudev is involved in a lot of data science projects. His research areas include sequential data mining and entity deduplication.
+With a skillset that spans statistical thinking, optimization, simulation machine learning, building applications (such as web apps and R packages) and programming, his expertise lies in engineering data driven solutions to real world problems.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1532327144668.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "66714660",
+    "id" : "7C3FC923",
+    "lastKnownWriteTime" : 1532327324,
+    "last_content_update" : 1532327324600,
+    "path" : "~/projects/data_science_blog/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "88,0",
+        "scrollLine" : "55"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

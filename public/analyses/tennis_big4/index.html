@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<title>The Statistically Significant Four - Gurudev Ilangovan</title>
+<meta property="og:title" content="The Statistically Significant Four - Gurudev Ilangovan">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://amber.rbind.io/analyses/img/big-four.jpg" >
+  
+
+<meta property="description" content="How big are the big 4?">
+<meta property="og:description" content="How big are the big 4?">
+
+
+<meta name="twitter:creator" content="">
+
+<meta name="description" content="A portfolio for my data science projects, analyses and blogs about things that I&#39;ve been learning.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="twitter:creator" content="">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/owl.carousel.css">
+<link rel="stylesheet" href="/css/owl.theme.css">
+
+
+
+  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+
+<link href="/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<link rel="stylesheet" href="/css/github-gist.css" rel="stylesheet" id="theme-stylesheet">
+
+
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-51110003-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              
+<div id="sidebar" class="col-sb-fixedpos col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="/">Gurudev Ilangovan</a></h1>
+
+    <ul class="sidebar-menu">
+      
+      
+        <li><a href="/about/">About</a></li>
+      
+        <li><a href="/projects/">Projects</a></li>
+      
+        <li><a href="/analyses/">Analyses</a></li>
+      
+        <li><a href="/blog/">Blog</a></li>
+      
+        <li><a href="/contact/">Get in Touch</a></li>
+      
+
+       
+
+
+
+ 
+
+      
+
+ 
+
+      
+ 
+
+    </ul>
+    <p class="social">
+  
+  
+  
+  <a href="https://twitter.com/GuruIlan" data-animate-hover="pulse" class="external twitter">
+    <i class="fa fa-twitter"></i>
+  </a>
+  
+  
+  
+  <a href="mailto:ilangurudev@gmail.com" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+  
+  <a href="https://www.linkedin.com/in/gurudevilangovan/" data-animate-hover="pulse">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  
+<a href="https://www.github.com/ilangurudev">
+  <i class="fa fa-github"></i>
+</a>
+
+
+
+
+</p>
+
+
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2018 Gurudev Ilangovan
+        
+        | Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
+
+&amp; ported to Hugo by <a href="https://github.com/kishaningithub">Kishan B</a>
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background col-main-fixedpos">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="/">Gurudev Ilangovan</a></h1>
+</div>
+
+
+            <div class="row">
+                  <div class="col-sm-4">
+                    <div class="image">
+                      <img src="/analyses/img/big-four.jpg" class="img-responsive" alt="">
+                    </div>
+                  </div>
+
+                  <div class="col-md-8">
+                      <h2>The Statistically Significant Four</h2>
+                          <p class="author-category">
+                            Gurudev Ilangovan
+                          </p>
+
+                          <p class="date-comments">
+                          <i class="fa fa-calendar-o"></i> September 1, 2017
+                          </p>
+
+                          
+                  
+                      </div>
+                    </div>
+                  </br>
+
+<div class="row">
+   <div class="content-column-content">
+          <div class="col-lg-8">
+
+<div id="why-the-big-4-deserve-all-the-praise-they-get" class="section level5">
+<h5>Why the big 4 deserve all the praise they get…</h5>
+<p>We all know tennis is a competitive sport. Winning one slam is hard so much so that it is probably enough. In the chart below, you might recognize a few of those small bars in the far right - Roger Federer with 19 grand slam titles, Rafa with 16 and so on. But try to recollect five people who constitute the single big bar on the left hand side - people who have won just one slam!</p>
+<p><img src="/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-2-1.png" width="80%" style="display: block; margin: auto;" /></p>
+<p>Pretty hard, right? We do not remember many of those who have managed to win just one title (Andy Roddick - 2003 US Open, Goran Ivanisevic - 2001 Wimbledon (being a wildcard!)). However, did you notice that the x-axis starts from 1? What happens if we start from 0?</p>
+<p><img src="/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-3-1.png" width="80%" style="display: block; margin: auto;" /></p>
+<p>What just happened? The single tall bar represents the number people who competed but never won a slam in their entire career. The the next tallest bar is the number of people who have a single title to their name, as seen from the previous graph, but it has been completely dwarfed. Tennis isn’t competitive. It is brutal. If you meet a player today who says they are going to take tennis up as a profession, odds are quite high that they would be slam-less even if you meet them fifteen years hence.</p>
+<p>Now that we’ve seen how insane the competition is, we know how difficult it is to win a single slam. It <em>is</em> a big deal. And amidst this extremely vicious competitiveness, 3 people, together over the course of 15 years, have won 47 grand slam titles (out of the possible 60). You read that right. Enter the big three .. the fourth comes in later.</p>
+<p>Tennis has always had greats in every era. Why then is this era called as the <em>golden era in tennis</em>? More specifically, why is the quartet of Roger Federer, Rafael Nadal, Novak Djokovic and Andy Murray called as the <em>big four</em>?</p>
+<p>First, let’s take a customary look at the slam counts for players with more than 2 slams. The bars are color coded based on 10 year periods starting from 2017 and going back all the way to 1968.</p>
+<p><img src="/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-4-1.png" width="80%" style="display: block; margin: auto;" /></p>
+<p>Apart from the fact that 3 in the top 4 slam winners are from the <em>golden era</em>, we can see that the darkgreen (2008-2017) is pretty much split between Roger, Rafa and Novak. The other colors (say, pink) are much more distributed. In terms of just the number of grand slams, it is clearly the Big 3.</p>
+<!-- In this plot, we can see that pink seems to be distributed across many players, all greats - Borg, Lendl, Connors, McEnroe, Wilander, Becker, Edberg and Vilas. The distribution of slams winners is also not adverse. Of course one could argue that that the ten years have been selected to make it seem like the big 4 are dominant. But hey, look at the lengths of the bars. Top 4 all time winners list has 3 from the big 4.  -->
+<!-- simplified fill chart explaining number of slams won by top 4  -->
+<p>Let’s take a simplified version of this idea.</p>
+<ol style="list-style-type: decimal">
+<li>Split 1968-2017 into 10-year chunks resulting in 5 separate periods.<br />
+</li>
+<li>For each period, calculate who the top 3 players are in terms of number of slams won.</li>
+<li>Calculate the proportion of slams won by the top 3.</li>
+</ol>
+<p><img src="/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-5-1.png" width="70%" style="display: block; margin: auto;" /></p>
+<p>Clearly, 2007-2017 has a higher proportion of big winners! That’s over a 25% gap. However, an argument could be made for the way the years have been aggregated. It could be that 2007-2017 is where the Big 3 dominated. But cutting greats’ careers in half would be doing a disservice to their dominance. For instance, Jimmy Connors played from 1972 to the 90s. His career would be split into three different parts if we aggregate the years from 1977-1986 The right thing to do would be to find out the most dominant 10 years in the Big 3’s long careers and compare it with another 10 year period where 3 superior players have dominated the sport.</p>
+<p>So, for each year from 1968, let’s aggregate the 10 following years. That means 1968-1977 would be a 10 year aggregation, 1969-1978 would be another and so on. For each split/aggreation, let us calculate the average number of slams won by the top 3 players.</p>
+<table class="table table-striped table-hover table-responsive" style="width: auto !important; ">
+<thead>
+<tr>
+<th style="text-align:right;">
+start_year
+</th>
+<th style="text-align:right;">
+end_year
+</th>
+<th style="text-align:right;">
+avg_slams
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+2004
+</td>
+<td style="text-align:right;">
+2013
+</td>
+<td style="text-align:right;">
+11.666667
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2005
+</td>
+<td style="text-align:right;">
+2014
+</td>
+<td style="text-align:right;">
+11.333333
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:right;">
+2015
+</td>
+<td style="text-align:right;">
+11.333333
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2003
+</td>
+<td style="text-align:right;">
+2012
+</td>
+<td style="text-align:right;">
+11.000000
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:right;">
+2016
+</td>
+<td style="text-align:right;">
+10.666667
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2002
+</td>
+<td style="text-align:right;">
+2011
+</td>
+<td style="text-align:right;">
+10.000000
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2000
+</td>
+<td style="text-align:right;">
+2009
+</td>
+<td style="text-align:right;">
+8.000000
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1974
+</td>
+<td style="text-align:right;">
+1983
+</td>
+<td style="text-align:right;">
+7.666667
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1999
+</td>
+<td style="text-align:right;">
+2008
+</td>
+<td style="text-align:right;">
+7.666667
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1975
+</td>
+<td style="text-align:right;">
+1984
+</td>
+<td style="text-align:right;">
+7.333333
+</td>
+</tr>
+</tbody>
+</table>
+<p>Just out of curiosity, just how many of these aggregations are connected to the Big 3?</p>
+<p><img src="/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-7-1.png" width="80%" style="display: block; margin: auto;" /></p>
+<p>In the top 10 aggregations, 8 feature the Big 3. Staggering.</p>
+<p>But coming back to the point, the next most dominant era has been 1974-1983. It seems we <em>have</em> been splitting the years wrong… a little. Let’s take a look at the winners in this period.</p>
+<table class="table table-striped table-hover table-responsive" style="width: auto !important; ">
+<thead>
+<tr>
+<th style="text-align:left;">
+winner_name
+</th>
+<th style="text-align:right;">
+n
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Bjorn Borg
+</td>
+<td style="text-align:right;">
+11
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Jimmy Connors
+</td>
+<td style="text-align:right;">
+7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+John Mcenroe
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Guillermo Vilas
+</td>
+<td style="text-align:right;">
+4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Johan Kriek
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mats Wilander
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Adriano Panatta
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Arthur Ashe
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Brian Teacher
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+John Newcombe
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Manuel Orantes
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mark Edmondson
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Roscoe Tanner
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Yannick Noah
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+</tbody>
+</table>
+<p>An average of 7.67 slams won by each member of the top 3 but a total of 14 different grand slam winners in this 10 year period.</p>
+<p>Now let’s take a look at the iron grip of the current Big 3 from 2004-2013.</p>
+<table class="table table-striped table-hover table-responsive" style="width: auto !important; ">
+<thead>
+<tr>
+<th style="text-align:left;">
+winner_name
+</th>
+<th style="text-align:right;">
+n
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Roger Federer
+</td>
+<td style="text-align:right;">
+16
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Rafael Nadal
+</td>
+<td style="text-align:right;">
+13
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Novak Djokovic
+</td>
+<td style="text-align:right;">
+6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Andy Murray
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Gaston Gaudio
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Juan Martin Del Potro
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Marat Safin
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+</tbody>
+</table>
+<p>An average of 11.67 slams - a solid year’s worth of slams more than the next best era. In stark contrast to the previous list, we have just 7 different winners (only half as much as the number in 1974-1983). The Big 3 are significantly better than the 3 biggest players of any other period, period.</p>
+<p>So, how did the term “Big 4” come up? Andy Murray has won 3 slams and so has Stan Wawrinka. Why does Murray get to sit alongside these freaks?</p>
+<p>Slams tell only one part of the story. They are after all 4 events in a year and judging the state of things by them alone doesn’t do justice. To portray a more complete picture, let’s also consider the Masters 1000 tournaments, the most prestigious tournaments after Grand slams and Olympics. Andy Murray’s exceptional success outside of the slams explains why it is the <em>Big 4</em> and why he gets included in it.</p>
+<p><img src="/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-10-1.png" width="80%" style="display: block; margin: auto;" /></p>
+<p>Andy’s a freak in his own right. He’s right there amongst the greats. If Andy had played in any other era, he would probably be having 10 slams. It does seem that it’s not unjustified to call it the era of Big 4.</p>
+<!-- What other metrics are there? We have  -->
+<!--  - prize money -->
+<!--  - wins/titles to find out chokers(lower the better if we consider people with more than said wins/titles) -->
+<!--  - #weeks as world number #s -->
+<p>What is amazing is that tennis has gotten faster, more powerful and more taxing over the ages and going by the trend, it will only become more so. This means that tennis is increasingly becoming a young man’s game, sapping the players, pushing the envelope when it comes to their conditioning and due to these very reasons, causing a lot of injuries. Despite all that, here they are atop their thrones, old but hungry as ever, making unsuspecting analyses like this one outdated every passing year.</p>
+</div>
+<div id="acknowledgements" class="section level4">
+<h4>Acknowledgements</h4>
+<ol style="list-style-type: decimal">
+<li>Jeff Sakcman’s github repository gave us all the tennis data that we needed for the analysis. It can be found <a href="https://github.com/JeffSackmann/tennis_atp">here</a>. He regularly writes many interesting articles like <a href="https://www.economist.com/blogs/gametheory/2017/09/draws-tennis">this</a>.</li>
+<li>Amber Thomas’s <a href="https://proquestionasker.github.io/">website</a> served as both the design and content inspiration for the blog.</li>
+</ol>
+</div>
+
+      
+       </div>
+     </div>
+   </div>
+
+
+
+
+
+        <a href="#" class="back-to-top">
+        <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+
+        </a>
+
+         <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ilangurudev" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+   
+
+          </div>
+      </div>
+  </div>
+  <script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.cookie.js"> </script>
+<script src="/js/ekko-lightbox.js"></script>
+<script src="/js/jquery.scrollTo.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/front.js"></script>
+<script src="/js/backtotop.js"></script> 
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>
