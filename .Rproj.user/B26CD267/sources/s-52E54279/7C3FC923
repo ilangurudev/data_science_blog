@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "66714660",
+    "hash" : "2055723229",
     "id" : "7C3FC923",
-    "lastKnownWriteTime" : 1532327324,
-    "last_content_update" : 1532327324600,
+    "lastKnownWriteTime" : 1532327875,
+    "last_content_update" : 1532327875075,
     "path" : "~/projects/data_science_blog/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "88,0",
-        "scrollLine" : "55"
+        "cursorPosition" : "21,19",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [

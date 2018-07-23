@@ -19,7 +19,7 @@ googleAnalytics = "UA-51110003-2"
 
 relativeurls = true
 
-publishDir= "./public"
+publishDir= "./docs"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 

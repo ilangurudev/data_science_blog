@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sequential_data_mining on Gurudev Ilangovan</title>
+    <link>/tags/sequential_data_mining/</link>
+    <description>Recent content in Sequential_data_mining on Gurudev Ilangovan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/sequential_data_mining/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Approxmap - An R package to explore macro trends in sequential data</title>
+      <link>/projects/approxmap/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/approxmap/</guid>
+      <description>Setting Up Motivation Workflow General Instructions 1. Aggregate the data 2. Cluster the data 3. Extract the patterns 4. Formatted output  Using tidyverse to fully exploit approxmapR   ApproxmapR is an R package for the approxmap algorithm, used for exploratory data analysis of sequential data. When we have longitudinal data and we want to find out the underlying patterns, we use approxmap. approxmapR aims to provide a consistent and tidy api for using the algorithm in R.</description>
+    </item>
+    
+  </channel>
+</rss>

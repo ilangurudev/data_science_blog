@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analyses on Gurudev Ilangovan</title>
+    <link>/analyses/</link>
+    <description>Recent content in Analyses on Gurudev Ilangovan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/analyses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unweaving Happiness</title>
+      <link>/analyses/unweaving_happiness/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/analyses/unweaving_happiness/</guid>
+      <description>Introduction Setup Data Munging Missing Adding Continents  Exploration Happiness levels Standard Deviation of happiness Correlation Analysis GDP’s relationship Healthy Life Expectancy Social Support  Prediction Setup Modeling Model Selection Testing our model/Diagnostics Best and Worst Predictions  Conclusion   Introduction The World Happiness Report 2018 by United Nations Sustainable Development Solutions Network (SDSN) based on data from the Gallup World Poll surveys was out a few days ago.</description>
+    </item>
+    
+    <item>
+      <title>The Statistically Significant Four</title>
+      <link>/analyses/tennis_big4/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/analyses/tennis_big4/</guid>
+      <description>Why the big 4 deserve all the praise they get… We all know tennis is a competitive sport. Winning one slam is hard so much so that it is probably enough. In the chart below, you might recognize a few of those small bars in the far right - Roger Federer with 19 grand slam titles, Rafa with 16 and so on. But try to recollect five people who constitute the single big bar on the left hand side - people who have won just one slam!</description>
+    </item>
+    
+  </channel>
+</rss>
