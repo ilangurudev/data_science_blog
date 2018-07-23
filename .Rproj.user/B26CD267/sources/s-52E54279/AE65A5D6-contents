@@ -1,3 +1,0 @@
-analyses = "analyses/:year/:month/:day/:slug/"
-projects = "projects/:year/:month/:day/:slug"
-blog = "blog/:year/:month/:day/:slug"
