@@ -57,5 +57,15 @@
 With a skillset that spans statistical thinking, optimization, simulation machine learning, building applications (such as web apps and R packages) and programming, his expertise lies in engineering data driven solutions to real world problems.</description>
     </item>
     
+    <item>
+      <title>About Me</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>Gurudev Ilangovan is a graduate research assistant in the department of computer science and engineering at Texas A&amp;amp;M University. As part of his research and coursework, Gurudev is involved in a lot of data science projects. His research areas include sequential data mining and entity deduplication.
+With a skillset that spans statistical thinking, optimization, simulation machine learning, building applications (such as web apps and R packages) and programming, his expertise lies in engineering data driven solutions to real world problems.</description>
+    </item>
+    
   </channel>
 </rss>

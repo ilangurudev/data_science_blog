@@ -63,6 +63,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [[params.navlinks]]
   name = "Blog"
   url = "blog/"
+  
+  [[params.navlinks]]
+  name = "Resume"
+  url = "resume/"
 
   [[params.navlinks]]
   name = "Get in Touch"
