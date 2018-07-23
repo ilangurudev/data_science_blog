@@ -10,7 +10,6 @@ disqusShortname = "ilangurudev"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-51110003-2"
 
-
 [permalinks]
   analyses = "analyses/:slug/"
   projects = "projects/:slug"

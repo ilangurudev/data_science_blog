@@ -1,20 +1,14 @@
 ---
 title: Resume
-type: "resume"
+type: "Resume"
 date: '2018-07-23'
 ---
 
 # Gurudev Ilangovan
 
-
-[guru-ilan.netlify.com](guru-ilan.netlify.com) | 
-[www.linkedin.com/in/gurudevilangovan/](https://www.linkedin.com/in/gurudevilangovan/) | 
-[www.github.com/ilangurudev](https://www.github.com/ilangurudev") | 
+> [guru-ilan.netlify.com](guru-ilan.netlify.com) | 
 [ilangurudev@gmail.com](mailto:ilangurudev@gmail.com) | 
 [917-517-5013](tel:9175175013)
-
-
-
 
 # Profile
 - 6+ years of experience as a software engineer in various industries

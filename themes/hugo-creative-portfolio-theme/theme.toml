@@ -9,6 +9,7 @@ homepage = "https://github.com/kishaningithub/hugo-creative-portfolio-theme"
 tags = ["creative", "portfolio", "projects", "minimal", "responsive"]
 features = ["disqus", "bootstrap", "responsive", "google analytics"]
 min_version = 0.17
+style = "blue"
 
 [author]
   name = "Kishan B"

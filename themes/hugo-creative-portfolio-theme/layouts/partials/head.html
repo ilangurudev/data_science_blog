@@ -34,11 +34,12 @@
 <link rel="stylesheet" href="{{ "css/owl.theme.css" | absURL }}">
 <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" > -->
 <!-- Theme stylesheet, if possible do not edit this stylesheet -->
-{{ with .Site.Params.style }}
+<!-- {{ with .Site.Params.style }}
   <link href="{{ printf "css/style.%s.css" . | absURL }}" rel="stylesheet" id="theme-stylesheet">
 {{ else }}
   <link href="{{ "css/style.default.css" | absURL }}" rel="stylesheet" id="theme-stylesheet">
-{{ end }}
+{{ end }} -->
+<link href="{{ "css/style.default.css" | absURL }}" rel="stylesheet" id="theme-stylesheet">
 <!-- Custom stylesheet - for your changes -->
 <link href="{{ "css/custom.css" | absURL }}" rel="stylesheet">
 <link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}">
