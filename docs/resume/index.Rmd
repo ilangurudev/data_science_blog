@@ -101,6 +101,6 @@ and extracted the 20 most important blood based features that help predict morta
 ---
 
 ### Skills      
-**Languages**: R, Python, SQL, Javascript
-**Frameworks**: Shiny, Flask, nodejs, Ruby on Rails
+**Languages**: R, Python, SQL, Javascript   
+**Frameworks**: Shiny, Flask, nodejs, Ruby on Rails   
 **Expertise**: Machine Learning, Data Wrangling, Statistical Analysis, Technical Communication
