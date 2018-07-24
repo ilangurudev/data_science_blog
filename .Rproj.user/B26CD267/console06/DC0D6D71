@@ -704,3 +704,16 @@ To github.com:ilangurudev/data_science_blog.git
    99b2fde..f6de8e3  master -> master
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "redirects"add -A[K
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "redirects"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"n"e"w" "c"o"n"t"e"n"t"
+[master 8b059fa] new content
+ 2 files changed, 17 insertions(+), 3 deletions(-)
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "new content"add -A[Kpush origin master
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 1.11 KiB | 1.11 MiB/s, done.
+Total 9 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:ilangurudev/data_science_blog.git
+   f6de8e3..8b059fa  master -> master
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "new content"add -A[K
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "new content"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"r"e"s"u"m"e" "n"e"t"l"i"f"y" "p"u"s"h"
