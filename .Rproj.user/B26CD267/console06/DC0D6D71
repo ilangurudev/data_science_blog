@@ -478,3 +478,175 @@ To github.com:ilangurudev/data_science_blog.git
    9a0e362..530b8b2  master -> master
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "resume skills break"add -A[K
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "resume skills break"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"p"u"b"l"i"c" "d"i"r"e"c"t"o"r"y"
+[master a6f43be] public directory
+ 184 files changed, 50 insertions(+), 235151 deletions(-)
+ delete mode 100644 docs/about/img/guru.jpg
+ delete mode 100644 docs/about/index.Rmd
+ delete mode 100644 docs/about/index.html
+ delete mode 100644 docs/analyses/2017-09-01_tennis_big4.Rmd
+ delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-10-1.png
+ delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-2-1.png
+ delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-3-1.png
+ delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-4-1.png
+ delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-5-1.png
+ delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-7-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp.Rmd
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-1-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-10-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-13-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-18-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-3-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-7-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-9-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-1-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-10-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-13-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-18-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-3-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-7-1.png
+ delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-9-1.png
+ delete mode 100644 docs/analyses/data/Countries-Continents.csv
+ delete mode 100644 docs/analyses/data/WHR2018Chapter2OnlineData.xls
+ delete mode 100644 docs/analyses/data/atp_matches_all_new_2.csv
+ delete mode 100644 docs/analyses/img/big-four.jpg
+ delete mode 100644 docs/analyses/index.html
+ delete mode 100644 docs/analyses/index.xml
+ delete mode 100644 docs/analyses/page/1/index.html
+ delete mode 100644 docs/analyses/tennis_big4/index.html
+ delete mode 100644 docs/analyses/unweaving_happiness/index.html
+ delete mode 100644 docs/blog/2017-03-17_purrr_with_caret.Rmd
+ delete mode 100644 docs/blog/2017-05-02_d3Nest_files/figure-html/unnamed-chunk-7-1.png
+ delete mode 100644 docs/blog/img/carets.png
+ delete mode 100644 docs/blog/index.html
+ delete mode 100644 docs/blog/index.xml
+ delete mode 100644 docs/blog/page/1/index.html
+ delete mode 100644 docs/blog/tidy_carrots/index.html
+ delete mode 100644 docs/categories/index.html
+ delete mode 100644 docs/categories/index.xml
+ delete mode 100644 docs/categories/page/1/index.html
+ delete mode 100644 docs/contact/index.html
+ delete mode 100644 docs/contact/index.xml
+ delete mode 100644 docs/css/atom-one-dark.css
+ delete mode 100644 docs/css/bootstrap.css
+ delete mode 100644 docs/css/bootstrap.min.css
+ delete mode 100644 docs/css/bootstrap.min.css.map
+ delete mode 100644 docs/css/custom.css
+ delete mode 100644 docs/css/font-awesome.min.css
+ delete mode 100644 docs/css/fonts/FontAwesome.otf
+ delete mode 100644 docs/css/fonts/fontawesome-webfont.eot
+ delete mode 100644 docs/css/fonts/fontawesome-webfont.svg
+ delete mode 100644 docs/css/fonts/fontawesome-webfont.ttf
+ delete mode 100644 docs/css/fonts/fontawesome-webfont.woff
+ delete mode 100644 docs/css/fonts/fontawesome-webfont.woff2
+ delete mode 100644 docs/css/github-gist.css
+ delete mode 100644 docs/css/helper.css
+ delete mode 100644 docs/css/monokai-sublime.css
+ delete mode 100644 docs/css/owl.carousel.css
+ delete mode 100644 docs/css/owl.theme.css
+ delete mode 100644 docs/css/owl.transitions.css
+ delete mode 100644 docs/css/style.blue.css
+ delete mode 100644 docs/css/style.default.css
+ delete mode 100644 docs/css/style.green.css
+ delete mode 100644 docs/css/style.pink.css
+ delete mode 100644 docs/css/style.red.css
+ delete mode 100644 docs/css/style.sea.css
+ delete mode 100644 docs/css/style.violet.css
+ delete mode 100644 docs/css/zenburn.css
+ delete mode 100644 docs/img/favicon.png
+ delete mode 100644 docs/index.html
+ delete mode 100644 docs/index.xml
+ delete mode 100644 docs/js/backtotop.js
+ delete mode 100755 docs/js/bootstrap.min.js
+ delete mode 100644 docs/js/ekko-lightbox.js
+ delete mode 100644 docs/js/front.js
+ delete mode 100644 docs/js/highlight.pack.js
+ delete mode 100644 docs/js/imagesloaded.pkgd.min.js
+ delete mode 100644 docs/js/jquery.cookie.js
+ delete mode 100644 docs/js/jquery.min.js
+ delete mode 100644 docs/js/jquery.scrollTo.min.js
+ delete mode 100644 docs/js/main.js
+ delete mode 100644 docs/js/masonry.pkgd.min.js
+ delete mode 100644 docs/js/owl.carousel.min.js
+ delete mode 100644 docs/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ delete mode 100644 docs/projects/2017-10-01_approxmapR.Rmd
+ delete mode 100644 docs/projects/approxmap/index.html
+ delete mode 100644 docs/projects/img/approxmapR.jpg
+ delete mode 100644 docs/projects/index.html
+ delete mode 100644 docs/projects/index.xml
+ delete mode 100644 docs/projects/page/1/index.html
+ delete mode 100644 docs/resume/img/guru.jpg
+ delete mode 100644 docs/rmarkdown-libs/crosstalk/css/crosstalk.css
+ delete mode 100644 docs/rmarkdown-libs/crosstalk/js/crosstalk.js
+ delete mode 100644 docs/rmarkdown-libs/crosstalk/js/crosstalk.js.map
+ delete mode 100644 docs/rmarkdown-libs/crosstalk/js/crosstalk.min.js
+ delete mode 100644 docs/rmarkdown-libs/crosstalk/js/crosstalk.min.js.map
+ delete mode 100644 docs/rmarkdown-libs/font-awesome/css/font-awesome.css
+ delete mode 100644 docs/rmarkdown-libs/font-awesome/css/font-awesome.min.css
+ delete mode 100644 docs/rmarkdown-libs/font-awesome/fonts/fontawesome-webfont.ttf
+ delete mode 100644 docs/rmarkdown-libs/htmlwidgets/htmlwidgets.js
+ delete mode 100644 docs/rmarkdown-libs/jquery/jquery-AUTHORS.txt
+ delete mode 100644 docs/rmarkdown-libs/jquery/jquery.js
+ delete mode 100644 docs/rmarkdown-libs/jquery/jquery.min.js
+ delete mode 100644 docs/rmarkdown-libs/jquery/jquery.min.map
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/colourpicker/LICENSE
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/colourpicker/colourpicker.min.css
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/colourpicker/colourpicker.min.js
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/plotlyjs/LICENSE
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/plotlyjs/plotly-htmlwidgets.css
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/plotlyjs/plotly-latest.min.js
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/selectize/selectize.bootstrap3.css
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/selectize/selectize.min.js
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/typedarray/LICENSE
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/typedarray/typedarray.min.js
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/plotly.js
+ delete mode 100644 docs/rmarkdown-libs/plotly-binding/plotly.yaml
+ delete mode 100644 docs/rmarkdown-libs/plotlyjs/LICENSE
+ delete mode 100644 docs/rmarkdown-libs/plotlyjs/plotly-htmlwidgets.css
+ delete mode 100644 docs/rmarkdown-libs/plotlyjs/plotly-latest.min.js
+ delete mode 100644 docs/rmarkdown-libs/typedarray/LICENSE
+ delete mode 100644 docs/rmarkdown-libs/typedarray/typedarray.min.js
+ delete mode 100644 docs/sitemap.xml
+ delete mode 100644 docs/tags/analysis/index.html
+ delete mode 100644 docs/tags/analysis/index.xml
+ delete mode 100644 docs/tags/analysis/page/1/index.html
+ delete mode 100644 docs/tags/caret/index.html
+ delete mode 100644 docs/tags/caret/index.xml
+ delete mode 100644 docs/tags/caret/page/1/index.html
+ delete mode 100644 docs/tags/index.html
+ delete mode 100644 docs/tags/index.xml
+ delete mode 100644 docs/tags/machine-learning/index.html
+ delete mode 100644 docs/tags/machine-learning/index.xml
+ delete mode 100644 docs/tags/machine-learning/page/1/index.html
+ delete mode 100644 docs/tags/package/index.html
+ delete mode 100644 docs/tags/package/index.xml
+ delete mode 100644 docs/tags/package/page/1/index.html
+ delete mode 100644 docs/tags/page/1/index.html
+ delete mode 100644 docs/tags/purrr/index.html
+ delete mode 100644 docs/tags/purrr/index.xml
+ delete mode 100644 docs/tags/purrr/page/1/index.html
+ delete mode 100644 docs/tags/r/index.html
+ delete mode 100644 docs/tags/r/index.xml
+ delete mode 100644 docs/tags/r/page/1/index.html
+ delete mode 100644 docs/tags/sequential_data_mining/index.html
+ delete mode 100644 docs/tags/sequential_data_mining/index.xml
+ delete mode 100644 docs/tags/sequential_data_mining/page/1/index.html
+ delete mode 100644 docs/tags/tennis/index.html
+ delete mode 100644 docs/tags/tennis/index.xml
+ delete mode 100644 docs/tags/tennis/page/1/index.html
+ delete mode 100644 docs/tags/tidyverse/index.html
+ delete mode 100644 docs/tags/tidyverse/index.xml
+ delete mode 100644 docs/tags/tidyverse/page/1/index.html
+ rename {docs => public}/analyses/img/happiness.png (100%)
+ rename {docs => public}/resume/index.Rmd (100%)
+ rename {docs => public}/resume/index.html (100%)
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "public directory"add -A[Kpush origin master
+Counting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 1.34 KiB | 1.34 MiB/s, done.
+Total 10 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To github.com:ilangurudev/data_science_blog.git
+   530b8b2..a6f43be  master -> master
+git push origin mastercommit -a -m "public directory"add -A[K
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "public directory"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"a"t"t"r"i"b"u"t"e"d" "a"m"b"e"r" "t"h"o"m"a"s"'" "w"e"b"s"i"t"e"
