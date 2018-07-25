@@ -1,5 +1,5 @@
 {
-    "path" : "~/projects/data_science_blog/themes/hugo-creative-portfolio-theme/layouts/_default",
+    "path" : "~/projects/data_science_blog/content/projects",
     "sortOrder" : [
         {
             "ascending" : false,
