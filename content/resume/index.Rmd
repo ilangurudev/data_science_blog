@@ -17,7 +17,7 @@ date: '2018-07-23'
 ---
 
 ### Profile      
-A passionate data scientist looking forward to gaining industry exposure in machine learning and data science.
+A passionate data scientist looking to gain industry exposure in machine learning and data science.
 
 ---
 
