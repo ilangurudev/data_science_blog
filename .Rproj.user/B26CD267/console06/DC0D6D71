@@ -815,3 +815,330 @@ To github.com:ilangurudev/data_science_blog.git
    6422605..e2cb5e3  master -> master
 [K]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ Rscript R/generate_reports.R [8Pcd projects/lifehack/Rscript R/generate_reports.R [8Pcd projects/lifehack/nano Desktop/dash.sh git push origin mastercommit -a -m "resume"add -A[Kpush origin master[12Padd -A
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -ARscript R/generate_reports.R [8Pcd projects/lifehack/Rscript R/generate_reports.R [8Pcd projects/lifehack/nano Desktop/dash.sh git push origin mastercommit -a -m "resume"[1P"[1P"[1P"[1P"[1P"[1P"a"p"p"r"o"x"m"a"p"
+[master fe1ae64] approxmap
+ 325 files changed, 419959 insertions(+), 10649 deletions(-)
+ rewrite .Rproj.user/B26CD267/console06/INDEX001 (86%)
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/__packages
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-10_6e0bacfe16d5835c406385ac1f5e064a.RData
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-10_6e0bacfe16d5835c406385ac1f5e064a.rdb
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-10_6e0bacfe16d5835c406385ac1f5e064a.rdx
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-11_39439452e10f72ca228f2cc2961c54ee.RData
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-11_39439452e10f72ca228f2cc2961c54ee.rdb
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-11_39439452e10f72ca228f2cc2961c54ee.rdx
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-12_71a2abdb36c4ce30d78248cd50712e2e.RData
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-12_71a2abdb36c4ce30d78248cd50712e2e.rdb
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-12_71a2abdb36c4ce30d78248cd50712e2e.rdx
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-13_759d2e6e34773413e577355669c9fdb0.RData
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-13_759d2e6e34773413e577355669c9fdb0.rdb
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-13_759d2e6e34773413e577355669c9fdb0.rdx
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-14_b7366ecb6cd2209fbd91782b82a5d89c.RData
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-14_b7366ecb6cd2209fbd91782b82a5d89c.rdb
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-14_b7366ecb6cd2209fbd91782b82a5d89c.rdx
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-3_9a70fecfb182624627208fabd4349834.RData
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-3_9a70fecfb182624627208fabd4349834.rdb
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-3_9a70fecfb182624627208fabd4349834.rdx
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-4_d1672e69d59ad4c28328c3dd77d50a04.RData
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-4_d1672e69d59ad4c28328c3dd77d50a04.rdb
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-4_d1672e69d59ad4c28328c3dd77d50a04.rdx
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-6_1e1bbf000acf847fc99dfe82c909910e.RData
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-6_1e1bbf000acf847fc99dfe82c909910e.rdb
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-6_1e1bbf000acf847fc99dfe82c909910e.rdx
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-7_5f85a94091b06edd96f288bc9e44735d.RData
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-7_5f85a94091b06edd96f288bc9e44735d.rdb
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-7_5f85a94091b06edd96f288bc9e44735d.rdx
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-8_09551d92e58fa0e9d5edf7ac5bf508f4.RData
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-8_09551d92e58fa0e9d5edf7ac5bf508f4.rdb
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-8_09551d92e58fa0e9d5edf7ac5bf508f4.rdx
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-9_11dacc20f6d83b1a4b8791fc3eb104d6.RData
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-9_11dacc20f6d83b1a4b8791fc3eb104d6.rdb
+ create mode 100644 blogdown/projects/2017-10-01_approxmapR_cache/html/unnamed-chunk-9_11dacc20f6d83b1a4b8791fc3eb104d6.rdx
+ create mode 100644 public/rmarkdown-libs/datatables-binding/css/datatables-crosstalk.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/datatables.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/datatables.yaml
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/autoFill.bootstrap.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/autoFill.bootstrap4.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/autoFill.foundation.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/autoFill.jqueryui.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/autoFill.semanticui.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/dataTables.autoFill.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.bootstrap.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.bootstrap4.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.colVis.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.flash.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.foundation.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.html5.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.jqueryui.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.print.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.semanticui.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/dataTables.buttons.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/jszip.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/pdfmake.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/vfs_fonts.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/swf/flashExport.swf
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/js/dataTables.colReorder.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/js/dataTables.fixedColumns.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/js/dataTables.fixedHeader.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/js/dataTables.keyTable.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/dataTables.responsive.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/responsive.bootstrap.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/responsive.bootstrap4.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/responsive.foundation.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/responsive.jqueryui.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/responsive.semanticui.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/js/dataTables.rowGroup.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/js/dataTables.rowReorder.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/js/dataTables.scroller.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/js/dataTables.select.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-plugins/natural/natural.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-plugins/searchHighlight/dataTables.searchHighlight.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-plugins/searchHighlight/dataTables.searchHighlight.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables-plugins/searchHighlight/jquery.highlight.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.bootstrap.extra.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.bootstrap.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.bootstrap4.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.foundation.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.jqueryui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.material.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.semanticui.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.uikit.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/css/jquery.dataTables.extra.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/css/jquery.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.bootstrap.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.bootstrap4.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.foundation.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.jqueryui.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.material.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.semanticui.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.uikit.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/js/jquery.dataTables.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/datatables/license.txt
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/jquery/LICENSE.txt
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/jquery/jquery.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/nouislider/jquery.nouislider.min.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/nouislider/jquery.nouislider.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/selectize/selectize.bootstrap3.css
+ create mode 100644 public/rmarkdown-libs/datatables-binding/lib/selectize/selectize.min.js
+ create mode 100644 public/rmarkdown-libs/datatables-css/datatables-crosstalk.css
+ create mode 100644 public/rmarkdown-libs/dt-core/css/jquery.dataTables.extra.css
+ create mode 100644 public/rmarkdown-libs/dt-core/css/jquery.dataTables.min.css
+ create mode 100644 public/rmarkdown-libs/dt-core/js/jquery.dataTables.min.js
+ create mode 100644 public/rmarkdown-libs/jquery/LICENSE.txt
+ rewrite public/rmarkdown-libs/jquery/jquery.min.js (98%)
+ create mode 100644 static/rmarkdown-libs/datatables-binding/css/datatables-crosstalk.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/datatables.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/datatables.yaml
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/css/autoFill.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/autoFill.bootstrap.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/autoFill.bootstrap4.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/autoFill.foundation.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/autoFill.jqueryui.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/autoFill.semanticui.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/AutoFill/js/dataTables.autoFill.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/css/buttons.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.bootstrap.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.bootstrap4.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.colVis.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.flash.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.foundation.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.html5.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.jqueryui.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.print.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/buttons.semanticui.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/dataTables.buttons.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/jszip.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/pdfmake.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/js/vfs_fonts.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Buttons/swf/flashExport.swf
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/css/colReorder.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/ColReorder/js/dataTables.colReorder.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/css/fixedColumns.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedColumns/js/dataTables.fixedColumns.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/css/fixedHeader.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/FixedHeader/js/dataTables.fixedHeader.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/css/keyTable.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/KeyTable/js/dataTables.keyTable.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/css/responsive.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/dataTables.responsive.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/responsive.bootstrap.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/responsive.bootstrap4.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/responsive.foundation.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/responsive.jqueryui.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Responsive/js/responsive.semanticui.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/css/rowGroup.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowGroup/js/dataTables.rowGroup.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/css/rowReorder.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/RowReorder/js/dataTables.rowReorder.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/css/scroller.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Scroller/js/dataTables.scroller.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/css/select.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-extensions/Select/js/dataTables.select.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-plugins/natural/natural.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-plugins/searchHighlight/dataTables.searchHighlight.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-plugins/searchHighlight/dataTables.searchHighlight.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables-plugins/searchHighlight/jquery.highlight.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.bootstrap.extra.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.bootstrap.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.bootstrap4.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.foundation.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.jqueryui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.material.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.semanticui.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/css/dataTables.uikit.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/css/jquery.dataTables.extra.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/css/jquery.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.bootstrap.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.bootstrap4.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.foundation.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.jqueryui.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.material.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.semanticui.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/js/dataTables.uikit.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/js/jquery.dataTables.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/datatables/license.txt
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/jquery/LICENSE.txt
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/jquery/jquery.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/nouislider/jquery.nouislider.min.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/nouislider/jquery.nouislider.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/selectize/selectize.bootstrap3.css
+ create mode 100644 static/rmarkdown-libs/datatables-binding/lib/selectize/selectize.min.js
+ create mode 100644 static/rmarkdown-libs/datatables-css/datatables-crosstalk.css
+ create mode 100644 static/rmarkdown-libs/dt-core/css/jquery.dataTables.extra.css
+ create mode 100644 static/rmarkdown-libs/dt-core/css/jquery.dataTables.min.css
+ create mode 100644 static/rmarkdown-libs/dt-core/js/jquery.dataTables.min.js
+ create mode 100644 static/rmarkdown-libs/jquery/LICENSE.txt
+ delete mode 100644 static/rmarkdown-libs/jquery/jquery-AUTHORS.txt
+ delete mode 100644 static/rmarkdown-libs/jquery/jquery.js
+ rewrite static/rmarkdown-libs/jquery/jquery.min.js (98%)
+ delete mode 100644 static/rmarkdown-libs/jquery/jquery.min.map
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "approxmap"add -A[KRscript R/generate_reports.R [8Pcd projects/lifehack/Rscript R/generate_reports.R [8Pcd projects/lifehack/nano Desktop/dash.sh git push origin master
+Counting objects: 223, done.
+Delta compression using up to 8 threads.
+Compressing objects:   0% (1/212)   Compressing objects:   1% (3/212)   Compressing objects:   2% (5/212)   Compressing objects:   3% (7/212)   Compressing objects:   4% (9/212)   Compressing objects:   5% (11/212)   Compressing objects:   6% (13/212)   Compressing objects:   7% (15/212)   Compressing objects:   8% (17/212)   Compressing objects:   9% (20/212)   Compressing objects:  10% (22/212)   Compressing objects:  11% (24/212)   Compressing objects:  12% (26/212)   Compressing objects:  13% (28/212)   Compressing objects:  14% (30/212)   Compressing objects:  15% (32/212)   Compressing objects:  16% (34/212)   Compressing objects:  17% (37/212)   Compressing objects:  18% (39/212)   Compressing objects:  19% (41/212)   Compressing objects:  20% (43/212)   Compressing objects:  21% (45/212)   Compressing objects:  22% (47/212)   Compressing objects:  23% (49/212)   Compressing objects:  24% (51/212)   Compressing objects:  25% (53/212)   Compressing objects:  26% (56/212)   Compressing objects:  27% (58/212)   Compressing objects:  28% (60/212)   Compressing objects:  29% (62/212)   Compressing objects:  30% (64/212)   Compressing objects:  31% (66/212)   Compressing objects:  32% (68/212)   Compressing objects:  33% (70/212)   Compressing objects:  34% (73/212)   Compressing objects:  35% (75/212)   Compressing objects:  36% (77/212)   Compressing objects:  37% (79/212)   Compressing objects:  38% (81/212)   Compressing objects:  39% (83/212)   Compressing objects:  40% (85/212)   Compressing objects:  41% (87/212)   Compressing objects:  42% (90/212)   Compressing objects:  43% (92/212)   Compressing objects:  44% (94/212)   Compressing objects:  45% (96/212)   Compressing objects:  46% (98/212)   Compressing objects:  47% (100/212)   Compressing objects:  48% (102/212)   Compressing objects:  49% (104/212)   Compressing objects:  50% (106/212)   Compressing objects:  51% (109/212)   Compressing objects:  52% (111/212)   Compressing objects:  53% (113/212)   Compressing objects:  54% (115/212)   Compressing objects:  55% (117/212)   Compressing objects:  56% (119/212)   Compressing objects:  57% (121/212)   Compressing objects:  58% (123/212)   Compressing objects:  59% (126/212)   Compressing objects:  60% (128/212)   Compressing objects:  61% (130/212)   Compressing objects:  62% (132/212)   Compressing objects:  63% (134/212)   Compressing objects:  64% (136/212)   Compressing objects:  65% (138/212)   Compressing objects:  66% (140/212)   Compressing objects:  67% (143/212)   Compressing objects:  68% (145/212)   Compressing objects:  69% (147/212)   Compressing objects:  70% (149/212)   Compressing objects:  71% (151/212)   Compressing objects:  72% (153/212)   Compressing objects:  73% (155/212)   Compressing objects:  74% (157/212)   Compressing objects:  75% (159/212)   Compressing objects:  76% (162/212)   Compressing objects:  77% (164/212)   Compressing objects:  78% (166/212)   Compressing objects:  79% (168/212)   Compressing objects:  80% (170/212)   Compressing objects:  81% (172/212)   Compressing objects:  82% (174/212)   Compressing objects:  83% (176/212)   Compressing objects:  84% (179/212)   Compressing objects:  85% (181/212)   Compressing objects:  86% (183/212)   Compressing objects:  87% (185/212)   Compressing objects:  88% (187/212)   Compressing objects:  89% (189/212)   Compressing objects:  90% (191/212)   Compressing objects:  91% (193/212)   Compressing objects:  92% (196/212)   Compressing objects:  93% (198/212)   Compressing objects:  94% (200/212)   Compressing objects:  95% (202/212)   Compressing objects:  96% (204/212)   Compressing objects:  97% (206/212)   Compressing objects:  98% (208/212)   Compressing objects:  99% (210/212)   Compressing objects: 100% (212/212)   Compressing objects: 100% (212/212), done.
+Writing objects:   0% (1/223)   Writing objects:   1% (3/223)   Writing objects:   2% (5/223)   Writing objects:   3% (7/223)   Writing objects:   4% (9/223)   Writing objects:   5% (12/223)   Writing objects:   6% (14/223)   Writing objects:   7% (16/223)   Writing objects:   8% (18/223)   Writing objects:   9% (21/223)   Writing objects:  10% (23/223)   Writing objects:  11% (25/223)   Writing objects:  12% (28/223)   Writing objects:  13% (29/223)   Writing objects:  14% (32/223)   Writing objects:  15% (34/223)   Writing objects:  16% (37/223)   Writing objects:  17% (38/223)   Writing objects:  18% (41/223)   Writing objects:  19% (43/223)   Writing objects:  20% (45/223)   Writing objects:  21% (47/223)   Writing objects:  22% (50/223)   Writing objects:  23% (52/223)   Writing objects:  24% (54/223)   Writing objects:  25% (56/223)   Writing objects:  26% (58/223)   Writing objects:  27% (61/223)   Writing objects:  28% (63/223)   Writing objects:  29% (65/223)   Writing objects:  30% (67/223)   Writing objects:  31% (70/223)   Writing objects:  32% (72/223)   Writing objects:  33% (74/223)   Writing objects:  34% (77/223)   Writing objects:  35% (79/223)   Writing objects:  36% (81/223)   Writing objects:  37% (83/223)   Writing objects:  38% (85/223)   Writing objects:  39% (87/223)   Writing objects:  40% (90/223)   Writing objects:  41% (92/223)   Writing objects:  42% (94/223)   Writing objects:  43% (96/223)   Writing objects:  44% (99/223)   Writing objects:  45% (101/223)   Writing objects:  46% (103/223)   Writing objects:  47% (105/223)   Writing objects:  48% (108/223)   Writing objects:  49% (110/223)   Writing objects:  50% (112/223)   Writing objects:  51% (114/223)   Writing objects:  52% (116/223)   Writing objects:  53% (119/223)   Writing objects:  54% (121/223)   Writing objects:  55% (123/223)   Writing objects:  56% (125/223)   Writing objects:  57% (128/223)   Writing objects:  58% (130/223)   Writing objects:  59% (132/223)   Writing objects:  60% (134/223)   Writing objects:  61% (137/223)   Writing objects:  62% (139/223)   Writing objects:  63% (141/223)   Writing objects:  64% (143/223)   Writing objects:  65% (145/223)   Writing objects:  66% (148/223)   Writing objects:  67% (150/223)   Writing objects:  68% (152/223)   Writing objects:  69% (154/223)   Writing objects:  70% (157/223)   Writing objects:  71% (159/223)   Writing objects:  72% (161/223)   Writing objects:  73% (163/223)   Writing objects:  74% (166/223)   Writing objects:  75% (168/223)   Writing objects:  76% (170/223)   Writing objects:  77% (172/223)   Writing objects:  78% (174/223)   Writing objects:  79% (177/223)   Writing objects:  80% (179/223)   Writing objects:  81% (182/223)   Writing objects:  82% (183/223)   Writing objects:  83% (186/223)   Writing objects:  84% (188/223)   Writing objects:  85% (190/223)   Writing objects:  86% (192/223)   Writing objects:  87% (195/223)   Writing objects:  88% (197/223)   Writing objects:  89% (199/223)   Writing objects:  90% (201/223)   Writing objects:  91% (203/223)   Writing objects:  92% (206/223)   Writing objects:  93% (208/223)   Writing objects:  94% (210/223)   Writing objects:  95% (213/223)   Writing objects:  96% (215/223)   Writing objects:  97% (217/223)   Writing objects:  98% (219/223)   Writing objects:  99% (221/223)   Writing objects: 100% (223/223)   Writing objects: 100% (223/223), 2.37 MiB | 5.77 MiB/s, done.
+Total 223 (delta 40), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/40)   [Kremote: Resolving deltas:  12% (5/40)   [Kremote: Resolving deltas:  15% (6/40)   [Kremote: Resolving deltas:  17% (7/40)   [Kremote: Resolving deltas:  20% (8/40)   [Kremote: Resolving deltas:  22% (9/40)   [Kremote: Resolving deltas:  45% (18/40)   [Kremote: Resolving deltas:  47% (19/40)   [Kremote: Resolving deltas:  52% (21/40)   [Kremote: Resolving deltas:  55% (22/40)   [Kremote: Resolving deltas:  62% (25/40)   [Kremote: Resolving deltas:  65% (26/40)   [Kremote: Resolving deltas:  67% (27/40)   [Kremote: Resolving deltas:  70% (28/40)   [Kremote: Resolving deltas:  72% (29/40)   [Kremote: Resolving deltas:  75% (30/40)   [Kremote: Resolving deltas:  77% (31/40)   [Kremote: Resolving deltas:  80% (32/40)   [Kremote: Resolving deltas:  82% (33/40)   [Kremote: Resolving deltas:  85% (34/40)   [Kremote: Resolving deltas:  87% (35/40)   [Kremote: Resolving deltas:  90% (36/40)   [Kremote: Resolving deltas:  92% (37/40)   [Kremote: Resolving deltas:  95% (38/40)   [Kremote: Resolving deltas:  97% (39/40)   [Kremote: Resolving deltas: 100% (40/40)   [Kremote: Resolving deltas: 100% (40/40), completed with 13 local objects.[K
+To github.com:ilangurudev/data_science_blog.git
+   e2cb5e3..fe1ae64  master -> master
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "approxmap"add -A[K
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "approxmap"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"i"n"c"l"u"d"e"d" "a"l"l" "f"o"r"m"a"t"t"e"d" "r"e"s"u"l"t"s"

@@ -192,7 +192,6 @@ The format_sequence also has a parameter called `compare` which when TRUE lists 
 results %>%
   filter_pattern(threshold = 0.4, pattern_name = "consensus") %>%
   format_sequence(compare=TRUE) %>% 
-  slice(1:9) %>% 
   kable_print()
 ```
 ```
