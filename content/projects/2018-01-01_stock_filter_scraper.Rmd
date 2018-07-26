@@ -7,7 +7,7 @@ categories: []
 tags: [tidyverse, scraping, api, rvest]
 showonlyimage: false
 draft: true
-image: "projects/img/nse_bse.jpg"
+image: "projects/img/scraping.png"
 weight: 1
 type: "post"
 description: "An application to update Indian equity stock data from NSE and BSE using their APIs and then scrape data for filtered stocks from various sources."
