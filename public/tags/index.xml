@@ -93,6 +93,15 @@
     </item>
     
     <item>
+      <title>Flask</title>
+      <link>/tags/flask/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Forecasting</title>
       <link>/tags/forecasting/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
@@ -107,6 +116,15 @@
       <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/hci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heroku</title>
+      <link>/tags/heroku/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/heroku/</guid>
       <description></description>
     </item>
     
@@ -143,6 +161,15 @@
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/machine_learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mongo</title>
+      <link>/tags/mongo/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mongo/</guid>
       <description></description>
     </item>
     
@@ -201,6 +228,15 @@
     </item>
     
     <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/tags/r/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
@@ -224,6 +260,15 @@
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/record_linkage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redis</title>
+      <link>/tags/redis/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/redis/</guid>
       <description></description>
     </item>
     

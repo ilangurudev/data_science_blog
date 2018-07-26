@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>/projects/interactive_rl/</loc>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/analyses/unweaving_happiness/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
   </url>
@@ -148,6 +153,12 @@
   </url>
   
   <url>
+    <loc>/tags/flask/</loc>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/forecasting/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -162,6 +173,12 @@
   <url>
     <loc>/tags/hci/</loc>
     <lastmod>2017-08-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/heroku/</loc>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -186,6 +203,12 @@
   <url>
     <loc>/tags/machine_learning/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mongo/</loc>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -232,6 +255,12 @@
   </url>
   
   <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/r/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -246,6 +275,12 @@
   <url>
     <loc>/tags/record_linkage/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/redis/</loc>
+    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

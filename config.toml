@@ -80,7 +80,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   #Adding widgets to the sidebar
   [params.widgets]
     categories = false
-    tags = false
+    tags = true
     search = false
     
 # options for highlight.js (version, additional languages, and theme)

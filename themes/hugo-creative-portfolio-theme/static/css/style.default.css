@@ -441,6 +441,8 @@ SIDEBAR + RIGHT COLUMN
 */
 #sidebar {
   padding-top: 40px;
+  overflow-y: auto;
+  height: 100%;
 }
 @media screen and (min-width: 992px) {
   .sidebar-content {

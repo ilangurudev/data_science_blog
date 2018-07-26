@@ -1192,3 +1192,211 @@ To github.com:ilangurudev/data_science_blog.git
    d372018..aaa072d  master -> master
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "chicago taxi trips"add -A[K
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "chicago taxi trips"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"d"r"a"f"t"s"[C
+[master 136dcca] drafts
+ 220 files changed, 19467 insertions(+), 376 deletions(-)
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/__packages
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/data preparation_1d019644efed460a178f3abcf8ec41ce.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/data preparation_1d019644efed460a178f3abcf8ec41ce.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/data preparation_1d019644efed460a178f3abcf8ec41ce.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/modeling_995086b7706b08d6435ad1ebf5dadddd.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/modeling_995086b7706b08d6435ad1ebf5dadddd.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/modeling_995086b7706b08d6435ad1ebf5dadddd.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/setup_cd3532393ec2c65989a954384de32c42.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/setup_cd3532393ec2c65989a954384de32c42.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/setup_cd3532393ec2c65989a954384de32c42.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-10_fb504ec0ae9f18e8109dd3ff7ef17a5f.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-10_fb504ec0ae9f18e8109dd3ff7ef17a5f.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-10_fb504ec0ae9f18e8109dd3ff7ef17a5f.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-11_345bd63e2a369670593e38ccd372853e.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-11_345bd63e2a369670593e38ccd372853e.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-11_345bd63e2a369670593e38ccd372853e.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-12_7f6477e764052c6b997027471039beea.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-12_7f6477e764052c6b997027471039beea.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-12_7f6477e764052c6b997027471039beea.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-13_314719de7d142ce234c6bf1c846caf24.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-13_314719de7d142ce234c6bf1c846caf24.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-13_314719de7d142ce234c6bf1c846caf24.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-14_a72f1774df29a9c6aaef7e29e5831e01.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-14_a72f1774df29a9c6aaef7e29e5831e01.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-14_a72f1774df29a9c6aaef7e29e5831e01.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-15_a18cb618043b0d89da1b22b4dca3d269.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-15_a18cb618043b0d89da1b22b4dca3d269.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-15_a18cb618043b0d89da1b22b4dca3d269.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-16_6d96824d2dc3c7b81469782a81d56499.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-16_6d96824d2dc3c7b81469782a81d56499.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-16_6d96824d2dc3c7b81469782a81d56499.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-17_46892f7fb2c4fd65cd6156c33f9b0e5f.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-17_46892f7fb2c4fd65cd6156c33f9b0e5f.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-17_46892f7fb2c4fd65cd6156c33f9b0e5f.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-18_673d51b8d61f311bc589deefa0e14e29.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-18_673d51b8d61f311bc589deefa0e14e29.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-18_673d51b8d61f311bc589deefa0e14e29.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-1_11b4037b2c2b7ea83a1863d0740ca99a.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-1_11b4037b2c2b7ea83a1863d0740ca99a.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-1_11b4037b2c2b7ea83a1863d0740ca99a.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-2_439ddd855eb79f927c5677202430ecab.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-2_439ddd855eb79f927c5677202430ecab.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-2_439ddd855eb79f927c5677202430ecab.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-3_1f41ffd032c141bf21e937b67a177cb9.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-3_1f41ffd032c141bf21e937b67a177cb9.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-3_1f41ffd032c141bf21e937b67a177cb9.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-4_9acbee19d31913743b570431ba3e6fcb.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-4_9acbee19d31913743b570431ba3e6fcb.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-4_9acbee19d31913743b570431ba3e6fcb.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-5_cffe76316b66195f1b0f653b203fff9e.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-5_cffe76316b66195f1b0f653b203fff9e.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-5_cffe76316b66195f1b0f653b203fff9e.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-6_75f4cfa77dbc6a86a7cac25bbd6605f0.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-6_75f4cfa77dbc6a86a7cac25bbd6605f0.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-6_75f4cfa77dbc6a86a7cac25bbd6605f0.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-7_f71f5f8d7a5cdd8fc0862c642df35a0a.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-7_f71f5f8d7a5cdd8fc0862c642df35a0a.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-7_f71f5f8d7a5cdd8fc0862c642df35a0a.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-8_aa185c95539b8a211b7e4229de747b67.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-8_aa185c95539b8a211b7e4229de747b67.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-8_aa185c95539b8a211b7e4229de747b67.rdx
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-9_4bc4035b0d13f2e5e4cb3dca3e89fe94.RData
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-9_4bc4035b0d13f2e5e4cb3dca3e89fe94.rdb
+ create mode 100644 blogdown/analyses/2018-03-01_unweaving_happiness_cp_cache/html/unnamed-chunk-9_4bc4035b0d13f2e5e4cb3dca3e89fe94.rdx
+ rewrite content/analyses/2018-04-15_chicago_taxi_trips.Rmd (65%)
+ rewrite content/analyses/2018-04-15_chicago_taxi_trips.html (77%)
+ rewrite content/analyses/img/happiness.png (99%)
+ create mode 100644 content/projects/2016-06-01_random_survival_forest.Rmd
+ create mode 100644 content/projects/2016-06-01_random_survival_forest.html
+ create mode 100644 content/projects/2017-08-30_ppirl_sigchi18.Rmd
+ create mode 100644 content/projects/2017-08-30_ppirl_sigchi18.html
+ create mode 100644 content/projects/2018-01-01_stock_filter_scraper.Rmd
+ create mode 100644 content/projects/2018-01-01_stock_filter_scraper.html
+ create mode 100644 content/projects/2018-04-25_text_recommender.Rmd
+ create mode 100644 content/projects/2018-04-25_text_recommender.html
+ create mode 100644 content/projects/2018-05-01_roster_scheduling.Rmd
+ create mode 100644 content/projects/2018-05-01_roster_scheduling.html
+ create mode 100644 content/projects/2018-06-20_fastai_image_classification.Rmd
+ create mode 100644 content/projects/2018-06-20_fastai_image_classification.html
+ create mode 100644 content/projects/2018-08-01_ml_link.Rmd
+ create mode 100644 content/projects/2018-08-01_ml_link.html
+ create mode 100644 content/projects/img/dog_breeds.jpg
+ create mode 100644 content/projects/img/ecg.jpg
+ create mode 100644 content/projects/img/linkage.jpg
+ create mode 100644 content/projects/img/nse_bse.jpg
+ create mode 100644 content/projects/img/ppirl_17.jpg
+ create mode 100644 content/projects/img/roster.png
+ create mode 100644 content/projects/img/text_reviews.png
+ delete mode 100644 public/_redirects
+ rewrite public/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-1-1.png (97%)
+ rewrite public/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-10-1.png (90%)
+ rewrite public/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-13-1.png (95%)
+ rewrite public/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-18-1.png (95%)
+ rewrite public/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-3-1.png (97%)
+ rewrite public/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-7-1.png (94%)
+ rewrite public/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-9-1.png (90%)
+ rewrite public/analyses/2018-04-15_chicago_taxi_trips.Rmd (65%)
+ rewrite public/analyses/img/happiness.png (99%)
+ delete mode 100644 public/post/index.xml
+ delete mode 100644 public/post/page/1/index.html
+ create mode 100644 public/projects/2016-06-01_random_survival_forest.Rmd
+ create mode 100644 public/projects/2017-08-30_ppirl_sigchi18.Rmd
+ create mode 100644 public/projects/2018-01-01_stock_filter_scraper.Rmd
+ create mode 100644 public/projects/2018-04-25_text_recommender.Rmd
+ create mode 100644 public/projects/2018-05-01_roster_scheduling.Rmd
+ create mode 100644 public/projects/2018-06-20_fastai_image_classification.Rmd
+ create mode 100644 public/projects/2018-08-01_ml_link.Rmd
+ create mode 100644 public/projects/fastai_image_classification/index.html
+ create mode 100644 public/projects/img/dog_breeds.jpg
+ create mode 100644 public/projects/img/ecg.jpg
+ create mode 100644 public/projects/img/linkage.jpg
+ create mode 100644 public/projects/img/nse_bse.jpg
+ create mode 100644 public/projects/img/ppirl_17.jpg
+ create mode 100644 public/projects/img/roster.png
+ create mode 100644 public/projects/img/text_reviews.png
+ create mode 100644 public/projects/ml_link/index.html
+ create mode 100644 public/projects/pprl_sigchi18/index.html
+ create mode 100644 public/projects/random_survival_forest/index.html
+ create mode 100644 public/projects/roster_scheduling/index.html
+ create mode 100644 public/projects/stock_filter_scraper/index.html
+ create mode 100644 public/projects/text_augmented_recommendations/index.html
+ delete mode 100644 public/rmarkdown-libs/jquery/LICENSE.txt
+ rewrite public/rmarkdown-libs/jquery/jquery.min.js (98%)
+ create mode 100644 public/tags/ai/index.html
+ create mode 100644 public/tags/ai/index.xml
+ create mode 100644 public/tags/ai/page/1/index.html
+ create mode 100644 public/tags/api/index.html
+ create mode 100644 public/tags/api/index.xml
+ create mode 100644 public/tags/api/page/1/index.html
+ create mode 100644 public/tags/censoring/index.html
+ create mode 100644 public/tags/censoring/index.xml
+ create mode 100644 public/tags/censoring/page/1/index.html
+ create mode 100644 public/tags/cnn/index.html
+ create mode 100644 public/tags/cnn/index.xml
+ create mode 100644 public/tags/cnn/page/1/index.html
+ create mode 100644 public/tags/data_imbalance/index.html
+ create mode 100644 public/tags/data_imbalance/index.xml
+ create mode 100644 public/tags/data_imbalance/page/1/index.html
+ create mode 100644 public/tags/data_privacy/index.html
+ create mode 100644 public/tags/data_privacy/index.xml
+ create mode 100644 public/tags/data_privacy/page/1/index.html
+ create mode 100644 public/tags/deep_learning/index.html
+ create mode 100644 public/tags/deep_learning/index.xml
+ create mode 100644 public/tags/deep_learning/page/1/index.html
+ create mode 100644 public/tags/hci/index.html
+ create mode 100644 public/tags/hci/index.xml
+ create mode 100644 public/tags/hci/page/1/index.html
+ create mode 100644 public/tags/image_classification/index.html
+ create mode 100644 public/tags/image_classification/index.xml
+ create mode 100644 public/tags/image_classification/page/1/index.html
+ create mode 100644 public/tags/information_safety/index.html
+ create mode 100644 public/tags/information_safety/index.xml
+ create mode 100644 public/tags/information_safety/page/1/index.html
+ create mode 100644 public/tags/nodejs/index.html
+ create mode 100644 public/tags/nodejs/index.xml
+ create mode 100644 public/tags/nodejs/page/1/index.html
+ create mode 100644 public/tags/optimization/index.html
+ create mode 100644 public/tags/optimization/index.xml
+ create mode 100644 public/tags/optimization/page/1/index.html
+ create mode 100644 public/tags/pyomo/index.html
+ create mode 100644 public/tags/pyomo/index.xml
+ create mode 100644 public/tags/pyomo/page/1/index.html
+ create mode 100644 public/tags/recommender_systems/index.html
+ create mode 100644 public/tags/recommender_systems/index.xml
+ create mode 100644 public/tags/recommender_systems/page/1/index.html
+ rename public/{post => tags/record_linkage}/index.html (84%)
+ create mode 100644 public/tags/record_linkage/index.xml
+ create mode 100644 public/tags/record_linkage/page/1/index.html
+ create mode 100644 public/tags/rvest/index.html
+ create mode 100644 public/tags/rvest/index.xml
+ create mode 100644 public/tags/rvest/page/1/index.html
+ create mode 100644 public/tags/scheduling/index.html
+ create mode 100644 public/tags/scheduling/index.xml
+ create mode 100644 public/tags/scheduling/page/1/index.html
+ create mode 100644 public/tags/scraping/index.html
+ create mode 100644 public/tags/scraping/index.xml
+ create mode 100644 public/tags/scraping/page/1/index.html
+ create mode 100644 public/tags/sentiment_analysis/index.html
+ create mode 100644 public/tags/sentiment_analysis/index.xml
+ create mode 100644 public/tags/sentiment_analysis/page/1/index.html
+ create mode 100644 public/tags/survival_analysis/index.html
+ create mode 100644 public/tags/survival_analysis/index.xml
+ create mode 100644 public/tags/survival_analysis/page/1/index.html
+ rewrite static/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-1-1.png (97%)
+ rewrite static/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-10-1.png (90%)
+ rewrite static/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-13-1.png (95%)
+ rewrite static/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-18-1.png (95%)
+ rewrite static/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-3-1.png (97%)
+ rewrite static/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-7-1.png (94%)
+ rewrite static/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-9-1.png (90%)
+ delete mode 100644 static/rmarkdown-libs/jquery/LICENSE.txt
+ create mode 100644 static/rmarkdown-libs/jquery/jquery-AUTHORS.txt
+ create mode 100644 static/rmarkdown-libs/jquery/jquery.js
+ rewrite static/rmarkdown-libs/jquery/jquery.min.js (98%)
+ create mode 100644 static/rmarkdown-libs/jquery/jquery.min.map
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "drafts"add -A[Kpush origin master
+Counting objects: 277, done.
+Delta compression using up to 8 threads.
+Compressing objects:   0% (1/221)   Compressing objects:   1% (3/221)   Compressing objects:   2% (5/221)   Compressing objects:   3% (7/221)   Compressing objects:   4% (9/221)   Compressing objects:   5% (12/221)   Compressing objects:   6% (14/221)   Compressing objects:   7% (16/221)   Compressing objects:   8% (18/221)   Compressing objects:   9% (20/221)   Compressing objects:  10% (23/221)   Compressing objects:  11% (25/221)   Compressing objects:  12% (27/221)   Compressing objects:  13% (29/221)   Compressing objects:  14% (31/221)   Compressing objects:  15% (34/221)   Compressing objects:  16% (36/221)   Compressing objects:  17% (38/221)   Compressing objects:  18% (40/221)   Compressing objects:  19% (42/221)   Compressing objects:  20% (45/221)   Compressing objects:  21% (47/221)   Compressing objects:  22% (49/221)   Compressing objects:  23% (51/221)   Compressing objects:  24% (54/221)   Compressing objects:  25% (56/221)   Compressing objects:  26% (58/221)   Compressing objects:  27% (60/221)   Compressing objects:  28% (62/221)   Compressing objects:  29% (65/221)   Compressing objects:  30% (67/221)   Compressing objects:  31% (69/221)   Compressing objects:  32% (71/221)   Compressing objects:  33% (73/221)   Compressing objects:  34% (76/221)   Compressing objects:  35% (78/221)   Compressing objects:  36% (80/221)   Compressing objects:  37% (82/221)   Compressing objects:  38% (84/221)   Compressing objects:  39% (87/221)   Compressing objects:  40% (89/221)   Compressing objects:  41% (91/221)   Compressing objects:  42% (93/221)   Compressing objects:  43% (96/221)   Compressing objects:  44% (98/221)   Compressing objects:  45% (100/221)   Compressing objects:  46% (102/221)   Compressing objects:  47% (104/221)   Compressing objects:  48% (107/221)   Compressing objects:  49% (109/221)   Compressing objects:  50% (111/221)   Compressing objects:  51% (113/221)   Compressing objects:  52% (115/221)   Compressing objects:  53% (118/221)   Compressing objects:  54% (120/221)   Compressing objects:  55% (122/221)   Compressing objects:  56% (124/221)   Compressing objects:  57% (126/221)   Compressing objects:  58% (129/221)   Compressing objects:  59% (131/221)   Compressing objects:  60% (133/221)   Compressing objects:  61% (135/221)   Compressing objects:  62% (138/221)   Compressing objects:  63% (140/221)   Compressing objects:  64% (142/221)   Compressing objects:  65% (144/221)   Compressing objects:  66% (146/221)   Compressing objects:  67% (149/221)   Compressing objects:  68% (151/221)   Compressing objects:  69% (153/221)   Compressing objects:  70% (155/221)   Compressing objects:  71% (157/221)   Compressing objects:  72% (160/221)   Compressing objects:  73% (162/221)   Compressing objects:  74% (164/221)   Compressing objects:  75% (166/221)   Compressing objects:  76% (168/221)   Compressing objects:  77% (171/221)   Compressing objects:  78% (173/221)   Compressing objects:  79% (175/221)   Compressing objects:  80% (177/221)   Compressing objects:  81% (180/221)   Compressing objects:  82% (182/221)   Compressing objects:  83% (184/221)   Compressing objects:  84% (186/221)   Compressing objects:  85% (188/221)   Compressing objects:  86% (191/221)   Compressing objects:  87% (193/221)   Compressing objects:  88% (195/221)   Compressing objects:  89% (197/221)   Compressing objects:  90% (199/221)   Compressing objects:  91% (202/221)   Compressing objects:  92% (204/221)   Compressing objects:  93% (206/221)   Compressing objects:  94% (208/221)   Compressing objects:  95% (210/221)   Compressing objects:  96% (213/221)   Compressing objects:  97% (215/221)   Compressing objects:  98% (217/221)   Compressing objects:  99% (219/221)   Compressing objects: 100% (221/221)   Compressing objects: 100% (221/221), done.
+Writing objects:   0% (1/277)   Writing objects:   1% (3/277)   Writing objects:   2% (6/277)   Writing objects:   3% (9/277)   Writing objects:   4% (12/277)   Writing objects:   5% (14/277)   Writing objects:   6% (17/277)   Writing objects:   7% (20/277)   Writing objects:   8% (23/277)   Writing objects:   9% (25/277)   Writing objects:   9% (27/277), 2.53 MiB | 1.90 MiB/s   Writing objects:   9% (27/277), 5.02 MiB | 2.01 MiB/s   Writing objects:   9% (27/277), 6.26 MiB | 2.02 MiB/s   Writing objects:   9% (27/277), 8.76 MiB | 2.07 MiB/s   Writing objects:  10% (28/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  11% (31/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  12% (34/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  13% (37/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  13% (38/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  14% (39/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  15% (42/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  16% (45/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  17% (48/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  18% (50/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  19% (53/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  20% (56/277), 9.98 MiB | 2.08 MiB/s   Writing objects:  21% (59/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  22% (61/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  23% (64/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  24% (67/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  25% (70/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  26% (73/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  27% (75/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  28% (78/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  29% (81/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  30% (84/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  31% (86/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  32% (89/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  33% (92/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  34% (95/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  35% (97/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  36% (100/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  37% (103/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  38% (106/277), 11.23 MiB | 2.10 MiB/s   Writing objects:  39% (109/277), 12.47 MiB | 2.28 MiB/s   Writing objects:  40% (111/277), 12.47 MiB | 2.28 MiB/s   Writing objects:  40% (113/277), 12.47 MiB | 2.28 MiB/s   Writing objects:  41% (114/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  42% (117/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  43% (120/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  44% (122/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  45% (126/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  46% (128/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  47% (131/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  48% (135/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  49% (136/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  50% (139/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  51% (142/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  52% (145/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  53% (147/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  54% (151/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  55% (153/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  57% (160/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  58% (161/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  59% (164/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  60% (167/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  61% (169/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  62% (172/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  63% (175/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  64% (178/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  65% (181/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  66% (183/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  67% (186/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  68% (189/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  69% (192/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  70% (194/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  71% (197/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  72% (200/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  73% (203/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  74% (205/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  75% (208/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  76% (211/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  77% (214/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  78% (217/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  79% (219/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  80% (223/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  81% (225/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  82% (228/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  83% (230/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  84% (233/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  85% (236/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  86% (239/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  87% (241/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  88% (244/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  89% (247/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  90% (250/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  91% (253/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  92% (255/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  93% (258/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  94% (261/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  95% (264/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  96% (266/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  97% (269/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  98% (272/277), 13.72 MiB | 2.17 MiB/s   Writing objects:  99% (275/277), 13.72 MiB | 2.17 MiB/s   Writing objects: 100% (277/277), 13.72 MiB | 2.17 MiB/s   Writing objects: 100% (277/277), 13.99 MiB | 2.14 MiB/s, done.
+Total 277 (delta 93), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/93)   [Kremote: Resolving deltas:   2% (2/93)   [Kremote: Resolving deltas:  22% (21/93)   [Kremote: Resolving deltas:  25% (24/93)   [Kremote: Resolving deltas:  34% (32/93)   [Kremote: Resolving deltas:  38% (36/93)   [Kremote: Resolving deltas:  46% (43/93)   [Kremote: Resolving deltas:  63% (59/93)   [Kremote: Resolving deltas:  66% (62/93)   [Kremote: Resolving deltas:  68% (64/93)   [Kremote: Resolving deltas:  69% (65/93)   [Kremote: Resolving deltas:  70% (66/93)   [Kremote: Resolving deltas:  72% (67/93)   [Kremote: Resolving deltas:  73% (68/93)   [Kremote: Resolving deltas:  74% (69/93)   [Kremote: Resolving deltas:  75% (70/93)   [Kremote: Resolving deltas:  76% (71/93)   [Kremote: Resolving deltas:  77% (72/93)   [Kremote: Resolving deltas:  78% (73/93)   [Kremote: Resolving deltas:  79% (74/93)   [Kremote: Resolving deltas:  80% (75/93)   [Kremote: Resolving deltas:  81% (76/93)   [Kremote: Resolving deltas:  82% (77/93)   [Kremote: Resolving deltas:  83% (78/93)   [Kremote: Resolving deltas:  84% (79/93)   [Kremote: Resolving deltas:  86% (80/93)   [Kremote: Resolving deltas:  87% (81/93)   [Kremote: Resolving deltas:  88% (82/93)   [Kremote: Resolving deltas:  89% (83/93)   [Kremote: Resolving deltas:  90% (84/93)   [Kremote: Resolving deltas:  91% (85/93)   [Kremote: Resolving deltas:  92% (86/93)   [Kremote: Resolving deltas:  93% (87/93)   [Kremote: Resolving deltas:  94% (88/93)   [Kremote: Resolving deltas:  95% (89/93)   [Kremote: Resolving deltas:  96% (90/93)   [Kremote: Resolving deltas:  97% (91/93)   [Kremote: Resolving deltas:  98% (92/93)   [Kremote: Resolving deltas: 100% (93/93)   [Kremote: Resolving deltas: 100% (93/93), completed with 29 local objects.[K
+To github.com:ilangurudev/data_science_blog.git
+   aaa072d..136dcca  master -> master
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "drafts"add -A[K
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "drafts"[1P"[1P"[1P"[1P"[1P"[1P"t"a"g"s" "a"d"d"e"d"[C

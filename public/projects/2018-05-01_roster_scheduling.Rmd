@@ -7,7 +7,7 @@ categories: []
 tags: [pyomo, scheduling, optimization]
 showonlyimage: false
 draft: true
-image: "projects/img/roster.png"
+image: "projects/img/roster.jpg"
 weight: 1
 type: "post"
 description: "An optimization project to schedule the postings of radiology students in Postgraduate Institute of Medical Education and Research, India."
