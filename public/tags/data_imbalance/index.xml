@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data_imbalance on Gurudev Ilangovan</title>
+    <link>/tags/data_imbalance/</link>
+    <description>Recent content in Data_imbalance on Gurudev Ilangovan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data_imbalance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Random survival forests for unbalanced right censored data</title>
+      <link>/projects/random_survival_forest/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/random_survival_forest/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

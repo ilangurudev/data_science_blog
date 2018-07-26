@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Record_linkage on Gurudev Ilangovan</title>
+    <link>/tags/record_linkage/</link>
+    <description>Recent content in Record_linkage on Gurudev Ilangovan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/record_linkage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Machine Learning for Historical Record Linkage</title>
+      <link>/projects/ml_link/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/ml_link/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

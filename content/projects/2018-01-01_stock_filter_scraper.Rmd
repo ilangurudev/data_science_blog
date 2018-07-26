@@ -1,0 +1,19 @@
+---
+title: Quantitative short-lister and qualitative metrics downloader for Indian stocks
+author: Gurudev Ilangovan
+date: '2018-01-01'
+slug: stock_filter_scraper
+categories: []
+tags: [tidyverse, scraping, api, rvest]
+showonlyimage: false
+draft: true
+image: "projects/img/nse_bse.jpg"
+weight: 1
+type: "post"
+description: "An application to update Indian equity stock data from NSE and BSE using their APIs and then scrape data for filtered stocks from various sources."
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+

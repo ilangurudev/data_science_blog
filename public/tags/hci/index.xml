@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hci on Gurudev Ilangovan</title>
+    <link>/tags/hci/</link>
+    <description>Recent content in Hci on Gurudev Ilangovan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/hci/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Balancing Privacy and Information Disclosure</title>
+      <link>/projects/pprl_sigchi18/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/pprl_sigchi18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

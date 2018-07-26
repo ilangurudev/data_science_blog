@@ -1,0 +1,19 @@
+---
+title: Using textual reviews to recommend
+author: Gurudev Ilangovan
+date: '2018-04-25'
+slug: text_augmented_recommendations
+categories: []
+tags: [machine_learning, recommender_systems, tidyverse, sentiment_analysis]
+showonlyimage: false
+draft: true
+image: "projects/img/text_reviews.png"
+weight: 1
+type: "post"
+description: "Using textual information in reviews to generate better recommendations"
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+

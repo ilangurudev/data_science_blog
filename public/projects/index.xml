@@ -6,10 +6,55 @@
     <description>Recent content in Projects on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Machine Learning for Historical Record Linkage</title>
+      <link>/projects/ml_link/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/ml_link/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using fastai to classify dogs</title>
+      <link>/projects/fastai_image_classification/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/fastai_image_classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roster scheduling and optimization for radiology residents</title>
+      <link>/projects/roster_scheduling/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/roster_scheduling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using textual reviews to recommend</title>
+      <link>/projects/text_augmented_recommendations/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/text_augmented_recommendations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantitative short-lister and qualitative metrics downloader for Indian stocks</title>
+      <link>/projects/stock_filter_scraper/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/stock_filter_scraper/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Approxmap - An R package to explore macro trends in sequential data</title>
@@ -18,6 +63,24 @@
       
       <guid>/projects/approxmap/</guid>
       <description>Setting Up Motivation Workflow General Instructions 1. Aggregate the data 2. Cluster the data 3. Extract the patterns 4. Formatted output  Using tidyverse to fully exploit approxmapR   ApproxmapR is an R package for the approxmap algorithm, used for exploratory data analysis of sequential data. When we have longitudinal data and we want to find out the underlying patterns, we use approxmap. approxmapR aims to provide a consistent and tidy api for using the algorithm in R.</description>
+    </item>
+    
+    <item>
+      <title>Balancing Privacy and Information Disclosure</title>
+      <link>/projects/pprl_sigchi18/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/pprl_sigchi18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Random survival forests for unbalanced right censored data</title>
+      <link>/projects/random_survival_forest/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/random_survival_forest/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ai</title>
+      <link>/tags/ai/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ai/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Analysis</title>
@@ -17,6 +26,15 @@
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api</title>
+      <link>/tags/api/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     
@@ -30,11 +48,83 @@
     </item>
     
     <item>
+      <title>Censoring</title>
+      <link>/tags/censoring/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/censoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cnn</title>
+      <link>/tags/cnn/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data_imbalance</title>
+      <link>/tags/data_imbalance/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data_imbalance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data_privacy</title>
+      <link>/tags/data_privacy/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data_privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep_learning</title>
+      <link>/tags/deep_learning/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/deep_learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Forecasting</title>
       <link>/tags/forecasting/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/forecasting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hci</title>
+      <link>/tags/hci/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image_classification</title>
+      <link>/tags/image_classification/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/image_classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information_safety</title>
+      <link>/tags/information_safety/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/information_safety/</guid>
       <description></description>
     </item>
     
@@ -50,9 +140,27 @@
     <item>
       <title>Machine_learning</title>
       <link>/tags/machine_learning/</link>
-      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/machine_learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nodejs</title>
+      <link>/tags/nodejs/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization</title>
+      <link>/tags/optimization/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/optimization/</guid>
       <description></description>
     </item>
     
@@ -84,6 +192,15 @@
     </item>
     
     <item>
+      <title>Pyomo</title>
+      <link>/tags/pyomo/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pyomo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/tags/r/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
@@ -93,11 +210,74 @@
     </item>
     
     <item>
+      <title>Recommender_systems</title>
+      <link>/tags/recommender_systems/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/recommender_systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Record_linkage</title>
+      <link>/tags/record_linkage/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/record_linkage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rvest</title>
+      <link>/tags/rvest/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rvest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scheduling</title>
+      <link>/tags/scheduling/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/scheduling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scraping</title>
+      <link>/tags/scraping/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/scraping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentiment_analysis</title>
+      <link>/tags/sentiment_analysis/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sentiment_analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sequential_data_mining</title>
       <link>/tags/sequential_data_mining/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/sequential_data_mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survival_analysis</title>
+      <link>/tags/survival_analysis/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/survival_analysis/</guid>
       <description></description>
     </item>
     
@@ -113,7 +293,7 @@
     <item>
       <title>Tidyverse</title>
       <link>/tags/tidyverse/</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/tidyverse/</guid>
       <description></description>

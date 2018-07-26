@@ -1,0 +1,19 @@
+---
+title: Balancing Privacy and Information Disclosure
+author: Gurudev Ilangovan
+date: '2017-08-30'
+slug: pprl_sigchi18
+categories: []
+tags: [hci, data_privacy, information_safety, nodejs]
+showonlyimage: false
+draft: true
+image: "projects/img/ppirl_17.jpg"
+weight: 1
+type: "post"
+description: "My role in the SIGCHI 2018 honorable mentions paper, 'Balancing Privacy and Information Disclosure in Interactive Record Linkage with Visual Masking'"
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+

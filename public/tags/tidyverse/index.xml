@@ -6,10 +6,19 @@
     <description>Recent content in Tidyverse on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using textual reviews to recommend</title>
+      <link>/projects/text_augmented_recommendations/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/text_augmented_recommendations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Unweaving Happiness</title>
@@ -18,6 +27,15 @@
       
       <guid>/analyses/unweaving_happiness/</guid>
       <description>Introduction Setup Data Munging Missing Adding Continents  Exploration Happiness levels Standard Deviation of happiness Correlation Analysis GDP’s relationship Healthy Life Expectancy Social Support  Prediction Setup Modeling Model Selection Testing our model/Diagnostics Best and Worst Predictions  Conclusion   Introduction The World Happiness Report 2018 by United Nations Sustainable Development Solutions Network (SDSN) based on data from the Gallup World Poll surveys was out a few days ago.</description>
+    </item>
+    
+    <item>
+      <title>Quantitative short-lister and qualitative metrics downloader for Indian stocks</title>
+      <link>/projects/stock_filter_scraper/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/stock_filter_scraper/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -35,8 +53,7 @@
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/analyses/chicago_taxi_trips/</guid>
-      <description>R Markdown Including Plots   R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
+      <description></description>
     </item>
     
     <item>

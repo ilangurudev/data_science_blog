@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rvest on Gurudev Ilangovan</title>
+    <link>/tags/rvest/</link>
+    <description>Recent content in Rvest on Gurudev Ilangovan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rvest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quantitative short-lister and qualitative metrics downloader for Indian stocks</title>
+      <link>/projects/stock_filter_scraper/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/stock_filter_scraper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
