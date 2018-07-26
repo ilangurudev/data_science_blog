@@ -1,0 +1,19 @@
+---
+title: Productivity dashboard
+author: Gurudev Ilangovan
+date: '2018-07-15'
+slug: productivity_dashboard
+categories: []
+tags: [R, shiny, google_sheets, data_viz]
+showonlyimage: false
+draft: true
+image: "projects/img/productivity.png"
+weight: 1
+type: "post"
+description: "A simple yet comprehensive R, shiny and google sheets productivity tracker."
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+

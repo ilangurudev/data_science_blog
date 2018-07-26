@@ -21,11 +21,29 @@
     </item>
     
     <item>
+      <title>Productivity dashboard</title>
+      <link>/projects/productivity_dashboard/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/productivity_dashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Using fastai to classify dogs</title>
       <link>/projects/fastai_image_classification/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/projects/fastai_image_classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical Analysis template</title>
+      <link>/projects/stat_template/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/stat_template/</guid>
       <description></description>
     </item>
     
@@ -66,11 +84,38 @@
     </item>
     
     <item>
+      <title>UAS constraint satisfacion</title>
+      <link>/projects/uav_csp/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/uav_csp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UAV path planning</title>
+      <link>/projects/uav_path/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/uav_path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Quantitative short-lister and qualitative metrics downloader for Indian stocks</title>
       <link>/projects/stock_filter_scraper/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/projects/stock_filter_scraper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Error generator for benchmarking machine learning algorithms in record linkage</title>
+      <link>/projects/egen_ml/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/egen_ml/</guid>
       <description></description>
     </item>
     

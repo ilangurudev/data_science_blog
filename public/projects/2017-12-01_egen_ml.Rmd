@@ -1,0 +1,19 @@
+---
+title: Error generator for benchmarking machine learning algorithms in record linkage
+author: Gurudev Ilangovan
+date: '2017-12-01'
+slug: egen_ml
+categories: []
+tags: [machine_learning, record_linkage]
+showonlyimage: false
+draft: true
+image: "projects/img/egen.jpg"
+weight: 1
+type: "post"
+description: "A data error generator that enables comparison of different machine learning algorithms for record linkage at different error rates."
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+

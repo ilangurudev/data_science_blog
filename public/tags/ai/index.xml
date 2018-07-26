@@ -20,5 +20,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>UAS constraint satisfacion</title>
+      <link>/projects/uav_csp/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/uav_csp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UAV path planning</title>
+      <link>/projects/uav_path/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/uav_path/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Algorithms</title>
+      <link>/tags/algorithms/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Analysis</title>
       <link>/tags/analysis/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
@@ -84,6 +93,15 @@
     </item>
     
     <item>
+      <title>Data_viz</title>
+      <link>/tags/data_viz/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data_viz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deep_learning</title>
       <link>/tags/deep_learning/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
@@ -107,6 +125,15 @@
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/forecasting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google_sheets</title>
+      <link>/tags/google_sheets/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google_sheets/</guid>
       <description></description>
     </item>
     
@@ -239,7 +266,7 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
       <description></description>
@@ -314,6 +341,24 @@
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/sequential_data_mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny</title>
+      <link>/tags/shiny/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>/tags/statistics/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/statistics/</guid>
       <description></description>
     </item>
     
