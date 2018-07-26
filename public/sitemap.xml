@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/analyses/chicago_taxi_trips/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/tidy_carrots/</loc>
     <lastmod>2017-09-21T00:00:00+00:00</lastmod>
   </url>
@@ -66,6 +71,12 @@
   </url>
   
   <url>
+    <loc>/tags/forecasting/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -78,6 +89,12 @@
   </url>
   
   <url>
+    <loc>/tags/machine_learning/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/package/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -85,6 +102,12 @@
   
   <url>
     <loc>/projects/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/prophet/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

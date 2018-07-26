@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Forecasting</title>
+      <link>/tags/forecasting/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/forecasting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Machine Learning</title>
       <link>/tags/machine-learning/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
@@ -39,11 +48,29 @@
     </item>
     
     <item>
+      <title>Machine_learning</title>
+      <link>/tags/machine_learning/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/machine_learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Package</title>
       <link>/tags/package/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prophet</title>
+      <link>/tags/prophet/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/prophet/</guid>
       <description></description>
     </item>
     
