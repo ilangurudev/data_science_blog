@@ -1,526 +1,4 @@
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ [K]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ sudo add-apt-repository -y ppa:opencpu/imagemagick
-[sudo] password for gurudev: 
-guruSorry, try again.
-[sudo] password for gurudev: 
-guru
-0% [Working]            Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
-0% [Connecting to us.archive.ubuntu.com (91.189.91.23)] [Connecting to archive.canonical.com (91.189.92.191)] [Connecting to se                                                                                                                               Hit:2 http://linux.teamviewer.com/deb stable InRelease
-0% [Waiting for headers] [Connecting to archive.canonical.com (91.189.92.191)] [Waiting for headers] [Connecting to ppa.launchp0% [2 InRelease gpgv 9,357 B] [Waiting for headers] [Connecting to archive.canonical.com (91.189.92.191)] [Waiting for headers]                                                                                                                               Hit:3 http://linux.teamviewer.com/deb preview InRelease
-0% [2 InRelease gpgv 9,357 B] [Waiting for headers] [Connecting to archive.canonical.com (91.189.92.191)] [Waiting for headers]                                                                                                                               Hit:4 http://dl.google.com/linux/chrome/deb stable Release
-0% [2 InRelease gpgv 9,357 B] [Waiting for headers] [Connecting to archive.canonical.com (91.189.92.191)] [Waiting for headers]                                                                                                                               Get:5 http://security.ubuntu.com/ubuntu bionic-security InRelease [83.2 kB]
-0% [2 InRelease gpgv 9,357 B] [Waiting for headers] [Connecting to archive.canonical.com (91.189.92.191)] [5 InRelease 2,441 B/                                                                                                                               Hit:6 http://us.archive.ubuntu.com/ubuntu bionic InRelease
-0% [2 InRelease gpgv 9,357 B] [Connecting to archive.canonical.com (91.189.92.191)] [5 InRelease 6,563 B/83.2 kB 8%] [Connectin0% [2 InRelease gpgv 9,357 B] [Waiting for headers] [Connecting to archive.canonical.com (91.189.92.191)] [5 InRelease 13.4 kB/                                                                                                                               Hit:7 https://cli-assets.heroku.com/apt ./ InRelease
-0% [2 InRelease gpgv 9,357 B] [Waiting for headers] [Waiting for headers] [5 InRelease 13.4 kB/83.2 kB 16%] [Waiting for header                                                                                                                               Get:8 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
-0% [2 InRelease gpgv 9,357 B] [8 InRelease 2,456 B/88.7 kB 3%] [Waiting for headers] [5 InRelease 24.4 kB/83.2 kB 29%] [Waiting0% [8 InRelease 14.8 kB/88.7 kB 17%] [Waiting for headers] [5 InRelease 40.9 kB/83.2 kB 49%] [Waiting for headers] [Connected t0% [3 InRelease gpgv 9,358 B] [8 InRelease 14.8 kB/88.7 kB 17%] [Waiting for headers] [5 InRelease 40.9 kB/83.2 kB 49%] [Waitin0% [3 InRelease gpgv 9,358 B] [8 InRelease 40.9 kB/88.7 kB 46%] [Waiting for headers] [Waiting for headers] [Connected to packa                                                                                                                               Hit:9 http://archive.canonical.com/ubuntu bionic InRelease
-                                                                                                                               Hit:10 http://ppa.launchpad.net/daniruiz/flat-remix/ubuntu bionic InRelease
-0% [3 InRelease gpgv 9,358 B] [8 InRelease 40.9 kB/88.7 kB 46%] [Connecting to ppa.launchpad.net (91.189.95.83)] [Connected to                                                                                                                                Hit:11 https://download.sublimetext.com apt/stable/ InRelease
-0% [3 InRelease gpgv 9,358 B] [8 InRelease 40.9 kB/88.7 kB 46%] [Connecting to ppa.launchpad.net (91.189.95.83)] [Connected to                                                                                                                                0% [8 InRelease 84.9 kB/88.7 kB 96%] [Connecting to ppa.launchpad.net (91.189.95.83)] [Waiting for headers]0% [Release.gpg gpgv 1,189 B] [8 InRelease 87.6 kB/88.7 kB 99%] [Connecting to ppa.launchpad.net (91.189.95.83)] [Waiting for h                                                                                                                               0% [Release.gpg gpgv 1,189 B] [Connecting to ppa.launchpad.net (91.189.95.83)] [Waiting for headers]                                                                                                    Get:12 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
-0% [Release.gpg gpgv 1,189 B] [12 InRelease 2,456 B/74.6 kB 3%] [Connecting to ppa.launchpad.net (91.189.95.83)] [Waiting for h                                                                                                                               0% [Release.gpg gpgv 1,189 B] [12 InRelease 32.7 kB/74.6 kB 44%] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                                 0% [Release.gpg gpgv 1,189 B] [Waiting for headers]0% [Connecting to packagecloud-repositories.s3.dualstack.us-west-1.amazonaws.com] [Waiting for headers]0% [Connecting to packagecloud-repositories.s3.dualstack.us-west-1.amazonaws.com] [6 InRelease gpgv 242 kB] [Waiting for header                                                                                                                               Hit:15 http://ppa.launchpad.net/fish-shell/release-2/ubuntu bionic InRelease
-0% [Connecting to packagecloud-repositories.s3.dualstack.us-west-1.amazonaws.com (52.219.24.137)] [6 InRelease gpgv 242 kB] [Co0% [Connected to packagecloud-repositories.s3.dualstack.us-west-1.amazonaws.com (52.219.24.137)] [Connecting to ppa.launchpad.n0% [Connected to packagecloud-repositories.s3.dualstack.us-west-1.amazonaws.com (52.219.24.137)] [7 InRelease gpgv 2,533 B] [Co                                                                                                                               0% [Waiting for headers] [Waiting for headers]0% [Waiting for headers] [5 InRelease gpgv 83.2 kB] [Waiting for headers]                                                                         Hit:13 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
-                                                                         0% [5 InRelease gpgv 83.2 kB] [Waiting for headers]                                                   Ign:16 http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu bionic InRelease
-                                                   0% [5 InRelease gpgv 83.2 kB]0% [Connecting to ppa.launchpad.net (91.189.95.83)]0% [9 InRelease gpgv 10.2 kB] [Waiting for headers] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                    Get:17 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [204 B]
-0% [9 InRelease gpgv 10.2 kB] [17 Components-amd64 204 B/204 B 100%] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                                     0% [9 InRelease gpgv 10.2 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]0% [17 Components-amd64 store 0 B] [9 InRelease gpgv 10.2 kB] [Waiting for headers] [Connecting to ppa.launchpad.net (91.189.95                                                                                                                               0% [9 InRelease gpgv 10.2 kB] [Waiting for headers] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                    0% [Waiting for headers] [Waiting for headers]0% [10 InRelease gpgv 15.9 kB] [Waiting for headers] [Waiting for headers]                                                                          Get:18 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [2,452 B]
-0% [10 InRelease gpgv 15.9 kB] [18 Components-amd64 2,452 B/2,452 B 100%] [Waiting for headers]                                                                                               0% [10 InRelease gpgv 15.9 kB] [Waiting for headers]0% [18 Components-amd64 store 0 B] [10 InRelease gpgv 15.9 kB] [Waiting for headers]                                                                                    0% [10 InRelease gpgv 15.9 kB] [Waiting for headers]                                                    Hit:19 http://ppa.launchpad.net/jonathonf/backports/ubuntu bionic InRelease
-0% [10 InRelease gpgv 15.9 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                               0% [Connecting to ppa.launchpad.net (91.189.95.83)]0% [11 InRelease gpgv 2,562 B] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                               0% [Connecting to ppa.launchpad.net (91.189.95.83)]0% [8 InRelease gpgv 88.7 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                              0% [Waiting for headers]0% [12 InRelease gpgv 74.6 kB] [Waiting for headers]                                                    Hit:20 http://ppa.launchpad.net/moka/daily/ubuntu bionic InRelease
-0% [12 InRelease gpgv 74.6 kB] [Waiting for headers] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                     Get:21 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [138 kB]
-0% [12 InRelease gpgv 74.6 kB] [21 Components-amd64 1,165 B/138 kB 1%] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                                       0% [12 InRelease gpgv 74.6 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]0% [21 Components-amd64 store 0 B] [12 InRelease gpgv 74.6 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                               0% [21 Components-amd64 store 0 B] [Waiting for headers] [Connecting to ppa.launchpad.net (91.189.95.83)]0% [21 Components-amd64 store 0 B] [15 InRelease gpgv 15.4 kB] [Waiting for headers] [Connecting to ppa.launchpad.net (91.189.9                                                                                                                               0% [15 InRelease gpgv 15.4 kB] [Waiting for headers] [Waiting for headers]                                                                          Get:22 http://us.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [31.4 kB]
-0% [15 InRelease gpgv 15.4 kB] [22 icons-48x48 2,541 B/31.4 kB 8%] [Waiting for headers]                                                                                        0% [15 InRelease gpgv 15.4 kB] [Waiting for headers] [Waiting for headers]                                                                          Get:23 http://us.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [53.7 kB]
-0% [15 InRelease gpgv 15.4 kB] [23 icons-64x64 2,549 B/53.7 kB 5%] [Waiting for headers]0% [22 icons-48x48 store 0 B] [15 InRelease gpgv 15.4 kB] [23 icons-64x64 2,549 B/53.7 kB 5%] [Waiting for headers]                                                                                                                   0% [15 InRelease gpgv 15.4 kB] [23 icons-64x64 8,045 B/53.7 kB 15%] [Waiting for headers]                                                                                         0% [15 InRelease gpgv 15.4 kB] [Waiting for headers] [Waiting for headers]                                                                          Get:24 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [138 kB]
-0% [15 InRelease gpgv 15.4 kB] [24 Components-amd64 2,202 B/138 kB 2%] [Waiting for headers]0% [23 icons-64x64 store 0 B] [15 InRelease gpgv 15.4 kB] [24 Components-amd64 2,202 B/138 kB 2%] [Waiting for headers]                                                                                                                       0% [15 InRelease gpgv 15.4 kB] [24 Components-amd64 2,202 B/138 kB 2%] [Waiting for headers]                                                                                            0% [15 InRelease gpgv 15.4 kB] [Waiting for headers] [Waiting for headers]                                                                          Get:25 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 48x48 Icons [149 kB]
-0% [15 InRelease gpgv 15.4 kB] [25 icons-48x48 4,117 B/149 kB 3%] [Waiting for headers]0% [24 Components-amd64 store 0 B] [15 InRelease gpgv 15.4 kB] [25 icons-48x48 5,491 B/149 kB 4%] [Waiting for headers]                                                                                                                       0% [24 Components-amd64 store 0 B] [25 icons-48x48 8,239 B/149 kB 6%] [Waiting for headers]0% [24 Components-amd64 store 0 B] [13 InRelease gpgv 23.5 kB] [25 icons-48x48 8,239 B/149 kB 6%] [Waiting for headers]                                                                                                                       Hit:26 http://ppa.launchpad.net/morphis/anbox-support/ubuntu bionic InRelease
-                                                                                                                       0% [24 Components-amd64 store 0 B] [13 InRelease gpgv 23.5 kB] [25 icons-48x48 123 kB/149 kB 83%]0% [24 Components-amd64 store 0 B] [13 InRelease gpgv 23.5 kB] [Waiting for headers] [Connecting to ppa.launchpad.net (91.189.9                                                                                                                               Get:27 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [248 kB]
-0% [24 Components-amd64 store 0 B] [13 InRelease gpgv 23.5 kB] [27 icons-64x64 2,843 B/248 kB 1%] [Connecting to ppa.launchpad.                                                                                                                               0% [13 InRelease gpgv 23.5 kB] [27 icons-64x64 72.6 kB/248 kB 29%] [Connecting to ppa.launchpad.net (91.189.95.83)]0% [25 icons-48x48 store 0 B] [13 InRelease gpgv 23.5 kB] [27 icons-64x64 74.0 kB/248 kB 30%] [Connecting to ppa.launchpad.net                                                                                                                                0% [13 InRelease gpgv 23.5 kB] [27 icons-64x64 94.6 kB/248 kB 38%] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                                   0% [13 InRelease gpgv 23.5 kB] [Waiting for headers] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                     Get:28 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2,464 B]
-0% [13 InRelease gpgv 23.5 kB] [28 Components-amd64 2,464 B/2,464 B 100%] [Connecting to ppa.launchpad.net (91.189.95.83)]0% [27 icons-64x64 store 0 B] [13 InRelease gpgv 23.5 kB] [Waiting for headers] [Connecting to ppa.launchpad.net (91.189.95.83)                                                                                                                               Get:29 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [5,100 B]
-0% [27 icons-64x64 store 0 B] [13 InRelease gpgv 23.5 kB] [29 Components-amd64 2,207 B/5,100 B 43%] [Connecting to ppa.launchpa                                                                                                                               0% [27 icons-64x64 store 0 B] [29 Components-amd64 4,955 B/5,100 B 97%] [Connecting to ppa.launchpad.net (91.189.95.83)]0% [27 icons-64x64 store 0 B] [19 InRelease gpgv 15.9 kB] [29 Components-amd64 4,955 B/5,100 B 97%] [Connecting to ppa.launchpa                                                                                                                               0% [27 icons-64x64 store 0 B] [19 InRelease gpgv 15.9 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                          0% [19 InRelease gpgv 15.9 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]0% [28 Components-amd64 store 0 B] [19 InRelease gpgv 15.9 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                               0% [19 InRelease gpgv 15.9 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]0% [29 Components-amd64 store 0 B] [19 InRelease gpgv 15.9 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                                                               0% [19 InRelease gpgv 15.9 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                               0% [Waiting for headers]0% [20 InRelease gpgv 15.4 kB] [Waiting for headers]                                                    Hit:30 http://ppa.launchpad.net/noobslab/icons/ubuntu bionic InRelease
-                                                    0% [20 InRelease gpgv 15.4 kB]0% [Connecting to ppa.launchpad.net (91.189.95.83)]0% [26 InRelease gpgv 15.4 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                               0% [Waiting for headers]0% [30 InRelease gpgv 15.4 kB] [Waiting for headers]                                                    Ign:31 http://ppa.launchpad.net/noobslab/themes/ubuntu bionic InRelease
-0% [30 InRelease gpgv 15.4 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                               0% [Connecting to ppa.launchpad.net (91.189.95.83)]                                                   Ign:32 http://ppa.launchpad.net/opencpu/imagemagick/ubuntu bionic InRelease
-0% [Connecting to ppa.launchpad.net (91.189.95.83)]                                                   Hit:33 http://ppa.launchpad.net/system76/pop/ubuntu bionic InRelease
-                                                   0% [Working]0% [33 InRelease gpgv 15.9 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                               0% [Waiting for headers]                        Ign:34 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu bionic InRelease
-0% [Connecting to ppa.launchpad.net (91.189.95.83)]                                                   Err:35 http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu bionic Release
-  404  Not Found [IP: 91.189.95.83 80]
-0% [Connecting to ppa.launchpad.net (91.189.95.83)]                                                   Err:36 http://ppa.launchpad.net/noobslab/themes/ubuntu bionic Release
-  404  Not Found [IP: 91.189.95.83 80]
-0% [Connecting to ppa.launchpad.net (91.189.95.83)]                                                   Err:37 http://ppa.launchpad.net/opencpu/imagemagick/ubuntu bionic Release
-  404  Not Found [IP: 91.189.95.83 80]
-                                                   0% [Working]            Err:38 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu bionic Release
-  404  Not Found [IP: 91.189.95.83 80]
-100% [Working]              Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 7%Reading package lists... 7%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 9%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 42%Reading package lists... 42%Reading package lists... 50%Reading package lists... 74%Reading package lists... 74%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
-E: The repository 'http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu bionic Release' does not have a Release file.
-N: Updating from such a repository can't be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-E: The repository 'http://ppa.launchpad.net/noobslab/themes/ubuntu bionic Release' does not have a Release file.
-N: Updating from such a repository can't be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-E: The repository 'http://ppa.launchpad.net/opencpu/imagemagick/ubuntu bionic Release' does not have a Release file.
-N: Updating from such a repository can't be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-E: The repository 'http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu bionic Release' does not have a Release file.
-N: Updating from such a repository can't be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ guru
-guru: command not found
-git push origin mastercommit -a -m "favicon and resume"add -A[K
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "favicon and resume"
-[master 766f3d3] favicon and resume
- 54 files changed, 582 insertions(+), 628 deletions(-)
- rewrite .Rproj.user/B26CD267/console06/INDEX001 (86%)
- delete mode 100644 .Rproj.user/B26CD267/sources/per/t/7C3FC923
- delete mode 100644 .Rproj.user/B26CD267/sources/per/t/7C3FC923-contents
- rewrite content/resume/index.Rmd (98%)
- rewrite content/resume/index.html (98%)
- rewrite docs/img/favicon.png (99%)
- rewrite docs/resume/index.Rmd (98%)
- delete mode 100644 static/img/about.jpg
- rewrite static/img/favicon.png (99%)
- delete mode 100644 static/img/portfolio/a4-paper.jpg
- delete mode 100644 static/img/portfolio/business-card-26.jpg
- delete mode 100644 static/img/portfolio/business-card.jpg
- delete mode 100644 static/img/portfolio/envelope-brand.jpg
- delete mode 100644 static/img/portfolio/gravity-paper.jpg
- delete mode 100644 static/img/portfolio/ipad-air-2.jpg
- delete mode 100644 static/img/portfolio/label-clothes.jpg
- delete mode 100644 static/img/portfolio/paper-presentation.jpg
- delete mode 100644 static/img/portfolio/trifold.jpg
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/config.toml
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/about/index.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/contact/index.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work1.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work10.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work11.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work2.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work3.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work4.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work5.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work6.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work7.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work8.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/content/portfolio/work9.md
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/about.jpg
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/favicon.png
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/a4-paper.jpg
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/business-card-26.jpg
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/business-card.jpg
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/envelope-brand.jpg
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/gravity-paper.jpg
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/ipad-air-2.jpg
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/label-clothes.jpg
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/paper-presentation.jpg
- delete mode 100644 themes/hugo-creative-portfolio-theme/exampleSite/static/img/portfolio/trifold.jpg
- create mode 100644 themes/hugo-creative-portfolio-theme/layouts/resume/list.html
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "favicon and resume"add -A[Kpush origin master
-Counting objects: 33, done.
-Delta compression using up to 8 threads.
-Compressing objects:   3% (1/30)   Compressing objects:   6% (2/30)   Compressing objects:  10% (3/30)   Compressing objects:  13% (4/30)   Compressing objects:  16% (5/30)   Compressing objects:  20% (6/30)   Compressing objects:  23% (7/30)   Compressing objects:  26% (8/30)   Compressing objects:  30% (9/30)   Compressing objects:  33% (10/30)   Compressing objects:  36% (11/30)   Compressing objects:  40% (12/30)   Compressing objects:  43% (13/30)   Compressing objects:  46% (14/30)   Compressing objects:  50% (15/30)   Compressing objects:  53% (16/30)   Compressing objects:  56% (17/30)   Compressing objects:  60% (18/30)   Compressing objects:  63% (19/30)   Compressing objects:  66% (20/30)   Compressing objects:  70% (21/30)   Compressing objects:  73% (22/30)   Compressing objects:  76% (23/30)   Compressing objects:  80% (24/30)   Compressing objects:  83% (25/30)   Compressing objects:  86% (26/30)   Compressing objects:  90% (27/30)   Compressing objects:  93% (28/30)   Compressing objects:  96% (29/30)   Compressing objects: 100% (30/30)   Compressing objects: 100% (30/30), done.
-Writing objects:   3% (1/33)   Writing objects:   6% (2/33)   Writing objects:   9% (3/33)   Writing objects:  12% (4/33)   Writing objects:  15% (5/33)   Writing objects:  18% (6/33)   Writing objects:  21% (7/33)   Writing objects:  24% (8/33)   Writing objects:  27% (9/33)   Writing objects:  30% (10/33)   Writing objects:  33% (11/33)   Writing objects:  36% (12/33)   Writing objects:  39% (13/33)   Writing objects:  42% (14/33)   Writing objects:  45% (15/33)   Writing objects:  48% (16/33)   Writing objects:  51% (17/33)   Writing objects:  54% (18/33)   Writing objects:  57% (19/33)   Writing objects:  66% (22/33)   Writing objects:  69% (23/33)   Writing objects:  72% (24/33)   Writing objects:  75% (25/33)   Writing objects:  78% (26/33)   Writing objects:  81% (27/33)   Writing objects:  84% (28/33)   Writing objects:  87% (29/33)   Writing objects:  90% (30/33)   Writing objects:  93% (31/33)   Writing objects:  96% (32/33)   Writing objects: 100% (33/33)   Writing objects: 100% (33/33), 8.50 KiB | 1.42 MiB/s, done.
-Total 33 (delta 20), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/20)   [Kremote: Resolving deltas:   5% (1/20)   [Kremote: Resolving deltas:  15% (3/20)   [Kremote: Resolving deltas:  20% (4/20)   [Kremote: Resolving deltas:  25% (5/20)   [Kremote: Resolving deltas:  30% (6/20)   [Kremote: Resolving deltas:  35% (7/20)   [Kremote: Resolving deltas:  40% (8/20)   [Kremote: Resolving deltas:  45% (9/20)   [Kremote: Resolving deltas:  50% (10/20)   [Kremote: Resolving deltas:  55% (11/20)   [Kremote: Resolving deltas:  60% (12/20)   [Kremote: Resolving deltas:  65% (13/20)   [Kremote: Resolving deltas:  70% (14/20)   [Kremote: Resolving deltas:  75% (15/20)   [Kremote: Resolving deltas:  80% (16/20)   [Kremote: Resolving deltas:  85% (17/20)   [Kremote: Resolving deltas:  90% (18/20)   [Kremote: Resolving deltas:  95% (19/20)   [Kremote: Resolving deltas: 100% (20/20)   [Kremote: Resolving deltas: 100% (20/20), completed with 17 local objects.[K
-To github.com:ilangurudev/data_science_blog.git
-   33a206f..766f3d3  master -> master
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "favicon and resume"add -A[K
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "favicon and resume"[C[C[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume"[1Presume""resume"
-[master f2cc249] resume
- 15 files changed, 311 insertions(+), 478 deletions(-)
- rewrite content/resume/index.Rmd (90%)
- rewrite content/resume/index.html (87%)
- rewrite docs/resume/index.Rmd (90%)
- create mode 100644 docs/resume/index.xml
- create mode 100644 themes/hugo-creative-portfolio-theme/layouts/partials/blank.html
- create mode 100644 themes/hugo-creative-portfolio-theme/layouts/section/resume.html
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin master
-Counting objects: 30, done.
-Delta compression using up to 8 threads.
-Compressing objects:   3% (1/28)   Compressing objects:   7% (2/28)   Compressing objects:  10% (3/28)   Compressing objects:  14% (4/28)   Compressing objects:  17% (5/28)   Compressing objects:  21% (6/28)   Compressing objects:  25% (7/28)   Compressing objects:  28% (8/28)   Compressing objects:  32% (9/28)   Compressing objects:  35% (10/28)   Compressing objects:  39% (11/28)   Compressing objects:  42% (12/28)   Compressing objects:  46% (13/28)   Compressing objects:  50% (14/28)   Compressing objects:  53% (15/28)   Compressing objects:  57% (16/28)   Compressing objects:  60% (17/28)   Compressing objects:  64% (18/28)   Compressing objects:  67% (19/28)   Compressing objects:  71% (20/28)   Compressing objects:  75% (21/28)   Compressing objects:  78% (22/28)   Compressing objects:  82% (23/28)   Compressing objects:  85% (24/28)   Compressing objects:  89% (25/28)   Compressing objects:  92% (26/28)   Compressing objects:  96% (27/28)   Compressing objects: 100% (28/28)   Compressing objects: 100% (28/28), done.
-Writing objects:   3% (1/30)   Writing objects:   6% (2/30)   Writing objects:  10% (3/30)   Writing objects:  13% (4/30)   Writing objects:  16% (5/30)   Writing objects:  20% (6/30)   Writing objects:  23% (7/30)   Writing objects:  26% (8/30)   Writing objects:  30% (9/30)   Writing objects:  33% (10/30)   Writing objects:  36% (11/30)   Writing objects:  40% (12/30)   Writing objects:  43% (13/30)   Writing objects:  46% (14/30)   Writing objects:  50% (15/30)   Writing objects:  53% (16/30)   Writing objects:  60% (18/30)   Writing objects:  63% (19/30)   Writing objects:  66% (20/30)   Writing objects:  70% (21/30)   Writing objects:  73% (22/30)   Writing objects:  76% (23/30)   Writing objects:  80% (24/30)   Writing objects:  83% (25/30)   Writing objects:  86% (26/30)   Writing objects:  90% (27/30)   Writing objects:  93% (28/30)   Writing objects:  96% (29/30)   Writing objects: 100% (30/30)   Writing objects: 100% (30/30), 7.50 KiB | 3.75 MiB/s, done.
-Total 30 (delta 17), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/17)   [Kremote: Resolving deltas:   5% (1/17)   [Kremote: Resolving deltas:  11% (2/17)   [Kremote: Resolving deltas:  17% (3/17)   [Kremote: Resolving deltas:  23% (4/17)   [Kremote: Resolving deltas:  29% (5/17)   [Kremote: Resolving deltas:  35% (6/17)   [Kremote: Resolving deltas:  41% (7/17)   [Kremote: Resolving deltas:  47% (8/17)   [Kremote: Resolving deltas:  52% (9/17)   [Kremote: Resolving deltas:  58% (10/17)   [Kremote: Resolving deltas:  64% (11/17)   [Kremote: Resolving deltas:  76% (13/17)   [Kremote: Resolving deltas:  82% (14/17)   [Kremote: Resolving deltas:  88% (15/17)   [Kremote: Resolving deltas:  94% (16/17)   [Kremote: Resolving deltas: 100% (17/17)   [Kremote: Resolving deltas: 100% (17/17), completed with 15 local objects.[K
-To github.com:ilangurudev/data_science_blog.git
-   766f3d3..f2cc249  master -> master
-git push origin mastercommit -a -m "resume"add -A[K
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "resume"[1P"[1P"[1P"[1P"[1P"[1P"l"a"y"o"u"t"s" "f"i"x"e"d"
-[master 72b8086] layouts fixed
- 345 files changed, 323 insertions(+), 57066 deletions(-)
- rewrite .Rproj.user/B26CD267/console06/INDEX001 (86%)
- delete mode 100644 docs/img/about.jpg
- delete mode 100644 docs/img/portfolio/a4-paper.jpg
- delete mode 100644 docs/img/portfolio/business-card-26.jpg
- delete mode 100644 docs/img/portfolio/business-card.jpg
- delete mode 100644 docs/img/portfolio/envelope-brand.jpg
- delete mode 100644 docs/img/portfolio/gravity-paper.jpg
- delete mode 100644 docs/img/portfolio/ipad-air-2.jpg
- delete mode 100644 docs/img/portfolio/label-clothes.jpg
- delete mode 100644 docs/img/portfolio/paper-presentation.jpg
- delete mode 100644 docs/img/portfolio/trifold.jpg
- delete mode 100644 docs/resume/index.xml
- delete mode 100644 public/CNAME
- delete mode 100644 public/about/index.xml
- delete mode 100644 public/analyses/1/01/01/index.html
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/__packages
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-10_1a75bb1140a23ea999cb42307420c6ea.RData
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-10_1a75bb1140a23ea999cb42307420c6ea.rdb
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-10_1a75bb1140a23ea999cb42307420c6ea.rdx
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-2_ba9019a6e0cbec08797da8dbd04a31c8.RData
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-2_ba9019a6e0cbec08797da8dbd04a31c8.rdb
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-2_ba9019a6e0cbec08797da8dbd04a31c8.rdx
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-3_213de7baacafd01c6fd8486dcce13149.RData
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-3_213de7baacafd01c6fd8486dcce13149.rdb
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-3_213de7baacafd01c6fd8486dcce13149.rdx
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-4_0595c51e786142a50a178ab7e29221a9.RData
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-4_0595c51e786142a50a178ab7e29221a9.rdb
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-4_0595c51e786142a50a178ab7e29221a9.rdx
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-5_ac04c3b6a5962f1ada0f47daadb47323.RData
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-5_ac04c3b6a5962f1ada0f47daadb47323.rdb
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-5_ac04c3b6a5962f1ada0f47daadb47323.rdx
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-6_36f6bd280d6a2012f5a583ced5891c2a.RData
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-6_36f6bd280d6a2012f5a583ced5891c2a.rdb
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-6_36f6bd280d6a2012f5a583ced5891c2a.rdx
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-7_2cbfe38f189f06f90f3931bd198c5217.RData
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-7_2cbfe38f189f06f90f3931bd198c5217.rdb
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-7_2cbfe38f189f06f90f3931bd198c5217.rdx
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-8_dde54df7659824b211b341e5a794b096.RData
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-8_dde54df7659824b211b341e5a794b096.rdb
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-8_dde54df7659824b211b341e5a794b096.rdx
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-9_90c8f1a7f769b045aa174a488c4f1322.RData
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-9_90c8f1a7f769b045aa174a488c4f1322.rdb
- delete mode 100644 public/analyses/2017-09-01_tennis_big4_cache/html/unnamed-chunk-9_90c8f1a7f769b045aa174a488c4f1322.rdx
- delete mode 100644 public/analyses/2017/05/24/babytiming/index.html
- delete mode 100644 public/analyses/2017/07/06/cetaceans/index.html
- delete mode 100644 public/analyses/2017/08/22/screendirections/index.html
- delete mode 100644 public/analyses/2017/09/01/tennis_big4/index.html
- delete mode 100644 public/analyses/2017/09/08/clinics/index.html
- delete mode 100644 public/analyses/2017/12/04/haterdater/index.html
- delete mode 100644 public/analyses/2018-03-01_unweaving_happiness.Rmd
- delete mode 100644 public/analyses/2018/02/01/mars-weather/index.html
- delete mode 100644 public/analyses/2018/03/16/unweaving_happiness/index.html
- delete mode 100644 public/analyses/2018/03/21/neighborhoods/index.html
- delete mode 100644 public/analyses/2018/05/10/cookies/index.html
- delete mode 100644 public/analyses/2018/06/14/makeupshades/index.html
- delete mode 100644 public/analyses/2018/07/17/birth-control/index.html
- delete mode 100644 public/analyses/img/articleImages/2017-05-24_babyTiming_img/Loop.gif
- delete mode 100644 public/analyses/img/articleImages/2017-05-24_babyTiming_img/Loop.mp4
- delete mode 100644 public/analyses/img/articleImages/2017-05-24_babyTiming_img/babyTimingVideo.gif
- delete mode 100644 public/analyses/img/articleImages/2017-05-24_babyTiming_img/babyTiming_img1.png
- delete mode 100644 public/analyses/img/articleImages/2017-05-24_babyTiming_img/babyTiming_img2.png
- delete mode 100644 public/analyses/img/articleImages/2017-05-24_babyTiming_img/babyTiming_img3.png
- delete mode 100644 public/analyses/img/articleImages/2017-05-24_babyTiming_img/babyTiming_img4.png
- delete mode 100644 public/analyses/img/articleImages/2017-07-06_cetaceans_img/cetaceansVideo.gif
- delete mode 100644 public/analyses/img/articleImages/2017-07-06_cetaceans_img/cetaceans_img1.png
- delete mode 100644 public/analyses/img/articleImages/2017-07-06_cetaceans_img/cetaceans_img2.png
- delete mode 100644 public/analyses/img/articleImages/2017-07-06_cetaceans_img/cetaceans_img3.png
- delete mode 100644 public/analyses/img/articleImages/2017-07-06_cetaceans_img/cetaceans_img4.png
- delete mode 100644 public/analyses/img/articleImages/2017-07-27_eatingAlone_img/eatingAloneVideo.gif
- delete mode 100644 public/analyses/img/articleImages/2017-07-27_eatingAlone_img/eatingAlone_img1.png
- delete mode 100644 public/analyses/img/articleImages/2017-07-27_eatingAlone_img/eatingAlone_img2.png
- delete mode 100644 public/analyses/img/articleImages/2017-07-27_eatingAlone_img/eatingAlone_img3.png
- delete mode 100644 public/analyses/img/articleImages/2017-08-22_screenDirections_img/screenDirectionsVideo.gif
- delete mode 100644 public/analyses/img/articleImages/2017-08-22_screenDirections_img/screenDirections_img1.png
- delete mode 100644 public/analyses/img/articleImages/2017-08-22_screenDirections_img/screenDirections_img2.png
- delete mode 100644 public/analyses/img/articleImages/2017-08-22_screenDirections_img/screenDirections_img3.png
- delete mode 100644 public/analyses/img/articleImages/2017-08-22_screenDirections_img/screenDirections_img4.png
- delete mode 100644 public/analyses/img/articleImages/2017-09-08_clinics_img/clinicsVideo.gif
- delete mode 100644 public/analyses/img/articleImages/2017-09-08_clinics_img/clinics_img1.png
- delete mode 100644 public/analyses/img/articleImages/2017-09-08_clinics_img/clinics_img2.png
- delete mode 100644 public/analyses/img/articleImages/2017-09-08_clinics_img/clinics_img3.png
- delete mode 100644 public/analyses/img/articleImages/2017-09-08_clinics_img/clinics_img4.png
- delete mode 100644 public/analyses/img/articleImages/2017-12-04_haterDater_img/haterDater_video.gif
- delete mode 100644 public/analyses/img/articleImages/2017-12-04_haterDater_img/hater_1.png
- delete mode 100644 public/analyses/img/articleImages/2017-12-04_haterDater_img/hater_2.png
- delete mode 100644 public/analyses/img/articleImages/2017-12-04_haterDater_img/hater_3.png
- delete mode 100644 public/analyses/img/articleImages/2017-12-04_haterDater_img/hater_4.png
- delete mode 100644 public/analyses/img/articleImages/2018-02-01_mars-weather_img/marsWeather_1.png
- delete mode 100644 public/analyses/img/articleImages/2018-02-01_mars-weather_img/marsWeather_2.png
- delete mode 100644 public/analyses/img/articleImages/2018-02-01_mars-weather_img/marsWeather_3.png
- delete mode 100644 public/analyses/img/articleImages/2018-02-01_mars-weather_img/marsWeather_4.png
- delete mode 100644 public/analyses/img/articleImages/2018-02-01_mars-weather_img/marsWeather_video.gif
- delete mode 100644 public/analyses/img/articleImages/2018-03-21_neighborhoods_img/neighborhoods_1.png
- delete mode 100644 public/analyses/img/articleImages/2018-03-21_neighborhoods_img/neighborhoods_2.png
- delete mode 100644 public/analyses/img/articleImages/2018-03-21_neighborhoods_img/neighborhoods_3.png
- delete mode 100644 public/analyses/img/articleImages/2018-03-21_neighborhoods_img/neighborhoods_4.png
- delete mode 100644 public/analyses/img/articleImages/2018-03-21_neighborhoods_img/neighborhoods_video.gif
- delete mode 100644 public/analyses/img/articleImages/2018-05-10_cookies_img/cookies_1.png
- delete mode 100644 public/analyses/img/articleImages/2018-05-10_cookies_img/cookies_2.png
- delete mode 100644 public/analyses/img/articleImages/2018-05-10_cookies_img/cookies_3.png
- delete mode 100644 public/analyses/img/articleImages/2018-05-10_cookies_img/cookies_4.png
- delete mode 100644 public/analyses/img/articleImages/2018-05-10_cookies_img/cookies_video.gif
- delete mode 100644 public/analyses/img/articleImages/2018-05-10_cookies_img/cookies_video.mp4
- delete mode 100644 public/analyses/img/articleImages/2018-06-14_makeupShades_img/makeupShades_video.gif
- delete mode 100644 public/analyses/img/articleImages/2018-06-14_makeupShades_img/makeup_1.png
- delete mode 100644 public/analyses/img/articleImages/2018-06-14_makeupShades_img/makeup_2.png
- delete mode 100644 public/analyses/img/articleImages/2018-06-14_makeupShades_img/makeup_3.png
- delete mode 100644 public/analyses/img/articleImages/2018-06-14_makeupShades_img/makeup_4.png
- delete mode 100644 public/analyses/img/articleImages/2018-07-17_birth-control_img/birthControl_1.png
- delete mode 100644 public/analyses/img/articleImages/2018-07-17_birth-control_img/birthControl_2.png
- delete mode 100644 public/analyses/img/articleImages/2018-07-17_birth-control_img/birthControl_3.png
- delete mode 100644 public/analyses/img/articleImages/2018-07-17_birth-control_img/birthControl_4.png
- delete mode 100644 public/analyses/img/articleImages/2018-07-17_birth-control_img/birthControl_video.gif
- delete mode 100644 public/analyses/img/mainImages/2017-05-24_babyTiming.png
- delete mode 100644 public/analyses/img/mainImages/2017-07-06_cetaceans.png
- delete mode 100644 public/analyses/img/mainImages/2017-07-27_eatingAlone.png
- delete mode 100644 public/analyses/img/mainImages/2017-08-22_screenDirections.png
- delete mode 100644 public/analyses/img/mainImages/2017-09-08_clinics.png
- delete mode 100644 public/analyses/img/mainImages/2017-12-04_haterDater.png
- delete mode 100644 public/analyses/img/mainImages/2018-02-01_mars-weather.png
- delete mode 100644 public/analyses/img/mainImages/2018-03-21_neighborhoods.png
- delete mode 100644 public/analyses/img/mainImages/2018-05-10_cookies.png
- delete mode 100644 public/analyses/img/mainImages/2018-06-14_makeupShades.png
- delete mode 100644 public/analyses/img/mainImages/2018-07-17_birth-control.png
- delete mode 100644 public/analyses/page/2/index.html
- delete mode 100644 public/blog/1/01/01/index.html
- delete mode 100644 public/blog/2016/12/17/dscourses/index.html
- delete mode 100644 public/blog/2016/12/19/creatingsite/index.html
- delete mode 100644 public/blog/2017/05/02/d3nest/index.html
- delete mode 100644 public/blog/2017/09/21/tidy_carrots/index.html
- delete mode 100644 public/blog/2017/11/15/syntax-highlighting/index.html
- delete mode 100644 public/blog/2018/03/26/purrr_iterations/index.html
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/clonerepo.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/clonerepo2.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/createbranch.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/deletebranch.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/folders.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/frontmatter.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/listfile.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/masterbranch.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/missingimage.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/navlinks.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/newblog.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/newblog2.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/newblog3.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/newrepo.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/newrepo2.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/newsite.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/pfrontmatter.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/pfrontmatter2.png
- delete mode 100644 public/blog/img/articleImages/2016-12-19_creatingSite_img/sourcesbranch.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example1.csv
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example1.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example1Structure.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example2.csv
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example2.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example2Complete.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example2Structure.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example3Complete.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example3Complete2.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example3Structure.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example4.csv
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example4.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example4Colors.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example4Dash.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example4Structure.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example5.csv
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example5.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example5Menu.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example6.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example6Examples.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example6Structure.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example7Menu.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example7Selected.png
- delete mode 100644 public/blog/img/articleImages/2017-05-02_d3Nest_img/Example7Selected2.png
- delete mode 100644 public/blog/img/articleImages/2017-11-15-syntax-highlighting_img/Example1.png
- delete mode 100644 public/blog/img/articleImages/2017-11-15-syntax-highlighting_img/Example2.png
- delete mode 100644 public/blog/img/articleImages/2017-11-15-syntax-highlighting_img/Example3.png
- delete mode 100644 public/blog/img/articleImages/2017-11-15-syntax-highlighting_img/Example4.png
- delete mode 100644 public/blog/img/articleImages/2017-11-15-syntax-highlighting_img/Example5.png
- delete mode 100644 public/blog/img/articleImages/2017-11-15-syntax-highlighting_img/Example6.png
- delete mode 100644 public/blog/img/mainImages/2016-12-17_DSCourses.jpg
- delete mode 100644 public/blog/img/mainImages/2016-12-19_creatingSite.jpg
- delete mode 100644 public/blog/img/mainImages/2017-05-02_d3Nest.png
- delete mode 100644 public/blog/img/mainImages/2017-11-15-syntax-highlighting.png
- delete mode 100644 public/blog/img/mainImages/2017-11-15_syntax-highlighting.png
- delete mode 100644 public/blog/img/mainImages/2018-03-26_purrr-iterations.png
- rename public/{tags/blogdown => contact}/index.html (62%)
- delete mode 100644 public/css/styles.css
- delete mode 100644 public/projects/1/01/01.html
- delete mode 100644 public/projects/1/01/01/index.html
- delete mode 100644 public/projects/2016/11/05/titanic/index.html
- delete mode 100644 public/projects/2016/11/09/ghosts/index.html
- delete mode 100644 public/projects/2016/11/10/bicyclesseattle/index.html
- delete mode 100644 public/projects/2016/11/16/dogsseattle/index.html
- delete mode 100644 public/projects/2016/12/27/fcccourses/index.html
- delete mode 100644 public/projects/2017/01/07/gendermoviedialogue/index.html
- delete mode 100644 public/projects/2017/10/01/approxmap/index.html
- delete mode 100644 public/projects/img/articleImages/2016-11-05_titanic_img/unnamed-chunk-11-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-05_titanic_img/unnamed-chunk-17-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-05_titanic_img/unnamed-chunk-17-2.png
- delete mode 100644 public/projects/img/articleImages/2016-11-05_titanic_img/unnamed-chunk-22-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-05_titanic_img/unnamed-chunk-30-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-05_titanic_img/unnamed-chunk-32-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-05_titanic_img/unnamed-chunk-32-2.png
- delete mode 100644 public/projects/img/articleImages/2016-11-05_titanic_img/unnamed-chunk-37-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-10-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-11-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-12-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-13-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-15-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-19-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-25-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-29-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-6-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-7-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-8-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-09_ghosts_img/unnamed-chunk-9-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-12-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-12-2.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-13-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-15-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-16-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-19-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-21-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-23-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-25-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-26-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-27-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-28-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-29-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-31-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-32-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-34-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-37-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-40-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-41-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-51-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-52-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-53-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-54-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-56-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-57-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-58-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-8-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-10_bicyclesSeattle_img/unnamed-chunk-9-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-16_dogsSeattle_img/unnamed-chunk-23-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-16_dogsSeattle_img/unnamed-chunk-24-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-16_dogsSeattle_img/unnamed-chunk-26-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-16_dogsSeattle_img/unnamed-chunk-27-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-16_dogsSeattle_img/unnamed-chunk-28-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-16_dogsSeattle_img/unnamed-chunk-29-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-16_dogsSeattle_img/unnamed-chunk-30-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-16_dogsSeattle_img/unnamed-chunk-31-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-16_dogsSeattle_img/unnamed-chunk-32-1.png
- delete mode 100644 public/projects/img/articleImages/2016-11-16_dogsSeattle_img/unnamed-chunk-33-1.png
- delete mode 100644 public/projects/img/articleImages/2016-12-27_fccCourses_img/unnamed-chunk-44-1.png
- delete mode 100644 public/projects/img/articleImages/2016-12-27_fccCourses_img/unnamed-chunk-45-1.png
- delete mode 100644 public/projects/img/articleImages/2016-12-27_fccCourses_img/unnamed-chunk-60-1.png
- delete mode 100644 public/projects/img/articleImages/2016-12-27_fccCourses_img/unnamed-chunk-60-2.png
- delete mode 100644 public/projects/img/articleImages/2016-12-27_fccCourses_img/unnamed-chunk-61-1.png
- delete mode 100644 public/projects/img/articleImages/2017-01-07_genderMovieDialogue_img/ColorScheme1.png
- delete mode 100644 public/projects/img/articleImages/2017-01-07_genderMovieDialogue_img/ColorScheme2.png
- delete mode 100644 public/projects/img/articleImages/2017-01-07_genderMovieDialogue_img/ColorScheme3.png
- delete mode 100644 public/projects/img/articleImages/2017-01-07_genderMovieDialogue_img/FinalDesign.jpg
- delete mode 100644 public/projects/img/articleImages/2017-01-07_genderMovieDialogue_img/JB_Baloo.jpg
- delete mode 100644 public/projects/img/articleImages/2017-01-07_genderMovieDialogue_img/RO_V1.jpg
- delete mode 100644 public/projects/img/articleImages/2017-01-07_genderMovieDialogue_img/RO_V2.ai
- delete mode 100644 public/projects/img/articleImages/2017-01-07_genderMovieDialogue_img/RO_V2.jpg
- delete mode 100644 public/projects/img/articleImages/2017-01-07_genderMovieDialogue_img/RO_V3.jpg
- delete mode 100644 public/projects/img/articleImages/2017-01-07_genderMovieDialogue_img/Zootopia_Sloth.jpg
- delete mode 100644 public/projects/img/mainImages/2016-11-05_titanic.jpg
- delete mode 100644 public/projects/img/mainImages/2016-11-09_ghosts.jpg
- delete mode 100644 public/projects/img/mainImages/2016-11-10_bicyclesSeattle.jpg
- delete mode 100644 public/projects/img/mainImages/2016-11-16_dogsSeattle.jpg
- delete mode 100644 public/projects/img/mainImages/2016-12-27_fccCourses.jpg
- delete mode 100644 public/projects/img/mainImages/2017-01-07_genderMovieDialogue.jpg
- create mode 100644 public/resume/img/guru.jpg
- create mode 100644 public/resume/index.Rmd
- rename public/{analyses/2017/07/27/eatingalone => resume}/index.html (70%)
- delete mode 100644 public/tags/blogdown/index.xml
- delete mode 100644 public/tags/blogdown/page/1/index.html
- delete mode 100644 themes/hugo-creative-portfolio-theme/layouts/resume/list.html
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin master
-Counting objects: 80, done.
-Delta compression using up to 8 threads.
-Compressing objects:   1% (1/72)   Compressing objects:   2% (2/72)   Compressing objects:   4% (3/72)   Compressing objects:   5% (4/72)   Compressing objects:   6% (5/72)   Compressing objects:   8% (6/72)   Compressing objects:   9% (7/72)   Compressing objects:  11% (8/72)   Compressing objects:  12% (9/72)   Compressing objects:  13% (10/72)   Compressing objects:  15% (11/72)   Compressing objects:  16% (12/72)   Compressing objects:  18% (13/72)   Compressing objects:  19% (14/72)   Compressing objects:  20% (15/72)   Compressing objects:  22% (16/72)   Compressing objects:  23% (17/72)   Compressing objects:  25% (18/72)   Compressing objects:  26% (19/72)   Compressing objects:  27% (20/72)   Compressing objects:  29% (21/72)   Compressing objects:  30% (22/72)   Compressing objects:  31% (23/72)   Compressing objects:  33% (24/72)   Compressing objects:  34% (25/72)   Compressing objects:  36% (26/72)   Compressing objects:  37% (27/72)   Compressing objects:  38% (28/72)   Compressing objects:  40% (29/72)   Compressing objects:  41% (30/72)   Compressing objects:  43% (31/72)   Compressing objects:  44% (32/72)   Compressing objects:  45% (33/72)   Compressing objects:  47% (34/72)   Compressing objects:  48% (35/72)   Compressing objects:  50% (36/72)   Compressing objects:  51% (37/72)   Compressing objects:  52% (38/72)   Compressing objects:  54% (39/72)   Compressing objects:  55% (40/72)   Compressing objects:  56% (41/72)   Compressing objects:  58% (42/72)   Compressing objects:  59% (43/72)   Compressing objects:  61% (44/72)   Compressing objects:  62% (45/72)   Compressing objects:  63% (46/72)   Compressing objects:  65% (47/72)   Compressing objects:  66% (48/72)   Compressing objects:  68% (49/72)   Compressing objects:  69% (50/72)   Compressing objects:  70% (51/72)   Compressing objects:  72% (52/72)   Compressing objects:  73% (53/72)   Compressing objects:  75% (54/72)   Compressing objects:  76% (55/72)   Compressing objects:  77% (56/72)   Compressing objects:  79% (57/72)   Compressing objects:  80% (58/72)   Compressing objects:  81% (59/72)   Compressing objects:  83% (60/72)   Compressing objects:  84% (61/72)   Compressing objects:  86% (62/72)   Compressing objects:  87% (63/72)   Compressing objects:  88% (64/72)   Compressing objects:  90% (65/72)   Compressing objects:  91% (66/72)   Compressing objects:  93% (67/72)   Compressing objects:  94% (68/72)   Compressing objects:  95% (69/72)   Compressing objects:  97% (70/72)   Compressing objects:  98% (71/72)   Compressing objects: 100% (72/72)   Compressing objects: 100% (72/72), done.
-Writing objects:   1% (1/80)   Writing objects:   2% (2/80)   Writing objects:   3% (3/80)   Writing objects:   5% (4/80)   Writing objects:   6% (5/80)   Writing objects:   7% (6/80)   Writing objects:   8% (7/80)   Writing objects:  10% (8/80)   Writing objects:  11% (9/80)   Writing objects:  12% (10/80)   Writing objects:  13% (11/80)   Writing objects:  15% (12/80)   Writing objects:  16% (13/80)   Writing objects:  17% (14/80)   Writing objects:  18% (15/80)   Writing objects:  20% (16/80)   Writing objects:  21% (17/80)   Writing objects:  22% (18/80)   Writing objects:  23% (19/80)   Writing objects:  25% (20/80)   Writing objects:  26% (21/80)   Writing objects:  27% (22/80)   Writing objects:  28% (23/80)   Writing objects:  31% (25/80)   Writing objects:  32% (26/80)   Writing objects:  33% (27/80)   Writing objects:  35% (28/80)   Writing objects:  36% (29/80)   Writing objects:  37% (30/80)   Writing objects:  38% (31/80)   Writing objects:  40% (32/80)   Writing objects:  41% (33/80)   Writing objects:  42% (34/80)   Writing objects:  43% (35/80)   Writing objects:  45% (36/80)   Writing objects:  46% (37/80)   Writing objects:  47% (38/80)   Writing objects:  48% (39/80)   Writing objects:  50% (40/80)   Writing objects:  51% (41/80)   Writing objects:  52% (42/80)   Writing objects:  53% (43/80)   Writing objects:  55% (44/80)   Writing objects:  56% (45/80)   Writing objects:  57% (46/80)   Writing objects:  58% (47/80)   Writing objects:  60% (48/80)   Writing objects:  61% (49/80)   Writing objects:  62% (50/80)   Writing objects:  63% (51/80)   Writing objects:  65% (52/80)   Writing objects:  66% (53/80)   Writing objects:  67% (54/80)   Writing objects:  68% (55/80)   Writing objects:  70% (56/80)   Writing objects:  72% (58/80)   Writing objects:  73% (59/80)   Writing objects:  75% (60/80)   Writing objects:  76% (61/80)   Writing objects:  77% (62/80)   Writing objects:  78% (63/80)   Writing objects:  80% (64/80)   Writing objects:  81% (65/80)   Writing objects:  82% (66/80)   Writing objects:  83% (67/80)   Writing objects:  85% (68/80)   Writing objects:  86% (69/80)   Writing objects:  87% (70/80)   Writing objects:  88% (71/80)   Writing objects:  90% (72/80)   Writing objects:  91% (73/80)   Writing objects:  92% (74/80)   Writing objects:  93% (75/80)   Writing objects:  95% (76/80)   Writing objects:  96% (77/80)   Writing objects:  97% (78/80)   Writing objects:  98% (79/80)   Writing objects: 100% (80/80)   Writing objects: 100% (80/80), 10.62 KiB | 988.00 KiB/s, done.
-Total 80 (delta 48), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/48)   [Kremote: Resolving deltas:   2% (1/48)   [Kremote: Resolving deltas:   4% (2/48)   [Kremote: Resolving deltas:   6% (3/48)   [Kremote: Resolving deltas:   8% (4/48)   [Kremote: Resolving deltas:  10% (5/48)   [Kremote: Resolving deltas:  12% (6/48)   [Kremote: Resolving deltas:  14% (7/48)   [Kremote: Resolving deltas:  16% (8/48)   [Kremote: Resolving deltas:  18% (9/48)   [Kremote: Resolving deltas:  20% (10/48)   [Kremote: Resolving deltas:  22% (11/48)   [Kremote: Resolving deltas:  25% (12/48)   [Kremote: Resolving deltas:  31% (15/48)   [Kremote: Resolving deltas:  33% (16/48)   [Kremote: Resolving deltas:  35% (17/48)   [Kremote: Resolving deltas:  37% (18/48)   [Kremote: Resolving deltas:  39% (19/48)   [Kremote: Resolving deltas:  41% (20/48)   [Kremote: Resolving deltas:  43% (21/48)   [Kremote: Resolving deltas:  45% (22/48)   [Kremote: Resolving deltas:  52% (25/48)   [Kremote: Resolving deltas:  56% (27/48)   [Kremote: Resolving deltas:  60% (29/48)   [Kremote: Resolving deltas:  62% (30/48)   [Kremote: Resolving deltas:  64% (31/48)   [Kremote: Resolving deltas:  66% (32/48)   [Kremote: Resolving deltas:  68% (33/48)   [Kremote: Resolving deltas:  72% (35/48)   [Kremote: Resolving deltas:  75% (36/48)   [Kremote: Resolving deltas:  77% (37/48)   [Kremote: Resolving deltas:  79% (38/48)   [Kremote: Resolving deltas:  81% (39/48)   [Kremote: Resolving deltas:  83% (40/48)   [Kremote: Resolving deltas:  85% (41/48)   [Kremote: Resolving deltas:  87% (42/48)   [Kremote: Resolving deltas:  89% (43/48)   [Kremote: Resolving deltas:  91% (44/48)   [Kremote: Resolving deltas:  93% (45/48)   [Kremote: Resolving deltas:  95% (46/48)   [Kremote: Resolving deltas:  97% (47/48)   [Kremote: Resolving deltas: 100% (48/48)   [Kremote: Resolving deltas: 100% (48/48), completed with 40 local objects.[K
-To github.com:ilangurudev/data_science_blog.git
-   f2cc249..72b8086  master -> master
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "layouts fixed"add -A[K
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "layouts fixed"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"h"a"p"p"i"n"e"s"s" "i"m"g"
-[master cbcea03] happiness img
- 4 files changed, 300 insertions(+), 4 deletions(-)
- rewrite content/analyses/img/happiness.png (87%)
- rewrite docs/analyses/img/happiness.png (87%)
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "happiness img"add -A[Kpush origin master
-Counting objects: 13, done.
-Delta compression using up to 8 threads.
-Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
-Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 1.05 MiB | 10.12 MiB/s, done.
-Total 13 (delta 8), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
-To github.com:ilangurudev/data_science_blog.git
-   72b8086..cbcea03  master -> master
-git push origin mastercommit -a -m "happiness img"add -A[K
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "happiness img"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"r"e"s"u"m"e" "o"l"d" "v"e"r"s"i"o"n" "d"o"n"e"[C
-[master 9a0e362] resume old version done
- 12 files changed, 420 insertions(+), 196 deletions(-)
- rewrite .Rproj.user/B26CD267/console06/INDEX001 (86%)
- rewrite content/resume/index.Rmd (62%)
- rewrite content/resume/index.html (64%)
- rewrite docs/resume/index.Rmd (62%)
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git[K[Kit commit -a -m "resume old version done"add -A[Kpush origin master
-Counting objects: 25, done.
-Delta compression using up to 8 threads.
-Compressing objects:   4% (1/23)   Compressing objects:   8% (2/23)   Compressing objects:  13% (3/23)   Compressing objects:  17% (4/23)   Compressing objects:  21% (5/23)   Compressing objects:  26% (6/23)   Compressing objects:  30% (7/23)   Compressing objects:  34% (8/23)   Compressing objects:  39% (9/23)   Compressing objects:  43% (10/23)   Compressing objects:  47% (11/23)   Compressing objects:  52% (12/23)   Compressing objects:  56% (13/23)   Compressing objects:  60% (14/23)   Compressing objects:  65% (15/23)   Compressing objects:  69% (16/23)   Compressing objects:  73% (17/23)   Compressing objects:  78% (18/23)   Compressing objects:  82% (19/23)   Compressing objects:  86% (20/23)   Compressing objects:  91% (21/23)   Compressing objects:  95% (22/23)   Compressing objects: 100% (23/23)   Compressing objects: 100% (23/23), done.
-Writing objects:   4% (1/25)   Writing objects:   8% (2/25)   Writing objects:  12% (3/25)   Writing objects:  16% (4/25)   Writing objects:  20% (5/25)   Writing objects:  24% (6/25)   Writing objects:  28% (7/25)   Writing objects:  32% (8/25)   Writing objects:  36% (9/25)   Writing objects:  40% (10/25)   Writing objects:  44% (11/25)   Writing objects:  48% (12/25)   Writing objects:  52% (13/25)   Writing objects:  56% (14/25)   Writing objects:  60% (15/25)   Writing objects:  64% (16/25)   Writing objects:  68% (17/25)   Writing objects:  72% (18/25)   Writing objects:  76% (19/25)   Writing objects:  88% (22/25)   Writing objects:  92% (23/25)   Writing objects:  96% (24/25)   Writing objects: 100% (25/25)   Writing objects: 100% (25/25), 6.94 KiB | 1015.00 KiB/s, done.
-Total 25 (delta 15), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/15)   [Kremote: Resolving deltas:   6% (1/15)   [Kremote: Resolving deltas:  20% (3/15)   [Kremote: Resolving deltas:  26% (4/15)   [Kremote: Resolving deltas:  33% (5/15)   [Kremote: Resolving deltas:  40% (6/15)   [Kremote: Resolving deltas:  46% (7/15)   [Kremote: Resolving deltas:  53% (8/15)   [Kremote: Resolving deltas:  60% (9/15)   [Kremote: Resolving deltas:  66% (10/15)   [Kremote: Resolving deltas:  73% (11/15)   [Kremote: Resolving deltas:  80% (12/15)   [Kremote: Resolving deltas:  86% (13/15)   [Kremote: Resolving deltas:  93% (14/15)   [Kremote: Resolving deltas: 100% (15/15)   [Kremote: Resolving deltas: 100% (15/15), completed with 12 local objects.[K
-To github.com:ilangurudev/data_science_blog.git
-   cbcea03..9a0e362  master -> master
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "resume old version done"add -A[K
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "resume old version done"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P" "s"k"i"l"l"s" "b"r"e"a"k"
-[master 530b8b2] resume skills break
- 6 files changed, 29 insertions(+), 12 deletions(-)
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "resume skills break"add -A[Kpush origin master
-Counting objects: 14, done.
-Delta compression using up to 8 threads.
-Compressing objects:   7% (1/14)   Compressing objects:  14% (2/14)   Compressing objects:  21% (3/14)   Compressing objects:  28% (4/14)   Compressing objects:  35% (5/14)   Compressing objects:  42% (6/14)   Compressing objects:  50% (7/14)   Compressing objects:  57% (8/14)   Compressing objects:  64% (9/14)   Compressing objects:  71% (10/14)   Compressing objects:  78% (11/14)   Compressing objects:  85% (12/14)   Compressing objects:  92% (13/14)   Compressing objects: 100% (14/14)   Compressing objects: 100% (14/14), done.
-Writing objects:   7% (1/14)   Writing objects:  14% (2/14)   Writing objects:  21% (3/14)   Writing objects:  28% (4/14)   Writing objects:  35% (5/14)   Writing objects:  42% (6/14)   Writing objects:  50% (7/14)   Writing objects:  57% (8/14)   Writing objects:  64% (9/14)   Writing objects:  71% (10/14)   Writing objects:  78% (11/14)   Writing objects:  85% (12/14)   Writing objects:  92% (13/14)   Writing objects: 100% (14/14)   Writing objects: 100% (14/14), 3.45 KiB | 1.72 MiB/s, done.
-Total 14 (delta 10), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/10)   [Kremote: Resolving deltas:  10% (1/10)   [Kremote: Resolving deltas:  20% (2/10)   [Kremote: Resolving deltas:  30% (3/10)   [Kremote: Resolving deltas:  40% (4/10)   [Kremote: Resolving deltas:  50% (5/10)   [Kremote: Resolving deltas:  60% (6/10)   [Kremote: Resolving deltas:  70% (7/10)   [Kremote: Resolving deltas:  90% (9/10)   [Kremote: Resolving deltas: 100% (10/10)   [Kremote: Resolving deltas: 100% (10/10), completed with 8 local objects.[K
-To github.com:ilangurudev/data_science_blog.git
-   9a0e362..530b8b2  master -> master
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "resume skills break"add -A[K
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "resume skills break"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"p"u"b"l"i"c" "d"i"r"e"c"t"o"r"y"
-[master a6f43be] public directory
- 184 files changed, 50 insertions(+), 235151 deletions(-)
- delete mode 100644 docs/about/img/guru.jpg
- delete mode 100644 docs/about/index.Rmd
- delete mode 100644 docs/about/index.html
- delete mode 100644 docs/analyses/2017-09-01_tennis_big4.Rmd
- delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-10-1.png
- delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-2-1.png
- delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-3-1.png
- delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-4-1.png
- delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-5-1.png
- delete mode 100644 docs/analyses/2017-09-01_tennis_big4_files/figure-html/unnamed-chunk-7-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp.Rmd
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-1-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-10-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-13-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-18-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-3-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-7-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_cp_files/figure-html/unnamed-chunk-9-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-1-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-10-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-13-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-18-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-3-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-7-1.png
- delete mode 100644 docs/analyses/2018-03-01_unweaving_happiness_files/figure-html/unnamed-chunk-9-1.png
- delete mode 100644 docs/analyses/data/Countries-Continents.csv
- delete mode 100644 docs/analyses/data/WHR2018Chapter2OnlineData.xls
- delete mode 100644 docs/analyses/data/atp_matches_all_new_2.csv
- delete mode 100644 docs/analyses/img/big-four.jpg
- delete mode 100644 docs/analyses/index.html
- delete mode 100644 docs/analyses/index.xml
- delete mode 100644 docs/analyses/page/1/index.html
- delete mode 100644 docs/analyses/tennis_big4/index.html
- delete mode 100644 docs/analyses/unweaving_happiness/index.html
- delete mode 100644 docs/blog/2017-03-17_purrr_with_caret.Rmd
- delete mode 100644 docs/blog/2017-05-02_d3Nest_files/figure-html/unnamed-chunk-7-1.png
- delete mode 100644 docs/blog/img/carets.png
- delete mode 100644 docs/blog/index.html
- delete mode 100644 docs/blog/index.xml
- delete mode 100644 docs/blog/page/1/index.html
- delete mode 100644 docs/blog/tidy_carrots/index.html
+
  delete mode 100644 docs/categories/index.html
  delete mode 100644 docs/categories/index.xml
  delete mode 100644 docs/categories/page/1/index.html
@@ -1463,3 +941,63 @@ To github.com:ilangurudev/data_science_blog.git
    6f2c18a..fbfb5ed  master -> master
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "thumbs added"add -A[K
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "thumbs added"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"p"a"g"i"n"a"t"i"o"n" "w"o"r"k"s" "n"o"w"
+[master 0bf693a] pagination works now
+ 123 files changed, 7270 insertions(+), 90 deletions(-)
+ create mode 100644 content/projects/2017-12-01_egen_ml.Rmd
+ create mode 100644 content/projects/2017-12-01_egen_ml.html
+ create mode 100644 content/projects/2018-02-15_uav_path.Rmd
+ create mode 100644 content/projects/2018-02-15_uav_path.html
+ create mode 100644 content/projects/2018-03-15_uav_csp.Rmd
+ create mode 100644 content/projects/2018-03-15_uav_csp.html
+ create mode 100644 content/projects/2018-05-15_stat_template.Rmd
+ create mode 100644 content/projects/2018-05-15_stat_template.html
+ create mode 100644 content/projects/2018-07-15_productivity_dashboard.Rmd
+ create mode 100644 content/projects/2018-07-15_productivity_dashboard.html
+ create mode 100644 content/projects/img/csp.jpg
+ create mode 100644 content/projects/img/egen.jpg
+ create mode 100644 content/projects/img/productivity.png
+ create mode 100644 content/projects/img/stats.png
+ create mode 100644 content/projects/img/uav_path.png
+ create mode 100644 public/projects/2017-12-01_egen_ml.Rmd
+ create mode 100644 public/projects/2018-02-15_uav_path.Rmd
+ create mode 100644 public/projects/2018-03-15_uav_csp.Rmd
+ create mode 100644 public/projects/2018-05-15_stat_template.Rmd
+ create mode 100644 public/projects/2018-07-15_productivity_dashboard.Rmd
+ create mode 100644 public/projects/egen_ml/index.html
+ create mode 100644 public/projects/img/csp.jpg
+ create mode 100644 public/projects/img/egen.jpg
+ create mode 100644 public/projects/img/productivity.png
+ create mode 100644 public/projects/img/stats.png
+ create mode 100644 public/projects/img/uav_path.png
+ create mode 100644 public/projects/page/2/index.html
+ create mode 100644 public/projects/productivity_dashboard/index.html
+ create mode 100644 public/projects/productivity_log/index.html
+ create mode 100644 public/projects/stat_template/index.html
+ create mode 100644 public/projects/uav_csp/index.html
+ create mode 100644 public/projects/uav_path/index.html
+ create mode 100644 public/tags/algorithms/index.html
+ create mode 100644 public/tags/algorithms/index.xml
+ create mode 100644 public/tags/algorithms/page/1/index.html
+ create mode 100644 public/tags/data_viz/index.html
+ create mode 100644 public/tags/data_viz/index.xml
+ create mode 100644 public/tags/data_viz/page/1/index.html
+ create mode 100644 public/tags/google_sheets/index.html
+ create mode 100644 public/tags/google_sheets/index.xml
+ create mode 100644 public/tags/google_sheets/page/1/index.html
+ create mode 100644 public/tags/shiny/index.html
+ create mode 100644 public/tags/shiny/index.xml
+ create mode 100644 public/tags/shiny/page/1/index.html
+ create mode 100644 public/tags/statistics/index.html
+ create mode 100644 public/tags/statistics/index.xml
+ create mode 100644 public/tags/statistics/page/1/index.html
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "pagination works now"add -A[Kpush origin master
+Counting objects: 213, done.
+Delta compression using up to 8 threads.
+Compressing objects:   0% (1/181)   Compressing objects:   1% (2/181)   Compressing objects:   2% (4/181)   Compressing objects:   3% (6/181)   Compressing objects:   4% (8/181)   Compressing objects:   5% (10/181)   Compressing objects:   6% (11/181)   Compressing objects:   7% (13/181)   Compressing objects:   8% (15/181)   Compressing objects:   9% (17/181)   Compressing objects:  10% (19/181)   Compressing objects:  11% (20/181)   Compressing objects:  12% (22/181)   Compressing objects:  13% (24/181)   Compressing objects:  14% (26/181)   Compressing objects:  15% (28/181)   Compressing objects:  16% (29/181)   Compressing objects:  17% (31/181)   Compressing objects:  18% (33/181)   Compressing objects:  19% (35/181)   Compressing objects:  20% (37/181)   Compressing objects:  21% (39/181)   Compressing objects:  22% (40/181)   Compressing objects:  23% (42/181)   Compressing objects:  24% (44/181)   Compressing objects:  25% (46/181)   Compressing objects:  26% (48/181)   Compressing objects:  27% (49/181)   Compressing objects:  28% (51/181)   Compressing objects:  29% (53/181)   Compressing objects:  30% (55/181)   Compressing objects:  31% (57/181)   Compressing objects:  32% (58/181)   Compressing objects:  33% (60/181)   Compressing objects:  34% (62/181)   Compressing objects:  35% (64/181)   Compressing objects:  36% (66/181)   Compressing objects:  37% (67/181)   Compressing objects:  38% (69/181)   Compressing objects:  39% (71/181)   Compressing objects:  40% (73/181)   Compressing objects:  41% (75/181)   Compressing objects:  42% (77/181)   Compressing objects:  43% (78/181)   Compressing objects:  44% (80/181)   Compressing objects:  45% (82/181)   Compressing objects:  46% (84/181)   Compressing objects:  47% (86/181)   Compressing objects:  48% (87/181)   Compressing objects:  49% (89/181)   Compressing objects:  50% (91/181)   Compressing objects:  51% (93/181)   Compressing objects:  52% (95/181)   Compressing objects:  53% (96/181)   Compressing objects:  54% (98/181)   Compressing objects:  55% (100/181)   Compressing objects:  56% (102/181)   Compressing objects:  57% (104/181)   Compressing objects:  58% (105/181)   Compressing objects:  59% (107/181)   Compressing objects:  60% (109/181)   Compressing objects:  61% (111/181)   Compressing objects:  62% (113/181)   Compressing objects:  63% (115/181)   Compressing objects:  64% (116/181)   Compressing objects:  65% (118/181)   Compressing objects:  66% (120/181)   Compressing objects:  67% (122/181)   Compressing objects:  68% (124/181)   Compressing objects:  69% (125/181)   Compressing objects:  70% (127/181)   Compressing objects:  71% (129/181)   Compressing objects:  72% (131/181)   Compressing objects:  73% (133/181)   Compressing objects:  74% (134/181)   Compressing objects:  75% (136/181)   Compressing objects:  76% (138/181)   Compressing objects:  77% (140/181)   Compressing objects:  78% (142/181)   Compressing objects:  79% (143/181)   Compressing objects:  80% (145/181)   Compressing objects:  81% (147/181)   Compressing objects:  82% (149/181)   Compressing objects:  83% (151/181)   Compressing objects:  84% (153/181)   Compressing objects:  85% (154/181)   Compressing objects:  86% (156/181)   Compressing objects:  87% (158/181)   Compressing objects:  88% (160/181)   Compressing objects:  89% (162/181)   Compressing objects:  90% (163/181)   Compressing objects:  91% (165/181)   Compressing objects:  92% (167/181)   Compressing objects:  93% (169/181)   Compressing objects:  94% (171/181)   Compressing objects:  95% (172/181)   Compressing objects:  96% (174/181)   Compressing objects:  97% (176/181)   Compressing objects:  98% (178/181)   Compressing objects:  99% (180/181)   Compressing objects: 100% (181/181)   Compressing objects: 100% (181/181), done.
+Writing objects:   0% (1/213)   Writing objects:   1% (3/213)   Writing objects:   2% (5/213)   Writing objects:   3% (7/213)   Writing objects:   4% (9/213)   Writing objects:   5% (11/213)   Writing objects:   6% (13/213)   Writing objects:   7% (15/213)   Writing objects:   8% (18/213)   Writing objects:   9% (20/213)   Writing objects:  10% (22/213)   Writing objects:  11% (24/213)   Writing objects:  12% (26/213)   Writing objects:  13% (28/213)   Writing objects:  14% (30/213)   Writing objects:  15% (32/213)   Writing objects:  16% (35/213)   Writing objects:  17% (37/213)   Writing objects:  18% (39/213)   Writing objects:  19% (41/213)   Writing objects:  20% (43/213)   Writing objects:  21% (45/213)   Writing objects:  22% (47/213)   Writing objects:  23% (50/213)   Writing objects:  24% (52/213)   Writing objects:  25% (54/213)   Writing objects:  26% (56/213)   Writing objects:  27% (58/213)   Writing objects:  28% (60/213)   Writing objects:  29% (62/213)   Writing objects:  30% (64/213)   Writing objects:  31% (67/213)   Writing objects:  32% (69/213)   Writing objects:  33% (72/213)   Writing objects:  34% (73/213)   Writing objects:  35% (75/213)   Writing objects:  36% (77/213)   Writing objects:  37% (79/213)   Writing objects:  38% (81/213)   Writing objects:  39% (84/213)   Writing objects:  40% (86/213)   Writing objects:  41% (88/213)   Writing objects:  42% (90/213)   Writing objects:  43% (92/213)   Writing objects:  44% (94/213)   Writing objects:  45% (96/213)   Writing objects:  46% (98/213)   Writing objects:  47% (101/213)   Writing objects:  48% (103/213)   Writing objects:  49% (105/213)   Writing objects:  50% (107/213)   Writing objects:  51% (109/213)   Writing objects:  52% (111/213)   Writing objects:  53% (114/213)   Writing objects:  54% (116/213)   Writing objects:  56% (120/213)   Writing objects:  57% (122/213)   Writing objects:  58% (125/213)   Writing objects:  59% (126/213)   Writing objects:  60% (128/213)   Writing objects:  61% (130/213)   Writing objects:  62% (133/213)   Writing objects:  64% (137/213)   Writing objects:  65% (139/213)   Writing objects:  66% (141/213)   Writing objects:  67% (143/213)   Writing objects:  68% (145/213)   Writing objects:  69% (147/213)   Writing objects:  70% (150/213)   Writing objects:  71% (152/213)   Writing objects:  72% (154/213)   Writing objects:  73% (156/213)   Writing objects:  74% (158/213)   Writing objects:  75% (160/213)   Writing objects:  76% (162/213)   Writing objects:  77% (165/213)   Writing objects:  78% (167/213)   Writing objects:  79% (169/213)   Writing objects:  80% (171/213)   Writing objects:  81% (173/213)   Writing objects:  82% (175/213)   Writing objects:  83% (177/213)   Writing objects:  84% (179/213)   Writing objects:  85% (182/213)   Writing objects:  86% (184/213)   Writing objects:  87% (186/213)   Writing objects:  88% (188/213)   Writing objects:  89% (190/213)   Writing objects:  90% (192/213)   Writing objects:  91% (194/213)   Writing objects:  92% (196/213)   Writing objects:  93% (199/213)   Writing objects:  94% (201/213)   Writing objects:  95% (203/213)   Writing objects:  96% (205/213)   Writing objects:  97% (207/213)   Writing objects:  98% (209/213)   Writing objects:  99% (211/213)   Writing objects: 100% (213/213)   Writing objects: 100% (213/213), 407.56 KiB | 6.47 MiB/s, done.
+Total 213 (delta 109), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/109)   [Kremote: Resolving deltas:   3% (4/109)   [Kremote: Resolving deltas:   5% (6/109)   [Kremote: Resolving deltas:   6% (7/109)   [Kremote: Resolving deltas:   7% (8/109)   [Kremote: Resolving deltas:   8% (9/109)   [Kremote: Resolving deltas:   9% (10/109)   [Kremote: Resolving deltas:  10% (11/109)   [Kremote: Resolving deltas:  11% (12/109)   [Kremote: Resolving deltas:  12% (14/109)   [Kremote: Resolving deltas:  13% (15/109)   [Kremote: Resolving deltas:  14% (16/109)   [Kremote: Resolving deltas:  15% (17/109)   [Kremote: Resolving deltas:  16% (18/109)   [Kremote: Resolving deltas:  17% (19/109)   [Kremote: Resolving deltas:  18% (20/109)   [Kremote: Resolving deltas:  19% (21/109)   [Kremote: Resolving deltas:  20% (22/109)   [Kremote: Resolving deltas:  25% (28/109)   [Kremote: Resolving deltas:  26% (29/109)   [Kremote: Resolving deltas:  35% (39/109)   [Kremote: Resolving deltas:  37% (41/109)   [Kremote: Resolving deltas:  44% (49/109)   [Kremote: Resolving deltas:  45% (50/109)   [Kremote: Resolving deltas:  46% (51/109)   [Kremote: Resolving deltas:  47% (52/109)   [Kremote: Resolving deltas:  51% (56/109)   [Kremote: Resolving deltas:  52% (57/109)   [Kremote: Resolving deltas:  53% (58/109)   [Kremote: Resolving deltas:  59% (65/109)   [Kremote: Resolving deltas:  66% (73/109)   [Kremote: Resolving deltas:  67% (74/109)   [Kremote: Resolving deltas:  68% (75/109)   [Kremote: Resolving deltas:  69% (76/109)   [Kremote: Resolving deltas:  70% (77/109)   [Kremote: Resolving deltas:  71% (78/109)   [Kremote: Resolving deltas:  72% (79/109)   [Kremote: Resolving deltas:  73% (80/109)   [Kremote: Resolving deltas:  77% (84/109)   [Kremote: Resolving deltas:  84% (92/109)   [Kremote: Resolving deltas:  88% (97/109)   [Kremote: Resolving deltas:  89% (98/109)   [Kremote: Resolving deltas:  90% (99/109)   [Kremote: Resolving deltas:  91% (100/109)   [Kremote: Resolving deltas:  93% (102/109)   [Kremote: Resolving deltas:  94% (103/109)   [Kremote: Resolving deltas:  95% (104/109)   [Kremote: Resolving deltas:  96% (105/109)   [Kremote: Resolving deltas:  97% (106/109)   [Kremote: Resolving deltas:  98% (107/109)   [Kremote: Resolving deltas:  99% (108/109)   [Kremote: Resolving deltas: 100% (109/109)   [Kremote: Resolving deltas: 100% (109/109), completed with 51 local objects.[K
+To github.com:ilangurudev/data_science_blog.git
+   fbfb5ed..0bf693a  master -> master
+git push origin mastercommit -a -m "better dashboard"add -A[K
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "better dashboard"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"g"i"t"h"u"b"

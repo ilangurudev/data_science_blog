@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Why every researcher should use github</title>
+      <link>/blog/git_research/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/git_research/</guid>
+      <description>Why I am writing this. Why git? And what is github? Myths Github is just Google Drive for code You need to be able to code to use these things  Advantages Project snapshots Pay it forward Project management A project page or wiki. Collaboration A portfolio of your research Branching, merging and pull requests Command line? No problem!  Some guidelines   Why I am writing this. Having been in the masters program in industrial engineering and computer science while doing research, I have witnessed a great deal of disconnect between the tools computer scientists use and how researchers in others fields operate.</description>
+    </item>
+    
+    <item>
       <title>Productivity dashboard</title>
       <link>/projects/productivity_dashboard/</link>
       <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
