@@ -21,7 +21,16 @@
     </item>
     
     <item>
-      <title>Approxmap - An R package to explore macro trends in sequential data</title>
+      <title>approxmapR - An R package to explore macro trends in sequential data</title>
+      <link>/projects/approxmap/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/approxmap/</guid>
+      <description>Setting Up Motivation Workflow General Instructions 1. Aggregate the data 2. Cluster the data 3. Extract the patterns 4. Formatted output  Using tidyverse to fully exploit approxmapR   ApproxmapR is an R package for the approxmap algorithm, used for exploratory data analysis of sequential data. When we have longitudinal data and we want to find out the underlying patterns, we use approxmap. approxmapR aims to provide a consistent and tidy api for using the algorithm in R.</description>
+    </item>
+    
+    <item>
+      <title>approxmapR - An R package to explore macro trends in sequential data</title>
       <link>/projects/approxmap/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       

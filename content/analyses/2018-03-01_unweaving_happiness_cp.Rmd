@@ -26,6 +26,10 @@ Basically, people in countries across the world are surveyed based on the follow
 
 It's still not completely objective. How do you know how happy you are? Are you really as happy as you think you are? I mean what is happiness anyway? Without getting too philosophical, the question is a great way to measure happiness on a macro scale. There are however some questions like how representative the sample is but let's assume that the sample indeed is representative. Luckily, they had made the summarized data publicly available.
 
+### A word of warning if you are reading from a mobile
+
+Many of the plots in this article are iteractive and hence require a lot of screen space. Hence, if you are reading from a mobile, the experience will not be very... happy?
+
 Let's get exploring!
 
 
