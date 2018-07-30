@@ -79,7 +79,7 @@ make_table <- function(tbl) {
 ## Missing
 
 Are there any missing values?
-```{r fig.height=6, cache=TRUE}
+```{r fig.height=6, cache=TRUE, out.width='100%'}
 vis_miss(df_happiness_raw)
 ```
 
@@ -125,7 +125,7 @@ df_happiness <-
 ```
 
 
-```{r, cache=TRUE}
+```{r, cache=TRUE, out.width='100%'}
 vis_miss(df_happiness)
 ```
 
@@ -137,7 +137,7 @@ Let's do some EDA. Some maps are interactive (the legends can be used to filter!
 
 ## Happiness levels
 Happiness levels have remained largely constant over the years except for South America...
-```{r fig.width=12, fig.height=9,message=FALSE,fig.align='left', cache=TRUE}
+```{r message=FALSE,fig.align='left', cache=TRUE, out.width='100%'}
 plt_year_happiness <- 
   df_happiness %>% 
   filter(year > 2005) %>% 
@@ -160,7 +160,7 @@ If we filter just one continent at a time, we can see that South America is the 
 
 ## Standard Deviation of happiness
 Admittedly, the mean is not the best reflector of happiness of a country. We need the variance too! We have 2 columns in the dataset named standard_deviation_of_ladder_by_country_year, standard_deviation_mean_of_ladder_by_country_year (standard error?). Not sure what the second means and assuming the first one is what I need, let's see the countries with the most and least variation. 
-```{r fig.width=12, fig.height=9,message=FALSE, fig.align='left', cache=TRUE}
+```{r message=FALSE, fig.align='left', cache=TRUE, out.width='100%'}
 plt_year_std <- 
   df_happiness %>% 
   filter(year > 2005) %>% 
@@ -179,7 +179,7 @@ Wow! Many countries have a standard deviation around 3 and a happiness level aro
 On the other side, the happiest countries are the ones where all of them are general very happy and not where some are extremely happy and some are just moderately happy getting averaging each other out. Powerful idea.
 
 Let's confirm this hypothesis by looking at a plot of standard deviation versus mean for 2017. 
-```{r fig.width=10, fig.height=8,message=FALSE, cache=TRUE}
+```{r message=FALSE, cache=TRUE, out.width='100%'}
 plt_std_happiness <- 
   df_happiness %>% 
   filter(year == 2017) %>% 
@@ -197,7 +197,7 @@ ggplotly(plt_std_happiness, tooltip = c("country", "continent","life_ladder"))
 
 ## Correlation Analysis
 Let's take a look at the correlation plot of all the variables in our dataset and explore relationships in detail. 
-```{r fig.width=12, fig.height=9,message=FALSE, cache=TRUE}
+```{r message=FALSE, cache=TRUE, out.width='100%'}
 cors <- cor(df_happiness %>% select_if(is.numeric), method = "spearman")
 corrplot(cors)
 highly_correlated_with_happiness <- cors["life_ladder",][order(-abs(cors["life_ladder",]))] %>% .[-1] %>% .[1:5]
@@ -209,7 +209,7 @@ We already analyzed the negative correlation standard deviation has with happine
 
 ## GDP's relationship
 GDP per capita is the most highly correlated. No surprises here.
-```{r fig.width=12, fig.height=10, message=FALSE, cache=TRUE}
+```{r message=FALSE, cache=TRUE, out.width='100%'}
 plt_gdp_happiness <- 
   df_happiness %>% filter(year > 2005) %>%  #we don't have neough values
   ggplot(aes(log_gdp_per_capita, life_ladder, col = continent, label = country)) +
@@ -227,7 +227,7 @@ ggplotly(plt_gdp_happiness, tooltip = "country")
 We could take a look at healthy life expectancy vs happiness too. Note that it is that's highly correlated with GDP. Also note that, it is not just life expectancy. It's healthy life expectancy! It matters how healthy you are in your life! 
 
 I am not splitting by year in the next few plots. 
-```{r fig.width=11.5, fig.height=9,message=FALSE, cache=TRUE}
+```{r message=FALSE, cache=TRUE, out.width='100%'}
 df_happiness %>% 
   ggplot(aes(healthy_life_expectancy, life_ladder, col = continent)) +
   geom_point(alpha = .8, size = 2.5) +
@@ -244,7 +244,7 @@ So is social support. However, it is interesting to look at what social support 
 
 A sense of security and connection are common among happy people. 
 
-```{r  fig.width=11.5, fig.height=9,message=FALSE, cache=TRUE}
+```{r message=FALSE, cache=TRUE, out.width='100%'}
 df_happiness %>% 
   ggplot(aes(social_support, life_ladder, col = continent)) +
   geom_point(alpha = .8, size = 2.5) +
@@ -272,7 +272,7 @@ So the variables I am using:
 1. Democratic quality
 1. Gini of household_income
 
-```{r, cache=TRUE}
+```{r cache=TRUE, out.width='100%'}
 df_happiness_caret <- 
   df_happiness %>% 
   filter(year != 2017) %>% 
@@ -283,7 +283,7 @@ df_test <- df_happiness %>% filter(year == 2017) %>% as.data.frame()
 ```
 
 I am also centering, scaling and using box cox to remove skew as part of preprocessing. 
-```{r, cache=TRUE}
+```{r cache=TRUE, out.width='100%'}
 pre_process_model <- preProcess(df_happiness_caret[,-1], method = c("center", "scale","BoxCox"))
 df_happiness_caret <- predict(pre_process_model, df_happiness_caret)
 df_test <- predict(pre_process_model, df_test)
@@ -292,7 +292,7 @@ df_test <- predict(pre_process_model, df_test)
 
 ## Modeling
 I am trying out many models - random forests, ranger(a different implementation for RF), Radial SVM, xgboost, knn, elasticNet and a liner regression.  Like Stated above, we use 10 fold cross validation to build and validate our models and let caret take care of parameter tuning. 
-```{r modeling, cache=TRUE}
+```{r modeling, cache=TRUE, out.width='100%'}
 tr <- trainControl(method = "cv", number = 10)
 
 model_rf <- train(life_ladder~., 
@@ -349,7 +349,7 @@ summary(results)
 
 ## Model Selection
 Perfect! Let's tidy up the results a bit and compare the models. 
-```{r fig.width=12, fig.height=9,message=FALSE, cache=TRUE}
+```{r message=FALSE, cache=TRUE, out.width='100%'}
 results_tidy <- 
   results$values %>% 
   gather(metric, value, 2:ncol(.)) %>% 
@@ -379,7 +379,7 @@ It's a tight competition between ranger and random forest but ranger is the winn
 
 ## Testing our model/Diagnostics
 Now let's add predictions of our model to the test set and compare the actual with the predicted results. 
-```{r fig.width=12, fig.height=10,message=FALSE, cache=TRUE}
+```{r message=FALSE, cache=TRUE, out.width='100%'}
 
 df_test <- 
   df_test %>% 
@@ -407,7 +407,7 @@ Our model does a pretty neat job predicting happiness. Except in the lower tail 
 
 ## Best and Worst Predictions
 Let's take a look at our best and worst predictions. 
-```{r, cache=TRUE}
+```{r cache=TRUE, out.width='100%'}
 test_acc <- 
   df_test %>% 
   select(country, continent, life_ladder, pred_life_ladder) %>% 
@@ -419,7 +419,7 @@ make_table(test_acc)
 ```
 
 The countries which our model is off by a step.
-```{r, cache=TRUE}
+```{r cache=TRUE, out.width='100%'}
 df_test %>% 
   filter(!near(pred_life_ladder, life_ladder, 1)) %>% 
   make_table()
@@ -427,7 +427,7 @@ df_test %>%
 ```
 
 The countries that are predicted extremely well.
-```{r, cache=TRUE}
+```{r cache=TRUE, out.width='100%'}
 df_test %>% 
   filter(near(pred_life_ladder, life_ladder, .05)) %>% 
   make_table()
@@ -436,7 +436,7 @@ df_test %>%
 
 # Conclusion
 And what does a machine learning model have to say about which variables it found most useful to predict?
-```{r fig.width=7, fig.height=7,message=FALSE, cache=TRUE}
+```{r message=FALSE, cache=TRUE, out.width='100%'}
 plot(varImp(model_rf))
 ```
 
