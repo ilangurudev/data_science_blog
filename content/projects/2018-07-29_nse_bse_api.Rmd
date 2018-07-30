@@ -62,7 +62,7 @@ library(tidyverse)
 
 ## `download_stocks`
 
-The main workhorse function in the package `download_stocks`. However, you will rarely have to use it. It still pays to understand the parameters as it is the basis of the other functions that you will probably use. 
+The workhorse of the package is the function `download_stocks`. However, you will rarely have to use it. It still pays to understand the parameters as it is the basis of the other functions that you will probably use. 
 ```{r cache=TRUE}
 download_stocks(date = "2018-07-20", exchange = c("nse", "bse"), dest_path = "./data", quiet = FALSE)
 ```
