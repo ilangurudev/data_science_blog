@@ -1,59 +1,4 @@
 
- delete mode 100644 docs/categories/index.html
- delete mode 100644 docs/categories/index.xml
- delete mode 100644 docs/categories/page/1/index.html
- delete mode 100644 docs/contact/index.html
- delete mode 100644 docs/contact/index.xml
- delete mode 100644 docs/css/atom-one-dark.css
- delete mode 100644 docs/css/bootstrap.css
- delete mode 100644 docs/css/bootstrap.min.css
- delete mode 100644 docs/css/bootstrap.min.css.map
- delete mode 100644 docs/css/custom.css
- delete mode 100644 docs/css/font-awesome.min.css
- delete mode 100644 docs/css/fonts/FontAwesome.otf
- delete mode 100644 docs/css/fonts/fontawesome-webfont.eot
- delete mode 100644 docs/css/fonts/fontawesome-webfont.svg
- delete mode 100644 docs/css/fonts/fontawesome-webfont.ttf
- delete mode 100644 docs/css/fonts/fontawesome-webfont.woff
- delete mode 100644 docs/css/fonts/fontawesome-webfont.woff2
- delete mode 100644 docs/css/github-gist.css
- delete mode 100644 docs/css/helper.css
- delete mode 100644 docs/css/monokai-sublime.css
- delete mode 100644 docs/css/owl.carousel.css
- delete mode 100644 docs/css/owl.theme.css
- delete mode 100644 docs/css/owl.transitions.css
- delete mode 100644 docs/css/style.blue.css
- delete mode 100644 docs/css/style.default.css
- delete mode 100644 docs/css/style.green.css
- delete mode 100644 docs/css/style.pink.css
- delete mode 100644 docs/css/style.red.css
- delete mode 100644 docs/css/style.sea.css
- delete mode 100644 docs/css/style.violet.css
- delete mode 100644 docs/css/zenburn.css
- delete mode 100644 docs/img/favicon.png
- delete mode 100644 docs/index.html
- delete mode 100644 docs/index.xml
- delete mode 100644 docs/js/backtotop.js
- delete mode 100755 docs/js/bootstrap.min.js
- delete mode 100644 docs/js/ekko-lightbox.js
- delete mode 100644 docs/js/front.js
- delete mode 100644 docs/js/highlight.pack.js
- delete mode 100644 docs/js/imagesloaded.pkgd.min.js
- delete mode 100644 docs/js/jquery.cookie.js
- delete mode 100644 docs/js/jquery.min.js
- delete mode 100644 docs/js/jquery.scrollTo.min.js
- delete mode 100644 docs/js/main.js
- delete mode 100644 docs/js/masonry.pkgd.min.js
- delete mode 100644 docs/js/owl.carousel.min.js
- delete mode 100644 docs/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
- delete mode 100644 docs/projects/2017-10-01_approxmapR.Rmd
- delete mode 100644 docs/projects/approxmap/index.html
- delete mode 100644 docs/projects/img/approxmapR.jpg
- delete mode 100644 docs/projects/index.html
- delete mode 100644 docs/projects/index.xml
- delete mode 100644 docs/projects/page/1/index.html
- delete mode 100644 docs/resume/img/guru.jpg
- delete mode 100644 docs/rmarkdown-libs/crosstalk/css/crosstalk.css
  delete mode 100644 docs/rmarkdown-libs/crosstalk/js/crosstalk.js
  delete mode 100644 docs/rmarkdown-libs/crosstalk/js/crosstalk.js.map
  delete mode 100644 docs/rmarkdown-libs/crosstalk/js/crosstalk.min.js
@@ -1043,3 +988,16 @@ To github.com:ilangurudev/data_science_blog.git
    5872eb4..726a06b  master -> master
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "spellcheck"add -A[K
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "spellcheck"
+[master ef19ca8] spellcheck
+ 5 files changed, 50 insertions(+), 37 deletions(-)
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "spellcheck"add -A[Kpush origin master
+Counting objects: 14, done.
+Delta compression using up to 8 threads.
+Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
+Writing objects:   7% (1/14)   Writing objects:  14% (2/14)   Writing objects:  21% (3/14)   Writing objects:  28% (4/14)   Writing objects:  35% (5/14)   Writing objects:  42% (6/14)   Writing objects:  50% (7/14)   Writing objects:  57% (8/14)   Writing objects:  64% (9/14)   Writing objects:  71% (10/14)   Writing objects:  78% (11/14)   Writing objects:  85% (12/14)   Writing objects:  92% (13/14)   Writing objects: 100% (14/14)   Writing objects: 100% (14/14), 1.60 KiB | 1.60 MiB/s, done.
+Total 14 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/10)   [Kremote: Resolving deltas:  10% (1/10)   [Kremote: Resolving deltas:  20% (2/10)   [Kremote: Resolving deltas:  30% (3/10)   [Kremote: Resolving deltas:  40% (4/10)   [Kremote: Resolving deltas:  50% (5/10)   [Kremote: Resolving deltas:  60% (6/10)   [Kremote: Resolving deltas:  70% (7/10)   [Kremote: Resolving deltas:  80% (8/10)   [Kremote: Resolving deltas:  90% (9/10)   [Kremote: Resolving deltas: 100% (10/10)   [Kremote: Resolving deltas: 100% (10/10), completed with 10 local objects.[K
+To github.com:ilangurudev/data_science_blog.git
+   726a06b..ef19ca8  master -> master
+git push origin mastercommit -a -m "httr reference added"add -A[K
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "httr reference added"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"I"n"d"i"a"n"S"t"o"c"k"s"R"
