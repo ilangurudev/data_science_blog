@@ -1,91 +1,4 @@
 
- delete mode 100644 docs/rmarkdown-libs/crosstalk/js/crosstalk.js
- delete mode 100644 docs/rmarkdown-libs/crosstalk/js/crosstalk.js.map
- delete mode 100644 docs/rmarkdown-libs/crosstalk/js/crosstalk.min.js
- delete mode 100644 docs/rmarkdown-libs/crosstalk/js/crosstalk.min.js.map
- delete mode 100644 docs/rmarkdown-libs/font-awesome/css/font-awesome.css
- delete mode 100644 docs/rmarkdown-libs/font-awesome/css/font-awesome.min.css
- delete mode 100644 docs/rmarkdown-libs/font-awesome/fonts/fontawesome-webfont.ttf
- delete mode 100644 docs/rmarkdown-libs/htmlwidgets/htmlwidgets.js
- delete mode 100644 docs/rmarkdown-libs/jquery/jquery-AUTHORS.txt
- delete mode 100644 docs/rmarkdown-libs/jquery/jquery.js
- delete mode 100644 docs/rmarkdown-libs/jquery/jquery.min.js
- delete mode 100644 docs/rmarkdown-libs/jquery/jquery.min.map
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/colourpicker/LICENSE
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/colourpicker/colourpicker.min.css
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/colourpicker/colourpicker.min.js
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/plotlyjs/LICENSE
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/plotlyjs/plotly-htmlwidgets.css
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/plotlyjs/plotly-latest.min.js
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/selectize/selectize.bootstrap3.css
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/selectize/selectize.min.js
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/typedarray/LICENSE
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/lib/typedarray/typedarray.min.js
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/plotly.js
- delete mode 100644 docs/rmarkdown-libs/plotly-binding/plotly.yaml
- delete mode 100644 docs/rmarkdown-libs/plotlyjs/LICENSE
- delete mode 100644 docs/rmarkdown-libs/plotlyjs/plotly-htmlwidgets.css
- delete mode 100644 docs/rmarkdown-libs/plotlyjs/plotly-latest.min.js
- delete mode 100644 docs/rmarkdown-libs/typedarray/LICENSE
- delete mode 100644 docs/rmarkdown-libs/typedarray/typedarray.min.js
- delete mode 100644 docs/sitemap.xml
- delete mode 100644 docs/tags/analysis/index.html
- delete mode 100644 docs/tags/analysis/index.xml
- delete mode 100644 docs/tags/analysis/page/1/index.html
- delete mode 100644 docs/tags/caret/index.html
- delete mode 100644 docs/tags/caret/index.xml
- delete mode 100644 docs/tags/caret/page/1/index.html
- delete mode 100644 docs/tags/index.html
- delete mode 100644 docs/tags/index.xml
- delete mode 100644 docs/tags/machine-learning/index.html
- delete mode 100644 docs/tags/machine-learning/index.xml
- delete mode 100644 docs/tags/machine-learning/page/1/index.html
- delete mode 100644 docs/tags/package/index.html
- delete mode 100644 docs/tags/package/index.xml
- delete mode 100644 docs/tags/package/page/1/index.html
- delete mode 100644 docs/tags/page/1/index.html
- delete mode 100644 docs/tags/purrr/index.html
- delete mode 100644 docs/tags/purrr/index.xml
- delete mode 100644 docs/tags/purrr/page/1/index.html
- delete mode 100644 docs/tags/r/index.html
- delete mode 100644 docs/tags/r/index.xml
- delete mode 100644 docs/tags/r/page/1/index.html
- delete mode 100644 docs/tags/sequential_data_mining/index.html
- delete mode 100644 docs/tags/sequential_data_mining/index.xml
- delete mode 100644 docs/tags/sequential_data_mining/page/1/index.html
- delete mode 100644 docs/tags/tennis/index.html
- delete mode 100644 docs/tags/tennis/index.xml
- delete mode 100644 docs/tags/tennis/page/1/index.html
- delete mode 100644 docs/tags/tidyverse/index.html
- delete mode 100644 docs/tags/tidyverse/index.xml
- delete mode 100644 docs/tags/tidyverse/page/1/index.html
- rename {docs => public}/analyses/img/happiness.png (100%)
- rename {docs => public}/resume/index.Rmd (100%)
- rename {docs => public}/resume/index.html (100%)
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "public directory"add -A[Kpush origin master
-Counting objects: 10, done.
-Delta compression using up to 8 threads.
-Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
-Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 1.34 KiB | 1.34 MiB/s, done.
-Total 10 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To github.com:ilangurudev/data_science_blog.git
-   530b8b2..a6f43be  master -> master
-git push origin mastercommit -a -m "public directory"add -A[K
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "public directory"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"a"t"t"r"i"b"u"t"e"d" "a"m"b"e"r" "t"h"o"m"a"s"'" "w"e"b"s"i"t"e"
-[master a20dc1f] attributed amber thomas' website
- 35 files changed, 208 insertions(+), 33 deletions(-)
- rewrite .Rproj.user/B26CD267/console06/INDEX001 (86%)
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin master'[K
-Counting objects: 75, done.
-Delta compression using up to 8 threads.
-Compressing objects:   1% (1/66)   Compressing objects:   3% (2/66)   Compressing objects:   4% (3/66)   Compressing objects:   6% (4/66)   Compressing objects:   7% (5/66)   Compressing objects:   9% (6/66)   Compressing objects:  10% (7/66)   Compressing objects:  12% (8/66)   Compressing objects:  13% (9/66)   Compressing objects:  15% (10/66)   Compressing objects:  16% (11/66)   Compressing objects:  18% (12/66)   Compressing objects:  19% (13/66)   Compressing objects:  21% (14/66)   Compressing objects:  22% (15/66)   Compressing objects:  24% (16/66)   Compressing objects:  25% (17/66)   Compressing objects:  27% (18/66)   Compressing objects:  28% (19/66)   Compressing objects:  30% (20/66)   Compressing objects:  31% (21/66)   Compressing objects:  33% (22/66)   Compressing objects:  34% (23/66)   Compressing objects:  36% (24/66)   Compressing objects:  37% (25/66)   Compressing objects:  39% (26/66)   Compressing objects:  40% (27/66)   Compressing objects:  42% (28/66)   Compressing objects:  43% (29/66)   Compressing objects:  45% (30/66)   Compressing objects:  46% (31/66)   Compressing objects:  48% (32/66)   Compressing objects:  50% (33/66)   Compressing objects:  51% (34/66)   Compressing objects:  53% (35/66)   Compressing objects:  54% (36/66)   Compressing objects:  56% (37/66)   Compressing objects:  57% (38/66)   Compressing objects:  59% (39/66)   Compressing objects:  60% (40/66)   Compressing objects:  62% (41/66)   Compressing objects:  63% (42/66)   Compressing objects:  65% (43/66)   Compressing objects:  66% (44/66)   Compressing objects:  68% (45/66)   Compressing objects:  69% (46/66)   Compressing objects:  71% (47/66)   Compressing objects:  72% (48/66)   Compressing objects:  74% (49/66)   Compressing objects:  75% (50/66)   Compressing objects:  77% (51/66)   Compressing objects:  78% (52/66)   Compressing objects:  80% (53/66)   Compressing objects:  81% (54/66)   Compressing objects:  83% (55/66)   Compressing objects:  84% (56/66)   Compressing objects:  86% (57/66)   Compressing objects:  87% (58/66)   Compressing objects:  89% (59/66)   Compressing objects:  90% (60/66)   Compressing objects:  92% (61/66)   Compressing objects:  93% (62/66)   Compressing objects:  95% (63/66)   Compressing objects:  96% (64/66)   Compressing objects:  98% (65/66)   Compressing objects: 100% (66/66)   Compressing objects: 100% (66/66), done.
-Writing objects:   1% (1/75)   Writing objects:   2% (2/75)   Writing objects:   4% (3/75)   Writing objects:   5% (4/75)   Writing objects:   6% (5/75)   Writing objects:   8% (6/75)   Writing objects:   9% (7/75)   Writing objects:  10% (8/75)   Writing objects:  12% (9/75)   Writing objects:  13% (10/75)   Writing objects:  14% (11/75)   Writing objects:  16% (12/75)   Writing objects:  17% (13/75)   Writing objects:  18% (14/75)   Writing objects:  20% (15/75)   Writing objects:  21% (16/75)   Writing objects:  22% (17/75)   Writing objects:  24% (18/75)   Writing objects:  25% (19/75)   Writing objects:  26% (20/75)   Writing objects:  28% (21/75)   Writing objects:  29% (22/75)   Writing objects:  30% (23/75)   Writing objects:  32% (24/75)   Writing objects:  33% (25/75)   Writing objects:  34% (26/75)   Writing objects:  36% (27/75)   Writing objects:  37% (28/75)   Writing objects:  38% (29/75)   Writing objects:  40% (30/75)   Writing objects:  41% (31/75)   Writing objects:  42% (32/75)   Writing objects:  44% (33/75)   Writing objects:  45% (34/75)   Writing objects:  46% (35/75)   Writing objects:  48% (36/75)   Writing objects:  49% (37/75)   Writing objects:  50% (38/75)   Writing objects:  52% (39/75)   Writing objects:  53% (40/75)   Writing objects:  54% (41/75)   Writing objects:  56% (42/75)   Writing objects:  57% (43/75)   Writing objects:  58% (44/75)   Writing objects:  60% (45/75)   Writing objects:  61% (46/75)   Writing objects:  62% (47/75)   Writing objects:  64% (48/75)   Writing objects:  65% (49/75)   Writing objects:  66% (50/75)   Writing objects:  68% (51/75)   Writing objects:  69% (52/75)   Writing objects:  70% (53/75)   Writing objects:  72% (54/75)   Writing objects:  74% (56/75)   Writing objects:  76% (57/75)   Writing objects:  77% (58/75)   Writing objects:  80% (60/75)   Writing objects:  81% (61/75)   Writing objects:  82% (62/75)   Writing objects:  84% (63/75)   Writing objects:  85% (64/75)   Writing objects:  88% (66/75)   Writing objects:  89% (67/75)   Writing objects:  90% (68/75)   Writing objects:  92% (69/75)   Writing objects:  93% (70/75)   Writing objects:  94% (71/75)   Writing objects:  96% (72/75)   Writing objects:  97% (73/75)   Writing objects:  98% (74/75)   Writing objects: 100% (75/75)   Writing objects: 100% (75/75), 12.78 KiB | 2.55 MiB/s, done.
-Total 75 (delta 42), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/42)   [Kremote: Resolving deltas:   2% (1/42)   [Kremote: Resolving deltas:   4% (2/42)   [Kremote: Resolving deltas:   7% (3/42)   [Kremote: Resolving deltas:   9% (4/42)   [Kremote: Resolving deltas:  11% (5/42)   [Kremote: Resolving deltas:  14% (6/42)   [Kremote: Resolving deltas:  16% (7/42)   [Kremote: Resolving deltas:  19% (8/42)   [Kremote: Resolving deltas:  21% (9/42)   [Kremote: Resolving deltas:  23% (10/42)   [Kremote: Resolving deltas:  26% (11/42)   [Kremote: Resolving deltas:  28% (12/42)   [Kremote: Resolving deltas:  30% (13/42)   [Kremote: Resolving deltas:  33% (14/42)   [Kremote: Resolving deltas:  35% (15/42)   [Kremote: Resolving deltas:  38% (16/42)   [Kremote: Resolving deltas:  40% (17/42)   [Kremote: Resolving deltas:  42% (18/42)   [Kremote: Resolving deltas:  52% (22/42)   [Kremote: Resolving deltas:  57% (24/42)   [Kremote: Resolving deltas:  61% (26/42)   [Kremote: Resolving deltas:  64% (27/42)   [Kremote: Resolving deltas:  66% (28/42)   [Kremote: Resolving deltas:  69% (29/42)   [Kremote: Resolving deltas:  71% (30/42)   [Kremote: Resolving deltas:  73% (31/42)   [Kremote: Resolving deltas:  78% (33/42)   [Kremote: Resolving deltas:  83% (35/42)   [Kremote: Resolving deltas:  85% (36/42)   [Kremote: Resolving deltas:  90% (38/42)   [Kremote: Resolving deltas:  92% (39/42)   [Kremote: Resolving deltas:  95% (40/42)   [Kremote: Resolving deltas:  97% (41/42)   [Kremote: Resolving deltas: 100% (42/42)   [Kremote: Resolving deltas: 100% (42/42), completed with 33 local objects.[K
-To github.com:ilangurudev/data_science_blog.git
-   a6f43be..a20dc1f  master -> master
-]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "attributed amber thomas' website"add -A[K
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "attributed amber thomas' website"[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"i"m"g" "s"i"z"e"
 [master 501df2f] img size
  6 files changed, 22 insertions(+), 8 deletions(-)
@@ -1057,3 +970,34 @@ To github.com:ilangurudev/data_science_blog.git
    ef19ca8..d403289  master -> master
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "IndianStocksR"add -A[K
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "IndianStocksR" "a" "f"e"w" "t"w"e"a"k"s" "o"n"[1P"[1P"[1P"atweaks"ptweaks"ptweaks"etweaks"atweaks"rtweaks"atweaks"ntweaks"ctweaks"etweaks" tweaks"
+[master c7353ad] IndianStocksR a few appearance tweaks
+ 36 files changed, 41984 insertions(+), 41996 deletions(-)
+ delete mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/setup_ce0909f24df85f99a07ad5bdca4e7c7a.RData
+ delete mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/setup_ce0909f24df85f99a07ad5bdca4e7c7a.rdb
+ delete mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/setup_ce0909f24df85f99a07ad5bdca4e7c7a.rdx
+ create mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/setup_e7675d8fcf67ffd6a9d1b56e5bcffc4c.RData
+ create mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/setup_e7675d8fcf67ffd6a9d1b56e5bcffc4c.rdb
+ create mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/setup_e7675d8fcf67ffd6a9d1b56e5bcffc4c.rdx
+ delete mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-3_b349cd5fae4519b0fe29bc5cb2f60f07.RData
+ delete mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-3_b349cd5fae4519b0fe29bc5cb2f60f07.rdb
+ delete mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-3_b349cd5fae4519b0fe29bc5cb2f60f07.rdx
+ create mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-3_d8525ece92e9679a719bde7d18c364ec.RData
+ create mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-3_d8525ece92e9679a719bde7d18c364ec.rdb
+ create mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-3_d8525ece92e9679a719bde7d18c364ec.rdx
+ delete mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-5_3361c8e0e3030ac66ad5ac77c843c003.RData
+ delete mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-5_3361c8e0e3030ac66ad5ac77c843c003.rdb
+ delete mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-5_3361c8e0e3030ac66ad5ac77c843c003.rdx
+ create mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-5_d8537208f599804de42d738c83ef0f1f.RData
+ create mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-5_d8537208f599804de42d738c83ef0f1f.rdb
+ create mode 100644 blogdown/projects/2018-07-29_nse_bse_api_cache/html/unnamed-chunk-5_d8537208f599804de42d738c83ef0f1f.rdx
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "IndianStocksR a few appearance tweaks"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin master
+Counting objects: 42, done.
+Delta compression using up to 8 threads.
+Compressing objects:   2% (1/40)   Compressing objects:   5% (2/40)   Compressing objects:   7% (3/40)   Compressing objects:  10% (4/40)   Compressing objects:  12% (5/40)   Compressing objects:  15% (6/40)   Compressing objects:  17% (7/40)   Compressing objects:  20% (8/40)   Compressing objects:  22% (9/40)   Compressing objects:  25% (10/40)   Compressing objects:  27% (11/40)   Compressing objects:  30% (12/40)   Compressing objects:  32% (13/40)   Compressing objects:  35% (14/40)   Compressing objects:  37% (15/40)   Compressing objects:  40% (16/40)   Compressing objects:  42% (17/40)   Compressing objects:  45% (18/40)   Compressing objects:  47% (19/40)   Compressing objects:  50% (20/40)   Compressing objects:  52% (21/40)   Compressing objects:  55% (22/40)   Compressing objects:  57% (23/40)   Compressing objects:  60% (24/40)   Compressing objects:  62% (25/40)   Compressing objects:  65% (26/40)   Compressing objects:  67% (27/40)   Compressing objects:  70% (28/40)   Compressing objects:  72% (29/40)   Compressing objects:  75% (30/40)   Compressing objects:  77% (31/40)   Compressing objects:  80% (32/40)   Compressing objects:  82% (33/40)   Compressing objects:  85% (34/40)   Compressing objects:  87% (35/40)   Compressing objects:  90% (36/40)   Compressing objects:  92% (37/40)   Compressing objects:  95% (38/40)   Compressing objects:  97% (39/40)   Compressing objects: 100% (40/40)   Compressing objects: 100% (40/40), done.
+Writing objects:   2% (1/42)   Writing objects:   4% (2/42)   Writing objects:   7% (3/42)   Writing objects:   9% (4/42)   Writing objects:  11% (5/42)   Writing objects:  14% (6/42)   Writing objects:  16% (7/42)   Writing objects:  19% (8/42)   Writing objects:  21% (9/42)   Writing objects:  23% (10/42)   Writing objects:  26% (11/42)   Writing objects:  28% (12/42)   Writing objects:  30% (13/42)   Writing objects:  33% (14/42)   Writing objects:  35% (15/42)   Writing objects:  38% (16/42)   Writing objects:  40% (17/42)   Writing objects:  42% (18/42)   Writing objects:  45% (19/42)   Writing objects:  47% (20/42)   Writing objects:  50% (21/42)   Writing objects:  52% (22/42)   Writing objects:  57% (24/42)   Writing objects:  59% (25/42)   Writing objects:  61% (26/42)   Writing objects:  64% (27/42)   Writing objects:  66% (28/42)   Writing objects:  69% (29/42)   Writing objects:  71% (30/42)   Writing objects:  73% (31/42)   Writing objects:  76% (32/42)   Writing objects:  78% (33/42)   Writing objects:  80% (34/42)   Writing objects:  83% (35/42)   Writing objects:  85% (36/42)   Writing objects:  88% (37/42)   Writing objects:  90% (38/42)   Writing objects:  92% (39/42)   Writing objects:  95% (40/42)   Writing objects:  97% (41/42)   Writing objects: 100% (42/42)   Writing objects: 100% (42/42), 1.25 MiB | 8.98 MiB/s, done.
+Total 42 (delta 22), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/22)   [Kremote: Resolving deltas:   4% (1/22)   [Kremote: Resolving deltas:   9% (2/22)   [Kremote: Resolving deltas:  13% (3/22)   [Kremote: Resolving deltas:  18% (4/22)   [Kremote: Resolving deltas:  22% (5/22)   [Kremote: Resolving deltas:  27% (6/22)   [Kremote: Resolving deltas:  31% (7/22)   [Kremote: Resolving deltas:  36% (8/22)   [Kremote: Resolving deltas:  40% (9/22)   [Kremote: Resolving deltas:  50% (11/22)   [Kremote: Resolving deltas:  54% (12/22)   [Kremote: Resolving deltas:  59% (13/22)   [Kremote: Resolving deltas:  63% (14/22)   [Kremote: Resolving deltas:  68% (15/22)   [Kremote: Resolving deltas:  72% (16/22)   [Kremote: Resolving deltas:  86% (19/22)   [Kremote: Resolving deltas:  90% (20/22)   [Kremote: Resolving deltas:  95% (21/22)   [Kremote: Resolving deltas: 100% (22/22)   [Kremote: Resolving deltas: 100% (22/22), completed with 19 local objects.[K
+To github.com:ilangurudev/data_science_blog.git
+   d403289..c7353ad  master -> master
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "IndianStocksR a few appearance tweaks"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "IndianStocksR a few appearance tweaks"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"s"p"e"l"l" "c"h"e"c"k"

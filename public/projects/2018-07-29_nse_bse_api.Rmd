@@ -39,9 +39,9 @@ make_table <- function(tbl) {
 
 The `IndianStocksR` package is used to download the end of day  data of all stocks in the two primary Indian stock markets, [NSE](http://nseindia.com/) and [BSE](https://www.bseindia.com/). The end of data data is provided free by the two stock exchanges from their websites and consists of information like the open, high, low, close among others for each script that's traded in them. 
 
-The data can be accessed from their websites based on the date formatted in a certain way. The R-Bloggers [article](https://www.r-bloggers.com/extracting-eod-data-from-nse/) was the source of inspiration for the package. However, the package modularizes the code, tweaks a lot of things and creates a much more accessible api that's more powerful in a sense.
+The data can be accessed from their websites based on the date formatted in a certain way. The R-Bloggers [article](https://www.r-bloggers.com/extracting-eod-data-from-nse/) was the source of inspiration for the package. However, the package modularizes the code, tweaks a lot of things and creates a much more accessible API that's more powerful in a sense.
 
-It is adviced to create a folder and set the working directory to that folder before we start work. Even better, if you're working from Rstudio is to create an R project for downloading the data and working on your analysis.
+It is advised to create a folder and set the working directory to that folder before we start work. Even better, if you're working from R studio is to create an R project for downloading the data and working on your analysis.
 
 The package is currently getting submitted to CRAN after which a simple `install.packages("IndianStocksR")` will get it installed. But for now, it is available on github. 
 
@@ -50,7 +50,7 @@ install.packages("devtools")
 devtools::install_github("ilangurudev/IndianStocksR")
 ```
 
-After installation, we load the package. The package basically creates dataframes and hence plays along well with the concepts of tidy data and the `tidyverse`. So it is highly encouraged to load that package as well
+After installation, we load the package. The package basically creates data frames and hence plays along well with the concepts of tidy data and the `tidyverse`. So it is highly encouraged to load that package as well
 ```{r cache=TRUE, message=FALSE}
 library(IndianStocksR)
 library(tidyverse)
@@ -62,7 +62,7 @@ library(tidyverse)
 
 ## `download_stocks`
 
-The main workhorse function in the package `download_stocks`. However, you will rarely have to use it. It still pays to udnerstand the paramters as it is the basis of the other functions that you will probably use. 
+The main workhorse function in the package `download_stocks`. However, you will rarely have to use it. It still pays to understand the parameters as it is the basis of the other functions that you will probably use. 
 ```{r cache=TRUE}
 download_stocks(date = "2018-07-20", exchange = c("nse", "bse"), dest_path = "./data", quiet = FALSE)
 ```
@@ -91,11 +91,11 @@ df_period <-
                          quiet = FALSE)
 ```
 
-- `start` and `end`: The download stocks period downloads data for all the dates in the date range specfied by `start` and `end`. `start` defaults to today - 8 days and `end` defaults to today. However, it makes sense to make start today - 365 or specify the actual date from when you want the data. You could change the `end` value too if you want data for a specific date range. The `start` and `end` values follow the same rules as the `date` parameter in `download_stocks`
-- The `exchange`function's behavior is pretty straightforward. Downloades data for the date range from NSE if "nse" or BSE from "bse" or both NSE and BSE if "both". Defaults to "both"
+- `start` and `end`: The download stocks period downloads data for all the dates in the date range specified by `start` and `end`. `start` defaults to today - 8 days and `end` defaults to today. However, it makes sense to make start today - 365 or specify the actual date from when you want the data. You could change the `end` value too if you want data for a specific date range. The `start` and `end` values follow the same rules as the `date` parameter in `download_stocks`
+- The `exchange`function's behavior is pretty straightforward. Downloads data for the date range from NSE if "nse" or BSE from "bse" or both NSE and BSE if "both". Defaults to "both"
 - The `dest_path` does the same job as it does in `download_stocks`
 - The `compile` parameter compiles all the downloaded files into one file (if exchange is "both", one compiled file for "nse", one for "bse" and one combined). This option is by default on as compiled files are much more tractable for analysis. 
-- The `delete_component_files` deletes everything apart from the compiled files. This keeps the workspace clean and more efficient for updation.
+- The `delete_component_files` deletes everything apart from the compiled files. This keeps the work space clean and more efficient for updating.
 - The `quiet` does the same job as it does in `download_stocks`
 
 Let's take a look at `df_period`.
@@ -156,7 +156,7 @@ df_updated %>%
 
 # Bugs, comments, suggestions and feature requests
 
-This is just an intial version of the package and I expect to see a few bugs. I'd be very happy if you create github issues if you run into anything. Suggestions and feature requests welcome in the comments.
+This is just an initial version of the package and I expect to see a few bugs. I'd be very happy if you create github issues if you run into anything. Suggestions and feature requests welcome in the comments.
 
 Thanks for reading! Cheers!
 
