@@ -143,7 +143,7 @@ Except the date parameters, one rarely has to tweak the defaults. The defaults a
 
 Let's see how well *Larsen and Toubro* has performed in NSE in the last few days. 
 
-```{r cache=TRUE}
+```{r cache=TRUE, out.width='90%'}
 
 df_updated %>% 
   filter(symbol == "LT",

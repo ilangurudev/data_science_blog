@@ -399,7 +399,7 @@ library(tidyverse)</code></pre>
                          delete_component_files = TRUE,
                          quiet = FALSE)</code></pre>
 <ul>
-<li><code>start</code> and <code>end</code>: The download stocks period downloads data for all the dates in the date range specified by <code>start</code> and <code>end</code>. <code>start</code> defaults to today - 8 days and <code>end</code> defaults to today. If today is 2018-07-29, then end takes that value and start takes the value 2018-07-21. However, it makes sense to make start today - 365 or specify the actual date from when you want the data. You could change the <code>end</code> value too if you want data for a specific date range. The <code>start</code> and <code>end</code> values follow the same rules as the <code>date</code> parameter in <code>download_stocks</code></li>
+<li><code>start</code> and <code>end</code>: The download stocks period downloads data for all the dates in the date range specified by <code>start</code> and <code>end</code>. <code>start</code> defaults to today - 8 days and <code>end</code> defaults to today. If today is 2018-07-30, then end takes that value and start takes the value 2018-07-22. However, it makes sense to make start today - 365 or specify the actual date from when you want the data. You could change the <code>end</code> value too if you want data for a specific date range. The <code>start</code> and <code>end</code> values follow the same rules as the <code>date</code> parameter in <code>download_stocks</code></li>
 <li>The <code>exchange</code>function’s behavior is pretty straightforward. Downloads data for the date range from NSE if “nse” or BSE from “bse” or both NSE and BSE if “both”. Defaults to “both”</li>
 <li>The <code>dest_path</code> does the same job as it does in <code>download_stocks</code></li>
 <li>The <code>compile</code> parameter compiles all the downloaded files into one file (if exchange is “both”, one compiled file for “nse”, one for “bse” and one combined). This option is by default on as compiled files are much more tractable for analysis.</li>
@@ -24173,7 +24173,7 @@ NA
   ggplot(aes(date, close)) +
   geom_line() +
   theme_light()</code></pre>
-<p><img src="/projects/2018-07-29_nse_bse_api_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p><img src="/projects/2018-07-29_nse_bse_api_files/figure-html/unnamed-chunk-7-1.png" width="90%" /></p>
 </div>
 <div id="bugs-comments-suggestions-and-feature-requests" class="section level1">
 <h1>Bugs, comments, suggestions and feature requests</h1>
