@@ -58,7 +58,7 @@ library(tidyverse)</code></pre>
 <li>The <code>dest_path</code> specifies where you want the data files to get downloaded. It defaults to the data folder in the current working directory (which it will create if not found). This is why it is advisable to work in a project. This keeps all the data files of a project organized. If the path you specify is not found, an error is thrown.</li>
 <li>The <code>quiet</code> parameter controls whether you want the download status messages or not.</li>
 </ul>
-<p>The main purpose of this function is to download data from the exchange specified on the date specified. If data is not available for the date you specified, you will get an error.</p>
+<p>The main purpose of this function is to download data from the specified exchange on the mentioned date. If data is not available for the date you specified, you will get an error.</p>
 <p><br></p>
 </div>
 <div id="download_stocks_period" class="section level2">
@@ -73,7 +73,7 @@ library(tidyverse)</code></pre>
                          delete_component_files = TRUE,
                          quiet = FALSE)</code></pre>
 <ul>
-<li><code>start</code> and <code>end</code>: The download stocks period downloads data for all the dates in the date range specified by <code>start</code> and <code>end</code>. <code>start</code> defaults to today - 8 days and <code>end</code> defaults to today. However, it makes sense to make start today - 365 or specify the actual date from when you want the data. You could change the <code>end</code> value too if you want data for a specific date range. The <code>start</code> and <code>end</code> values follow the same rules as the <code>date</code> parameter in <code>download_stocks</code></li>
+<li><code>start</code> and <code>end</code>: The download stocks period downloads data for all the dates in the date range specified by <code>start</code> and <code>end</code>. <code>start</code> defaults to today - 8 days and <code>end</code> defaults to today. If today is 2018-07-29, then end takes that value and start takes the value 2018-07-21. However, it makes sense to make start today - 365 or specify the actual date from when you want the data. You could change the <code>end</code> value too if you want data for a specific date range. The <code>start</code> and <code>end</code> values follow the same rules as the <code>date</code> parameter in <code>download_stocks</code></li>
 <li>The <code>exchange</code>function’s behavior is pretty straightforward. Downloads data for the date range from NSE if “nse” or BSE from “bse” or both NSE and BSE if “both”. Defaults to “both”</li>
 <li>The <code>dest_path</code> does the same job as it does in <code>download_stocks</code></li>
 <li>The <code>compile</code> parameter compiles all the downloaded files into one file (if exchange is “both”, one compiled file for “nse”, one for “bse” and one combined). This option is by default on as compiled files are much more tractable for analysis.</li>
@@ -11961,7 +11961,7 @@ NA
                 exchange = c(&quot;both&quot;, &quot;nse&quot;, &quot;bse&quot;),
                 compile = TRUE,
                 delete_component_files = TRUE)</code></pre>
-<p>Most of this parameters have been discussed before. This function scans all the files in the directory and finds out the date till which there is data and downloads data from the day after till the date mentioned by <code>till</code>. If there are no files inside the specified folder, it downloads data from today - 8 till the date mentioned by <code>till</code>. You rarely have to tweak the <code>till</code> function we use the function primarily to update till the current day.</p>
+<p>Most of this parameters have been discussed before. This function scans all the files in the directory and finds out the date till which there is data and downloads data from the day after till the date mentioned by <code>till</code>. If there are no files inside the specified folder, it downloads data from today - 8 till the date mentioned by <code>till</code>. You rarely have to tweak the <code>till</code> function. It’s primarily used to update till the current day.</p>
 <p>Let’s take a look at <code>df_updated</code>.</p>
 <pre><code>df_updated %&gt;% slice(1:200)</code></pre>
 <div style="border: 1px solid #ddd; padding: 5px; overflow-y: scroll; height:500px; overflow-x: scroll; width:1000px; ">
@@ -23840,7 +23840,7 @@ NA
 </div>
 <div id="lets-look-at-the-data" class="section level1">
 <h1>Let’s look at the data</h1>
-<p>Let’s see how well <em>Larsen and Toubro</em> has performed in the last few days.</p>
+<p>Let’s see how well <em>Larsen and Toubro</em> has performed in NSE in the last few days.</p>
 <pre class="r"><code>df_updated %&gt;% 
   filter(symbol == &quot;LT&quot;,
          exchange == &quot;nse&quot;) %&gt;% 
@@ -23851,6 +23851,6 @@ NA
 </div>
 <div id="bugs-comments-suggestions-and-feature-requests" class="section level1">
 <h1>Bugs, comments, suggestions and feature requests</h1>
-<p>This is just an initial version of the package and I expect to see a few bugs. I’d be very happy if you create github issues if you run into anything. Suggestions and feature requests welcome in the comments.</p>
+<p>This is just an initial version of the package and I expect to see a few bugs. I’d be very happy if you create github issues if you run into anything. Suggestions and feature requests welcome. Feel free to comment what you think of the package.</p>
 <p>Thanks for reading! Cheers!</p>
 </div>

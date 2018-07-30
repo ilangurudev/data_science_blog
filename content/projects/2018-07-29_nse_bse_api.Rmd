@@ -72,7 +72,7 @@ download_stocks(date = "2018-07-20", exchange = c("nse", "bse"), dest_path = "./
 - The `dest_path` specifies where you want the data files to get downloaded. It defaults to the data folder in the current working directory (which it will create if not found). This is why it is advisable to work in a project. This keeps all the data files of a project organized. If the path you specify is not found, an error is thrown. 
 - The `quiet` parameter controls whether you want the download status messages or not.
 
-The main purpose of this function is to download data from the exchange specified on the date specified. If data is not available for the date you specified, you will get an error. 
+The main purpose of this function is to download data from the specified exchange on the mentioned date. If data is not available for the date you specified, you will get an error. 
 
 <br>
 
@@ -91,7 +91,7 @@ df_period <-
                          quiet = FALSE)
 ```
 
-- `start` and `end`: The download stocks period downloads data for all the dates in the date range specified by `start` and `end`. `start` defaults to today - 8 days and `end` defaults to today. However, it makes sense to make start today - 365 or specify the actual date from when you want the data. You could change the `end` value too if you want data for a specific date range. The `start` and `end` values follow the same rules as the `date` parameter in `download_stocks`
+- `start` and `end`: The download stocks period downloads data for all the dates in the date range specified by `start` and `end`. `start` defaults to today - 8 days and `end` defaults to today. If today is `r lubridate::today()`, then end takes that value and start takes the value `r lubridate::today()-8`. However, it makes sense to make start today - 365 or specify the actual date from when you want the data. You could change the `end` value too if you want data for a specific date range. The `start` and `end` values follow the same rules as the `date` parameter in `download_stocks`
 - The `exchange`function's behavior is pretty straightforward. Downloads data for the date range from NSE if "nse" or BSE from "bse" or both NSE and BSE if "both". Defaults to "both"
 - The `dest_path` does the same job as it does in `download_stocks`
 - The `compile` parameter compiles all the downloaded files into one file (if exchange is "both", one compiled file for "nse", one for "bse" and one combined). This option is by default on as compiled files are much more tractable for analysis. 
@@ -123,7 +123,7 @@ df_updated <-
 ```
 
 
-Most of this parameters have been discussed before. This function scans all the files in the directory and finds out the date till which there is data and downloads data from the day after till the date mentioned by `till`. If there are no files inside the specified folder, it downloads data from today - 8 till the date mentioned by `till`. You rarely have to tweak the `till` function we use the function primarily to update till the current day. 
+Most of this parameters have been discussed before. This function scans all the files in the directory and finds out the date till which there is data and downloads data from the day after till the date mentioned by `till`. If there are no files inside the specified folder, it downloads data from today - 8 till the date mentioned by `till`. You rarely have to tweak the `till` function. It's primarily used to update till the current day. 
 
 Let's take a look at `df_updated`.
 ```
@@ -141,7 +141,7 @@ Except the date parameters, one rarely has to tweak the defaults. The defaults a
 
 # Let's look at the data
 
-Let's see how well *Larsen and Toubro* has performed in the last few days. 
+Let's see how well *Larsen and Toubro* has performed in NSE in the last few days. 
 
 ```{r cache=TRUE}
 
@@ -156,7 +156,7 @@ df_updated %>%
 
 # Bugs, comments, suggestions and feature requests
 
-This is just an initial version of the package and I expect to see a few bugs. I'd be very happy if you create github issues if you run into anything. Suggestions and feature requests welcome in the comments.
+This is just an initial version of the package and I expect to see a few bugs. I'd be very happy if you create github issues if you run into anything. Suggestions and feature requests welcome. Feel free to comment what you think of the package.
 
 Thanks for reading! Cheers!
 
