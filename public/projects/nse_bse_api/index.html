@@ -350,27 +350,13 @@ if (!doNotTrack) {
 <li><a href="#download_stocks"><code>download_stocks</code></a></li>
 <li><a href="#download_stocks_period"><code>download_stocks_period</code></a></li>
 <li><a href="#update_stocks"><code>update_stocks</code></a></li>
-</ul></li>
 <li><a href="#a-note-on-defaults">A note on defaults</a></li>
-<li><a href="#a-small-graph-using-the-data">A small graph using the data</a></li>
+</ul></li>
+<li><a href="#lets-look-at-the-data">Let’s look at the data</a></li>
+<li><a href="#bugs-comments-suggestions-and-feature-requests">Bugs, comments, suggestions and feature requests</a></li>
 </ul>
 </div>
 
-<pre class="r"><code>pacman::p_load(knitr,
-               kableExtra)
-
-
-
-make_table &lt;- function(tbl) {
-  # DT::datatable(tbl)
-  knitr::kable(tbl, &quot;html&quot;) %&gt;%
-        kable_styling(bootstrap_options =
-                        c(&quot;striped&quot;, &quot;hover&quot;, &quot;responsive&quot;),
-                      full_width = FALSE,
-                      position = &quot;left&quot;) %&gt;% 
-    scroll_box(width = &quot;1000px&quot;, height = &quot;500px&quot;)
-    
-}</code></pre>
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
 <p>The <code>IndianStocksR</code> package is used to download the end of day data of all stocks in the two primary Indian stock markets, <a href="http://nseindia.com/">NSE</a> and <a href="https://www.bseindia.com/">BSE</a>. The end of data data is provided free by the two stock exchanges from their websites and consists of information like the open, high, low, close among others for each script that’s traded in them.</p>
@@ -382,6 +368,7 @@ devtools::install_github(&quot;ilangurudev/IndianStocksR&quot;)</code></pre>
 <p>After installation, we load the package. The package basically creates dataframes and hence plays along well with the concepts of tidy data and the <code>tidyverse</code>. So it is highly encouraged to load that package as well</p>
 <pre class="r"><code>library(IndianStocksR)
 library(tidyverse)</code></pre>
+<p><br></p>
 </div>
 <div id="main-functions" class="section level1">
 <h1>Main Functions</h1>
@@ -398,6 +385,7 @@ library(tidyverse)</code></pre>
 <li>The <code>quiet</code> parameter controls whether you want the download status messages or not.</li>
 </ul>
 <p>The main purpose of this function is to download data from the exchange specified on the date specified. If data is not available for the date you specified, you will get an error.</p>
+<p><br></p>
 </div>
 <div id="download_stocks_period" class="section level2">
 <h2><code>download_stocks_period</code></h2>
@@ -410,28 +398,6 @@ library(tidyverse)</code></pre>
                          compile = TRUE,
                          delete_component_files = TRUE,
                          quiet = FALSE)</code></pre>
-<pre><code>## Downloading from &#39;both&#39; as exchange not clearly specified.</code></pre>
-<pre><code>## No download data available for NSE on 21 Jul 2018 (Saturday)</code></pre>
-<pre><code>## No download data available for BSE on 21 Jul 2018 (Saturday)</code></pre>
-<pre><code>## No download data available for NSE on 22 Jul 2018 (Sunday)</code></pre>
-<pre><code>## No download data available for BSE on 22 Jul 2018 (Sunday)</code></pre>
-<pre><code>## Dowloaded stocks data from NSE on 23 JUL 2018</code></pre>
-<pre><code>## Dowloaded stocks data from BSE on 23 JUL 2018</code></pre>
-<pre><code>## Dowloaded stocks data from NSE on 24 JUL 2018</code></pre>
-<pre><code>## Dowloaded stocks data from BSE on 24 JUL 2018</code></pre>
-<pre><code>## Dowloaded stocks data from NSE on 25 JUL 2018</code></pre>
-<pre><code>## Dowloaded stocks data from BSE on 25 JUL 2018</code></pre>
-<pre><code>## Dowloaded stocks data from NSE on 26 JUL 2018</code></pre>
-<pre><code>## Dowloaded stocks data from BSE on 26 JUL 2018</code></pre>
-<pre><code>## Stock data downloaded for date range</code></pre>
-<pre><code>## 
-## Compiling BSE</code></pre>
-<pre><code>## Compiling all and only the available files in the specified directory. If the available files contain gaps, then the compiled file will too. If it contains other exchange files, they will get added to the compiled too.</code></pre>
-<pre><code>## 
-## Compiling NSE</code></pre>
-<pre><code>## Compiling all and only the available files in the specified directory. If the available files contain gaps, then the compiled file will too. If it contains other exchange files, they will get added to the compiled too.</code></pre>
-<pre><code>## 
-## Compiling BSE AND NSE TOGETHER</code></pre>
 <ul>
 <li><code>start</code> and <code>end</code>: The download stocks period downloads data for all the dates in the date range specfied by <code>start</code> and <code>end</code>. <code>start</code> defaults to today - 8 days and <code>end</code> defaults to today. However, it makes sense to make start today - 365 or specify the actual date from when you want the data. You could change the <code>end</code> value too if you want data for a specific date range. The <code>start</code> and <code>end</code> values follow the same rules as the <code>date</code> parameter in <code>download_stocks</code></li>
 <li>The <code>exchange</code>function’s behavior is pretty straightforward. Downloades data for the date range from NSE if “nse” or BSE from “bse” or both NSE and BSE if “both”. Defaults to “both”</li>
@@ -12310,6 +12276,7 @@ NA
 </table>
 </div>
 <p>The function returns the compiled files apart from writing them out as a csv.</p>
+<p><br></p>
 </div>
 <div id="update_stocks" class="section level2">
 <h2><code>update_stocks</code></h2>
@@ -12320,27 +12287,6 @@ NA
                 exchange = c(&quot;both&quot;, &quot;nse&quot;, &quot;bse&quot;),
                 compile = TRUE,
                 delete_component_files = TRUE)</code></pre>
-<pre><code>## Downloading from &#39;both&#39; as exchange not clearly specified.</code></pre>
-<pre><code>## Dowloaded stocks data from NSE on 27 JUL 2018</code></pre>
-<pre><code>## No download data available for NSE on 28 Jul 2018 (Saturday)</code></pre>
-<pre><code>## No download data available for NSE on 29 Jul 2018 (Sunday)</code></pre>
-<pre><code>## Stock data downloaded for date range</code></pre>
-<pre><code>## 
-## Compiling NSE</code></pre>
-<pre><code>## Compiling all and only the available files in the specified directory. If the available files contain gaps, then the compiled file will too. If it contains other exchange files, they will get added to the compiled too.</code></pre>
-<pre><code>## Dowloaded stocks data from BSE on 27 JUL 2018</code></pre>
-<pre><code>## No download data available for BSE on 28 Jul 2018 (Saturday)</code></pre>
-<pre><code>## No download data available for BSE on 29 Jul 2018 (Sunday)</code></pre>
-<pre><code>## Stock data downloaded for date range</code></pre>
-<pre><code>## 
-## Compiling BSE</code></pre>
-<pre><code>## Compiling all and only the available files in the specified directory. If the available files contain gaps, then the compiled file will too. If it contains other exchange files, they will get added to the compiled too.</code></pre>
-<pre><code>## 
-## Compiling BSE</code></pre>
-<pre><code>## Compiling all and only the available files in the specified directory. If the available files contain gaps, then the compiled file will too. If it contains other exchange files, they will get added to the compiled too.</code></pre>
-<pre><code>## 
-## Compiling NSE</code></pre>
-<pre><code>## Compiling all and only the available files in the specified directory. If the available files contain gaps, then the compiled file will too. If it contains other exchange files, they will get added to the compiled too.</code></pre>
 <p>Most of this parameters have been discussed before. This function scans all the files in the directory and finds out the date till which there is data and downloads data from the day after till the date mentioned by <code>till</code>. If there are no files inside the specified folder, it downloads data from today - 8 till the date mentioned by <code>till</code>. You rarely have to tweak the <code>till</code> function we use the function primarily to update till the current day.</p>
 <p>Let’s take a look at <code>df_updated</code>.</p>
 <pre><code>df_updated %&gt;% slice(1:200)</code></pre>
@@ -24211,14 +24157,15 @@ NA
 </tbody>
 </table>
 </div>
+<p><br></p>
 </div>
-</div>
-<div id="a-note-on-defaults" class="section level1">
-<h1>A note on defaults</h1>
+<div id="a-note-on-defaults" class="section level2">
+<h2>A note on defaults</h2>
 <p>Except the date parameters, one rarely has to tweak the defaults. The defaults are designed to work optimally.</p>
 </div>
-<div id="a-small-graph-using-the-data" class="section level1">
-<h1>A small graph using the data</h1>
+</div>
+<div id="lets-look-at-the-data" class="section level1">
+<h1>Let’s look at the data</h1>
 <p>Let’s see how well <em>Larsen and Toubro</em> has performed in the last few days.</p>
 <pre class="r"><code>df_updated %&gt;% 
   filter(symbol == &quot;LT&quot;,
@@ -24227,6 +24174,11 @@ NA
   geom_line() +
   theme_light()</code></pre>
 <p><img src="/projects/2018-07-29_nse_bse_api_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+</div>
+<div id="bugs-comments-suggestions-and-feature-requests" class="section level1">
+<h1>Bugs, comments, suggestions and feature requests</h1>
+<p>This is just an intial version of the package and I expect to see a few bugs. I’d be very happy if you create github issues if you run into anything. Suggestions and feature requests welcome in the comments.</p>
+<p>Thanks for reading! Cheers!</p>
 </div>
 
       

@@ -17,7 +17,7 @@ output:
 ---
 
 
-```{r setup, results='hide',message=FALSE, cache=TRUE}
+```{r setup, results='hide',message=FALSE, cache=TRUE, include=FALSE, echo=FALSE}
 pacman::p_load(knitr,
                kableExtra)
 
@@ -56,6 +56,8 @@ library(IndianStocksR)
 library(tidyverse)
 ```
 
+<br>
+
 # Main Functions
 
 ## `download_stocks`
@@ -72,11 +74,13 @@ download_stocks(date = "2018-07-20", exchange = c("nse", "bse"), dest_path = "./
 
 The main purpose of this function is to download data from the exchange specified on the date specified. If data is not available for the date you specified, you will get an error. 
 
+<br>
+
 ## `download_stocks_period`
 
 The function you'll probably have to use first is the `download_stocks_period`  
 
-```{r cache=TRUE}
+```{r cache=TRUE, message=FALSE}
 df_period <- 
   download_stocks_period(start = "2018-07-21",
                          end = "2018-07-26",
@@ -104,10 +108,12 @@ df_period %>% slice(1:200) %>% make_table()
 
 The function returns the compiled files apart from writing them out as a csv. 
 
+<br>
+
 ## `update_stocks`
 
 Once you have the `download_stocks_period` run, you can update the database later by running the `update_stocks`
-```{r cache=TRUE}
+```{r cache=TRUE, message=FALSE}
 df_updated <- 
   update_stocks(data_path = "./data",
                 till = lubridate::today(),
@@ -127,11 +133,13 @@ df_updated %>% slice(1:200)
 df_updated %>% slice(1:200) %>% make_table()
 ```
 
-# A note on defaults
+<br>
+
+## A note on defaults
 
 Except the date parameters, one rarely has to tweak the defaults. The defaults are designed to work optimally. 
 
-# A small graph using the data
+# Let's look at the data
 
 Let's see how well *Larsen and Toubro* has performed in the last few days. 
 
@@ -145,4 +153,10 @@ df_updated %>%
   theme_light()
 
 ```
+
+# Bugs, comments, suggestions and feature requests
+
+This is just an intial version of the package and I expect to see a few bugs. I'd be very happy if you create github issues if you run into anything. Suggestions and feature requests welcome in the comments.
+
+Thanks for reading! Cheers!
 

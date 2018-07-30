@@ -17,7 +17,7 @@
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/projects/nse_bse_api/</guid>
-      <description>Introduction Main Functions download_stocks download_stocks_period update_stocks  A note on defaults A small graph using the data   pacman::p_load(knitr, kableExtra) make_table &amp;lt;- function(tbl) { # DT::datatable(tbl) knitr::kable(tbl, &amp;quot;html&amp;quot;) %&amp;gt;% kable_styling(bootstrap_options = c(&amp;quot;striped&amp;quot;, &amp;quot;hover&amp;quot;, &amp;quot;responsive&amp;quot;), full_width = FALSE, position = &amp;quot;left&amp;quot;) %&amp;gt;% scroll_box(width = &amp;quot;1000px&amp;quot;, height = &amp;quot;500px&amp;quot;) } Introduction The IndianStocksR package is used to download the end of day data of all stocks in the two primary Indian stock markets, NSE and BSE.</description>
+      <description>Introduction Main Functions download_stocks download_stocks_period update_stocks A note on defaults  Let’s look at the data Bugs, comments, suggestions and feature requests   Introduction The IndianStocksR package is used to download the end of day data of all stocks in the two primary Indian stock markets, NSE and BSE. The end of data data is provided free by the two stock exchanges from their websites and consists of information like the open, high, low, close among others for each script that’s traded in them.</description>
     </item>
     
     <item>
