@@ -39,7 +39,7 @@ make_table <- function(tbl) {
 
 The `IndianStocksR` package is used to download the end of day  data of all stocks in the two primary Indian stock markets, [NSE](http://nseindia.com/) and [BSE](https://www.bseindia.com/). The end of data data is provided free by the two stock exchanges from their websites and consists of information like the open, high, low, close among others for each script that's traded in them. 
 
-The data can be accessed from their websites based on the date formatted in a certain way. The R-Bloggers [article](https://www.r-bloggers.com/extracting-eod-data-from-nse/) was the source of inspiration for the package. However, the package modularizes the code, tweaks a lot of things and creates a much more accessible API that's more powerful in a sense.
+The data can be accessed from their websites based on the date formatted in a certain way. The R-Bloggers [article](https://www.r-bloggers.com/extracting-eod-data-from-nse/) was the source of inspiration for the package. However, the package modularizes the code, tweaks a lot of things and creates a much more accessible API that's more powerful in the sense that it abstracts away the complexity from the user. 
 
 It is advised to create a folder and set the working directory to that folder before we start work. Even better, if you're working from R studio is to create an R project for downloading the data and working on your analysis.
 
