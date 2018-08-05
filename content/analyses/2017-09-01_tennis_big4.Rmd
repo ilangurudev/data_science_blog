@@ -292,7 +292,7 @@ df_tennis %>%
 
 ```
 
-Andy's a freak in his own right. He's right there amongst the greats. If Andy had played in any other era, he would probably be having 10 slams. It does seem that it's not unjustified to call it the era of Big 4.
+Andy's a freak in his own right. He's right there amongst the greats. If Andy had played in any other era, he would probably be having 10 slams. It does seem that it's not unjustified to call it the era of Big 4. :smiley:
 
 <!-- What other metrics are there? We have  -->
 <!--  - prize money -->
