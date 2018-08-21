@@ -44,7 +44,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "ilangurudev@gmail.com"
+  email = "gurudev.ilango@gmail.com"
 
   # Nav links in the side bar
   [[params.navlinks]]
@@ -65,14 +65,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   
   [[params.navlinks]]
   name = "Resume"
-  url = "resume/"
+  url = "//drive.google.com/open?id=1Y6lWTdblz8fLAZDDmT_03iZ9lTibr0Po"
 
   [[params.navlinks]]
   name = "Get in Touch"
   url = "contact/"
 
   [params.social]
-  email        = "ilangurudev@gmail.com"
+  email        = "gurudev.ilango@gmail.com"
   twitter      = "https://twitter.com/GuruIlan"
   linkedin     = "https://www.linkedin.com/in/gurudevilangovan/"
   github       = "https://www.github.com/ilangurudev"
