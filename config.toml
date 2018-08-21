@@ -65,7 +65,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   
   [[params.navlinks]]
   name = "Resume"
-  url = "//drive.google.com/open?id=1Y6lWTdblz8fLAZDDmT_03iZ9lTibr0Po"
+  url = "https://drive.google.com/open?id=1Y6lWTdblz8fLAZDDmT_03iZ9lTibr0Po"
 
   [[params.navlinks]]
   name = "Get in Touch"
