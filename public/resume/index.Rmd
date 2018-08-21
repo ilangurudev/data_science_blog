@@ -4,7 +4,9 @@ type: "resume"
 date: '2018-07-23'
 ---
 
+Please click <a href="https://drive.google.com/file/d/1Y6lWTdblz8fLAZDDmT_03iZ9lTibr0Po/view" target="_blank">here</a> for the most up-to-date version of my resume.
 
+<!--
 # Gurudev Ilangovan
 
 [www.linkedin.com/in/gurudevilangovan/](https://www.linkedin.com/in/gurudevilangovan/)    
@@ -103,3 +105,5 @@ and extracted the 20 most important blood based features that help predict morta
 **Languages**: R, Python, SQL, Javascript   
 **Frameworks**: Shiny, Flask, nodejs, Ruby on Rails   
 **Expertise**: Machine Learning, Optimization, Data Wrangling, Data Analysis, Technical Communication
+
+-->
