@@ -6,6 +6,10 @@ date: '2018-07-23'
 
 Please click <a href="https://drive.google.com/file/d/1Y6lWTdblz8fLAZDDmT_03iZ9lTibr0Po/view" target="_blank">here</a> for the most up-to-date version of my resume.
 
+<script>
+  window.location.replace("https://drive.google.com/file/d/1Y6lWTdblz8fLAZDDmT_03iZ9lTibr0Po/view");
+</script
+
 <!--
 # Gurudev Ilangovan
 
