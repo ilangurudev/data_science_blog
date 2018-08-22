@@ -197,18 +197,8 @@
       <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/resume/</guid>
-      <description>Please click here for the most up-to-date version of my resume.
- window.location.replace(&#34;https://drive.google.com/file/d/1Y6lWTdblz8fLAZDDmT_03iZ9lTibr0Po/view&#34;); PDF version
-Profile A passionate data scientist looking to gain industry exposure in machine learning and data science.
- Education Masters in Computer Science
-Texas A&amp;amp;M University, College Station, TX
-Sep 2017 - Current
-CGPA: 3.8/4.0
-Masters in Industrial Engineering
-Texas A&amp;amp;M University, College Station, TX
-Sep 2015 - Aug - 2017
-CGPA: 3.9/4.0
- Experience Research Scientist</description>
+      <description>here for the most up-to-date version of my resume. -- Redirecting to my most recent resume… If redirect doesn’t work please click here
+ window.location.replace(&#34;https://drive.google.com/file/d/1Y6lWTdblz8fLAZDDmT_03iZ9lTibr0Po/view&#34;);  </description>
     </item>
     
     <item>
