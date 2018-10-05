@@ -221,17 +221,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/analyses/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/analyses/</guid>
-      <description>Polarity   mark.pos { background-color: lightgreen; color: black; } mark.neg{ background-color: pink; color: black; } h1 { display: block; font-size: 1.2em; margin-top: 0.0em; margin-bottom: 0.0em; margin-left: 0; margin-right: 0; font-weight: bold; } .indented { margin-left: 5%; margin-right: 5%; }   1_The movie was horrible: -.375The movie was horrible
-2_The movie was not good at all: -.283The movie was not good at all
-3_The movie was okay: .000The movie was okay</description>
-    </item>
-    
-    <item>
       <title>About Me</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
