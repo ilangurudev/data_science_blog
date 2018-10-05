@@ -409,3 +409,26 @@ To github.com:ilangurudev/data_science_blog.git
    6f086c7..e04b89c  master -> master
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "whatsapp almost done?"add -A[K
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "whatsapp almost done?"
+[master 62351e1] whatsapp almost done?
+ 1 file changed, 13 insertions(+)
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "whatsapp almost done?"add -A[Kpush origin master
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 963 bytes | 963.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:ilangurudev/data_science_blog.git
+   e04b89c..62351e1  master -> master
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "whatsapp almost done?"add -A[K
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "whatsapp almost done?"
+fatal: Unable to create '/home/gurudev/projects/data_science_blog/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "whatsapp almost done?"add -A[Kpush origin master
+Everything up-to-date
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git push origin mastercommit -a -m "whatsapp almost done?"add -A[Kcommit -a -m "whatsapp almost done?"
