@@ -46,11 +46,9 @@ make_table <- function(tbl) {
 > Without data, you're just an  another person with an opinion
 >                                         - W. Edwards Deming
 
-We all have intuitions, questions or even hypotheses if you will about people's texting patterns. Tom uses a lot of emojis, Daisy is a cynic and Harry swears a lot. But unless we can substantiate our theories with data our guesses will remain speculations however educated. 
+We all have intuitions, questions or even hypotheses if you will about people's texting patterns. Tom uses a lot of emojis, Daisy is a cynic and Harry swears a lot. But _unless we can substantiate our theories with data our guesses will remain speculations however educated_. 
 
-I had a few questions. What are people's most used words? Are people positive or negative in general when they speak? How do people use emojis? Do people 
-
-The place where I have the most chats is Whatsapp. So I decided to take one group chat from whatsapp for analysis. Obviously, blogging about chats with other people is tricky, because... it involves chats with other people. Apart from getting the said group's members' consent, I anonymized their names and I have taken utmost care not to publish the chats themselves as far as possible (Apart from a preview of the first 10 ones).
+I had a few questions. What are people's most used words? What do these words tell about us? What are the most popular emojis? Are people positive or negative in general when they speak? To answer such questions I decided to look at chats and the place where I have the most chats is Whatsapp. So I decided to take one group chat from whatsapp for analysis. Obviously, blogging about chats with other people is tricky, because... it involves chats with other people. Apart from getting the said group's members' consent, I __anonymized__ their names and I have taken utmost care not to publish the chats themselves as far as possible (Apart from a preview of the first 10 ones).
 
 
 ## Processing
@@ -67,7 +65,7 @@ I am using whatsapp from an Android phone and I followed the above steps to get 
 
 ### Patterns
 
-I am basically constructing pattern matchers using regular expressions but I am using an excellent package called rebus that generates the regex patterns using human readable functions. I am pretty sure the patterns I have generated won't cover all the possibilities and so might not work for you but with a little tweaking, it can easily be made to.    
+I am basically constructing pattern matchers using regular expressions but I am using an excellent package called rebus that generates the regex patterns using human readable functions. I am pretty sure the patterns I have generated won't cover all the possibilities and so might not work for you but with a little tweaking, it can easily be made to work.    
 
 ```{r}
 pacman::p_load(tidyverse, rebus, lubridate, tidytext, magrittr,
@@ -100,7 +98,7 @@ pattern_name <-
 ```
 
 ### Parsing
-After generating the patterns, I executed the below code block to parse the file. (Actually, I ran this and a few more commands to anonymize people.)
+After generating the patterns, I executed the below code block to parse the file. (Actually, I ran this and a few more commands to anonymize people. I also removed a list of words from the analysis in the interest of anonymity.)
 ```{r}
 # input file
 txt_chat <- read_file("~/projects/sandbox/data/xxx.txt")
@@ -180,19 +178,21 @@ df_words <-
   filter(!word %in% var_ignore_words) 
 
 df_words %>% 
-  count(word, sort = T) %>% 
-  top_n(15, n) %>% 
+  add_count(word) %>% 
+  mutate(rank = dense_rank(desc(n))) %>% 
+  filter(rank <= 15) %>% 
+  arrange(rank) %>% 
   mutate(word = fct_inorder(word) %>% fct_rev()) %>% 
-  ggplot(aes(word, n)) +
-  geom_col() +
+  ggplot(aes(word, fill = sender)) +
+  geom_bar() +
   coord_flip() +
-  theme_minimal()
-  
+  theme_minimal() +
+  scale_fill_tableau()
 ```
 
-The members seem to agree. A lot. 
+The members seem to __agree__. A lot. 
 
-If you're wondering how words like "and" and "the" are not the most common, kudos. Those words are indeed  the most common but I have removed such words (commonly called "stop words" in text mining) because they are not informative. 
+If you're wondering how words like "and" and "the" are not the most common, kudos. Those words are indeed  the most common but I have removed such words (commonly called _"stop words"_ in text mining) because they are not informative. 
 
 #### Word usage by member
 
@@ -217,7 +217,7 @@ df_words %>%
 
 #### Word usage made better
 
-Well, most of the words are commonly used ones. Very predictable and not very informative. How do we find words that are important relative to each member? Enter tf-idf! Tf-idf is a concept used in information retrieval where in the importance of each term is measured relative to the prevalence of that term. Basically, if you are using a term a lot and that term is used a lot in general, the count does not accurately reflect who you are. It's the words that you use a lot but others don't that say more about you. That's a very crude explanation but the Wikipedia article is pretty good and simple if you want to dig deeper.
+Well, most of the words are commonly used ones. Very predictable and not very informative. How do we find words that are important relative to each member? Enter __tf-idf__! Tf-idf(Term frequency - Inverse document frequency) is a concept used in information retrieval where in the importance of each term is measured relative to the commonly that term is used by others. Basically, if you are using a term a lot and that term is used a lot in general, the count does not accurately reflect who you are. It's the words that you use a lot but others don't that say more about you. That's the basic intuition but the [Wikipedia](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) article is actually pretty accessible if you want to dig deeper.
 
 
 ```{r}
@@ -240,7 +240,13 @@ df_words %>%
 
 ```
 
-I feel very foggy personalities seem to emerge (A - playful?, B - philosophical?, C - jejune?). Can actually look at more words but don't want to give too much away. 😜
+I feel very foggy personalities seem to emerge.
+
+- A - playful? 
+- B - philosophical - Just look at the words: life, duty, book, days...
+- C - jejune?
+
+Can actually look at more words but don't want to give too much away. 😜
 
 ### ⌚ 4⃣ 😂😋😍
 
@@ -331,13 +337,13 @@ df_chats %>%
 The plot could mean one of two things:
 
 - Something genuinely funny or sad or emotional was being discussed in weeks 19 and 28. 
-- A classic case of conformity? If one person uses a lot of emojis, other members tend to too. This seems more likely as there 3 lines follow the same trend from start to finish. 
+- A classic case of conformity or even, regression towards the mean? If one person uses a lot of emojis, other members tend to too. This seems more likely as there 3 lines follow the same trend from start to finish. 
 
-Also is A's emoji usage an indication of realization of roflitis as was pointed out in the group? I may never know. 
+Also is A's steady decline in emoji usage an indication of realization of roflitis as was quickly pointed out in the group? I may never know. 
 
 ### Getting sentient about sentiments
 
-Finally let's take a look at the chats from a sentiment perspective. Sentiment analysis is the process of analyzing a given corpus of text and then using some method to analyze sentiment scores. Naively, a score is assigned to a word and the scores of all words in a sentence are added. But a sentence like *"The movie was not good at all"* would still be positively evaluated by such a technique. So I am using a package called `sentimentr` which accounts for valence shifters (like 'not') and intensifiers (like 'very'). For example,
+Finally let's take a look at the chats from a sentiment perspective. __Sentiment analysis__ is the process of analyzing a given corpus of text and then using some method to arrive at sentiment scores. Naively done, a score is assigned to a word and the scores of all words in a sentence are added. But a sentence like _"The movie was not good at all"_ would still be _positively evaluated_ by such a technique. So I am using a package called [`sentimentr`](https://github.com/trinker/sentimentr) which accounts for valence shifters (like 'not') and intensifiers (like 'very'). For example,
 ```
 tibble(
   text = c("The movie was horrible",
@@ -365,15 +371,33 @@ df_sentiment <-
 df_sentiment <- 
   df_sentiment %$%
   sentiment_by(sentence_sent, list(id_sentence, sender)) %>% 
-  left_join(df_sentiment, "id_sentence") %>% 
+  left_join(df_sentiment, c("id_sentence","sender")) %>% 
+  rename(sentiment = ave_sentiment) %>% 
   as_tibble()
 
 ```
 
+The overall sentiment scores for the members. 
 ```{r}
-
+df_sentiment %>% 
+  filter(sentiment!= 0) %>% 
+  mutate(rating = ifelse(sentiment > 0, "postive","negative"),
+         sender = sender %>% fct_rev(),
+         week = week(time)) %>% 
+  group_by(sender, week, rating, ) %>% 
+  summarise(sentiment_sum = sum(sentiment),
+            sentiment_mean = mean(sentiment)) %>% 
+  ungroup() %>% 
+  ggplot(aes(sender, sentiment_sum, fill = rating)) +
+  geom_col() +
+  theme_minimal() +
+  coord_flip() +
+  scale_fill_hue(l=40) 
 ```
 
+A and C have almost identical bars. B has a clear offset to the left. Perhaps my claim that B is a little philosophical might be true after all. Sometimes the more we think about life, less rosy it seems. 
+
+Also, this graph could be redrawn after accounting for the sentiments that emojis represent. Currently, `sentimentr` does not support emojis. However we could substitute the description of the emojis for the emojis themselves and then calculate the sentiments. With A's roflitis, I suspect that this approach would make others seem too pessimistic in comparison. So, I didn't go that route. 
 
 ## Conclusion
 

@@ -49,9 +49,8 @@ output:
 <p>Without data, you’re just an another person with an opinion
 - W. Edwards Deming</p>
 </blockquote>
-<p>We all have intuitions, questions or even hypotheses if you will about people’s texting patterns. Tom uses a lot of emojis, Daisy is a cynic and Harry swears a lot. But unless we can substantiate our theories with data our guesses will remain speculations however educated.</p>
-<p>I had a few questions. What are people’s most used words? Are people positive or negative in general when they speak? How do people use emojis? Do people</p>
-<p>The place where I have the most chats is Whatsapp. So I decided to take one group chat from whatsapp for analysis. Obviously, blogging about chats with other people is tricky, because… it involves chats with other people. Apart from getting the said group’s members’ consent, I anonymized their names and I have taken utmost care not to publish the chats themselves as far as possible (Apart from a preview of the first 10 ones).</p>
+<p>We all have intuitions, questions or even hypotheses if you will about people’s texting patterns. Tom uses a lot of emojis, Daisy is a cynic and Harry swears a lot. But <em>unless we can substantiate our theories with data our guesses will remain speculations however educated</em>.</p>
+<p>I had a few questions. What are people’s most used words? What do these words tell about us? What are the most popular emojis? Are people positive or negative in general when they speak? To answer such questions I decided to look at chats and the place where I have the most chats is Whatsapp. So I decided to take one group chat from whatsapp for analysis. Obviously, blogging about chats with other people is tricky, because… it involves chats with other people. Apart from getting the said group’s members’ consent, I <strong>anonymized</strong> their names and I have taken utmost care not to publish the chats themselves as far as possible (Apart from a preview of the first 10 ones).</p>
 </div>
 <div id="processing" class="section level2">
 <h2>Processing</h2>
@@ -65,7 +64,7 @@ output:
 <p>I am using whatsapp from an Android phone and I followed the above steps to get the chat text file. Naturally, I searched for preexisting R packages to parse the text file. There were a few packages but they were outdated and incompatible with the current format of the export file. So I wrote my own parser.</p>
 <div id="patterns" class="section level3">
 <h3>Patterns</h3>
-<p>I am basically constructing pattern matchers using regular expressions but I am using an excellent package called rebus that generates the regex patterns using human readable functions. I am pretty sure the patterns I have generated won’t cover all the possibilities and so might not work for you but with a little tweaking, it can easily be made to.</p>
+<p>I am basically constructing pattern matchers using regular expressions but I am using an excellent package called rebus that generates the regex patterns using human readable functions. I am pretty sure the patterns I have generated won’t cover all the possibilities and so might not work for you but with a little tweaking, it can easily be made to work.</p>
 <pre class="r"><code>pacman::p_load(tidyverse, rebus, lubridate, tidytext, magrittr,
                sentimentr, magrittr, plotly, rtweet, ggthemes)
 
@@ -96,7 +95,7 @@ pattern_name &lt;-
 </div>
 <div id="parsing" class="section level3">
 <h3>Parsing</h3>
-<p>After generating the patterns, I executed the below code block to parse the file. (Actually, I ran this and a few more commands to anonymize people.)</p>
+<p>After generating the patterns, I executed the below code block to parse the file. (Actually, I ran this and a few more commands to anonymize people. I also removed a list of words from the analysis in the interest of anonymity.)</p>
 <pre class="r"><code># input file
 txt_chat &lt;- read_file(&quot;~/projects/sandbox/data/xxx.txt&quot;)
 
@@ -414,16 +413,19 @@ NA
   filter(!word %in% var_ignore_words) 
 
 df_words %&gt;% 
-  count(word, sort = T) %&gt;% 
-  top_n(15, n) %&gt;% 
+  add_count(word) %&gt;% 
+  mutate(rank = dense_rank(desc(n))) %&gt;% 
+  filter(rank &lt;= 15) %&gt;% 
+  arrange(rank) %&gt;% 
   mutate(word = fct_inorder(word) %&gt;% fct_rev()) %&gt;% 
-  ggplot(aes(word, n)) +
-  geom_col() +
+  ggplot(aes(word, fill = sender)) +
+  geom_bar() +
   coord_flip() +
-  theme_minimal()</code></pre>
+  theme_minimal() +
+  scale_fill_tableau()</code></pre>
 <p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-6-1.png" width="100%" /></p>
-<p>The members seem to agree. A lot.</p>
-<p>If you’re wondering how words like “and” and “the” are not the most common, kudos. Those words are indeed the most common but I have removed such words (commonly called “stop words” in text mining) because they are not informative.</p>
+<p>The members seem to <strong>agree</strong>. A lot.</p>
+<p>If you’re wondering how words like “and” and “the” are not the most common, kudos. Those words are indeed the most common but I have removed such words (commonly called <em>“stop words”</em> in text mining) because they are not informative.</p>
 </div>
 <div id="word-usage-by-member" class="section level4">
 <h4>Word usage by member</h4>
@@ -446,7 +448,7 @@ df_words %&gt;%
 </div>
 <div id="word-usage-made-better" class="section level4">
 <h4>Word usage made better</h4>
-<p>Well, most of the words are commonly used ones. Very predictable and not very informative. How do we find words that are important relative to each member? Enter tf-idf! Tf-idf is a concept used in information retrieval where in the importance of each term is measured relative to the prevalence of that term. Basically, if you are using a term a lot and that term is used a lot in general, the count does not accurately reflect who you are. It’s the words that you use a lot but others don’t that say more about you. That’s a very crude explanation but the Wikipedia article is pretty good and simple if you want to dig deeper.</p>
+<p>Well, most of the words are commonly used ones. Very predictable and not very informative. How do we find words that are important relative to each member? Enter <strong>tf-idf</strong>! Tf-idf(Term frequency - Inverse document frequency) is a concept used in information retrieval where in the importance of each term is measured relative to the commonly that term is used by others. Basically, if you are using a term a lot and that term is used a lot in general, the count does not accurately reflect who you are. It’s the words that you use a lot but others don’t that say more about you. That’s the basic intuition but the <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">Wikipedia</a> article is actually pretty accessible if you want to dig deeper.</p>
 <pre class="r"><code>df_words %&gt;% 
   count(sender, word) %&gt;% 
   filter(n &gt; 15) %&gt;% 
@@ -464,7 +466,13 @@ df_words %&gt;%
   theme(strip.text.x = element_text(angle = 0)) +
   scale_fill_tableau()</code></pre>
 <p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-8-1.png" width="100%" /></p>
-<p>I feel very foggy personalities seem to emerge (A - playful?, B - philosophical?, C - jejune?). Can actually look at more words but don’t want to give too much away. 😜</p>
+<p>I feel very foggy personalities seem to emerge.</p>
+<ul>
+<li>A - playful?</li>
+<li>B - philosophical - Just look at the words: life, duty, book, days…</li>
+<li>C - jejune?</li>
+</ul>
+<p>Can actually look at more words but don’t want to give too much away. 😜</p>
 </div>
 </div>
 <div id="section" class="section level3">
@@ -550,14 +558,14 @@ df_emoji_split %&gt;%
 <p>The plot could mean one of two things:</p>
 <ul>
 <li>Something genuinely funny or sad or emotional was being discussed in weeks 19 and 28.</li>
-<li>A classic case of conformity? If one person uses a lot of emojis, other members tend to too. This seems more likely as there 3 lines follow the same trend from start to finish.</li>
+<li>A classic case of conformity or even, regression towards the mean? If one person uses a lot of emojis, other members tend to too. This seems more likely as there 3 lines follow the same trend from start to finish.</li>
 </ul>
-<p>Also is A’s emoji usage an indication of realization of roflitis as was pointed out in the group? I may never know.</p>
+<p>Also is A’s steady decline in emoji usage an indication of realization of roflitis as was quickly pointed out in the group? I may never know.</p>
 </div>
 </div>
 <div id="getting-sentient-about-sentiments" class="section level3">
 <h3>Getting sentient about sentiments</h3>
-<p>Finally let’s take a look at the chats from a sentiment perspective. Sentiment analysis is the process of analyzing a given corpus of text and then using some method to analyze sentiment scores. Naively, a score is assigned to a word and the scores of all words in a sentence are added. But a sentence like <em>“The movie was not good at all”</em> would still be positively evaluated by such a technique. So I am using a package called <code>sentimentr</code> which accounts for valence shifters (like ‘not’) and intensifiers (like ‘very’). For example,</p>
+<p>Finally let’s take a look at the chats from a sentiment perspective. <strong>Sentiment analysis</strong> is the process of analyzing a given corpus of text and then using some method to arrive at sentiment scores. Naively done, a score is assigned to a word and the scores of all words in a sentence are added. But a sentence like <em>“The movie was not good at all”</em> would still be <em>positively evaluated</em> by such a technique. So I am using a package called <a href="https://github.com/trinker/sentimentr"><code>sentimentr</code></a> which accounts for valence shifters (like ‘not’) and intensifiers (like ‘very’). For example,</p>
 <pre><code>tibble(
   text = c(&quot;The movie was horrible&quot;,
             &quot;The movie was not good at all&quot;,
@@ -580,8 +588,27 @@ df_emoji_split %&gt;%
 df_sentiment &lt;- 
   df_sentiment %$%
   sentiment_by(sentence_sent, list(id_sentence, sender)) %&gt;% 
-  left_join(df_sentiment, &quot;id_sentence&quot;) %&gt;% 
+  left_join(df_sentiment, c(&quot;id_sentence&quot;,&quot;sender&quot;)) %&gt;% 
+  rename(sentiment = ave_sentiment) %&gt;% 
   as_tibble()</code></pre>
+<p>The overall sentiment scores for the members.</p>
+<pre class="r"><code>df_sentiment %&gt;% 
+  filter(sentiment!= 0) %&gt;% 
+  mutate(rating = ifelse(sentiment &gt; 0, &quot;postive&quot;,&quot;negative&quot;),
+         sender = sender %&gt;% fct_rev(),
+         week = week(time)) %&gt;% 
+  group_by(sender, week, rating, ) %&gt;% 
+  summarise(sentiment_sum = sum(sentiment),
+            sentiment_mean = mean(sentiment)) %&gt;% 
+  ungroup() %&gt;% 
+  ggplot(aes(sender, sentiment_sum, fill = rating)) +
+  geom_col() +
+  theme_minimal() +
+  coord_flip() +
+  scale_fill_hue(l=40) </code></pre>
+<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-13-1.png" width="100%" /></p>
+<p>A and C have almost identical bars. B has a clear offset to the left. Perhaps my claim that B is a little philosophical might be true after all. Sometimes the more we think about life, less rosy it seems.</p>
+<p>Also, this graph could be redrawn after accounting for the sentiments that emojis represent. Currently, <code>sentimentr</code> does not support emojis. However we could substitute the description of the emojis for the emojis themselves and then calculate the sentiments. With A’s roflitis, I suspect that this approach would make others seem too pessimistic in comparison. So, I didn’t go that route.</p>
 </div>
 </div>
 <div id="conclusion" class="section level2">
