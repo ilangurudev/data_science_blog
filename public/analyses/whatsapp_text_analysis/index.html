@@ -876,6 +876,7 @@ df_emoji_split %&gt;%
             word_count_sum = sum(word_count),
             emoji_to_word = emoji_count_sum/word_count_sum) %&gt;% 
   ggplot(aes(week, emoji_to_word, col = sender)) +
+  ylim(0, NA) +
   geom_smooth(se = F) +
   scale_color_tableau() +
   theme_minimal()</code></pre>
