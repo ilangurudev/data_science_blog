@@ -34,6 +34,7 @@ output:
 <li><a href="#section">⌚ 4⃣ 😂😋😍</a><ul>
 <li><a href="#popular-emojis-and-chronic-roflitis">Popular emojis and chronic roflitis</a></li>
 <li><a href="#lets-put-a-smiley-on-that-face">Let’s put a smiley on that face</a></li>
+<li><a href="#emoji-to-word-ratio">Emoji to word ratio</a></li>
 </ul></li>
 <li><a href="#getting-sentient-about-sentiments">Getting sentient about sentiments</a></li>
 </ul></li>
@@ -521,6 +522,36 @@ df_emoji_split %&gt;%
         panel.grid.major.y = element_blank(),
         panel.grid.minor.y = element_blank()) </code></pre>
 <p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-10-1.png" width="100%" /></p>
+</div>
+<div id="emoji-to-word-ratio" class="section level4">
+<h4>Emoji to word ratio</h4>
+<pre class="r"><code>df_chats %&gt;% 
+  unnest_tokens(word, text) %&gt;% 
+  group_by(id_chat, sender) %&gt;% 
+  summarise(word_count = n()) %&gt;% 
+  left_join(
+    df_chats %&gt;% 
+    # filter(!is.na(emoji)) %&gt;% 
+    select(id_chat, time, emoji_count),
+    by = &quot;id_chat&quot;
+  ) %&gt;% 
+  ungroup() %&gt;%
+  mutate(week = week(time)) %&gt;% 
+  group_by(sender, week) %&gt;% 
+  summarise(emoji_count_sum = sum(emoji_count),
+            word_count_sum = sum(word_count),
+            emoji_to_word = emoji_count_sum/word_count_sum) %&gt;% 
+  ggplot(aes(week, emoji_to_word, col = sender)) +
+  geom_smooth(se = F) +
+  scale_color_tableau() +
+  theme_minimal()</code></pre>
+<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-11-1.png" width="100%" /></p>
+<p>The plot could mean one of two things:</p>
+<ul>
+<li>Something genuinely funny or sad or emotional was being discussed in weeks 19 and 28.</li>
+<li>A classic case of conformity? If one person uses a lot of emojis, other members tend to too. This seems more likely as there 3 lines follow the same trend from start to finish.</li>
+</ul>
+<p>Also is A’s emoji usage an indication of realization of roflitis as was pointed out in the group? I may never know.</p>
 </div>
 </div>
 <div id="getting-sentient-about-sentiments" class="section level3">

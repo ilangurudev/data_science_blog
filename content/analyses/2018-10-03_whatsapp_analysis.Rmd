@@ -302,6 +302,38 @@ df_emoji_split %>%
         panel.grid.minor.y = element_blank()) 
 ```
 
+#### Emoji to word ratio
+
+```{r}
+df_chats %>% 
+  unnest_tokens(word, text) %>% 
+  group_by(id_chat, sender) %>% 
+  summarise(word_count = n()) %>% 
+  left_join(
+    df_chats %>% 
+    # filter(!is.na(emoji)) %>% 
+    select(id_chat, time, emoji_count),
+    by = "id_chat"
+  ) %>% 
+  ungroup() %>%
+  mutate(week = week(time)) %>% 
+  group_by(sender, week) %>% 
+  summarise(emoji_count_sum = sum(emoji_count),
+            word_count_sum = sum(word_count),
+            emoji_to_word = emoji_count_sum/word_count_sum) %>% 
+  ggplot(aes(week, emoji_to_word, col = sender)) +
+  geom_smooth(se = F) +
+  scale_color_tableau() +
+  theme_minimal()
+```
+
+The plot could mean one of two things:
+
+- Something genuinely funny or sad or emotional was being discussed in weeks 19 and 28. 
+- A classic case of conformity? If one person uses a lot of emojis, other members tend to too. This seems more likely as there 3 lines follow the same trend from start to finish. 
+
+Also is A's emoji usage an indication of realization of roflitis as was pointed out in the group? I may never know. 
+
 ### Getting sentient about sentiments
 
 Finally let's take a look at the chats from a sentiment perspective. Sentiment analysis is the process of analyzing a given corpus of text and then using some method to analyze sentiment scores. Naively, a score is assigned to a word and the scores of all words in a sentence are added. But a sentence like *"The movie was not good at all"* would still be positively evaluated by such a technique. So I am using a package called `sentimentr` which accounts for valence shifters (like 'not') and intensifiers (like 'very'). For example,
