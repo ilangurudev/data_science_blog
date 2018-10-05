@@ -21,7 +21,7 @@ pacman::p_load(knitr,
                kableExtra)
 
 knitr::opts_chunk$set(out.width='100%', 
-                      fig.height=6, 
+                      # fig.width='100%', 
                       cache = TRUE,
                       warning=FALSE, 
                       message=FALSE)
@@ -50,7 +50,7 @@ We all have intuitions, questions or even hypotheses if you will about people's 
 
 I had a few questions. What are people's most used words? Are people positive or negative in general when they speak? How do people use emojis? Do people 
 
-The place where I have the most chats is Whatsapp. So I decided to take one group chat from whatsapp for analysis. Obviosuly, blogging about chats with other people is tricky, because... it involves chats with other people. Apart from getting the said group's members' consent, I anonymized their names and I have taken utmost care not to publish the chats themselves as far as possible (Apart from a preview of the first 10 ones).
+The place where I have the most chats is Whatsapp. So I decided to take one group chat from whatsapp for analysis. Obviously, blogging about chats with other people is tricky, because... it involves chats with other people. Apart from getting the said group's members' consent, I anonymized their names and I have taken utmost care not to publish the chats themselves as far as possible (Apart from a preview of the first 10 ones).
 
 
 ## Processing
@@ -67,7 +67,7 @@ I am using whatsapp from an Android phone and I followed the above steps to get 
 
 ### Patterns
 
-I am basically constructing pattern matchers using regular expressions but I am using an excellent package called rebus that generates the regex patterns using human readable functions. I am pretty sure the patterns I have generated won't cover all the possiblities and so might not work for you but with a little tweaking, it can easily be made to.    
+I am basically constructing pattern matchers using regular expressions but I am using an excellent package called rebus that generates the regex patterns using human readable functions. I am pretty sure the patterns I have generated won't cover all the possibilities and so might not work for you but with a little tweaking, it can easily be made to.    
 
 ```{r}
 pacman::p_load(tidyverse, rebus, lubridate, tidytext, magrittr,
@@ -157,7 +157,9 @@ var_ignore_words <- c("sathya","la", "ஒரு", "nan", "irku", "semma","lam",
 
 Let's see how the table looks. 
 ```{r echo=FALSE}
-df_chats
+df_chats %>% 
+  slice(1:10) %>% 
+  make_table()
 ```
 Awesome. Now that we have data in a tidy format, let's delve into the analysis. 
 
@@ -213,7 +215,7 @@ df_words %>%
   scale_fill_tableau()
 ```
 
-#### Word usage that reflects personalities better
+#### Word usage made better
 
 Well, most of the words are commonly used ones. Very predictable and not very informative. How do we find words that are important relative to each member? Enter tf-idf! Tf-idf is a concept used in information retrieval where in the importance of each term is measured relative to the prevalence of that term. Basically, if you are using a term a lot and that term is used a lot in general, the count does not accurately reflect who you are. It's the words that you use a lot but others don't that say more about you. That's a very crude explanation but the Wikipedia article is pretty good and simple if you want to dig deeper.
 
@@ -280,7 +282,7 @@ My personal hypothesis was right - A has a serious case of roflitis.
 
 #### Let's put a smiley on that face
 
-Using the same concept of tf-idf we can now find out which emojis characterise people better than raw counts.
+Using the same concept of tf-idf we can now find out which emojis characterize people better than raw counts.
 ```{r}
 df_emoji_split %>% 
   count(sender, emoji,description, sort = T) %>%
@@ -302,7 +304,7 @@ df_emoji_split %>%
 
 ### Getting sentient about sentiments
 
-Fianlly let's take a look at the chats from a sentiment perspective. Sentiment analysis is the process of analyzing a given corpus of text and then using some method to analyze sentiment scores. Naively, a score is assigned to a word and the scores of all words in a sentence are added. But a sentence like *"The movie was not good at all"* would still be positively evaluated by such a technique. So I am using a package called `sentimentr` which accounts for valence shifters (like 'not') and intensifiers (like 'very'). For example,
+Finally let's take a look at the chats from a sentiment perspective. Sentiment analysis is the process of analyzing a given corpus of text and then using some method to analyze sentiment scores. Naively, a score is assigned to a word and the scores of all words in a sentence are added. But a sentence like *"The movie was not good at all"* would still be positively evaluated by such a technique. So I am using a package called `sentimentr` which accounts for valence shifters (like 'not') and intensifiers (like 'very'). For example,
 ```
 tibble(
   text = c("The movie was horrible",
@@ -316,9 +318,9 @@ tibble(
    sentimentr::highlight()
 ```
 
-![](/analyses/2018-10-03_whatsapp_analysis_files/sentiment.png)
+<img src="/analyses/2018-10-03_whatsapp_analysis_files/sentiment.png" alt="sentiment_example" style="width:75%;"/>
 
-Now that we know what we can do, let's calculate the overall sentiment scores
+Now that we know what we can do, let's calculate the sentiment scores for the chats. 
 ```{r}
 df_sentiment <- 
   df_chats %>% 
@@ -342,9 +344,6 @@ df_sentiment <-
 
 ## Conclusion
 
-Admittedly, one group-chat tells only a small part of the story. If there were a way to get all whatsapp chats in a single step, we could do much richer analyses. For instance, chat behavior of the same person in different groups would be intersting to see. Similarly, it could be seen how the proportion of texts sent to each group or person varies across time. That could shed light into which bonds are becoming stronger and which ones are becoming more weaker. Sentiment analysis on all our texts can help us understand how our moods vary. So many possibilities...  
+Admittedly, one group-chat tells only a small part of the story. If there were a way to get all whatsapp chats in a single step, we could do much richer analyses. For instance, chat behavior of the same person in different groups would be interesting to see. Similarly, it could be seen how the proportion of texts sent to each group or person varies across time. That could shed light into which bonds are becoming stronger and which ones are becoming more weaker. Sentiment analysis on all our texts can help us understand how our moods vary. So many possibilities...  
 
-```{r echo=FALSE}
-"Any comments, feedback or suggestions are, as people say, 😍😍😍." %>% cat() 
-```
-  
+Any comments, feedback or suggestions are, as people say, 😍😍😍.

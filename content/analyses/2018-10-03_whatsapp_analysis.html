@@ -29,7 +29,7 @@ output:
 <li><a href="#pet-words">Pet words</a><ul>
 <li><a href="#overall-word-usage">Overall word usage</a></li>
 <li><a href="#word-usage-by-member">Word usage by member</a></li>
-<li><a href="#word-usage-that-reflects-personalities-better">Word usage that reflects personalities better</a></li>
+<li><a href="#word-usage-made-better">Word usage made better</a></li>
 </ul></li>
 <li><a href="#section">⌚ 4⃣ 😂😋😍</a><ul>
 <li><a href="#popular-emojis-and-chronic-roflitis">Popular emojis and chronic roflitis</a></li>
@@ -50,7 +50,7 @@ output:
 </blockquote>
 <p>We all have intuitions, questions or even hypotheses if you will about people’s texting patterns. Tom uses a lot of emojis, Daisy is a cynic and Harry swears a lot. But unless we can substantiate our theories with data our guesses will remain speculations however educated.</p>
 <p>I had a few questions. What are people’s most used words? Are people positive or negative in general when they speak? How do people use emojis? Do people</p>
-<p>The place where I have the most chats is Whatsapp. So I decided to take one group chat from whatsapp for analysis. Obviosuly, blogging about chats with other people is tricky, because… it involves chats with other people. Apart from getting the said group’s members’ consent, I anonymized their names and I have taken utmost care not to publish the chats themselves as far as possible (Apart from a preview of the first 10 ones).</p>
+<p>The place where I have the most chats is Whatsapp. So I decided to take one group chat from whatsapp for analysis. Obviously, blogging about chats with other people is tricky, because… it involves chats with other people. Apart from getting the said group’s members’ consent, I anonymized their names and I have taken utmost care not to publish the chats themselves as far as possible (Apart from a preview of the first 10 ones).</p>
 </div>
 <div id="processing" class="section level2">
 <h2>Processing</h2>
@@ -64,7 +64,7 @@ output:
 <p>I am using whatsapp from an Android phone and I followed the above steps to get the chat text file. Naturally, I searched for preexisting R packages to parse the text file. There were a few packages but they were outdated and incompatible with the current format of the export file. So I wrote my own parser.</p>
 <div id="patterns" class="section level3">
 <h3>Patterns</h3>
-<p>I am basically constructing pattern matchers using regular expressions but I am using an excellent package called rebus that generates the regex patterns using human readable functions. I am pretty sure the patterns I have generated won’t cover all the possiblities and so might not work for you but with a little tweaking, it can easily be made to.</p>
+<p>I am basically constructing pattern matchers using regular expressions but I am using an excellent package called rebus that generates the regex patterns using human readable functions. I am pretty sure the patterns I have generated won’t cover all the possibilities and so might not work for you but with a little tweaking, it can easily be made to.</p>
 <pre class="r"><code>pacman::p_load(tidyverse, rebus, lubridate, tidytext, magrittr,
                sentimentr, magrittr, plotly, rtweet, ggthemes)
 
@@ -135,21 +135,267 @@ df_chats &lt;-
          !(sender %&gt;% str_detect(or1(c(&quot;created&quot;, &quot;added&quot;, &quot;left&quot;, &quot;changed&quot;))))) %&gt;%
   mutate(id_chat = row_number()) %&gt;% 
   select(id_chat, time, sender, text, media,  emoji, emoji_count)</code></pre>
-<p>Let’s see how the table looks.</p>
-<pre><code>## # A tibble: 7,604 x 7
-##    id_chat time                sender text         media emoji emoji_count
-##      &lt;int&gt; &lt;dttm&gt;              &lt;chr&gt;  &lt;chr&gt;        &lt;lgl&gt; &lt;chr&gt;       &lt;int&gt;
-##  1       1 2018-05-07 23:45:00 A      My life 😂😂😂… FALSE 😂😂😂😂…           5
-##  2       2 2018-05-07 23:47:00 A      Sorry for s… FALSE 😂😂            2
-##  3       3 2018-05-07 23:47:00 A      It just came FALSE &lt;NA&gt;            0
-##  4       4 2018-05-07 23:48:00 B      Wait         FALSE &lt;NA&gt;            0
-##  5       5 2018-05-07 23:48:00 B      One bad jok… FALSE &lt;NA&gt;            0
-##  6       6 2018-05-07 23:49:00 B      Poor network FALSE &lt;NA&gt;            0
-##  7       7 2018-05-07 23:49:00 B      &quot;&quot;           TRUE  &lt;NA&gt;            0
-##  8       8 2018-05-07 23:50:00 A      😂😂😂😂😂   FALSE 😂😂😂😂…           5
-##  9       9 2018-05-07 23:52:00 B      All pls to … FALSE 🙏              1
-## 10      10 2018-05-07 23:53:00 A      When guys s… FALSE &lt;NA&gt;            0
-## # ... with 7,594 more rows</code></pre>
+Let’s see how the table looks.
+<div style="border: 1px solid #ddd; padding: 5px; overflow-y: scroll; height:500px; overflow-x: scroll; width:1000px; ">
+<table class="table table-striped table-hover table-responsive" style="width: auto !important; ">
+<thead>
+<tr>
+<th style="text-align:right;">
+id_chat
+</th>
+<th style="text-align:left;">
+time
+</th>
+<th style="text-align:left;">
+sender
+</th>
+<th style="text-align:left;">
+text
+</th>
+<th style="text-align:left;">
+media
+</th>
+<th style="text-align:left;">
+emoji
+</th>
+<th style="text-align:right;">
+emoji_count
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+2018-05-07 23:45:00
+</td>
+<td style="text-align:left;">
+A
+</td>
+<td style="text-align:left;">
+My life 😂😂😂😂😂
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+😂😂😂😂😂
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+2018-05-07 23:47:00
+</td>
+<td style="text-align:left;">
+A
+</td>
+<td style="text-align:left;">
+Sorry for starting on a morbid note 😂😂
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+😂😂
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+2018-05-07 23:47:00
+</td>
+<td style="text-align:left;">
+A
+</td>
+<td style="text-align:left;">
+It just came
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:left;">
+2018-05-07 23:48:00
+</td>
+<td style="text-align:left;">
+B
+</td>
+<td style="text-align:left;">
+Wait
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:left;">
+2018-05-07 23:48:00
+</td>
+<td style="text-align:left;">
+B
+</td>
+<td style="text-align:left;">
+One bad joke is coming up
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:left;">
+2018-05-07 23:49:00
+</td>
+<td style="text-align:left;">
+B
+</td>
+<td style="text-align:left;">
+Poor network
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:left;">
+2018-05-07 23:49:00
+</td>
+<td style="text-align:left;">
+B
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+TRUE
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:left;">
+2018-05-07 23:50:00
+</td>
+<td style="text-align:left;">
+A
+</td>
+<td style="text-align:left;">
+😂😂😂😂😂
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+😂😂😂😂😂
+</td>
+<td style="text-align:right;">
+5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:left;">
+2018-05-07 23:52:00
+</td>
+<td style="text-align:left;">
+B
+</td>
+<td style="text-align:left;">
+All pls to indicate that you exist by periodically posting said bad jokes. Nandri🙏🏼
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+🙏
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:left;">
+2018-05-07 23:53:00
+</td>
+<td style="text-align:left;">
+A
+</td>
+<td style="text-align:left;">
+When guys say bad jokes they usually mean something like this
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 <p>Awesome. Now that we have data in a tidy format, let’s delve into the analysis.</p>
 </div>
 </div>
@@ -197,8 +443,8 @@ df_words %&gt;%
   scale_fill_tableau()</code></pre>
 <p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-7-1.png" width="100%" /></p>
 </div>
-<div id="word-usage-that-reflects-personalities-better" class="section level4">
-<h4>Word usage that reflects personalities better</h4>
+<div id="word-usage-made-better" class="section level4">
+<h4>Word usage made better</h4>
 <p>Well, most of the words are commonly used ones. Very predictable and not very informative. How do we find words that are important relative to each member? Enter tf-idf! Tf-idf is a concept used in information retrieval where in the importance of each term is measured relative to the prevalence of that term. Basically, if you are using a term a lot and that term is used a lot in general, the count does not accurately reflect who you are. It’s the words that you use a lot but others don’t that say more about you. That’s a very crude explanation but the Wikipedia article is pretty good and simple if you want to dig deeper.</p>
 <pre class="r"><code>df_words %&gt;% 
   count(sender, word) %&gt;% 
@@ -257,7 +503,7 @@ df_emoji_split %&gt;%
 </div>
 <div id="lets-put-a-smiley-on-that-face" class="section level4">
 <h4>Let’s put a smiley on that face</h4>
-<p>Using the same concept of tf-idf we can now find out which emojis characterise people better than raw counts.</p>
+<p>Using the same concept of tf-idf we can now find out which emojis characterize people better than raw counts.</p>
 <pre class="r"><code>df_emoji_split %&gt;% 
   count(sender, emoji,description, sort = T) %&gt;%
   bind_tf_idf(emoji, sender, n = n) %&gt;% 
@@ -279,7 +525,7 @@ df_emoji_split %&gt;%
 </div>
 <div id="getting-sentient-about-sentiments" class="section level3">
 <h3>Getting sentient about sentiments</h3>
-<p>Fianlly let’s take a look at the chats from a sentiment perspective. Sentiment analysis is the process of analyzing a given corpus of text and then using some method to analyze sentiment scores. Naively, a score is assigned to a word and the scores of all words in a sentence are added. But a sentence like <em>“The movie was not good at all”</em> would still be positively evaluated by such a technique. So I am using a package called <code>sentimentr</code> which accounts for valence shifters (like ‘not’) and intensifiers (like ‘very’). For example,</p>
+<p>Finally let’s take a look at the chats from a sentiment perspective. Sentiment analysis is the process of analyzing a given corpus of text and then using some method to analyze sentiment scores. Naively, a score is assigned to a word and the scores of all words in a sentence are added. But a sentence like <em>“The movie was not good at all”</em> would still be positively evaluated by such a technique. So I am using a package called <code>sentimentr</code> which accounts for valence shifters (like ‘not’) and intensifiers (like ‘very’). For example,</p>
 <pre><code>tibble(
   text = c(&quot;The movie was horrible&quot;,
             &quot;The movie was not good at all&quot;,
@@ -290,8 +536,8 @@ df_emoji_split %&gt;%
           review = get_sentences(text)) %$% 
    sentiment_by(review, list(num, text)) %&gt;%
    sentimentr::highlight()</code></pre>
-<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/sentiment.png" /></p>
-<p>Now that we know what we can do, let’s calculate the overall sentiment scores</p>
+<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/sentiment.png" alt="sentiment_example" style="width:75%;"/></p>
+<p>Now that we know what we can do, let’s calculate the sentiment scores for the chats.</p>
 <pre class="r"><code>df_sentiment &lt;- 
   df_chats %&gt;% 
   unnest_tokens(sentence, text, token = &quot;sentences&quot;) %&gt;%
@@ -308,6 +554,6 @@ df_sentiment &lt;-
 </div>
 <div id="conclusion" class="section level2">
 <h2>Conclusion</h2>
-<p>Admittedly, one group-chat tells only a small part of the story. If there were a way to get all whatsapp chats in a single step, we could do much richer analyses. For instance, chat behavior of the same person in different groups would be intersting to see. Similarly, it could be seen how the proportion of texts sent to each group or person varies across time. That could shed light into which bonds are becoming stronger and which ones are becoming more weaker. Sentiment analysis on all our texts can help us understand how our moods vary. So many possibilities…</p>
-<pre><code>## Any comments, feedback or suggestions are, as people say, 😍😍😍.</code></pre>
+<p>Admittedly, one group-chat tells only a small part of the story. If there were a way to get all whatsapp chats in a single step, we could do much richer analyses. For instance, chat behavior of the same person in different groups would be interesting to see. Similarly, it could be seen how the proportion of texts sent to each group or person varies across time. That could shed light into which bonds are becoming stronger and which ones are becoming more weaker. Sentiment analysis on all our texts can help us understand how our moods vary. So many possibilities…</p>
+<p>Any comments, feedback or suggestions are, as people say, 😍😍😍.</p>
 </div>
