@@ -360,9 +360,16 @@ if (!doNotTrack) {
 <li><a href="#parsing">Parsing</a></li>
 </ul></li>
 <li><a href="#analysis">Analysis</a><ul>
-<li><a href="#pet-words">Pet words</a></li>
-<li><a href="#section">⌚ 4⃣ 😂😋😍</a></li>
-<li><a href="#sentiment-sentience">Sentiment sentience</a></li>
+<li><a href="#pet-words">Pet words</a><ul>
+<li><a href="#overall-word-usage">Overall word usage</a></li>
+<li><a href="#word-usage-by-member">Word usage by member</a></li>
+<li><a href="#word-usage-that-reflects-personalities-better">Word usage that reflects personalities better</a></li>
+</ul></li>
+<li><a href="#section">⌚ 4⃣ 😂😋😍</a><ul>
+<li><a href="#popular-emojis-and-chronic-roflitis">Popular emojis and chronic roflitis</a></li>
+<li><a href="#lets-put-a-smiley-on-that-face">Let’s put a smiley on that face</a></li>
+</ul></li>
+<li><a href="#getting-sentient-about-sentiments">Getting sentient about sentiments</a></li>
 </ul></li>
 <li><a href="#conclusion">Conclusion</a></li>
 </ul>
@@ -484,6 +491,8 @@ df_chats &lt;-
 <h2>Analysis</h2>
 <div id="pet-words" class="section level3">
 <h3>Pet words</h3>
+<div id="overall-word-usage" class="section level4">
+<h4>Overall word usage</h4>
 <p>What words do the group members use a lot overall?</p>
 <pre class="r"><code>df_words &lt;- 
   df_chats %&gt;% 
@@ -499,9 +508,12 @@ df_words %&gt;%
   geom_col() +
   coord_flip() +
   theme_minimal()</code></pre>
-<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-6-1.png" width="100%" /></p>
 <p>The members seem to agree. A lot.</p>
 <p>If you’re wondering how words like “and” and “the” are not the most common, kudos. Those words are indeed the most common but I have removed such words (commonly called “stop words” in text mining) because they are not informative.</p>
+</div>
+<div id="word-usage-by-member" class="section level4">
+<h4>Word usage by member</h4>
 <p>And what words do each of the members use? Let’s look at the five most used words.</p>
 <pre class="r"><code>df_words %&gt;% 
   count(sender, word, sort = T) %&gt;% 
@@ -517,7 +529,10 @@ df_words %&gt;%
   facet_grid(sender ~ ., scales=&quot;free&quot;) +
   theme(strip.text.x = element_text(angle = 0)) +
   scale_fill_tableau()</code></pre>
-<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-7-1.png" width="100%" /></p>
+</div>
+<div id="word-usage-that-reflects-personalities-better" class="section level4">
+<h4>Word usage that reflects personalities better</h4>
 <p>Well, most of the words are commonly used ones. Very predictable and not very informative. How do we find words that are important relative to each member? Enter tf-idf! Tf-idf is a concept used in information retrieval where in the importance of each term is measured relative to the prevalence of that term. Basically, if you are using a term a lot and that term is used a lot in general, the count does not accurately reflect who you are. It’s the words that you use a lot but others don’t that say more about you. That’s a very crude explanation but the Wikipedia article is pretty good and simple if you want to dig deeper.</p>
 <pre class="r"><code>df_words %&gt;% 
   count(sender, word) %&gt;% 
@@ -535,12 +550,15 @@ df_words %&gt;%
   facet_grid(sender ~ ., scales=&quot;free&quot;) +
   theme(strip.text.x = element_text(angle = 0)) +
   scale_fill_tableau()</code></pre>
-<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-8-1.png" width="100%" /></p>
 <p>I feel very foggy personalities seem to emerge (A - playful?, B - philosophical?, C - jejune?). Can actually look at more words but don’t want to give too much away. 😜</p>
+</div>
 </div>
 <div id="section" class="section level3">
 <h3>⌚ 4⃣ 😂😋😍</h3>
 <p>In case you are wondering what the heading means, it’s “Time for emojis”. I promise I’ll try not to do that again. Anyway, can we repeat the same analysis that we did with words for emojis?</p>
+<div id="popular-emojis-and-chronic-roflitis" class="section level4">
+<h4>Popular emojis and chronic roflitis</h4>
 <p>Most used emojis in group:</p>
 <pre class="r"><code>df_emoji_split &lt;- 
   df_chats %&gt;% 
@@ -568,9 +586,12 @@ df_emoji_split %&gt;%
   theme_minimal() +
   theme(axis.text = element_text(size = 20)) +
   scale_fill_tableau()</code></pre>
-<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-9-1.png" width="100%" /></p>
 <p>My personal hypothesis was right - A has a serious case of roflitis.</p>
-<p>Now let’s put an emoji on the face using tf-idf. These emojis characterize the members better than the count.</p>
+</div>
+<div id="lets-put-a-smiley-on-that-face" class="section level4">
+<h4>Let’s put a smiley on that face</h4>
+<p>Using the same concept of tf-idf we can now find out which emojis characterise people better than raw counts.</p>
 <pre class="r"><code>df_emoji_split %&gt;% 
   count(sender, emoji,description, sort = T) %&gt;%
   bind_tf_idf(emoji, sender, n = n) %&gt;% 
@@ -587,10 +608,11 @@ df_emoji_split %&gt;%
         axis.text.x = element_text(size = 40),
         panel.grid.major.y = element_blank(),
         panel.grid.minor.y = element_blank()) </code></pre>
-<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-10-1.png" width="100%" /></p>
 </div>
-<div id="sentiment-sentience" class="section level3">
-<h3>Sentiment sentience</h3>
+</div>
+<div id="getting-sentient-about-sentiments" class="section level3">
+<h3>Getting sentient about sentiments</h3>
 <p>Fianlly let’s take a look at the chats from a sentiment perspective. Sentiment analysis is the process of analyzing a given corpus of text and then using some method to analyze sentiment scores. Naively, a score is assigned to a word and the scores of all words in a sentence are added. But a sentence like <em>“The movie was not good at all”</em> would still be positively evaluated by such a technique. So I am using a package called <code>sentimentr</code> which accounts for valence shifters (like ‘not’) and intensifiers (like ‘very’). For example,</p>
 <pre><code>tibble(
   text = c(&quot;The movie was horrible&quot;,
@@ -614,22 +636,14 @@ df_emoji_split %&gt;%
 df_sentiment &lt;- 
   df_sentiment %$%
   sentiment_by(sentence_sent, list(id_sentence, sender)) %&gt;% 
-  left_join(df_sentiment) %&gt;% 
+  left_join(df_sentiment, &quot;id_sentence&quot;) %&gt;% 
   as_tibble()</code></pre>
-<pre><code>## Joining, by = c(&quot;id_sentence&quot;, &quot;sender&quot;)</code></pre>
-<pre class="r"><code>df_sentiment %&gt;% 
-  mutate(week = week(time),
-         sentiment = ave_sentiment) %&gt;% 
-  filter(sentiment != 0) %&gt;%
-  ggplot(aes(sentiment, fill = sender)) +
-  geom_density() +
-  facet_grid(sender~.)</code></pre>
-<p><img src="/analyses/2018-10-03_whatsapp_analysis_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
 </div>
 </div>
 <div id="conclusion" class="section level2">
 <h2>Conclusion</h2>
-<p>Admittedly, one group-chat tells only a part of the story. If there were a way to get all whatsapp chats in a single step, we could do much richer analyses. For instance, chat behavior of the same person in different groups would be intersting to see. Similarly, it could be seen how the proportion of texts sent to each group or person varies across time. That could shed light into which bonds are becoming stronger and which ones are becoming more weaker. Sentiment analysis on all our texts can help us understand how our moods vary. There are lots of possibilities..</p>
+<p>Admittedly, one group-chat tells only a small part of the story. If there were a way to get all whatsapp chats in a single step, we could do much richer analyses. For instance, chat behavior of the same person in different groups would be intersting to see. Similarly, it could be seen how the proportion of texts sent to each group or person varies across time. That could shed light into which bonds are becoming stronger and which ones are becoming more weaker. Sentiment analysis on all our texts can help us understand how our moods vary. So many possibilities…</p>
+<pre><code>## Any comments, feedback or suggestions are, as people say, 😍😍😍.</code></pre>
 </div>
 
       

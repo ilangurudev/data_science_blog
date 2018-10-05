@@ -14,10 +14,17 @@ description: "Using simple text ining techniques to understand how we text..."
 output:
   blogdown::html_page:
     toc: true
+    toc_depth: 5
 ---
 ```{r echo=FALSE}
 pacman::p_load(knitr,
                kableExtra)
+
+knitr::opts_chunk$set(out.width='100%', 
+                      fig.height=6, 
+                      cache = TRUE,
+                      warning=FALSE, 
+                      message=FALSE)
 
 make_table <- function(tbl) {
   # DT::datatable(tbl)
@@ -159,6 +166,8 @@ Awesome. Now that we have data in a tidy format, let's delve into the analysis.
 
 ### Pet words
 
+#### Overall word usage
+
 What words do the group members use a lot overall? 
 
 ```{r}
@@ -183,6 +192,8 @@ The members seem to agree. A lot.
 
 If you're wondering how words like "and" and "the" are not the most common, kudos. Those words are indeed  the most common but I have removed such words (commonly called "stop words" in text mining) because they are not informative. 
 
+#### Word usage by member
+
 And what words do each of the members use? Let's look at the five most used words.
 
 ```{r}
@@ -201,6 +212,8 @@ df_words %>%
   theme(strip.text.x = element_text(angle = 0)) +
   scale_fill_tableau()
 ```
+
+#### Word usage that reflects personalities better
 
 Well, most of the words are commonly used ones. Very predictable and not very informative. How do we find words that are important relative to each member? Enter tf-idf! Tf-idf is a concept used in information retrieval where in the importance of each term is measured relative to the prevalence of that term. Basically, if you are using a term a lot and that term is used a lot in general, the count does not accurately reflect who you are. It's the words that you use a lot but others don't that say more about you. That's a very crude explanation but the Wikipedia article is pretty good and simple if you want to dig deeper.
 
@@ -230,6 +243,8 @@ I feel very foggy personalities seem to emerge (A - playful?, B - philosophical?
 ### ⌚ 4⃣ 😂😋😍
 
 In case you are wondering what the heading means, it's "Time for emojis". I promise I'll try not to do that again. Anyway, can we repeat the same analysis that we did with words for emojis?
+
+#### Popular emojis and chronic roflitis
 
 Most used emojis in group:
 ```{r}
@@ -263,7 +278,9 @@ df_emoji_split %>%
 
 My personal hypothesis was right - A has a serious case of roflitis. 
 
-Now let's put an emoji on the face using tf-idf. These emojis characterize the members better than the count. 
+#### Let's put a smiley on that face
+
+Using the same concept of tf-idf we can now find out which emojis characterise people better than raw counts.
 ```{r}
 df_emoji_split %>% 
   count(sender, emoji,description, sort = T) %>%
@@ -283,7 +300,7 @@ df_emoji_split %>%
         panel.grid.minor.y = element_blank()) 
 ```
 
-### Sentiment sentience
+### Getting sentient about sentiments
 
 Fianlly let's take a look at the chats from a sentiment perspective. Sentiment analysis is the process of analyzing a given corpus of text and then using some method to analyze sentiment scores. Naively, a score is assigned to a word and the scores of all words in a sentence are added. But a sentence like *"The movie was not good at all"* would still be positively evaluated by such a technique. So I am using a package called `sentimentr` which accounts for valence shifters (like 'not') and intensifiers (like 'very'). For example,
 ```
@@ -313,23 +330,21 @@ df_sentiment <-
 df_sentiment <- 
   df_sentiment %$%
   sentiment_by(sentence_sent, list(id_sentence, sender)) %>% 
-  left_join(df_sentiment) %>% 
+  left_join(df_sentiment, "id_sentence") %>% 
   as_tibble()
 
 ```
 
 ```{r}
-df_sentiment %>% 
-  mutate(week = week(time),
-         sentiment = ave_sentiment) %>% 
-  filter(sentiment != 0) %>%
-  ggplot(aes(sentiment, fill = sender)) +
-  geom_density() +
-  facet_grid(sender~.)
+
 ```
 
 
 ## Conclusion
 
-Admittedly, one group-chat tells only a part of the story. If there were a way to get all whatsapp chats in a single step, we could do much richer analyses. For instance, chat behavior of the same person in different groups would be intersting to see. Similarly, it could be seen how the proportion of texts sent to each group or person varies across time. That could shed light into which bonds are becoming stronger and which ones are becoming more weaker. Sentiment analysis on all our texts can help us understand how our moods vary. There are lots of possibilities..
+Admittedly, one group-chat tells only a small part of the story. If there were a way to get all whatsapp chats in a single step, we could do much richer analyses. For instance, chat behavior of the same person in different groups would be intersting to see. Similarly, it could be seen how the proportion of texts sent to each group or person varies across time. That could shed light into which bonds are becoming stronger and which ones are becoming more weaker. Sentiment analysis on all our texts can help us understand how our moods vary. So many possibilities...  
 
+```{r echo=FALSE}
+"Any comments, feedback or suggestions are, as people say, 😍😍😍." %>% cat() 
+```
+  
