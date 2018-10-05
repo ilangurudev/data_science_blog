@@ -1,0 +1,47 @@
+---
+title: Machine Learning for understanding your data
+author: Gurudev Ilangovan
+date: '2018-08-31'
+slug: ml_inference
+categories: []
+tags: [machine_learning, inference, fastai]
+showonlyimage: false
+draft: true
+image: "blog/img/ml_inference.png"
+weight: 1
+type: "post"
+description: "Try machine learing for inference"
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Introduction 
+In the many data science projects I've worked on or studied, the first step in the workflow has typically been *Exploratory Data Analysis (EDA)*. It's the step that's been said is essential for *understanding* the data. And it seemed to make a lot of sense. 
+
+And then I took Jeremy Howard's Machine Learning course (highly recommended btw). In the course, he shows us his data science workflow and he does a lot of things that goes against the conventional wisdom. One of those things is that he skips the EDA part (at least in the conventional sense) almost entirely. He just jumps right into modeling and then uses the model to understand the data. Being a very successful kaggler (also at one time, kaggle's president) and data scientist and ai researcher, he gets state of the art results. And that's all we need! 
+
+# Why ml? 
+I'm no expert in EDA but primarily I use one plot to try to understand my data - the scatter plot. Usually, the predictor is the x-axis and target is the y-axis. Often overlayed on top of this plot is a smoothed trendline. These kinds of charts are primarily used for two things - estimate a predictor's predictive power and understand its relationship with the target variable. The rationale is as follows:
+
+1. Prediction: How good is this variable for predicting the target? If there's seems to be a very clear trend, then chances are that it's a great predictor. 
+2. Inference: How does the target change as the predictor change? Is there a pattern? 
+
+This approach seems reasonable but why consider two variables in isolation when you are building an algorithm that learns from the data. Why not try to explore it's *knowledge* so to speak? This approach paints a richer picture of what's going on in the data. 
+
+The intuition behind each of the ml based plots are surprisingly very easy to grasp and that's what I'm going to be focusing on. I'll keep this post free of math and point you to really good resources should you choose to explore further. 
+
+Also in this post, I'll use a random forest model because what's not to like about them. Their defaults work well and require very little tuning and it's extremely easy to prototype using them. However, feel free to use an SVM if that's your shtick. 
+
+# Using Ml to get a more accurate feature representation 
+
+# Using CIF to understand the relationship between features
+
+# Case study
+
+#Conclusion
+Using models for inference is not something new or groundbreaking and it has been used for a while now. However, the fact that it's being used so little and that still a scatter plot seems to be the primary way we explore relationships in data is surprising. Using these model agnostic techniques, we can get a much richer and more accurate picture of a predictor's importance to and it's relationship with the target variable. 
+
+Feel free to comment your thoughts. Feedback welcome. 
+
+Cheers! 

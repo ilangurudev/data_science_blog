@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fastai on Gurudev Ilangovan</title>
+    <link>/tags/fastai/</link>
+    <description>Recent content in Fastai on Gurudev Ilangovan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/fastai/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Machine Learning for understanding your data</title>
+      <link>/blog/ml_inference/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/ml_inference/</guid>
+      <description>Introduction Why ml? Using Ml to get a more accurate feature representation Using CIF to understand the relationship between features Case study   Introduction In the many data science projects I’ve worked on or studied, the first step in the workflow has typically been Exploratory Data Analysis (EDA). It’s the step that’s been said is essential for understanding the data. And it seemed to make a lot of sense.</description>
+    </item>
+    
+  </channel>
+</rss>

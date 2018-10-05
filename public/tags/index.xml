@@ -32,7 +32,7 @@
     <item>
       <title>Analysis</title>
       <link>/tags/analysis/</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/analysis/</guid>
       <description></description>
@@ -111,6 +111,15 @@
     </item>
     
     <item>
+      <title>Fastai</title>
+      <link>/tags/fastai/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fastai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Flask</title>
       <link>/tags/flask/</link>
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
@@ -183,6 +192,15 @@
     </item>
     
     <item>
+      <title>Inference</title>
+      <link>/tags/inference/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Information_safety</title>
       <link>/tags/information_safety/</link>
       <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
@@ -203,7 +221,7 @@
     <item>
       <title>Machine_learning</title>
       <link>/tags/machine_learning/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/machine_learning/</guid>
       <description></description>
@@ -399,6 +417,15 @@
     </item>
     
     <item>
+      <title>Text</title>
+      <link>/tags/text/</link>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Thoughts</title>
       <link>/tags/thoughts/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
@@ -410,7 +437,7 @@
     <item>
       <title>Tidyverse</title>
       <link>/tags/tidyverse/</link>
-      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/tidyverse/</guid>
       <description></description>

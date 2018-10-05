@@ -126,3 +126,20 @@ To github.com:ilangurudev/data_science_blog.git
    aa895f3..4c0c9c0  master -> master
 git push origin mastercommit -a -m "resume redirect"add -A[K[1Pflask rungit checkout ustudy5.3[13Pflask rungit add -A
 ]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git add -Apush origin mastercommit -a -m "resume redirect"
+[master a34992f] resume redirect
+ 11 files changed, 83 insertions(+), 446 deletions(-)
+ rewrite .Rproj.user/B26CD267/console06/INDEX001 (75%)
+ rewrite content/resume/index.Rmd (96%)
+ rewrite content/resume/index.html (96%)
+ rewrite public/resume/index.Rmd (96%)
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "resume redirect"add -A[Kpush origin master
+Counting objects: 20, done.
+Delta compression using up to 8 threads.
+Compressing objects:   5% (1/20)   Compressing objects:  10% (2/20)   Compressing objects:  15% (3/20)   Compressing objects:  20% (4/20)   Compressing objects:  25% (5/20)   Compressing objects:  30% (6/20)   Compressing objects:  35% (7/20)   Compressing objects:  40% (8/20)   Compressing objects:  45% (9/20)   Compressing objects:  50% (10/20)   Compressing objects:  55% (11/20)   Compressing objects:  60% (12/20)   Compressing objects:  65% (13/20)   Compressing objects:  70% (14/20)   Compressing objects:  75% (15/20)   Compressing objects:  80% (16/20)   Compressing objects:  85% (17/20)   Compressing objects:  90% (18/20)   Compressing objects:  95% (19/20)   Compressing objects: 100% (20/20)   Compressing objects: 100% (20/20), done.
+Writing objects:   5% (1/20)   Writing objects:  10% (2/20)   Writing objects:  15% (3/20)   Writing objects:  20% (4/20)   Writing objects:  25% (5/20)   Writing objects:  30% (6/20)   Writing objects:  35% (7/20)   Writing objects:  40% (8/20)   Writing objects:  45% (9/20)   Writing objects:  50% (10/20)   Writing objects:  55% (11/20)   Writing objects:  60% (12/20)   Writing objects:  65% (13/20)   Writing objects:  70% (14/20)   Writing objects:  85% (17/20)   Writing objects:  90% (18/20)   Writing objects:  95% (19/20)   Writing objects: 100% (20/20)   Writing objects: 100% (20/20), 4.88 KiB | 2.44 MiB/s, done.
+Total 20 (delta 13), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/13)   [Kremote: Resolving deltas:   7% (1/13)   [Kremote: Resolving deltas:  23% (3/13)   [Kremote: Resolving deltas:  30% (4/13)   [Kremote: Resolving deltas:  38% (5/13)   [Kremote: Resolving deltas:  46% (6/13)   [Kremote: Resolving deltas:  53% (7/13)   [Kremote: Resolving deltas:  61% (8/13)   [Kremote: Resolving deltas:  69% (9/13)   [Kremote: Resolving deltas:  76% (10/13)   [Kremote: Resolving deltas:  84% (11/13)   [Kremote: Resolving deltas:  92% (12/13)   [Kremote: Resolving deltas: 100% (13/13)   [Kremote: Resolving deltas: 100% (13/13), completed with 10 local objects.[K
+To github.com:ilangurudev/data_science_blog.git
+   4c0c9c0..a34992f  master -> master
+[K]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ sudo apt install bcmwl-kernel-source  reboot[Kapt install firmware-b43-installer[21Pupdate-pciidsapt install firmware-b43-installerreboot[Kapt install bcmwl-kernel-source  [Kgit add -A
+]0;/home/gurudev/projects/data_science_blog]0;gurudev@beacon: ~/projects/data_science_blog[01;32mgurudev@beacon[00m:[01;34m~/projects/data_science_blog[00m$ git commit -a -m "whst[K[Katsapp"

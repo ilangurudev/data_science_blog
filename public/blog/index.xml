@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Machine Learning for understanding your data</title>
+      <link>/blog/ml_inference/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/ml_inference/</guid>
+      <description>Introduction Why ml? Using Ml to get a more accurate feature representation Using CIF to understand the relationship between features Case study   Introduction In the many data science projects I’ve worked on or studied, the first step in the workflow has typically been Exploratory Data Analysis (EDA). It’s the step that’s been said is essential for understanding the data. And it seemed to make a lot of sense.</description>
+    </item>
     
     <item>
       <title>Why every researcher should use github</title>

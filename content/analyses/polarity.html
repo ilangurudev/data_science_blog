@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Polarity</title>
+</head>
+
+<style>
+mark.pos {
+    background-color: lightgreen;
+    color: black;
+}
+
+mark.neg{
+    background-color: pink;
+    color: black;
+}
+h1 { 
+    display: block;
+    font-size: 1.2em;
+    margin-top: 0.0em;
+    margin-bottom: 0.0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+.indented {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+</style>
+
+<body>
+
+<h1>1_The movie was horrible: <em><span style="color: red">-.375</span></em></h1><p class="indented"><mark class = "neg">The movie was horrible</mark></p>
+<h1>2_The movie was not good at all: <em><span style="color: red">-.283</span></em></h1><p class="indented"><mark class = "neg">The movie was not good at all</mark></p>
+<h1>3_The movie was okay: <em><span style="color: #D0D0D0">.000</span></em></h1><p class="indented">The movie was okay</p>
+<h1>4_The movie was good: <em><span style="color: green">+.375</span></em></h1><p class="indented"><mark class = "pos">The movie was good</mark></p>
+<h1>5_The movie was very impressive: <em><span style="color: green">+.604</span></em></h1><p class="indented"><mark class = "pos">The movie was very impressive</mark></p>
+
+</body>
+
+</html>

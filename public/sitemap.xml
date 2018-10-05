@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/analyses/whatsapp_text_analysis/</loc>
+    <lastmod>2018-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/ml_inference/</loc>
+    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/projects/ml_link/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
@@ -113,6 +123,10 @@
   </url>
   
   <url>
+    <loc>/analyses/</loc>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
   </url>
   
@@ -130,13 +144,13 @@
   
   <url>
     <loc>/analyses/</loc>
-    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/analysis/</loc>
-    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -148,7 +162,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -200,6 +214,12 @@
   </url>
   
   <url>
+    <loc>/tags/fastai/</loc>
+    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/flask/</loc>
     <lastmod>2018-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -231,7 +251,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -254,6 +274,12 @@
   </url>
   
   <url>
+    <loc>/tags/inference/</loc>
+    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/information_safety/</loc>
     <lastmod>2017-08-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -267,7 +293,7 @@
   
   <url>
     <loc>/tags/machine_learning/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -410,6 +436,12 @@
   </url>
   
   <url>
+    <loc>/tags/text/</loc>
+    <lastmod>2018-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/thoughts/</loc>
     <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -417,7 +449,7 @@
   
   <url>
     <loc>/tags/tidyverse/</loc>
-    <lastmod>2018-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

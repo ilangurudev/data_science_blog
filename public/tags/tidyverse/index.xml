@@ -6,10 +6,20 @@
     <description>Recent content in Tidyverse on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Whatsapp</title>
+      <link>/analyses/whatsapp_text_analysis/</link>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/analyses/whatsapp_text_analysis/</guid>
+      <description>Introduction Processing Patterns Parsing  Analysis Pet words ⌚ 4⃣ 😂😋😍 Sentiment sentience  Conclusion   Introduction  Without data, you’re just an another person with an opinion - W. Edwards Deming
+ We all have intuitions, questions or even hypotheses if you will about people’s texting patterns. Tom uses a lot of emojis, Daisy is a cynic and Harry swears a lot. But unless we can substantiate our theories with data our guesses will remain speculations however educated.</description>
+    </item>
     
     <item>
       <title>Using textual reviews to recommend</title>
