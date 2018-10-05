@@ -1,5 +1,5 @@
 ---
-title: Whatsapp
+title: What your whatsapp texts say about you
 author: Gurudev Ilangovan
 date: '2018-10-03'
 slug: whatsapp_text_analysis
@@ -10,7 +10,7 @@ draft: false
 image: "analyses/img/whatsapp.jpg"
 weight: 1
 type: "post"
-description: "How do you speak?"
+description: "Using simple text ining techniques to understand how we text..."
 output:
   blogdown::html_page:
     toc: true
