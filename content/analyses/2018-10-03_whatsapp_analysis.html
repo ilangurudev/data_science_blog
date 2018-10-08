@@ -448,7 +448,7 @@ df_words %&gt;%
 </div>
 <div id="word-usage-made-better" class="section level4">
 <h4>Word usage made better</h4>
-<p>Well, most of the words are commonly used ones. Very predictable and not very informative. How do we find words that are important relative to each member? Enter <strong>tf-idf</strong>! Tf-idf(Term frequency - Inverse document frequency) is a concept used in information retrieval where in the importance of each term is measured relative to the commonly that term is used by others. Basically, if you are using a term a lot and that term is used a lot in general, the count does not accurately reflect who you are. It’s the words that you use a lot but others don’t that say more about you. That’s the basic intuition but the <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">Wikipedia</a> article is actually pretty accessible if you want to dig deeper.</p>
+<p>Well, most of the words are commonly used ones. Very predictable and not very informative. How do we find words that are important relative to each member? Enter <strong>tf-idf</strong>! Tf-idf(Term frequency - Inverse document frequency) is a concept used in information retrieval where in the importance of each term is measured relative to how commonly that term is used by others. Basically, if you are using a term a lot and that term is used a lot in general, the count does not accurately reflect who you are. It’s the words that you use a lot but others don’t that say more about you. That’s the basic intuition but the <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">Wikipedia</a> article is actually pretty accessible if you want to dig deeper.</p>
 <pre class="r"><code>df_words %&gt;% 
   count(sender, word) %&gt;% 
   filter(n &gt; 15) %&gt;% 
@@ -613,6 +613,6 @@ df_sentiment &lt;-
 </div>
 <div id="conclusion" class="section level2">
 <h2>Conclusion</h2>
-<p>Admittedly, one group-chat tells only a small part of the story. If there were a way to get all whatsapp chats in a single step, we could do much richer analyses. For instance, chat behavior of the same person in different groups would be interesting to see. Similarly, it could be seen how the proportion of texts sent to each group or person varies across time. That could shed light into which bonds are becoming stronger and which ones are becoming more weaker. Sentiment analysis on all our texts can help us understand how our moods vary. So many possibilities…</p>
+<p>Admittedly, one group-chat tells only a small part of the story. If there were a way to get all whatsapp chats in a single step, we could do much richer analyses. For instance, chat behavior of the same person in different groups would be interesting to see. Similarly, it could be seen how the proportion of texts sent to each group or person varies across time. That could shed light into which bonds are becoming stronger and which ones are becoming weaker. Sentiment analysis on all our texts can help us understand how our moods vary. So many possibilities…</p>
 <p>Any comments, feedback or suggestions are, as people say, 😍😍😍.</p>
 </div>
