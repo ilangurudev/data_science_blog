@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fastai_miniseries on Gurudev Ilangovan</title>
+    <link>/tags/fastai_miniseries/</link>
+    <description>Recent content in Fastai_miniseries on Gurudev Ilangovan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/fastai_miniseries/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why deep learning? - Fastai miniseries - 01</title>
+      <link>/blog/why_deep_learning/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/why_deep_learning/</guid>
+      <description>Introduction (A brief note about the fastai mini-series) Why deep learning Myths about deep learning Glossary   Introduction (A brief note about the fastai mini-series) I am beginning the 2018 iteration of the popular fastai course, Practical Deep Learning for Coders. Having been a passive listener to the previous iteration of the course, I know many of the key concepts in theory. However I plan to be a lot more involved with the practical aspects of the course this time.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,227 @@
+---
+title: KNN - ML from Scratch - Part 1
+author: Gurudev Ilangovan
+date: '2019-06-18'
+slug: ml_scratch_1
+categories: []
+tags: [machine_learning, python, oop]
+showonlyimage: false
+draft: true
+image: "blog/img/decision_boundary.png"
+weight: 1
+type: "post"
+description: "KNN - Coding your own ML algorithms"
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+
+<div id="TOC">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#techniques-and-design">Techniques and Design</a></li>
+<li><a href="#setup-libraries-and-data">Setup (Libraries and Data)</a></li>
+<li><a href="#standardizer">Standardizer</a></li>
+<li><a href="#k-nearest-neighbours">K Nearest Neighbours</a><ul>
+<li><a href="#creating-a-knn-classifier">Creating a KNN classifier</a></li>
+<li><a href="#fitting-a-classifier">Fitting a classifier</a></li>
+<li><a href="#prediction">Prediction</a></li>
+<li><a href="#score">Score</a></li>
+<li><a href="#code">Code</a></li>
+</ul></li>
+<li><a href="#verifying-the-results-using-scikit-learn">Verifying the results using scikit-learn</a></li>
+</ul>
+</div>
+
+<style type="text/css">
+pre {
+  white-space: pre !important;
+  # overflow-y: visible !important;
+  max-height: 500vh !important;
+}
+</style>
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>For my Machine Learing class at A&amp;M, I implemented common ML algorithms from the ground up. It’s amazing how easy it is to implement an ML technique in python. I thought that I’d share my implementations in a series of short blog posts (I am new to python, so please cut me some slack.). In my opinion, there are three main advantages to this endeavour:</p>
+<ul>
+<li>The understanding we get when we implement something from scratch is unmatched. A lot of the times, we think we understand a concept but when we implement it, we get a slew of doubts, thereby forcing us to really get the details right.</li>
+<li>It helps us appreciate the design of libraries better and understand why things are designed a certain way. It helps truly get the API of a library with enduring success like scikit-learn.<br />
+</li>
+<li>The satisfaction when we see the identical results convinces, that these libraries do not do something like the algorithm we study but actually implement the very algorithm we study, only better.</li>
+</ul>
+</div>
+<div id="techniques-and-design" class="section level1">
+<h1>Techniques and Design</h1>
+<p>In this blog, I am sharing the code for</p>
+<ol style="list-style-type: decimal">
+<li>A small module to scale training and testing dataset features, the right way.</li>
+<li>A K Nearest Neighbour classifier</li>
+</ol>
+<p>Typically the features are converted to the same scale before we use a distance based classifier like KNN to classify. This is to ensure that all features are given equal importance. The standardizing can be done by min-max scaling or z-scaling.</p>
+<p>In a package like scikit learn, each step is modularized. We can then aggregate multiple steps using pipelines (See last section). This means that if we do not scale features manually, the algorithm executes KNN without translating all features to the same scale. I, however, decided to make scaling part of my KNN.</p>
+</div>
+<div id="setup-libraries-and-data" class="section level1">
+<h1>Setup (Libraries and Data)</h1>
+<pre class="python"><code>import pandas as pd
+import numpy as np
+import scipy
+import collections</code></pre>
+<p>Since this series of posts concentrates on the implementations, I won’t delve into the data and results per se. I’ll just briefly explain the dataset and the classification task for demonstration purposes. The dataset shows the response - area (in square feet) affected by volcanos and different features corresponding to it. We can change this to a classification problem by predicting whether the area was affected by volcanoes or not (area &gt; 0).</p>
+<pre class="python"><code>df_train_org = pd.read_csv(&quot;../data/ml_scratch_1_train.csv&quot;)
+df_test_org = pd.read_csv(&quot;../data/ml_scratch_1_test.csv&quot;)
+print(df_train_org.head())
+
+tr_X = df_train_org.loc[:, df_train_org.columns != &#39;area&#39;]
+ts_X = df_test_org.loc[:, tr_X.columns]
+tr_y = (df_train_org[&#39;area&#39;] &gt; 0)*1
+ts_y = (df_test_org[&#39;area&#39;] &gt; 0)*1</code></pre>
+<pre><code>   X  Y  month  day  FFMC   DMC     DC  ISI  temp  RH  wind  rain  area
+0  7  5      3    5  86.2  26.2   94.3  5.1   8.2  51   6.7   0.0   0.0
+1  7  4     10    2  90.6  35.4  669.1  6.7  18.0  33   0.9   0.0   0.0
+2  7  4     10    6  90.6  43.7  686.9  6.7  14.6  33   1.3   0.0   0.0
+3  8  6      3    5  91.7  33.3   77.5  9.0   8.3  97   4.0   0.2   0.0
+4  8  6      3    7  89.3  51.3  102.2  9.6  11.4  99   1.8   0.0   0.0</code></pre>
+</div>
+<div id="standardizer" class="section level1">
+<h1>Standardizer</h1>
+<p>This is a basic template for a standardizer that can do both Z-scaling and min-max scaling. The advantage of having such a standardizer is that we can store the mean, sd, min and max values of the training set and use it when we standardize the test set. This is very important as we cannot standardize the test set using the test set summary stats.</p>
+<pre class="python"><code>class Standardize():
+    
+
+    def __init__(self, X):
+        self.X = X
+
+    @property
+    def normalize_mappings(self):
+        mu = self.X.mean()
+        sd = self.X.std()
+        return {&#39;mu&#39;: mu, &#39;sd&#39;: sd}
+
+    @property
+    def min_max_mappings(self):
+        mins = self.X.min()
+        maxs = self.X.max()
+        return {&#39;mins&#39;: mins, &#39;maxs&#39;: maxs}
+
+    def standardize(self, method=&quot;normalize&quot;, X=None):
+        if X is None:
+            X = self.X
+        if method == &quot;normalize&quot;:
+            X = (X - self.normalize_mappings[&#39;mu&#39;])/self.normalize_mappings[&#39;sd&#39;]
+        elif method == &quot;min_max&quot;:
+            X = ((X - self.min_max_mappings[&#39;mins&#39;])
+                 / (self.min_max_mappings[&#39;maxs&#39;] - self.min_max_mappings[&#39;mins&#39;]))
+        return X</code></pre>
+</div>
+<div id="k-nearest-neighbours" class="section level1">
+<h1>K Nearest Neighbours</h1>
+<div id="creating-a-knn-classifier" class="section level2">
+<h2>Creating a KNN classifier</h2>
+<p>We create a KNN classifier using 3 parameters:</p>
+<ol style="list-style-type: decimal">
+<li>Number of nearest neighbours, k.</li>
+<li>When we calculate the distance, the norm to be used, norm.</li>
+<li>The standardization to be used, standardization</li>
+</ol>
+</div>
+<div id="fitting-a-classifier" class="section level2">
+<h2>Fitting a classifier</h2>
+<p>The fit method for a KNN classifier is fairly minimal. We</p>
+<ol style="list-style-type: decimal">
+<li>Create (and store) a standarizer using the training data passed.</li>
+<li>Standardize the training data using the stored standardizer and store the standardized training data.</li>
+<li>Store the labels</li>
+</ol>
+</div>
+<div id="prediction" class="section level2">
+<h2>Prediction</h2>
+<p>The predict method is the most important method because this is where we need to do most work. The steps are listed out:</p>
+<ol style="list-style-type: decimal">
+<li>First, we standardize the test data using the standardizer we stored during the fit procedure. This ensures, test data is standardized according to training data mappings.</li>
+<li>Next, we get the distances of test data points from all training data points (<strong>dist_matrix</strong>). This distance matrix has dimensions n_test x n_train. We use a scipy function called distance_matrix for this and we pass the norm to this function. I tried implementing my own distance matrix and though, I got the right answer, the process was painfully slow.</li>
+<li>Once we get the distance matrix, for each observation in test data, we find the indices of the k closest training observations (<strong>get_nearest_neighbour_indices</strong>).</li>
+<li>Since we have the labels for all indices, for each test data observtion, we count the labels among the k closest neighbours (<strong>count_votes</strong>).</li>
+<li>Once we count the votes for each observation, we just have to pick the class with the most votes (<strong>tag_winner</strong>). In case of a tie, ideally a class should be picked at random but in the current implementaion, the first class returned by collections.Counter is returned. For KNNs, it anyway better to give an odd k, so I didn’t spend too much time on it.</li>
+<li>Thus for each test point, a class is returned.</li>
+</ol>
+</div>
+<div id="score" class="section level2">
+<h2>Score</h2>
+<p>This is a simple function to get the accuracy of the predicted values.</p>
+</div>
+<div id="code" class="section level2">
+<h2>Code</h2>
+<pre class="python"><code>class Knn():
+
+    def __init__(self, 
+                 k=3,
+                 norm=2.0 ,
+                 standardization=&quot;normalize&quot;):
+
+        self.k = k
+        self.norm = norm
+        self.standardization = standardization
+  
+
+    def fit(self, tr_X, tr_y):
+        &quot;&quot;&quot;Pass training data as X and y &quot;&quot;&quot;
+        self.standardizer = Standardize(X=tr_X)
+        self.tr_X = self.standardizer.standardize(method=self.standardization)
+        self.tr_y = tr_y
+
+
+    def predict(self, ts_X):
+        ts_X = self.standardizer.standardize(
+            method=self.standardization, X=ts_X)
+        d = self._dist_matrix(ts_X)
+        neighbours = self._get_nearest_neighbour_indices(d)
+        counts = self._count_votes(neighbours)
+        return self._tag_winner(counts)
+
+
+    def _dist_matrix(self, ts_X):
+        dists = scipy.spatial.distance_matrix(ts_X, self.tr_X, p=self.norm)
+        dists = np.vstack(dists)
+        return dists
+
+
+    def _get_nearest_neighbour_indices(self, dist_matrix):
+        return np.argpartition(dist_matrix, kth=self.k, axis=1)[:, :self.k]
+
+
+    def _count_votes(self, indice_matrix):
+        return np.apply_along_axis(lambda x: collections.Counter(self.tr_y.iloc[x]), 1, indice_matrix)
+
+
+    def _tag_winner(self, vote_mat):
+        count_max = np.vectorize(lambda x: x.most_common(1)[0][0])
+        return count_max(vote_mat)
+
+
+    def score(self, ts_X, ts_y):
+        return (ts_y == self.predict(ts_X)).mean()
+
+
+    def __repr__(self):
+        return (f&#39;Knn(k={self.k}, norm={self.norm}, standardization=&quot;{self.standardization}&quot;&#39;)
+</code></pre>
+<pre class="python"><code>model_knn = Knn(k=13, norm=2, standardization=&quot;min_max&quot;)
+model_knn.fit(tr_X, tr_y)
+model_knn.score(ts_X, ts_y)</code></pre>
+<pre><code>0.6470588235294118</code></pre>
+</div>
+</div>
+<div id="verifying-the-results-using-scikit-learn" class="section level1">
+<h1>Verifying the results using scikit-learn</h1>
+<pre class="python"><code>from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import MinMaxScaler, Normalizer
+from sklearn import pipeline</code></pre>
+<pre class="python"><code>model_std_knn = pipeline.Pipeline([(&#39;scaling&#39;, MinMaxScaler()),
+                       (&#39;knn&#39;, KNeighborsClassifier(n_neighbors=13))])
+model_std_knn.fit(tr_X, tr_y)
+model_std_knn.score(ts_X, ts_y)</code></pre>
+<pre><code>0.6470588235294118</code></pre>
+<p>As we can see, the results match!</p>
+<p>Thank you for reading. Comments welcome!</p>
+</div>

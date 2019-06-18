@@ -1,0 +1,42 @@
+---
+title: Why deep learning? - Fastai miniseries - 01
+author: Gurudev Ilangovan
+date: '2018-10-24'
+slug: why_deep_learning
+categories: []
+tags: [machine_learning, deep_learning, fastai, fastai_miniseries]
+showonlyimage: false
+draft: true
+image: "blog/img/ml_inference.png"
+weight: 1
+type: "post"
+description: "Brief learnings from the fastai course..."
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Introduction (A brief note about the fastai mini-series)
+
+I am beginning the 2018 iteration of the popular fastai course, [Practical Deep Learning for Coders](http://course.fast.ai/). Having been a passive listener to the previous iteration of the course, I know many of the key concepts in theory. However I plan to be a lot more involved with the practical aspects of the course this time. I plan to write short, accessible lessons based on my understanding of the material as I progress through the course. I am sure there will be excellent notes of the lessons themselves by other amazing people who also take the course with me, as well as posts that are technically rigorous. The motivation of these posts however is to explain the key concepts in very simple and brief terms. The idea is for anyone to be able to understand deep learning terminology (and also for me to understand the intuition of the concepts). I plan on linking my own posts and build on them as the lessons get more complex.  
+
+For a glossary of all the posts in fastai please click [here](#glossary). For a view with a preview please click [here](/tags/fastai_miniseries/).
+
+# Why deep learning
+
+Without further ado, let me start. Why would you choose deep learning? Why not other machine learning algorithms? 
+
+# Myths about deep learning
+
+1. Requires data
+
+
+# Glossary
+
+1. [Why deep learning?](/blog/why_deep_learning) (Which epoch are you in?😜)
+2. [Transfer Learning]()
+3. 
+
+
+
+

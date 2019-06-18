@@ -6,10 +6,19 @@
     <description>Recent content in Deep_learning on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/deep_learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why deep learning? - Fastai miniseries - 01</title>
+      <link>/blog/why_deep_learning/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/why_deep_learning/</guid>
+      <description>Introduction (A brief note about the fastai mini-series) Why deep learning Myths about deep learning Glossary   Introduction (A brief note about the fastai mini-series) I am beginning the 2018 iteration of the popular fastai course, Practical Deep Learning for Coders. Having been a passive listener to the previous iteration of the course, I know many of the key concepts in theory. However I plan to be a lot more involved with the practical aspects of the course this time.</description>
+    </item>
     
     <item>
       <title>Using fastai to classify dogs</title>

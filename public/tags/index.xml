@@ -104,7 +104,7 @@
     <item>
       <title>Deep_learning</title>
       <link>/tags/deep_learning/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/deep_learning/</guid>
       <description></description>
@@ -113,9 +113,18 @@
     <item>
       <title>Fastai</title>
       <link>/tags/fastai/</link>
-      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/fastai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fastai_miniseries</title>
+      <link>/tags/fastai_miniseries/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fastai_miniseries/</guid>
       <description></description>
     </item>
     
@@ -221,7 +230,7 @@
     <item>
       <title>Machine_learning</title>
       <link>/tags/machine_learning/</link>
-      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/machine_learning/</guid>
       <description></description>
@@ -242,6 +251,15 @@
       <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oop</title>
+      <link>/tags/oop/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/oop/</guid>
       <description></description>
     </item>
     
@@ -293,7 +311,7 @@
     <item>
       <title>Python</title>
       <link>/tags/python/</link>
-      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/python/</guid>
       <description></description>
@@ -386,15 +404,6 @@
       <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/shiny/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistics</title>
-      <link>/tags/statistics/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/statistics/</guid>
       <description></description>
     </item>
     
