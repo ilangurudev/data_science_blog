@@ -6,7 +6,7 @@ slug: ml_scratch_1
 categories: []
 tags: [machine_learning, python, oop]
 showonlyimage: false
-draft: true
+draft: false
 image: "blog/img/decision_boundary.png"
 weight: 1
 type: "post"
