@@ -60,6 +60,7 @@ pre {
 </ol>
 <p>Typically the features are converted to the same scale before we use a distance based classifier like KNN to classify. This is to ensure that all features are given equal importance. The standardizing can be done by min-max scaling or z-scaling.</p>
 <p>In a package like scikit learn, each step is modularized. We can then aggregate multiple steps using pipelines (See last section). This means that if we do not scale features manually, the algorithm executes KNN without translating all features to the same scale. I, however, decided to make scaling part of my KNN.</p>
+<p>Also when I watched Jeremy Howard’s <a href="http://course18.fast.ai/ml">excellent ML course</a>, I found one of his tips extremely useful. He keeps a function simple and keeps calling another function and passing the buck to it. Eventually, the code just writes itself. Very sage advice!</p>
 </div>
 <div id="setup-libraries-and-data" class="section level1">
 <h1>Setup (Libraries and Data)</h1>

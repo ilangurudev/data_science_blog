@@ -70,6 +70,8 @@ Typically the features are converted to the same scale before we use a distance 
 
 In a package like scikit learn, each step is modularized. We can then aggregate multiple steps using pipelines (See last section). This means that if we do not scale features manually, the algorithm executes KNN without translating all features to the same scale. I, however, decided to make scaling part of my KNN. 
 
+Also when I watched Jeremy Howard's [excellent ML course](http://course18.fast.ai/ml), I found one of his tips extremely useful. He keeps a function simple and keeps calling another function and passing the buck to it. Eventually, the code just writes itself. Very sage advice!
+
 # Setup (Libraries and Data)
 
 
