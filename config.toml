@@ -27,7 +27,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Use custom.css for your custom styling
   style = "default"
   description = "A portfolio for my data science projects, analyses and blogs about things that I've been learning."
-  copyright = "&copy;2018 Gurudev Ilangovan"  
+  copyright = "&copy;2020 Gurudev Ilangovan"  
   sidebarAbout = [
     "Guru is a Senior Data Analyst at Capital One.",
     "This website is a portfolio for his data science projects, analyses and blogs about things that he's been learning in his data science journey."
