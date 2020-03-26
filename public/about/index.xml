@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Gurudev Ilangovan</title>
+    <link>/about/</link>
+    <description>Recent content in About on Gurudev Ilangovan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2018 Gurudev Ilangovan</copyright>
+    
+	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Gurudev “Guru” Ilangovan is a Senior Data Analyst in Capital One. A passionate problem solver by nature, Guru loves coming up with solutions to data-driven, tech-powered solutions to real world problems.
+Prior to joining Capital One, Guru was a graduate research assistant in the department of computer science and engineering at Texas A&amp;amp;M University and holds Masters degrees in Computer Science and Industrial Engineering from TAMU. As part of his research and coursework, Gurudev was involved in a lot of data science projects.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -29,8 +29,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   description = "A portfolio for my data science projects, analyses and blogs about things that I've been learning."
   copyright = "&copy;2018 Gurudev Ilangovan"  
   sidebarAbout = [
-    "I'm a graduate student studying computer science at Texas A&M University.",
-    "This website is a portfolio for my data science projects, analyses and blogs about things that I've been learning in my data science journey."
+    "Guru is a Senior Data Analyst at Capital One.",
+    "This website is a portfolio for his data science projects, analyses and blogs about things that he's been learning in his data science journey."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
