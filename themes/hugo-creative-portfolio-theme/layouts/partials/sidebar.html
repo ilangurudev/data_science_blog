@@ -1,20 +1,24 @@
 <div id="sidebar" class="col-sb-fixedpos col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
     <h1 class="sidebar-heading"><a href="/">{{ .Site.Title }}</a></h1>
-<!--    {{ range .Site.Params.sidebarAbout }}
-      <p class="sidebar-p">{{ . | safeHTML }}</p>
-    {{ end }} -->
+    {{ range .Site.Params.sidebarAbout }}
+    <p class="sidebar-p">{{ . | safeHTML }}</p>
+    {{ end }}
+
+    <p class="sidebar-p">
+      <i class="fa fa-map-marker" aria-hidden="true"></i> McLean, Virginia</p>
+
     <ul class="sidebar-menu">
       {{ $url := .Site.BaseURL }}
       {{ range .Site.Params.navlinks }}
-        <li><a href="{{ $url }}{{ .url }}">{{ .name }}</a></li>
+      <li><a href="{{ $url }}{{ .url }}">{{ .name }}</a></li>
       {{ end }}
 
-       {{ partial "widgets/search.html" . }} 
+      {{ partial "widgets/search.html" . }}
 
-      {{ partial "widgets/categories.html" . }} 
+      {{ partial "widgets/categories.html" . }}
 
-      {{ partial "widgets/tags.html" . }} 
+      {{ partial "widgets/tags.html" . }}
 
     </ul>
     {{ partial "socialButtonsInSideBar.html" . }}
@@ -22,7 +26,7 @@
     <div class="copyright">
       <p class="credit">
         {{ with .Site.Params.copyright }}
-          {{ . | safeHTML }}
+        {{ . | safeHTML }}
         {{ end }}
         {{ partial "attribution.html" . }}
       </p>
