@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Purrr on Gurudev Ilangovan</title>
-    <link>/tags/purrr/</link>
+    <link>https://www.ilangurudev.com/tags/purrr/</link>
     <description>Recent content in Purrr on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Thu, 21 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/purrr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilangurudev.com/tags/purrr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tidy Carrots</title>
-      <link>/blog/tidy_carrots/</link>
+      <link>https://www.ilangurudev.com/blog/tidy_carrots/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/tidy_carrots/</guid>
+      <guid>https://www.ilangurudev.com/blog/tidy_carrots/</guid>
       <description>Thoughts on R and Machine Learning… I started coding in R in 2015. I was pretty new to coding and especially, data science. I had heard of packages like ggplot2 and dplyr but I assumed they were packages that you learned once you learned the basics of R. ggplot2 seemed tough with words like geoms and aes and dplyr with the dangerous looking %&amp;gt;%. For a year and half, I never made an effort to learn new tools no matter how much I strugglled with base R (and to be honest, never really learnt that properly either).</description>
     </item>
     

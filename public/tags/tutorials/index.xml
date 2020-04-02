@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials on Gurudev Ilangovan</title>
-    <link>/tags/tutorials/</link>
+    <link>https://www.ilangurudev.com/tags/tutorials/</link>
     <description>Recent content in Tutorials on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilangurudev.com/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why every researcher should use github</title>
-      <link>/blog/git_research/</link>
+      <link>https://www.ilangurudev.com/blog/git_research/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/git_research/</guid>
+      <guid>https://www.ilangurudev.com/blog/git_research/</guid>
       <description>Why I am writing this. Why git? And what is github? Myths Github is just Google Drive for code You need to be able to code to use these things  Advantages Project snapshots Pay it forward Project management A project page or wiki. Collaboration A portfolio of your research Branching, merging and pull requests Command line? No problem!  Some guidelines   Why I am writing this. Having been in the masters program in industrial engineering and computer science while doing research, I have witnessed a great deal of disconnect between the tools computer scientists use and how researchers in others fields operate.</description>
     </item>
     

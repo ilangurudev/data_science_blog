@@ -3,476 +3,209 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/ml_scratch_1/</loc>
+    <loc>https://www.ilangurudev.com/blog/ml_scratch_1/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/why_deep_learning/</loc>
-    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/analyses/whatsapp_text_analysis/</loc>
+    <loc>https://www.ilangurudev.com/analyses/whatsapp_text_analysis/</loc>
     <lastmod>2018-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/ml_inference/</loc>
-    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/ml_link/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/nse_bse_api/</loc>
+    <loc>https://www.ilangurudev.com/projects/nse_bse_api/</loc>
     <lastmod>2018-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/git_research/</loc>
+    <loc>https://www.ilangurudev.com/blog/git_research/</loc>
     <lastmod>2018-07-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/productivity_dashboard/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/fastai_image_classification/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/roster_scheduling/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/text_augmented_recommendations/</loc>
-    <lastmod>2018-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/interactive_rl/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/analyses/unweaving_happiness/</loc>
+    <loc>https://www.ilangurudev.com/analyses/unweaving_happiness/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/uav_csp/</loc>
-    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/uav_path/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/stock_filter_scraper/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/egen_ml/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/analyses/chicago_taxi_trips/</loc>
+    <loc>https://www.ilangurudev.com/projects/approxmap/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/approxmap/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/tidy_carrots/</loc>
+    <loc>https://www.ilangurudev.com/blog/tidy_carrots/</loc>
     <lastmod>2017-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/analyses/tennis_big4/</loc>
+    <loc>https://www.ilangurudev.com/analyses/tennis_big4/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/pprl_sigchi18/</loc>
-    <lastmod>2017-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/random_survival_forest/</loc>
-    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/resume/</loc>
+    <loc>https://www.ilangurudev.com/resume/</loc>
     <lastmod>2018-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>https://www.ilangurudev.com/contact/</loc>
     <lastmod>2016-11-06T13:00:25+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://www.ilangurudev.com/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://www.ilangurudev.com/about/</loc>
   </url>
   
   <url>
-    <loc>/tags/ai/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/algorithms/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/analyses/</loc>
+    <loc>https://www.ilangurudev.com/analyses/</loc>
     <lastmod>2018-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/analysis/</loc>
+    <loc>https://www.ilangurudev.com/tags/analysis/</loc>
     <lastmod>2018-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/api/</loc>
+    <loc>https://www.ilangurudev.com/tags/api/</loc>
     <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/</loc>
+    <loc>https://www.ilangurudev.com/blog/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/caret/</loc>
+    <loc>https://www.ilangurudev.com/tags/caret/</loc>
     <lastmod>2017-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://www.ilangurudev.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/censoring/</loc>
-    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/cnn/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/data_imbalance/</loc>
-    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/data_privacy/</loc>
-    <lastmod>2017-08-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/data_viz/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/deep_learning/</loc>
-    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/fastai/</loc>
-    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/fastai_miniseries/</loc>
-    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/flask/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/forecasting/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/foss/</loc>
+    <loc>https://www.ilangurudev.com/tags/foss/</loc>
     <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/github/</loc>
+    <loc>https://www.ilangurudev.com/tags/github/</loc>
     <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/google_sheets/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
+    <loc>https://www.ilangurudev.com/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/hci/</loc>
-    <lastmod>2017-08-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/heroku/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/image_classification/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/inference/</loc>
-    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/information_safety/</loc>
-    <lastmod>2017-08-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/machine-learning/</loc>
+    <loc>https://www.ilangurudev.com/tags/machine-learning/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/machine_learning/</loc>
+    <loc>https://www.ilangurudev.com/tags/machine_learning/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/mongo/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/nodejs/</loc>
-    <lastmod>2017-08-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/oop/</loc>
+    <loc>https://www.ilangurudev.com/tags/oop/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/optimization/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/package/</loc>
+    <loc>https://www.ilangurudev.com/tags/package/</loc>
     <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/projects/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+    <loc>https://www.ilangurudev.com/projects/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/prophet/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/purrr/</loc>
+    <loc>https://www.ilangurudev.com/tags/purrr/</loc>
     <lastmod>2017-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/pyomo/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/python/</loc>
+    <loc>https://www.ilangurudev.com/tags/python/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
+    <loc>https://www.ilangurudev.com/tags/r/</loc>
     <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/recommender_systems/</loc>
-    <lastmod>2018-04-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/record_linkage/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/redis/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/resume/</loc>
+    <loc>https://www.ilangurudev.com/resume/</loc>
     <lastmod>2018-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/rvest/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/scheduling/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/scraping/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/sentiment_analysis/</loc>
-    <lastmod>2018-04-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/sequential_data_mining/</loc>
+    <loc>https://www.ilangurudev.com/tags/sequential_data_mining/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/shiny/</loc>
-    <lastmod>2018-07-15T00:00:00+00:00</lastmod>
+    <loc>https://www.ilangurudev.com/tags/</loc>
+    <lastmod>2018-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/survival_analysis/</loc>
-    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tennis/</loc>
+    <loc>https://www.ilangurudev.com/tags/tennis/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/text/</loc>
+    <loc>https://www.ilangurudev.com/tags/text/</loc>
     <lastmod>2018-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/thoughts/</loc>
+    <loc>https://www.ilangurudev.com/tags/thoughts/</loc>
     <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/tidyverse/</loc>
+    <loc>https://www.ilangurudev.com/tags/tidyverse/</loc>
     <lastmod>2018-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/tutorials/</loc>
+    <loc>https://www.ilangurudev.com/tags/tutorials/</loc>
     <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oop on Gurudev Ilangovan</title>
-    <link>/tags/oop/</link>
+    <link>https://www.ilangurudev.com/tags/oop/</link>
     <description>Recent content in Oop on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilangurudev.com/tags/oop/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>KNN - ML from Scratch - Part 1</title>
-      <link>/blog/ml_scratch_1/</link>
+      <link>https://www.ilangurudev.com/blog/ml_scratch_1/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/ml_scratch_1/</guid>
+      <guid>https://www.ilangurudev.com/blog/ml_scratch_1/</guid>
       <description>Introduction Techniques and Design Setup (Libraries and Data) Standardizer K Nearest Neighbours Creating a KNN classifier Fitting a classifier Prediction Score Code  Verifying the results using scikit-learn   pre { white-space: pre !important; # overflow-y: visible !important; max-height: 500vh !important; }  Introduction For my Machine Learing class at A&amp;amp;M, I implemented common ML algorithms from the ground up. It’s amazing how easy it is to implement an ML technique in python.</description>
     </item>
     

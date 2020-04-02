@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning on Gurudev Ilangovan</title>
-    <link>/tags/machine-learning/</link>
+    <link>https://www.ilangurudev.com/tags/machine-learning/</link>
     <description>Recent content in Machine Learning on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilangurudev.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Unweaving Happiness</title>
-      <link>/analyses/unweaving_happiness/</link>
+      <link>https://www.ilangurudev.com/analyses/unweaving_happiness/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/analyses/unweaving_happiness/</guid>
+      <guid>https://www.ilangurudev.com/analyses/unweaving_happiness/</guid>
       <description>Introduction A word of warning if you are reading from a mobile  Setup Data Munging Missing Adding Continents  Exploration Happiness levels Standard Deviation of happiness Correlation Analysis GDP’s relationship Healthy Life Expectancy Social Support  Prediction Setup Modeling Model Selection Testing our model/Diagnostics Best and Worst Predictions  Conclusion   Introduction The World Happiness Report 2018 by United Nations Sustainable Development Solutions Network (SDSN) based on data from the Gallup World Poll surveys was out a few days ago.</description>
     </item>
     

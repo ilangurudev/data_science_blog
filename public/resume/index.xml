@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resume on Gurudev Ilangovan</title>
-    <link>/resume/</link>
+    <link>https://www.ilangurudev.com/resume/</link>
     <description>Recent content in Resume on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Mon, 23 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/resume/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ilangurudev.com/resume/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Resume</title>
-      <link>/resume/</link>
+      <link>https://www.ilangurudev.com/resume/</link>
       <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/resume/</guid>
+      <guid>https://www.ilangurudev.com/resume/</guid>
       <description>here for the most up-to-date version of my resume. -- Redirecting to my most recent resume… If redirect doesn’t work please click here
  window.location.replace(&#34;https://drive.google.com/file/d/1Y6lWTdblz8fLAZDDmT_03iZ9lTibr0Po/view&#34;);  </description>
     </item>
