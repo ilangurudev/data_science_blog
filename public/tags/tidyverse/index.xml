@@ -2,59 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tidyverse on Gurudev Ilangovan</title>
-    <link>https://www.ilangurudev.com/tags/tidyverse/</link>
+    <link>/tags/tidyverse/</link>
     <description>Recent content in Tidyverse on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Wed, 03 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.ilangurudev.com/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What your texts say about you</title>
-      <link>https://www.ilangurudev.com/analyses/whatsapp_text_analysis/</link>
+      <link>/analyses/whatsapp_text_analysis/</link>
       <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/analyses/whatsapp_text_analysis/</guid>
+      <guid>/analyses/whatsapp_text_analysis/</guid>
       <description>Introduction Processing Patterns Parsing  Analysis Pet words Overall word usage Word usage by member Word usage made better  ⌚ 4⃣ 😂😋😍 Popular emojis and chronic roflitis Let’s put a smiley on that face Emoji to word ratio  Getting sentient about sentiments  Conclusion   Introduction  Without data, you’re just an another person with an opinion - W. Edwards Deming
  We all have intuitions, questions or even hypotheses if you will about people’s texting patterns.</description>
     </item>
     
     <item>
+      <title>Using textual reviews to recommend</title>
+      <link>/projects/text_augmented_recommendations/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/text_augmented_recommendations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Unweaving Happiness</title>
-      <link>https://www.ilangurudev.com/analyses/unweaving_happiness/</link>
+      <link>/analyses/unweaving_happiness/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/analyses/unweaving_happiness/</guid>
+      <guid>/analyses/unweaving_happiness/</guid>
       <description>Introduction A word of warning if you are reading from a mobile  Setup Data Munging Missing Adding Continents  Exploration Happiness levels Standard Deviation of happiness Correlation Analysis GDP’s relationship Healthy Life Expectancy Social Support  Prediction Setup Modeling Model Selection Testing our model/Diagnostics Best and Worst Predictions  Conclusion   Introduction The World Happiness Report 2018 by United Nations Sustainable Development Solutions Network (SDSN) based on data from the Gallup World Poll surveys was out a few days ago.</description>
     </item>
     
     <item>
-      <title>approxmapR - An R package to explore macro trends in sequential data</title>
-      <link>https://www.ilangurudev.com/projects/approxmap/</link>
+      <title>Quantitative short-lister and qualitative metrics downloader for Indian stocks</title>
+      <link>/projects/stock_filter_scraper/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/stock_filter_scraper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chicago Taxi Trips</title>
+      <link>/analyses/chicago_taxi_trips/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/projects/approxmap/</guid>
+      <guid>/analyses/chicago_taxi_trips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>approxmapR - An R package to explore macro trends in sequential data</title>
+      <link>/projects/approxmap/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/approxmap/</guid>
       <description>Setting Up Motivation Workflow General Instructions 1. Aggregate the data 2. Cluster the data 3. Extract the patterns 4. Formatted output  Using tidyverse to fully exploit approxmapR   ApproxmapR is an R package for the approxmap algorithm, used for exploratory data analysis of sequential data. When we have longitudinal data and we want to find out the underlying patterns, we use approxmap. approxmapR aims to provide a consistent and tidy api for using the algorithm in R.</description>
     </item>
     
     <item>
       <title>Tidy Carrots</title>
-      <link>https://www.ilangurudev.com/blog/tidy_carrots/</link>
+      <link>/blog/tidy_carrots/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/blog/tidy_carrots/</guid>
+      <guid>/blog/tidy_carrots/</guid>
       <description>Thoughts on R and Machine Learning… I started coding in R in 2015. I was pretty new to coding and especially, data science. I had heard of packages like ggplot2 and dplyr but I assumed they were packages that you learned once you learned the basics of R. ggplot2 seemed tough with words like geoms and aes and dplyr with the dangerous looking %&amp;gt;%. For a year and half, I never made an effort to learn new tools no matter how much I strugglled with base R (and to be honest, never really learnt that properly either).</description>
     </item>
     
     <item>
       <title>The Statistically Significant Four</title>
-      <link>https://www.ilangurudev.com/analyses/tennis_big4/</link>
+      <link>/analyses/tennis_big4/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/analyses/tennis_big4/</guid>
+      <guid>/analyses/tennis_big4/</guid>
       <description>Why the big 4 deserve all the praise they get… We all know tennis is a competitive sport. Winning one slam is hard so much so that it is probably enough. In the chart below, you might recognize a few of those small bars in the far right - Roger Federer with 19 grand slam titles, Rafa with 16 and so on. But try to recollect five people who constitute the single big bar on the left hand side - people who have won just one slam!</description>
     </item>
     

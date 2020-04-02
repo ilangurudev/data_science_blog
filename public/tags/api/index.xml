@@ -2,23 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Api on Gurudev Ilangovan</title>
-    <link>https://www.ilangurudev.com/tags/api/</link>
+    <link>/tags/api/</link>
     <description>Recent content in Api on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Sun, 29 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.ilangurudev.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IndianStocksR - An R package to download Indian Stock EOD data</title>
-      <link>https://www.ilangurudev.com/projects/nse_bse_api/</link>
+      <link>/projects/nse_bse_api/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/projects/nse_bse_api/</guid>
+      <guid>/projects/nse_bse_api/</guid>
       <description>Introduction Main Functions download_stocks download_stocks_period update_stocks A note on defaults  Let’s look at the data Bugs, comments, suggestions and feature requests   Introduction The IndianStocksR package is used to download the end of day data of all stocks in the two primary Indian stock markets, NSE and BSE. The end of data data is provided free by the two stock exchanges from their websites and consists of information like the open, high, low, close among others for each script that’s traded in them.</description>
+    </item>
+    
+    <item>
+      <title>Quantitative short-lister and qualitative metrics downloader for Indian stocks</title>
+      <link>/projects/stock_filter_scraper/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/stock_filter_scraper/</guid>
+      <description></description>
     </item>
     
   </channel>

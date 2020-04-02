@@ -2,175 +2,463 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gurudev Ilangovan</title>
-    <link>https://www.ilangurudev.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
-    <lastBuildDate>Wed, 03 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.ilangurudev.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Ai</title>
+      <link>/tags/ai/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms</title>
+      <link>/tags/algorithms/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Analysis</title>
-      <link>https://www.ilangurudev.com/tags/analysis/</link>
+      <link>/tags/analysis/</link>
       <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/analysis/</guid>
+      <guid>/tags/analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Api</title>
-      <link>https://www.ilangurudev.com/tags/api/</link>
+      <link>/tags/api/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/api/</guid>
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Caret</title>
-      <link>https://www.ilangurudev.com/tags/caret/</link>
+      <link>/tags/caret/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/caret/</guid>
+      <guid>/tags/caret/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Censoring</title>
+      <link>/tags/censoring/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/censoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cnn</title>
+      <link>/tags/cnn/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data_imbalance</title>
+      <link>/tags/data_imbalance/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data_imbalance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data_privacy</title>
+      <link>/tags/data_privacy/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data_privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data_viz</title>
+      <link>/tags/data_viz/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data_viz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep_learning</title>
+      <link>/tags/deep_learning/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/deep_learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fastai</title>
+      <link>/tags/fastai/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fastai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fastai_miniseries</title>
+      <link>/tags/fastai_miniseries/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fastai_miniseries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>/tags/flask/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Forecasting</title>
+      <link>/tags/forecasting/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/forecasting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Foss</title>
-      <link>https://www.ilangurudev.com/tags/foss/</link>
+      <link>/tags/foss/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/foss/</guid>
+      <guid>/tags/foss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>https://www.ilangurudev.com/tags/github/</link>
+      <link>/tags/github/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/github/</guid>
+      <guid>/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google_sheets</title>
+      <link>/tags/google_sheets/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google_sheets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hci</title>
+      <link>/tags/hci/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heroku</title>
+      <link>/tags/heroku/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image_classification</title>
+      <link>/tags/image_classification/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/image_classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference</title>
+      <link>/tags/inference/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information_safety</title>
+      <link>/tags/information_safety/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/information_safety/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>https://www.ilangurudev.com/tags/machine-learning/</link>
+      <link>/tags/machine-learning/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/machine-learning/</guid>
+      <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine_learning</title>
-      <link>https://www.ilangurudev.com/tags/machine_learning/</link>
+      <link>/tags/machine_learning/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/machine_learning/</guid>
+      <guid>/tags/machine_learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mongo</title>
+      <link>/tags/mongo/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mongo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nodejs</title>
+      <link>/tags/nodejs/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oop</title>
-      <link>https://www.ilangurudev.com/tags/oop/</link>
+      <link>/tags/oop/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/oop/</guid>
+      <guid>/tags/oop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization</title>
+      <link>/tags/optimization/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Package</title>
-      <link>https://www.ilangurudev.com/tags/package/</link>
+      <link>/tags/package/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/package/</guid>
+      <guid>/tags/package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prophet</title>
+      <link>/tags/prophet/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/prophet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Purrr</title>
-      <link>https://www.ilangurudev.com/tags/purrr/</link>
+      <link>/tags/purrr/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/purrr/</guid>
+      <guid>/tags/purrr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pyomo</title>
+      <link>/tags/pyomo/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pyomo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://www.ilangurudev.com/tags/python/</link>
+      <link>/tags/python/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/python/</guid>
+      <guid>/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://www.ilangurudev.com/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/r/</guid>
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recommender_systems</title>
+      <link>/tags/recommender_systems/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/recommender_systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Record_linkage</title>
+      <link>/tags/record_linkage/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/record_linkage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redis</title>
+      <link>/tags/redis/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rvest</title>
+      <link>/tags/rvest/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rvest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scheduling</title>
+      <link>/tags/scheduling/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/scheduling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scraping</title>
+      <link>/tags/scraping/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/scraping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentiment_analysis</title>
+      <link>/tags/sentiment_analysis/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sentiment_analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sequential_data_mining</title>
-      <link>https://www.ilangurudev.com/tags/sequential_data_mining/</link>
+      <link>/tags/sequential_data_mining/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/sequential_data_mining/</guid>
+      <guid>/tags/sequential_data_mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny</title>
+      <link>/tags/shiny/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survival_analysis</title>
+      <link>/tags/survival_analysis/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/survival_analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tennis</title>
-      <link>https://www.ilangurudev.com/tags/tennis/</link>
+      <link>/tags/tennis/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/tennis/</guid>
+      <guid>/tags/tennis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Text</title>
-      <link>https://www.ilangurudev.com/tags/text/</link>
+      <link>/tags/text/</link>
       <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/text/</guid>
+      <guid>/tags/text/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thoughts</title>
-      <link>https://www.ilangurudev.com/tags/thoughts/</link>
+      <link>/tags/thoughts/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/thoughts/</guid>
+      <guid>/tags/thoughts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tidyverse</title>
-      <link>https://www.ilangurudev.com/tags/tidyverse/</link>
+      <link>/tags/tidyverse/</link>
       <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/tidyverse/</guid>
+      <guid>/tags/tidyverse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorials</title>
-      <link>https://www.ilangurudev.com/tags/tutorials/</link>
+      <link>/tags/tutorials/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/tags/tutorials/</guid>
+      <guid>/tags/tutorials/</guid>
       <description></description>
     </item>
     

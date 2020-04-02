@@ -2,23 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Gurudev Ilangovan</title>
-    <link>https://www.ilangurudev.com/tags/python/</link>
+    <link>/tags/python/</link>
     <description>Recent content in Python on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.ilangurudev.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>KNN - ML from Scratch - Part 1</title>
-      <link>https://www.ilangurudev.com/blog/ml_scratch_1/</link>
+      <link>/blog/ml_scratch_1/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/blog/ml_scratch_1/</guid>
+      <guid>/blog/ml_scratch_1/</guid>
       <description>Introduction Techniques and Design Setup (Libraries and Data) Standardizer K Nearest Neighbours Creating a KNN classifier Fitting a classifier Prediction Score Code  Verifying the results using scikit-learn   pre { white-space: pre !important; # overflow-y: visible !important; max-height: 500vh !important; }  Introduction For my Machine Learing class at A&amp;amp;M, I implemented common ML algorithms from the ground up. It’s amazing how easy it is to implement an ML technique in python.</description>
+    </item>
+    
+    <item>
+      <title>Interactive Record Linkage</title>
+      <link>/projects/interactive_rl/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/interactive_rl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UAS constraint satisfacion</title>
+      <link>/projects/uav_csp/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/uav_csp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UAV path planning</title>
+      <link>/projects/uav_path/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/uav_path/</guid>
+      <description></description>
     </item>
     
   </channel>

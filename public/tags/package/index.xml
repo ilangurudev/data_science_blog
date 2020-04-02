@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Package on Gurudev Ilangovan</title>
-    <link>https://www.ilangurudev.com/tags/package/</link>
+    <link>/tags/package/</link>
     <description>Recent content in Package on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Sun, 29 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.ilangurudev.com/tags/package/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/package/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IndianStocksR - An R package to download Indian Stock EOD data</title>
-      <link>https://www.ilangurudev.com/projects/nse_bse_api/</link>
+      <link>/projects/nse_bse_api/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/projects/nse_bse_api/</guid>
+      <guid>/projects/nse_bse_api/</guid>
       <description>Introduction Main Functions download_stocks download_stocks_period update_stocks A note on defaults  Let’s look at the data Bugs, comments, suggestions and feature requests   Introduction The IndianStocksR package is used to download the end of day data of all stocks in the two primary Indian stock markets, NSE and BSE. The end of data data is provided free by the two stock exchanges from their websites and consists of information like the open, high, low, close among others for each script that’s traded in them.</description>
     </item>
     
     <item>
       <title>approxmapR - An R package to explore macro trends in sequential data</title>
-      <link>https://www.ilangurudev.com/projects/approxmap/</link>
+      <link>/projects/approxmap/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/projects/approxmap/</guid>
+      <guid>/projects/approxmap/</guid>
       <description>Setting Up Motivation Workflow General Instructions 1. Aggregate the data 2. Cluster the data 3. Extract the patterns 4. Formatted output  Using tidyverse to fully exploit approxmapR   ApproxmapR is an R package for the approxmap algorithm, used for exploratory data analysis of sequential data. When we have longitudinal data and we want to find out the underlying patterns, we use approxmap. approxmapR aims to provide a consistent and tidy api for using the algorithm in R.</description>
     </item>
     
     <item>
       <title>approxmapR - An R package to explore macro trends in sequential data</title>
-      <link>https://www.ilangurudev.com/projects/approxmap/</link>
+      <link>/projects/approxmap/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/projects/approxmap/</guid>
+      <guid>/projects/approxmap/</guid>
       <description>Setting Up Motivation Workflow General Instructions 1. Aggregate the data 2. Cluster the data 3. Extract the patterns 4. Formatted output  Using tidyverse to fully exploit approxmapR   ApproxmapR is an R package for the approxmap algorithm, used for exploratory data analysis of sequential data. When we have longitudinal data and we want to find out the underlying patterns, we use approxmap. approxmapR aims to provide a consistent and tidy api for using the algorithm in R.</description>
     </item>
     

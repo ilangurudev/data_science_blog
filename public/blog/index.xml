@@ -2,40 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Gurudev Ilangovan</title>
-    <link>https://www.ilangurudev.com/blog/</link>
+    <link>/blog/</link>
     <description>Recent content in Blog on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.ilangurudev.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>KNN - ML from Scratch - Part 1</title>
-      <link>https://www.ilangurudev.com/blog/ml_scratch_1/</link>
+      <link>/blog/ml_scratch_1/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/blog/ml_scratch_1/</guid>
+      <guid>/blog/ml_scratch_1/</guid>
       <description>Introduction Techniques and Design Setup (Libraries and Data) Standardizer K Nearest Neighbours Creating a KNN classifier Fitting a classifier Prediction Score Code  Verifying the results using scikit-learn   pre { white-space: pre !important; # overflow-y: visible !important; max-height: 500vh !important; }  Introduction For my Machine Learing class at A&amp;amp;M, I implemented common ML algorithms from the ground up. It’s amazing how easy it is to implement an ML technique in python.</description>
     </item>
     
     <item>
+      <title>Why deep learning? - Fastai miniseries - 01</title>
+      <link>/blog/why_deep_learning/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/why_deep_learning/</guid>
+      <description>Introduction (A brief note about the fastai mini-series) Why deep learning Myths about deep learning Glossary   Introduction (A brief note about the fastai mini-series) I am beginning the 2018 iteration of the popular fastai course, Practical Deep Learning for Coders. Having been a passive listener to the previous iteration of the course, I know many of the key concepts in theory. However I plan to be a lot more involved with the practical aspects of the course this time.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for understanding your data</title>
+      <link>/blog/ml_inference/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/ml_inference/</guid>
+      <description>Introduction Why ml? Using Ml to get a more accurate feature representation Using CIF to understand the relationship between features Case study   Introduction In the many data science projects I’ve worked on or studied, the first step in the workflow has typically been Exploratory Data Analysis (EDA). It’s the step that’s been said is essential for understanding the data. And it seemed to make a lot of sense.</description>
+    </item>
+    
+    <item>
       <title>Why every researcher should use github</title>
-      <link>https://www.ilangurudev.com/blog/git_research/</link>
+      <link>/blog/git_research/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/blog/git_research/</guid>
+      <guid>/blog/git_research/</guid>
       <description>Why I am writing this. Why git? And what is github? Myths Github is just Google Drive for code You need to be able to code to use these things  Advantages Project snapshots Pay it forward Project management A project page or wiki. Collaboration A portfolio of your research Branching, merging and pull requests Command line? No problem!  Some guidelines   Why I am writing this. Having been in the masters program in industrial engineering and computer science while doing research, I have witnessed a great deal of disconnect between the tools computer scientists use and how researchers in others fields operate.</description>
     </item>
     
     <item>
       <title>Tidy Carrots</title>
-      <link>https://www.ilangurudev.com/blog/tidy_carrots/</link>
+      <link>/blog/tidy_carrots/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/blog/tidy_carrots/</guid>
+      <guid>/blog/tidy_carrots/</guid>
       <description>Thoughts on R and Machine Learning… I started coding in R in 2015. I was pretty new to coding and especially, data science. I had heard of packages like ggplot2 and dplyr but I assumed they were packages that you learned once you learned the basics of R. ggplot2 seemed tough with words like geoms and aes and dplyr with the dangerous looking %&amp;gt;%. For a year and half, I never made an effort to learn new tools no matter how much I strugglled with base R (and to be honest, never really learnt that properly either).</description>
     </item>
     

@@ -2,49 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Gurudev Ilangovan</title>
-    <link>https://www.ilangurudev.com/tags/r/</link>
+    <link>/tags/r/</link>
     <description>Recent content in R on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Sun, 29 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.ilangurudev.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IndianStocksR - An R package to download Indian Stock EOD data</title>
-      <link>https://www.ilangurudev.com/projects/nse_bse_api/</link>
+      <link>/projects/nse_bse_api/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/projects/nse_bse_api/</guid>
+      <guid>/projects/nse_bse_api/</guid>
       <description>Introduction Main Functions download_stocks download_stocks_period update_stocks A note on defaults  Let’s look at the data Bugs, comments, suggestions and feature requests   Introduction The IndianStocksR package is used to download the end of day data of all stocks in the two primary Indian stock markets, NSE and BSE. The end of data data is provided free by the two stock exchanges from their websites and consists of information like the open, high, low, close among others for each script that’s traded in them.</description>
     </item>
     
     <item>
+      <title>Productivity dashboard</title>
+      <link>/projects/productivity_dashboard/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/productivity_dashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Unweaving Happiness</title>
-      <link>https://www.ilangurudev.com/analyses/unweaving_happiness/</link>
+      <link>/analyses/unweaving_happiness/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/analyses/unweaving_happiness/</guid>
+      <guid>/analyses/unweaving_happiness/</guid>
       <description>Introduction A word of warning if you are reading from a mobile  Setup Data Munging Missing Adding Continents  Exploration Happiness levels Standard Deviation of happiness Correlation Analysis GDP’s relationship Healthy Life Expectancy Social Support  Prediction Setup Modeling Model Selection Testing our model/Diagnostics Best and Worst Predictions  Conclusion   Introduction The World Happiness Report 2018 by United Nations Sustainable Development Solutions Network (SDSN) based on data from the Gallup World Poll surveys was out a few days ago.</description>
     </item>
     
     <item>
       <title>approxmapR - An R package to explore macro trends in sequential data</title>
-      <link>https://www.ilangurudev.com/projects/approxmap/</link>
+      <link>/projects/approxmap/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/projects/approxmap/</guid>
+      <guid>/projects/approxmap/</guid>
       <description>Setting Up Motivation Workflow General Instructions 1. Aggregate the data 2. Cluster the data 3. Extract the patterns 4. Formatted output  Using tidyverse to fully exploit approxmapR   ApproxmapR is an R package for the approxmap algorithm, used for exploratory data analysis of sequential data. When we have longitudinal data and we want to find out the underlying patterns, we use approxmap. approxmapR aims to provide a consistent and tidy api for using the algorithm in R.</description>
     </item>
     
     <item>
       <title>Tidy Carrots</title>
-      <link>https://www.ilangurudev.com/blog/tidy_carrots/</link>
+      <link>/blog/tidy_carrots/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/blog/tidy_carrots/</guid>
+      <guid>/blog/tidy_carrots/</guid>
       <description>Thoughts on R and Machine Learning… I started coding in R in 2015. I was pretty new to coding and especially, data science. I had heard of packages like ggplot2 and dplyr but I assumed they were packages that you learned once you learned the basics of R. ggplot2 seemed tough with words like geoms and aes and dplyr with the dangerous looking %&amp;gt;%. For a year and half, I never made an effort to learn new tools no matter how much I strugglled with base R (and to be honest, never really learnt that properly either).</description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tennis on Gurudev Ilangovan</title>
-    <link>https://www.ilangurudev.com/tags/tennis/</link>
+    <link>/tags/tennis/</link>
     <description>Recent content in Tennis on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.ilangurudev.com/tags/tennis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/tennis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Statistically Significant Four</title>
-      <link>https://www.ilangurudev.com/analyses/tennis_big4/</link>
+      <link>/analyses/tennis_big4/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/analyses/tennis_big4/</guid>
+      <guid>/analyses/tennis_big4/</guid>
       <description>Why the big 4 deserve all the praise they get… We all know tennis is a competitive sport. Winning one slam is hard so much so that it is probably enough. In the chart below, you might recognize a few of those small bars in the far right - Roger Federer with 19 grand slam titles, Rafa with 16 and so on. But try to recollect five people who constitute the single big bar on the left hand side - people who have won just one slam!</description>
     </item>
     

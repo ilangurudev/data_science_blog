@@ -2,106 +2,241 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gurudev Ilangovan</title>
-    <link>https://www.ilangurudev.com/</link>
+    <link>/</link>
     <description>Recent content on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.ilangurudev.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>KNN - ML from Scratch - Part 1</title>
-      <link>https://www.ilangurudev.com/blog/ml_scratch_1/</link>
+      <link>/blog/ml_scratch_1/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/blog/ml_scratch_1/</guid>
+      <guid>/blog/ml_scratch_1/</guid>
       <description>Introduction Techniques and Design Setup (Libraries and Data) Standardizer K Nearest Neighbours Creating a KNN classifier Fitting a classifier Prediction Score Code  Verifying the results using scikit-learn   pre { white-space: pre !important; # overflow-y: visible !important; max-height: 500vh !important; }  Introduction For my Machine Learing class at A&amp;amp;M, I implemented common ML algorithms from the ground up. It’s amazing how easy it is to implement an ML technique in python.</description>
     </item>
     
     <item>
+      <title>Why deep learning? - Fastai miniseries - 01</title>
+      <link>/blog/why_deep_learning/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/why_deep_learning/</guid>
+      <description>Introduction (A brief note about the fastai mini-series) Why deep learning Myths about deep learning Glossary   Introduction (A brief note about the fastai mini-series) I am beginning the 2018 iteration of the popular fastai course, Practical Deep Learning for Coders. Having been a passive listener to the previous iteration of the course, I know many of the key concepts in theory. However I plan to be a lot more involved with the practical aspects of the course this time.</description>
+    </item>
+    
+    <item>
       <title>What your texts say about you</title>
-      <link>https://www.ilangurudev.com/analyses/whatsapp_text_analysis/</link>
+      <link>/analyses/whatsapp_text_analysis/</link>
       <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/analyses/whatsapp_text_analysis/</guid>
+      <guid>/analyses/whatsapp_text_analysis/</guid>
       <description>Introduction Processing Patterns Parsing  Analysis Pet words Overall word usage Word usage by member Word usage made better  ⌚ 4⃣ 😂😋😍 Popular emojis and chronic roflitis Let’s put a smiley on that face Emoji to word ratio  Getting sentient about sentiments  Conclusion   Introduction  Without data, you’re just an another person with an opinion - W. Edwards Deming
  We all have intuitions, questions or even hypotheses if you will about people’s texting patterns.</description>
     </item>
     
     <item>
+      <title>Machine Learning for understanding your data</title>
+      <link>/blog/ml_inference/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/ml_inference/</guid>
+      <description>Introduction Why ml? Using Ml to get a more accurate feature representation Using CIF to understand the relationship between features Case study   Introduction In the many data science projects I’ve worked on or studied, the first step in the workflow has typically been Exploratory Data Analysis (EDA). It’s the step that’s been said is essential for understanding the data. And it seemed to make a lot of sense.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Historical Record Linkage</title>
+      <link>/projects/ml_link/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/ml_link/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>IndianStocksR - An R package to download Indian Stock EOD data</title>
-      <link>https://www.ilangurudev.com/projects/nse_bse_api/</link>
+      <link>/projects/nse_bse_api/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/projects/nse_bse_api/</guid>
+      <guid>/projects/nse_bse_api/</guid>
       <description>Introduction Main Functions download_stocks download_stocks_period update_stocks A note on defaults  Let’s look at the data Bugs, comments, suggestions and feature requests   Introduction The IndianStocksR package is used to download the end of day data of all stocks in the two primary Indian stock markets, NSE and BSE. The end of data data is provided free by the two stock exchanges from their websites and consists of information like the open, high, low, close among others for each script that’s traded in them.</description>
     </item>
     
     <item>
       <title>Why every researcher should use github</title>
-      <link>https://www.ilangurudev.com/blog/git_research/</link>
+      <link>/blog/git_research/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/blog/git_research/</guid>
+      <guid>/blog/git_research/</guid>
       <description>Why I am writing this. Why git? And what is github? Myths Github is just Google Drive for code You need to be able to code to use these things  Advantages Project snapshots Pay it forward Project management A project page or wiki. Collaboration A portfolio of your research Branching, merging and pull requests Command line? No problem!  Some guidelines   Why I am writing this. Having been in the masters program in industrial engineering and computer science while doing research, I have witnessed a great deal of disconnect between the tools computer scientists use and how researchers in others fields operate.</description>
     </item>
     
     <item>
+      <title>Productivity dashboard</title>
+      <link>/projects/productivity_dashboard/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/productivity_dashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using fastai to classify dogs</title>
+      <link>/projects/fastai_image_classification/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/fastai_image_classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roster scheduling and optimization for radiology residents</title>
+      <link>/projects/roster_scheduling/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/roster_scheduling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using textual reviews to recommend</title>
+      <link>/projects/text_augmented_recommendations/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/text_augmented_recommendations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Record Linkage</title>
+      <link>/projects/interactive_rl/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/interactive_rl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Unweaving Happiness</title>
-      <link>https://www.ilangurudev.com/analyses/unweaving_happiness/</link>
+      <link>/analyses/unweaving_happiness/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/analyses/unweaving_happiness/</guid>
+      <guid>/analyses/unweaving_happiness/</guid>
       <description>Introduction A word of warning if you are reading from a mobile  Setup Data Munging Missing Adding Continents  Exploration Happiness levels Standard Deviation of happiness Correlation Analysis GDP’s relationship Healthy Life Expectancy Social Support  Prediction Setup Modeling Model Selection Testing our model/Diagnostics Best and Worst Predictions  Conclusion   Introduction The World Happiness Report 2018 by United Nations Sustainable Development Solutions Network (SDSN) based on data from the Gallup World Poll surveys was out a few days ago.</description>
     </item>
     
     <item>
-      <title>approxmapR - An R package to explore macro trends in sequential data</title>
-      <link>https://www.ilangurudev.com/projects/approxmap/</link>
+      <title>UAS constraint satisfacion</title>
+      <link>/projects/uav_csp/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/uav_csp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UAV path planning</title>
+      <link>/projects/uav_path/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/uav_path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantitative short-lister and qualitative metrics downloader for Indian stocks</title>
+      <link>/projects/stock_filter_scraper/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/stock_filter_scraper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Error generator for benchmarking machine learning algorithms in record linkage</title>
+      <link>/projects/egen_ml/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/egen_ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chicago Taxi Trips</title>
+      <link>/analyses/chicago_taxi_trips/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/projects/approxmap/</guid>
+      <guid>/analyses/chicago_taxi_trips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>approxmapR - An R package to explore macro trends in sequential data</title>
+      <link>/projects/approxmap/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/approxmap/</guid>
       <description>Setting Up Motivation Workflow General Instructions 1. Aggregate the data 2. Cluster the data 3. Extract the patterns 4. Formatted output  Using tidyverse to fully exploit approxmapR   ApproxmapR is an R package for the approxmap algorithm, used for exploratory data analysis of sequential data. When we have longitudinal data and we want to find out the underlying patterns, we use approxmap. approxmapR aims to provide a consistent and tidy api for using the algorithm in R.</description>
     </item>
     
     <item>
       <title>Tidy Carrots</title>
-      <link>https://www.ilangurudev.com/blog/tidy_carrots/</link>
+      <link>/blog/tidy_carrots/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/blog/tidy_carrots/</guid>
+      <guid>/blog/tidy_carrots/</guid>
       <description>Thoughts on R and Machine Learning… I started coding in R in 2015. I was pretty new to coding and especially, data science. I had heard of packages like ggplot2 and dplyr but I assumed they were packages that you learned once you learned the basics of R. ggplot2 seemed tough with words like geoms and aes and dplyr with the dangerous looking %&amp;gt;%. For a year and half, I never made an effort to learn new tools no matter how much I strugglled with base R (and to be honest, never really learnt that properly either).</description>
     </item>
     
     <item>
       <title>The Statistically Significant Four</title>
-      <link>https://www.ilangurudev.com/analyses/tennis_big4/</link>
+      <link>/analyses/tennis_big4/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/analyses/tennis_big4/</guid>
+      <guid>/analyses/tennis_big4/</guid>
       <description>Why the big 4 deserve all the praise they get… We all know tennis is a competitive sport. Winning one slam is hard so much so that it is probably enough. In the chart below, you might recognize a few of those small bars in the far right - Roger Federer with 19 grand slam titles, Rafa with 16 and so on. But try to recollect five people who constitute the single big bar on the left hand side - people who have won just one slam!</description>
     </item>
     
     <item>
+      <title>Balancing Privacy and Information Disclosure</title>
+      <link>/projects/pprl_sigchi18/</link>
+      <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/pprl_sigchi18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Random survival forests for unbalanced right censored data</title>
+      <link>/projects/random_survival_forest/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/random_survival_forest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Resume</title>
-      <link>https://www.ilangurudev.com/resume/</link>
+      <link>/resume/</link>
       <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/resume/</guid>
+      <guid>/resume/</guid>
       <description>here for the most up-to-date version of my resume. -- Redirecting to my most recent resume… If redirect doesn’t work please click here
  window.location.replace(&#34;https://drive.google.com/file/d/1Y6lWTdblz8fLAZDDmT_03iZ9lTibr0Po/view&#34;);  </description>
     </item>
     
     <item>
       <title>About Me</title>
-      <link>https://www.ilangurudev.com/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/about/</guid>
-      <description>Gurudev “Guru” Ilangovan is a Senior Data Analyst in Capital One. A passionate problem solver by nature, Guru loves coming up with solutions to data-driven, tech-powered solutions to real world problems.
+      <guid>/about/</guid>
+      <description>Gurudev “Guru” Ilangovan is a Senior Data Analyst in Capital One. A passionate problem solver by nature, Guru loves coming up with data-driven, tech-powered solutions to real world problems.
 Prior to joining Capital One, Guru was a graduate research assistant in the department of computer science and engineering at Texas A&amp;amp;M University and holds Masters degrees in Computer Science and Industrial Engineering from TAMU. As part of his research and coursework, Gurudev was involved in a lot of data science projects.</description>
     </item>
     

@@ -2,23 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine_learning on Gurudev Ilangovan</title>
-    <link>https://www.ilangurudev.com/tags/machine_learning/</link>
+    <link>/tags/machine_learning/</link>
     <description>Recent content in Machine_learning on Gurudev Ilangovan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
     <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.ilangurudev.com/tags/machine_learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/machine_learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>KNN - ML from Scratch - Part 1</title>
-      <link>https://www.ilangurudev.com/blog/ml_scratch_1/</link>
+      <link>/blog/ml_scratch_1/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ilangurudev.com/blog/ml_scratch_1/</guid>
+      <guid>/blog/ml_scratch_1/</guid>
       <description>Introduction Techniques and Design Setup (Libraries and Data) Standardizer K Nearest Neighbours Creating a KNN classifier Fitting a classifier Prediction Score Code  Verifying the results using scikit-learn   pre { white-space: pre !important; # overflow-y: visible !important; max-height: 500vh !important; }  Introduction For my Machine Learing class at A&amp;amp;M, I implemented common ML algorithms from the ground up. It’s amazing how easy it is to implement an ML technique in python.</description>
+    </item>
+    
+    <item>
+      <title>Why deep learning? - Fastai miniseries - 01</title>
+      <link>/blog/why_deep_learning/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/why_deep_learning/</guid>
+      <description>Introduction (A brief note about the fastai mini-series) Why deep learning Myths about deep learning Glossary   Introduction (A brief note about the fastai mini-series) I am beginning the 2018 iteration of the popular fastai course, Practical Deep Learning for Coders. Having been a passive listener to the previous iteration of the course, I know many of the key concepts in theory. However I plan to be a lot more involved with the practical aspects of the course this time.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for understanding your data</title>
+      <link>/blog/ml_inference/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/ml_inference/</guid>
+      <description>Introduction Why ml? Using Ml to get a more accurate feature representation Using CIF to understand the relationship between features Case study   Introduction In the many data science projects I’ve worked on or studied, the first step in the workflow has typically been Exploratory Data Analysis (EDA). It’s the step that’s been said is essential for understanding the data. And it seemed to make a lot of sense.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Historical Record Linkage</title>
+      <link>/projects/ml_link/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/ml_link/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using fastai to classify dogs</title>
+      <link>/projects/fastai_image_classification/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/fastai_image_classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using textual reviews to recommend</title>
+      <link>/projects/text_augmented_recommendations/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/text_augmented_recommendations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Error generator for benchmarking machine learning algorithms in record linkage</title>
+      <link>/projects/egen_ml/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/egen_ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chicago Taxi Trips</title>
+      <link>/analyses/chicago_taxi_trips/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/analyses/chicago_taxi_trips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Random survival forests for unbalanced right censored data</title>
+      <link>/projects/random_survival_forest/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/random_survival_forest/</guid>
+      <description></description>
     </item>
     
   </channel>
