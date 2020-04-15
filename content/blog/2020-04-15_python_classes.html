@@ -29,22 +29,23 @@ output:
 <li><a href="#iteration-1-1">Iteration 1</a></li>
 <li><a href="#iteration-2-1">Iteration 2</a></li>
 </ul></li>
+<li><a href="#conclusion">Conclusion</a></li>
 </ul>
 </div>
 
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
-<p>In this article, I want to talk about how classes are useful to me. I am by no means an expert in program design or “Object Oriented Programming”. As a teen (and still do sometimes) I detested terms like encapsulation, polymorphism, abstraction, etc because they weren’t tangible concepts. My understanding and usage of object orientation in python is a lot more practical now. We will go over the basic mechanics which are surprisingly simple to grasp but more importantly, I found out in my relatively nascent python journey, is figuring out why we should how classes can make us efficient programmers.</p>
+<p>In this article, I want to talk about how classes are useful to me. I am by no means an expert in program design or “Object Oriented Programming”. As a teen (and still do sometimes) I detested terms like encapsulation, polymorphism, abstraction, etc because they weren’t tangible concepts. My understanding and usage of object orientation in python is a lot more practical now. We will go over the basic mechanics which are surprisingly simple to grasp but more importantly, I found out in my relatively nascent python journey, is figuring out why we should use classes and how they can make us efficient programmers.</p>
 </div>
 <div id="tackling-complexity" class="section level1">
 <h1>Tackling Complexity</h1>
-<p>Simply put, classes help us <strong>deal with complexity</strong> more efficiently. As a data analyst at Capital One, I’ve had to work on a process improvement projects. Simple tasks really - pull from a database, do some calculations, link with another data set, email results appropriately. Let me know if this situation sounds familiar: you see a simple problem and an opportunity for some automation or process improvement. “I could write a python script to do this in under an hour” you tell yourself and you do. The script works great and your boss likes it. A month passes by and people like it but feel a “small enhancement” would be so awesome! That’s when you know your product is really useful. There’s no such thing as a flawless product and there will always be improvements that can be made. The question then is “how conducive is a codebase to changes?”.</p>
+<p>Simply put, classes help us <strong>deal with complexity</strong> more efficiently. As a data analyst at Capital One, I’ve had to work on a process improvement projects. Simple tasks really - pull from a database, do some calculations, link with another data set, email results appropriately. Let me know if this situation sounds familiar: you see a simple problem and an opportunity for some automation or process improvement. “I could write a python script to do this in under an hour” you tell yourself and you do. The script works great and your boss likes it. A month passes by and people like it but feel a “small enhancement” would make it so much more awesome! That’s when you know your product is really useful. There’s no such thing as a flawless product and there will always be improvements that can be made. The question then is “how conducive is a codebase to changes?”.</p>
 <p>The “quick and dirty” solution that I came up with is not so “quick” anymore because it is still very much, dirty. Classes force us to organize our code better and in most instances, results in cleaner, more maintainable code. The ROI on maintainable code is pretty high even though in the short run, the setup seems to be a tad annoying. The fancy term for this is <strong>technical debt</strong>. It’s kind of the same concept when we first started using functions too right?</p>
-<p><img src="/blog/img/tech_debt.jpg" /></p>
+<p><img src="/blog/img/tech_debt.jpg" width="100%"></p>
 </div>
 <div id="a-toy-example-without-classes" class="section level1">
 <h1>A toy example without classes</h1>
-<p>Let’s consider a toy example. We have some HR data and we want to print out the pay statement for employees. Let’s just assume (because I suck at manufacturing toy examples) that the toy example also needs to have the age, address and department info. The email would have</p>
+<p>Let’s consider a toy example. We have some HR data and we want to print out the pay statement for employees. Let’s just assume (because I suck at manufacturing toy examples) that the toy example also needs to have the age, address and department info. The statement would be</p>
 <blockquote>
 <p>You, John Doe, aged 25, living in 221B Baker Street, London, UK and working in the HR department earned a sum of $1,000,000 this month.</p>
 </blockquote>
@@ -86,7 +87,7 @@ create_pay_statement(fname=&quot;John&quot;, lname=&quot;Doe&quot;,
 </div>
 <div id="iteration-2" class="section level2">
 <h2>Iteration 2</h2>
-<p>Yay! This works super awesome and people love this functionality where they can even see their age and address in the pay statement. But hey, would it not be awesome if they get this info right in the inbox? Their email address is simply first name and last name separated by period <span class="citation">@abc.com</span>. We conveniently have an <code>emailer</code> that can send to the address. But how do we integrate our functionality with our code?</p>
+<p>Yay! This works super well and people love this functionality where they can even see their age and address in the pay statement (I mean who doesn’t want to see their age in their pay statement?). But hey, would it not be awesome if they get this info right in their inbox? Their email address is simply first name and last name separated by period <span class="citation">@abc.com</span>. We conveniently have an <code>emailer</code> that can send to the address. But how do we integrate our functionality with our code?</p>
 <pre class="python"><code>def email_pay_statement(fname, lname, 
                          dept, 
                          birthday, 
@@ -100,7 +101,7 @@ create_pay_statement(fname=&quot;John&quot;, lname=&quot;Doe&quot;,
                                          salary_amt, is_dollar)
     emailer(from_email=&quot;admins@abc.com&quot;, to_email=to_email,
             subject=&quot;Here&#39;s your Gs, dawg!&quot;, pay_statement=pay_statement).send()</code></pre>
-<p>I don’t know why the the admins want the subject to be so colloquial, but anyway. Did you notice how we had to had to create a new function with literally the same function arguments and then call our pay statement function with them. Kinda messy… The worse part, if you have to change your <code>create_pay_statement</code> function by say adding another argument, your <code>email_pay_statement</code> probably will be affected. Of course we could argue that this issue could be somewhat alleviated by using <code>*args</code> and <code>**kwargs</code> but street address to an emailer is clunky regardless.</p>
+<p>I don’t know why the the admins want the subject to be so colloquial, but anyway. Did you notice how we had to had to create a new function with literally the same function arguments and then call our pay statement function with them. Kinda messy… The worse part, if you have to change your <code>create_pay_statement</code> function by say adding another argument, your <code>email_pay_statement</code> probably will be affected. Of course we could argue that this issue could be somewhat alleviated by using <code>*args</code> and <code>**kwargs</code> but you’d anyway be passing street address to an emailer and that is clunky regardless.</p>
 </div>
 </div>
 <div id="the-same-example-but-lets-be-classy" class="section level1">
@@ -168,18 +169,22 @@ create_pay_statement(fname=&quot;John&quot;, lname=&quot;Doe&quot;,
 
 john_doe_pstmnt.pay_statement</code></pre>
 <pre><code>&#39;You, John Doe, aged 30, living in 221B, Baker St,London,UK and working in HR, earned a sum of $1,000,000 this month!&#39;</code></pre>
-<p>Another advantage: whatever attribute you calculate is accessible outside. Let’s say you suddenly want to calculate the ratio of <code>salary/age</code>.</p>
+<p>Another advantage: whatever attribute you calculate is accessible outside. Let’s say you suddenly feel the urge to calculate the ratio of <code>salary</code> and <code>age</code>.</p>
 <pre class="python"><code>john_doe_pstmnt.salary_amt/john_doe_pstmnt.age</code></pre>
 <pre><code>33333.333333350005</code></pre>
 </div>
 <div id="iteration-2-1" class="section level2">
 <h2>Iteration 2</h2>
-<p>“It works but whatever, we didn’t achieve anything new” you say. It looks slightly neater but an <code>__init__</code> method with a <code>self</code> argument seems more like work than is worth. Fair enough but let’s go through the same process of adding an emailer. It’s as simple as adding the following function to the class.</p>
+<p>“It works but whatever, we didn’t achieve anything new” you say. It looks slightly neater but an <code>__init__</code> method with a <code>self</code> argument seems more like work than is worth. Fair enough, but let’s go through the same process of adding an emailer. It’s as simple as adding the following function to the class.</p>
 <pre class="python"><code>def email_pay_statement(self):
     to_email = f&quot;{self.fname}.{self.lname}@abc.com&quot;
     emailer(from_email=&quot;admins@abc.com&quot;, to_email=to_email,
             subject=&quot;Here&#39;s your Gs, dawg!&quot;, pay_statement=self.pay_statement).send()</code></pre>
 <p>Notice how there’s literally no repetition and no messy code. You don’t get a bunch of arguments and then pass the same bunch. Best of all, we don’t calculate the pay statement inside the emailer - it does only what it’s supposed to do. Clear organization. Adding functionality to the existing codebase is a breeze!
-Technical debt, my friends. Using classes may look like slightly more the first iteration but pays off incredibly fast. In many cases, I’ve seen it save work in the first iteration itself.</p>
+Avoiding technical debt, my friends. Using classes may look like slightly more the first iteration but pays off incredibly fast. In many cases, I’ve seen it save work in the first iteration itself!</p>
 </div>
+</div>
+<div id="conclusion" class="section level1">
+<h1>Conclusion</h1>
+<p>I hope I’ve given you some motivation to try out classes. As always, hit me up with feedback! :)</p>
 </div>

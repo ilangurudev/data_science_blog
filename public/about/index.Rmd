@@ -12,7 +12,7 @@ knitr::include_graphics("img/guru.jpg")
 
 Gurudev "Guru" Ilangovan  is a Senior Data Analyst in Capital One. A passionate problem solver by nature, Guru loves coming up with data-driven, tech-powered solutions to real world problems.
 
-Prior to joining Capital One, Guru was a graduate research assistant in the department of computer science and engineering at Texas A&M University and holds Masters degrees in Computer Science and Industrial Engineering from TAMU. As part of his research and coursework, Gurudev was involved in a lot of data science projects. His research areas included machine learning, sequential data mining and entity deduplication. 
+Prior to joining Capital One, Guru was a graduate research assistant in the department of computer science and engineering at Texas A&M University and holds Masters degrees in Computer Science and Industrial Engineering from TAMU. As part of his research and coursework, he was involved in a lot of data science projects. His research areas included machine learning, sequential data mining and entity deduplication. 
 
 With a skillset spannning machine learning, data science, software engineering, statistical thinking, optimization, simulation and programming, Guru is ever so excited to take on new challenges and strives to make the world a better place through data and tech, one problem at a time. 
 
