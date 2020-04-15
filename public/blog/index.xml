@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
-    <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A whirwind tour of classes (Levelling up in Python - I)</title>
+      <link>/blog/python_class/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/python_class/</guid>
+      <description>Introduction Tackling Complexity A toy example without classes Iteration 1 Iteration 2  The same example but let’s be classy Iteration 1 Iteration 2    Introduction In this article, I want to talk about how classes are useful to me. I am by no means an expert in program design or “Object Oriented Programming”. As a teen (and still do sometimes) I detested terms like encapsulation, polymorphism, abstraction, etc because they weren’t tangible concepts.</description>
+    </item>
     
     <item>
       <title>KNN - ML from Scratch - Part 1</title>

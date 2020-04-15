@@ -1,0 +1,210 @@
+---
+title: A whirwind tour of classes (Levelling up in Python - I)
+author: Gurudev Ilangovan
+date: '2020-04-15'
+slug: python_class
+categories: []
+tags: [python, class,]
+showonlyimage: false
+draft: false
+image: "blog/img/classy.jpg"
+weight: 1
+type: "post"
+description: "Using classes for your python tasks"
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Introduction
+
+In this article, I want to talk about how classes are useful to me. I am by no means an expert in program design or "Object Oriented Programming". As a teen (and still do sometimes) I detested terms like encapsulation, polymorphism, abstraction, etc because they weren't tangible concepts. My understanding and usage of object orientation in python is a lot more practical now. We will go over the basic mechanics which are surprisingly simple to grasp but more importantly, I found out in my relatively nascent python journey, is figuring out why we should how classes can make us efficient programmers.
+
+# Tackling Complexity
+
+Simply put, classes help us **deal with complexity** more efficiently. As a data analyst at Capital One, I've had to work on a process improvement projects. Simple tasks really - pull from a database, do some calculations, link with another data set, email results appropriately. Let me know if this situation sounds familiar: you see a simple problem and an opportunity for some automation or process improvement. "I could write a python script to do this in under an hour" you tell yourself and you do. The script works great and your boss likes it. A month passes by and people like it but feel a "small enhancement" would be so awesome! That's when you know your product is really useful. There's no such thing as a flawless product and there will always be improvements that can be made. The question then is "how conducive is a codebase to changes?". 
+
+The "quick and dirty" solution that I came up with is not so "quick" anymore because it is still very much, dirty. Classes force us to organize our code better and in most instances, results in cleaner, more maintainable code.  The ROI on maintainable code is pretty high even though in the short run, the setup seems to be a tad annoying. The fancy term for this is **technical debt**. It's kind of the same concept when we first started using functions too right?
+
+# A toy example without classes
+
+Let's consider a toy example. We have some HR data and we want to print out the pay statement for employees. Let's just assume (because I suck at manufacturing toy examples) that the toy example also needs to have the age, address and department info. The email would have
+
+> You, John Doe, aged 25, living in 221B Baker Street, London, UK and working in the HR department earned a sum of $1,000,000 this month.
+
+Let's lay some ground rules - we have the first name, last name, birthday, department, street address, city and country, salary amount and salary currency (we have pounds and dollars). Let's start as usual by writing some helper functions to demonstrate the typical workflow.
+
+## Iteration 1
+
+
+```python
+from datetime import datetime
+
+def calculate_age(birthday):
+    # keeping things simple
+    return datetime.today().year - int(birthday[-4:])
+
+def create_address(street_address, city, country):
+    return ','.join([street_address, city, country])
+
+def convert_pound_to_dollar(amount):
+    # you would actually be fetching the conversion factor from an api, because you are fancy like that
+    conversion_fct = 1.5
+    return amount*conversion_fct
+
+def create_pay_statement(fname, lname, 
+                         dept, 
+                         birthday, 
+                         street_address, city, country, 
+                         salary_amt, is_dollar=True):
+    age = calculate_age(birthday)
+    address = create_address(street_address, city, country)
+    salary_amt = salary_amt if is_dollar else convert_pound_to_dollar(salary_amt)
+    salary_amt = round(salary_amt)
+    pay_statement = f"You, {fname} {lname}, aged {age}, living in {address} and working in {dept}, earned a sum of ${salary_amt:,} this month!"
+    return pay_statement
+
+create_pay_statement(fname="John", lname="Doe", 
+                     dept="HR", 
+                     birthday="01-01-1990", 
+                     street_address="221B, Baker St", city="London", country="UK", 
+                     salary_amt=666666.666667, is_dollar=False)
+```
+
+
+
+
+    'You, John Doe, aged 30, living in 221B, Baker St,London,UK and working in HR, earned a sum of $1,000,000 this month!'
+
+
+
+## Iteration 2
+
+Yay! This works super awesome and people love this functionality where they can even see their age and address in the pay statement. But hey, would it not be awesome if they get this info right in the inbox? Their email address is simply first name and last name separated by period @abc.com. We conveniently have an `emailer` that can send to the address. But how do we integrate our functionality with our code?
+
+
+```python
+def email_pay_statement(fname, lname, 
+                         dept, 
+                         birthday, 
+                         street_address, city, country, 
+                         salary_amt, is_dollar=True):
+    to_email = f"{fname}.{lname}@abc.com"
+    pay_statement = create_pay_statement(fname, lname, 
+                                         dept, 
+                                         birthday, 
+                                         street_address, city, country, 
+                                         salary_amt, is_dollar)
+    emailer(from_email="admins@abc.com", to_email=to_email,
+            subject="Here's your Gs, dawg!", pay_statement=pay_statement).send()
+```
+
+I don't know why the the admins want the subject to be so colloquial, but anyway. Did you notice how we had to had to create a new function with literally the same function arguments and then call our pay statement function with them. Kinda messy... The worse part, if you have to change your `create_pay_statement` function by say adding another argument, your `email_pay_statement` probably will be affected. Of course we could argue that this issue could be somewhat alleviated by using `*args` and `**kwargs` but street address to an emailer is clunky regardless. 
+
+# The same example but let's be classy
+
+Getting started with classes, is relatively straightforward:
+
+1. A class is a template. An object is something created using the template. Employee is a class using which a John Doe object can be created. 
+2. The first argument to any method in a class is, by default an object of the same class. It's called `self` by convention
+3. `__init__` method is used to get the data arguments. It's the class "constructor"
+4. **Anything stored in self will be accessible anywhere in the class**
+
+## Iteration 1
+
+
+```python
+class EmployeePayStatement:
+    
+    def __init__(self, 
+                 fname, lname, 
+                 dept, 
+                 birthday, 
+                 street_address, city, country, 
+                 salary_amt, is_dollar=True):
+        
+        # you don't have to store all the variables and can use the methods 
+        # directly to store what's important
+        # I'm simply deciding to store.
+        self.fname, self.lname, self.birthday = fname, lname, birthday
+        self.dept = dept
+        self.street_address, self.city, self.country = street_address, city, country, 
+        self.salary_amt, self.is_dollar = salary_amt, is_dollar
+        
+        # I have the liberty of calling my helper methods right here for other 
+        # functions that we might create later that use age, address, salary
+        self.calculate_age()
+        self.create_address()
+        if not self.is_dollar:
+            self.convert_pound_to_dollar()
+        
+        # since this is a pay statement class, I'm calculating right here
+        # But this method can be called outside the class instead should you so choose  
+        self.create_pay_statement()
+    
+    
+    def calculate_age(self):
+        self.age = datetime.today().year - int(self.birthday[-4:])
+
+    def create_address(self):
+        self.address = ','.join([self.street_address, self.city, self.country])
+
+    def convert_pound_to_dollar(self):
+        conversion_fct = 1.5
+        self.salary_amt = self.salary_amt*conversion_fct
+        self.is_dollar = True
+
+    def create_pay_statement(self):
+        pay_statement = (f"You, {self.fname} {self.lname}, aged {self.age}, living in {self.address} and working in {self.dept}, "
+                         f"earned a sum of ${round(self.salary_amt):,} this month!")
+        self.pay_statement = pay_statement
+        
+
+```
+
+
+```python
+john_doe_pstmnt = EmployeePayStatement(fname="John", lname="Doe", 
+                                         dept="HR", 
+                                         birthday="01-01-1990", 
+                                         street_address="221B, Baker St", city="London", country="UK", 
+                                         salary_amt=666666.666667, is_dollar=False)
+
+john_doe_pstmnt.pay_statement
+```
+
+
+
+
+    'You, John Doe, aged 30, living in 221B, Baker St,London,UK and working in HR, earned a sum of $1,000,000 this month!'
+
+
+
+Another advantage: whatever attribute you calculate is accessible outside. Let's say you suddenly want to calculate the ratio of `salary/age`. 
+
+
+```python
+john_doe_pstmnt.salary_amt/john_doe_pstmnt.age
+```
+
+
+
+
+    33333.333333350005
+
+
+
+## Iteration 2
+
+"It works but whatever, we didn't achieve anything new" you say. It looks slightly neater but an `__init__` method with a `self` argument seems more like work than is worth. Fair enough but let's go through the same process of adding an emailer. It's as simple as adding the following function to the class. 
+
+
+```python
+def email_pay_statement(self):
+    to_email = f"{self.fname}.{self.lname}@abc.com"
+    emailer(from_email="admins@abc.com", to_email=to_email,
+            subject="Here's your Gs, dawg!", pay_statement=self.pay_statement).send()
+```
+
+Notice how there's literally no repetition and no messy code. You don't get a bunch of arguments and then pass the same bunch. Best of all, we don't calculate the pay statement inside the emailer - it does only what it's supposed to do. Clear organization. Adding functionality to the existing codebase is a breeze! 
+Technical debt, my friends. Using classes may look like slightly more the first iteration but pays off incredibly fast. In many cases, I've seen it save work in the first iteration itself.  
