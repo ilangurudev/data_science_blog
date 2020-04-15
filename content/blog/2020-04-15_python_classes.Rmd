@@ -26,6 +26,8 @@ Simply put, classes help us **deal with complexity** more efficiently. As a data
 
 The "quick and dirty" solution that I came up with is not so "quick" anymore because it is still very much, dirty. Classes force us to organize our code better and in most instances, results in cleaner, more maintainable code.  The ROI on maintainable code is pretty high even though in the short run, the setup seems to be a tad annoying. The fancy term for this is **technical debt**. It's kind of the same concept when we first started using functions too right?
 
+![](/blog/img/tech_debt.jpg)
+
 # A toy example without classes
 
 Let's consider a toy example. We have some HR data and we want to print out the pay statement for employees. Let's just assume (because I suck at manufacturing toy examples) that the toy example also needs to have the age, address and department info. The email would have
