@@ -10,7 +10,7 @@ draft: false
 image: "blog/img/level_up.jpeg"
 weight: 1
 type: "post"
-description: "Going beyond the basics"
+description: "Going beyond the basics in Python"
 output:
   blogdown::html_page
 ---
