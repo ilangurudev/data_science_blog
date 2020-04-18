@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Level Up on Gurudev Ilangovan</title>
+    <link>/tags/level-up/</link>
+    <description>Recent content in Level Up on Gurudev Ilangovan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2020 Gurudev Ilangovan</copyright>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/level-up/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Leveling up in Python - 0</title>
+      <link>/blog/python_level_up/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/python_level_up/</guid>
+      <description>“Series Intro”…. I started getting into a python seriously about a year ago. I tried learning the language a couple of times before that - I watched a lot of introductory tutorials in the hope of getting good at it. There was one really good one - Corey Schafer’s Python tutorials on YouTube. Barring that, most of the tutorials were basic and went over the same things over and over again - variables, conditionals, loops, functions, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

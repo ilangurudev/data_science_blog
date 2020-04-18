@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/blog/python_level_up/</loc>
+    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/ml_scratch_1/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
   </url>
@@ -305,6 +310,12 @@
   <url>
     <loc>/tags/information_safety/</loc>
     <lastmod>2017-08-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/level-up/</loc>
+    <lastmod>2020-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

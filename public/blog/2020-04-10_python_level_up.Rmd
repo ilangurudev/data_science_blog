@@ -1,0 +1,30 @@
+---
+title: Leveling up in Python - 0
+author: Gurudev Ilangovan
+date: '2020-04-10'
+slug: python_level_up
+categories: []
+tags: [python, class, level up]
+showonlyimage: false
+draft: false
+image: "blog/img/level_up.jpeg"
+weight: 1
+type: "post"
+description: "Going beyond the basics"
+output:
+  blogdown::html_page
+---
+
+# "Series Intro"....
+
+I started getting into a python seriously about a year ago. I tried learning the language a couple of times before that - I watched a lot of introductory tutorials in the hope of getting good at it. There was one really good one - [Corey Schafer's Python tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU) on YouTube. Barring that, most of the tutorials were basic and went over the same things over and over again - variables, conditionals, loops, functions, etc. I found it hard to get past that plateau. A year of coding in python and now, I am comfortable with the language. I still don't consider myself an expert and *want to go beyond the basics or "level up" if you will*. 
+
+# Level up posts
+
+As I learn new concepts, I wanted to document them here for my own reference later and for people who are also looking to level up. I plan to update this post with new content I write. Some concepts I plan on writing about (as I learn): Generators, Decorators, Context Managers, Iterators & Itertools, Logging, Exception Handling, Best Practices, Multiple Inheritance & Minxins, Metaclasses, ABC classes, Callbacks. 
+
+1. [Whirlwind Tour of Classes - I](/blog/python_class/)
+
+
+
+As always feel free to reach out with feedback!

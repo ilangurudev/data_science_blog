@@ -13,12 +13,21 @@
     
     
     <item>
-      <title>A whirwind tour of classes (Levelling up in Python - I)</title>
+      <title>A whirwind tour of classes (Leveling up in Python - I)</title>
       <link>/blog/python_class/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/blog/python_class/</guid>
-      <description>Introduction Tackling Complexity A toy example without classes Iteration 1 Iteration 2  The same example but let’s be classy Iteration 1 Iteration 2  Conclusion   Introduction In this article, I want to talk about how classes are useful to me. I am by no means an expert in program design or “Object Oriented Programming”. As a teen (and still do sometimes) I detested terms like encapsulation, polymorphism, abstraction, etc because they weren’t tangible concepts.</description>
+      <description>Introduction Tackling Complexity A toy example without classes Iteration 1 Iteration 2  The same example but let’s be classy Iteration 1 Iteration 2  Conclusion   Introduction Welcome to the first post in the leveling up in Python series! In this article, I want to talk about how classes are useful to me. I am by no means an expert in program design or “Object Oriented Programming”. As a teen (and still do sometimes) I detested terms like encapsulation, polymorphism, abstraction, etc because they weren’t tangible concepts.</description>
+    </item>
+    
+    <item>
+      <title>Leveling up in Python - 0</title>
+      <link>/blog/python_level_up/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/python_level_up/</guid>
+      <description>“Series Intro”…. I started getting into a python seriously about a year ago. I tried learning the language a couple of times before that - I watched a lot of introductory tutorials in the hope of getting good at it. There was one really good one - Corey Schafer’s Python tutorials on YouTube. Barring that, most of the tutorials were basic and went over the same things over and over again - variables, conditionals, loops, functions, etc.</description>
     </item>
     
   </channel>

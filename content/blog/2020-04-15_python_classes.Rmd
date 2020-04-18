@@ -1,5 +1,5 @@
 ---
-title: A whirwind tour of classes (Levelling up in Python - I)
+title: A whirwind tour of classes (Leveling up in Python - I)
 author: Gurudev Ilangovan
 date: '2020-04-15'
 slug: python_class
@@ -18,7 +18,7 @@ output:
 
 # Introduction
 
-In this article, I want to talk about how classes are useful to me. I am by no means an expert in program design or "Object Oriented Programming". As a teen (and still do sometimes) I detested terms like encapsulation, polymorphism, abstraction, etc because they weren't tangible concepts. My understanding and usage of object orientation in python is a lot more practical now. We will go over the basic mechanics which are surprisingly simple to grasp but more importantly, I found out in my relatively nascent python journey, is figuring out why we should use classes and how they can make us efficient programmers.
+Welcome to the first post in the [leveling up in Python series](/blog/python_level_up)! In this article, I want to talk about how classes are useful to me. I am by no means an expert in program design or "Object Oriented Programming". As a teen (and still do sometimes) I detested terms like encapsulation, polymorphism, abstraction, etc because they weren't tangible concepts. My understanding and usage of object orientation in python is a lot more practical now. We will go over the basic mechanics which are surprisingly simple to grasp but more importantly, I found out in my relatively nascent python journey, is figuring out why we should use classes and how they can make us efficient programmers.
 
 # Tackling Complexity
 
