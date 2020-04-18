@@ -1,5 +1,5 @@
 ---
-title: A whirwind tour of classes (Leveling up in Python - I)
+title: A whirwind tour of classes - I (Leveling up in Python - I)
 author: Gurudev Ilangovan
 date: '2020-04-15'
 slug: python_class
